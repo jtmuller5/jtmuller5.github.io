@@ -1,6 +1,6 @@
 baseURL: 'http://jtmuller5.github.io'
-languageCode:  'en-us'
-title:  'Joe Muller\'s Blog'
+languageCode: 'en-us'
+title:  "Joe Muller's Blog"
 theme: "PaperMod"
 
 enableRobotsTXT: true
