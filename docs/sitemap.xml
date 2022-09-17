@@ -2,17 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jtmuller5.github.io/posts/09-17-2022/</loc>
-    <lastmod>2022-09-17T13:46:17-04:00</lastmod>
+    <loc>https://jtmuller5.github.io/tags/blogging/</loc>
+    <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/</loc>
-    <lastmod>2022-09-17T13:46:17-04:00</lastmod>
-  </url><url>
-    <loc>https://jtmuller5.github.io/posts/</loc>
-    <lastmod>2022-09-17T13:46:17-04:00</lastmod>
+    <loc>https://jtmuller5.github.io/posts/general/build_this_blog/build_this_blog/</loc>
+    <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/categories/</loc>
+    <lastmod>2022-09-17T16:26:21-04:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/</loc>
+    <lastmod>2022-09-17T16:26:21-04:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/</loc>
+    <lastmod>2022-09-17T16:26:21-04:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/tags/self-hosted/</loc>
+    <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/</loc>
+    <lastmod>2022-09-17T16:26:21-04:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/categories/tutorials/</loc>
+    <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url>
 </urlset>

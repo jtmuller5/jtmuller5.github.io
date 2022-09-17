@@ -5,6 +5,16 @@
     <link>https://jtmuller5.github.io/categories/</link>
     <description>Recent content in Categories on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://jtmuller5.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Sep 2022 16:26:21 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>tutorials</title>
+      <link>https://jtmuller5.github.io/categories/tutorials/</link>
+      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/categories/tutorials/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
