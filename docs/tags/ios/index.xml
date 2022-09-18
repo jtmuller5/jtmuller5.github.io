@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ios on Joe Muller&#39;s Blog</title>
+    <link>https://jtmuller5.github.io/tags/ios/</link>
+    <description>Recent content in ios on Joe Muller&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Sep 2022 16:26:21 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/ios/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flutter: Build an IPA</title>
+      <link>https://jtmuller5.github.io/posts/flutter/build_ipa/build_ipa/</link>
+      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/flutter/build_ipa/build_ipa/</guid>
+      <description>Flutter: Build an IPA If you’d like to distribute your Flutter app to iOS-using testers via Firebase Distribution, you’ll need to build IPA files. IPA files are simply iOS Application files that behave like APK or app bundles on Android.
+Unlike APK or app bundles however, you can’t just run a flutter build command and create an IPA.
+Build App Bundle:
+flutter build appbundle Build APK:
+flutter build apk This article will show you the fastest way to build an IPA for your Flutter app.</description>
+    </item>
+    
+  </channel>
+</rss>

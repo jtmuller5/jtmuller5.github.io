@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>mobile on Joe Muller&#39;s Blog</title>
+    <link>https://jtmuller5.github.io/tags/mobile/</link>
+    <description>Recent content in mobile on Joe Muller&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Sep 2022 16:26:21 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/mobile/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An Intro to Route Guards in Flutter</title>
+      <link>https://jtmuller5.github.io/posts/flutter/route_guards/route_guards/</link>
+      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/flutter/route_guards/route_guards/</guid>
+      <description>Intro to Route Guards in Flutter Hey! Don’t go there!
+Navigation in a mobile app is a bit more involved than pushing a route here and popping a route there. Some routes should only be viewed by a user who is authenticated while others are available to the public. Some routes will only behave and display properly if the user has an active internet connection while others show static assets that never change.</description>
+    </item>
+    
+    <item>
+      <title>Enhanced Enums in Flutter 3</title>
+      <link>https://jtmuller5.github.io/posts/flutter/enhanced_enums/enhanced_enums/</link>
+      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/flutter/enhanced_enums/enhanced_enums/</guid>
+      <description>Enhanced Enums in Flutter 3 Enums were good. Now they’re great. Flutter 3 Flutter 3.0 was announced at Google IO yesterday and as can be expected from a major version jump, there were a lot of new features to dig through. A few of the big ones:
+Stable support for macOS and Linux apps Improved Firebase integration Material 3 support Foldable phone support iOS release improvements Performance improvements for the web Theme extensions You can read more about the full release in the announcement here and if you’re someone that wants to see everything that was added, check out the release notes.</description>
+    </item>
+    
+    <item>
+      <title>Flutter: Build an IPA</title>
+      <link>https://jtmuller5.github.io/posts/flutter/build_ipa/build_ipa/</link>
+      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/flutter/build_ipa/build_ipa/</guid>
+      <description>Flutter: Build an IPA If you’d like to distribute your Flutter app to iOS-using testers via Firebase Distribution, you’ll need to build IPA files. IPA files are simply iOS Application files that behave like APK or app bundles on Android.
+Unlike APK or app bundles however, you can’t just run a flutter build command and create an IPA.
+Build App Bundle:
+flutter build appbundle Build APK:
+flutter build apk This article will show you the fastest way to build an IPA for your Flutter app.</description>
+    </item>
+    
+  </channel>
+</rss>

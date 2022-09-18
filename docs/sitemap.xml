@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jtmuller5.github.io/posts/flutter/route_guards/route_guards/</loc>
+    <lastmod>2022-09-17T16:26:21-04:00</lastmod>
+  </url><url>
     <loc>https://jtmuller5.github.io/tags/blogging/</loc>
     <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
@@ -11,7 +14,25 @@
     <loc>https://jtmuller5.github.io/categories/</loc>
     <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
+    <loc>https://jtmuller5.github.io/tags/dart/</loc>
+    <lastmod>2022-09-17T16:26:21-04:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/flutter/enhanced_enums/enhanced_enums/</loc>
+    <lastmod>2022-09-17T16:26:21-04:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/tags/flutter/</loc>
+    <lastmod>2022-09-17T16:26:21-04:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/flutter/build_ipa/build_ipa/</loc>
+    <lastmod>2022-09-17T16:26:21-04:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/tags/ios/</loc>
+    <lastmod>2022-09-17T16:26:21-04:00</lastmod>
+  </url><url>
     <loc>https://jtmuller5.github.io/</loc>
+    <lastmod>2022-09-17T16:26:21-04:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/tags/mobile/</loc>
     <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/posts/</loc>
