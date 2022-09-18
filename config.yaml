@@ -90,7 +90,12 @@ params:
       url: "https://stackoverflow.com/users/12806961/joe-muller"
     - name: github
       url: "https://github.com/jtmuller5"
-
+    - name: linkedin
+      url: "https://www.linkedin.com/in/joseph-muller-iii-59671a10a/"
+    - name: buymeacoffee
+      url: "https://www.buymeacoffee.com/mullr"
+    - name: kofi
+      url: "https://kofi.com/joemuller"
   # analytics:
   #   google:
   #     SiteVerificationTag: "XYZabc"
