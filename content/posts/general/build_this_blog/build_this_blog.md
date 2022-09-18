@@ -71,6 +71,7 @@ npm run convert https://medium.com/@jtmuller5-98869/enhanced-enums-in-flutter-3-
 ## Add Tags and Categories to your Post
 
 ## Add Google Analytics
+[Hugo has internal templates for Google Analytics tracking.](https://gohugo.io/templates/internal/#google-analytics)
 1. Create a Google Analytics account here: https://analytics.google.com/
 2. Select the "Admin" icon along the side bar
 3. Create a new property. Give it a name, a category, and select how you intend to use Google Analytics
