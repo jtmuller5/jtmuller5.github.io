@@ -6,9 +6,6 @@ categories: ["tutorials"]
 tags: ["flutter","mobile","dart"]
 ---
 
-Enhanced Enums in Flutter 3
-===========================
-
 Enums were good. Now they’re great.
 -----------------------------------
 

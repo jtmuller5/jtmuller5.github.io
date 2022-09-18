@@ -13,7 +13,7 @@
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
       <guid>https://jtmuller5.github.io/posts/flutter/enhanced_enums/enhanced_enums/</guid>
-      <description>Enhanced Enums in Flutter 3 Enums were good. Now they’re great. Flutter 3 Flutter 3.0 was announced at Google IO yesterday and as can be expected from a major version jump, there were a lot of new features to dig through. A few of the big ones:
+      <description>Enums were good. Now they’re great. Flutter 3 Flutter 3.0 was announced at Google IO yesterday and as can be expected from a major version jump, there were a lot of new features to dig through. A few of the big ones:
 Stable support for macOS and Linux apps Improved Firebase integration Material 3 support Foldable phone support iOS release improvements Performance improvements for the web Theme extensions You can read more about the full release in the announcement here and if you’re someone that wants to see everything that was added, check out the release notes.</description>
     </item>
     

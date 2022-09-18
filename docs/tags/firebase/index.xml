@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>firebase on Joe Muller&#39;s Blog</title>
+    <link>https://jtmuller5.github.io/tags/firebase/</link>
+    <description>Recent content in firebase on Joe Muller&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Sep 2022 16:26:21 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/firebase/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Handling Nested Objects in Firestore With Flutter</title>
+      <link>https://jtmuller5.github.io/posts/flutter/nested_firestore_objects/nested_firestore_objects/</link>
+      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/flutter/nested_firestore_objects/nested_firestore_objects/</guid>
+      <description>Google’s Cloud Firestore is a tool that should be in every mobile app developer’s tool belt. The flexible and scalable database that it provides is unlike anything a coder could create alone and if your app is designed for a global audience, there aren’t many solutions like it. Plus, there’s a Flutter package ( cloud_firestore) that’s designed to make Flutter and Flame play nicely together.
+Unfortunately, there is one downside. The tool isn’t free to use and every read/write transaction your app makes with the Firestore database is counted against your daily quota (50,000 daily reads and 20,000 daily writes for the free tier plan).</description>
+    </item>
+    
+    <item>
+      <title>The @platform: A Firebase Alternative?</title>
+      <link>https://jtmuller5.github.io/posts/flutter/firebase_alternative/firebase_alternative/</link>
+      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/flutter/firebase_alternative/firebase_alternative/</guid>
+      <description>Firebase is awesome and I’ve used it in more apps than I can count (assuming I can only count to about 20). It has authentication, data storage, an intuitive querying SDK, and plenty of other features that most mobile app developers find themselves wanting at one point or another.
+So why replace it?
+I asked myself the same question many times and more than once my answer was “Don’t”. It had just about everything I needed…and then I was asked to implement End-to-End Encryption (E2EE) in a social media app.</description>
+    </item>
+    
+    <item>
+      <title>Uploading Images to Cloud Storage Using Flutter</title>
+      <link>https://jtmuller5.github.io/posts/flutter/cloud_storage_flutter/cloud_storage_flutter/</link>
+      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/flutter/cloud_storage_flutter/cloud_storage_flutter/</guid>
+      <description>I’ve used Google’s Firebase/Firestore database solution for nearly 6 months and had come to believe that it was an unstoppable force. If you’re only dealing with numbers, strings, and other simple data forms, this is true. The NoSQL database gives you immense control over how you store information a provides querying tools that can be used to find items meeting very specific criteria in a snap.
+But if you’re interested in storing and retrieving larger files like images and audio clips, Firestore is not the solution you need.</description>
+    </item>
+    
+  </channel>
+</rss>

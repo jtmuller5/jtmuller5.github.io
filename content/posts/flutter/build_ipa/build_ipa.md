@@ -6,9 +6,6 @@ categories: ["tutorials"]
 tags: ["flutter","ios","mobile"]
 ---
 
-Flutter: Build an IPA
-=====================
-
 If you’d like to distribute your Flutter app to iOS-using testers via [Firebase Distribution](https://firebase.google.com/docs/app-distribution), you’ll need to build IPA files. IPA files are simply iOS Application files that behave like APK or app bundles on Android.
 
 Unlike APK or app bundles however, you can’t just run a flutter build command and create an IPA.

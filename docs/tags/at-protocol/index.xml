@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>at-protocol on Joe Muller&#39;s Blog</title>
+    <link>https://jtmuller5.github.io/tags/at-protocol/</link>
+    <description>Recent content in at-protocol on Joe Muller&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Sep 2022 16:26:21 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/at-protocol/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Authentication in Flutter Apps using the @Protocol</title>
+      <link>https://jtmuller5.github.io/posts/flutter/at_protocol_authentication/at_protocol_authentication/</link>
+      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/flutter/at_protocol_authentication/at_protocol_authentication/</guid>
+      <description>If you’ve spent any amount of time developing mobile apps, you’re probably well aware of how public “private” data really is. Cloud databases like , , and protect their front gates with robust security measures like authentication keys, security rules, user roles, and field-specific restrictions. From the outside, these databases are fortresses with more than enough artillery to prevent people from seeing each other’s data.
+The issue however, is that the castle-keepers can see everything that gets brought into the castle.</description>
+    </item>
+    
+    <item>
+      <title>The @platform: A Firebase Alternative?</title>
+      <link>https://jtmuller5.github.io/posts/flutter/firebase_alternative/firebase_alternative/</link>
+      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/flutter/firebase_alternative/firebase_alternative/</guid>
+      <description>Firebase is awesome and I’ve used it in more apps than I can count (assuming I can only count to about 20). It has authentication, data storage, an intuitive querying SDK, and plenty of other features that most mobile app developers find themselves wanting at one point or another.
+So why replace it?
+I asked myself the same question many times and more than once my answer was “Don’t”. It had just about everything I needed…and then I was asked to implement End-to-End Encryption (E2EE) in a social media app.</description>
+    </item>
+    
+  </channel>
+</rss>
