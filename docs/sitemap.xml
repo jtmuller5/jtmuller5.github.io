@@ -2,6 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jtmuller5.github.io/</loc>
+    <lastmod>2022-09-19T23:08:45-04:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/</loc>
+    <lastmod>2022-09-19T23:08:45-04:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/ideas/read_slower/read_slower/</loc>
+    <lastmod>2022-09-19T23:08:45-04:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/ai/tensorflow_and_keras/tensorflow_and_keras/</loc>
+    <lastmod>2022-09-19T21:21:28-04:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/tags/ai/</loc>
+    <lastmod>2022-09-19T21:21:28-04:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/categories/</loc>
+    <lastmod>2022-09-19T21:21:28-04:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/categories/explorations/</loc>
+    <lastmod>2022-09-19T21:21:28-04:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/tags/keras/</loc>
+    <lastmod>2022-09-19T21:21:28-04:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/tags/</loc>
+    <lastmod>2022-09-19T21:21:28-04:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/tags/tensorflow/</loc>
+    <lastmod>2022-09-19T21:21:28-04:00</lastmod>
+  </url><url>
     <loc>https://jtmuller5.github.io/posts/flutter/route_guards/route_guards/</loc>
     <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
@@ -15,9 +45,6 @@
     <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/posts/general/build_this_blog/build_this_blog/</loc>
-    <lastmod>2022-09-17T16:26:21-04:00</lastmod>
-  </url><url>
-    <loc>https://jtmuller5.github.io/categories/</loc>
     <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/posts/flutter/continuous_animations/continuous_animations/</loc>
@@ -44,19 +71,10 @@
     <loc>https://jtmuller5.github.io/tags/ios/</loc>
     <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/</loc>
-    <lastmod>2022-09-17T16:26:21-04:00</lastmod>
-  </url><url>
     <loc>https://jtmuller5.github.io/tags/mobile/</loc>
     <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/</loc>
-    <lastmod>2022-09-17T16:26:21-04:00</lastmod>
-  </url><url>
     <loc>https://jtmuller5.github.io/tags/self-hosted/</loc>
-    <lastmod>2022-09-17T16:26:21-04:00</lastmod>
-  </url><url>
-    <loc>https://jtmuller5.github.io/tags/</loc>
     <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/posts/flutter/firebase_alternative/firebase_alternative/</loc>

@@ -21,7 +21,7 @@ What you'll get:
 - [x] Full text search
 - [ ] Tracking with Google Analytics
 
-[![What is Github Pages?](https://img.youtube.com/vi/2MsN8gpT6jY/0.jpg)](https://www.youtube.com/watch?v=2MsN8gpT6jY)
+[![What is Github Pages?](https://img.youtube.com/vi/2MsN8gpT6jY/0.jpg#center)](https://www.youtube.com/watch?v=2MsN8gpT6jY)
 
 # Steps
 ## Create your Site
