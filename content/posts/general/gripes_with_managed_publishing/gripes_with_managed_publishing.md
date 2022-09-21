@@ -35,7 +35,7 @@ When the "Publish Changes" button is pressed and you confirm the action, all cha
 For example, say you submit build 100 to your alpha track and version 101 to your production track. You're not ready to publish to production and instead you'd rather ship the alpha version to your trusted testers. Can you do it? No.
 
 
-![img.png](../../../../static/publishing_overview.png)
+![img.png](../../../../static/images/publishing_overview.png)
 
 ## Quirk 2: Full Rollouts vs Staged Rollouts
 
