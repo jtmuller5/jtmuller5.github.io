@@ -8,6 +8,18 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 17 Sep 2022 16:26:21 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/categories/tutorials/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Build this blog</title>
+      <link>https://jtmuller5.github.io/posts/general/build_this_blog/build_this_blog/</link>
+      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/general/build_this_blog/build_this_blog/</guid>
+      <description>Build this Blog Medium. Hashnode. Wordpress. Ghost. Log Rocket.
+There are a thousand blogging platforms that want your content, knowledge, and time. I say nay! In this article I&amp;rsquo;ll lay out all the steps you need to build this exact website and host your content on GitHub pages.
+What you&amp;rsquo;ll get:
+A blogging website hosted on GitHub The Hugo PaperMod theme Menus to filter content by categories and tags Full text search Tracking with Google Analytics Steps Create your Site Github allows individuals to create one free site per account.</description>
+    </item>
+    
+    <item>
       <title>An Intro to Route Guards in Flutter</title>
       <link>https://jtmuller5.github.io/posts/flutter/route_guards/route_guards/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
@@ -26,18 +38,6 @@ Is it possible to verify these requirements are met before loading each new rout
       <guid>https://jtmuller5.github.io/posts/flutter/at_protocol_authentication/at_protocol_authentication/</guid>
       <description>If you’ve spent any amount of time developing mobile apps, you’re probably well aware of how public “private” data really is. Cloud databases like , , and protect their front gates with robust security measures like authentication keys, security rules, user roles, and field-specific restrictions. From the outside, these databases are fortresses with more than enough artillery to prevent people from seeing each other’s data.
 The issue however, is that the castle-keepers can see everything that gets brought into the castle.</description>
-    </item>
-    
-    <item>
-      <title>Build this blog</title>
-      <link>https://jtmuller5.github.io/posts/general/build_this_blog/build_this_blog/</link>
-      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
-      
-      <guid>https://jtmuller5.github.io/posts/general/build_this_blog/build_this_blog/</guid>
-      <description>Build this Blog Medium. Hashnode. Wordpress. Ghost. Log Rocket.
-There are a thousand blogging platforms that want your content, knowledge, and time. I say nay! In this article I&amp;rsquo;ll lay out all the steps you need to build this exact website and host your content on GitHub pages.
-What you&amp;rsquo;ll get:
-A blogging website hosted on GitHub The Hugo PaperMod theme Menus to filter content by categories and tags Full text search Tracking with Google Analytics Steps Create your Site Github allows individuals to create one free site per account.</description>
     </item>
     
     <item>

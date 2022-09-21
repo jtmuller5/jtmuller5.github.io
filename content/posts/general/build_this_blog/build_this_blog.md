@@ -2,6 +2,7 @@
 title: "Build this blog"
 date: 2022-09-17T16:26:21-04:00
 draft: false
+weight: 1
 categories: ["tutorials"]
 tags: ["blogging","self-hosted"]
 ---
