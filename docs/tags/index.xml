@@ -6,7 +6,25 @@
     <description>Recent content in Tags on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Sep 2022 21:21:28 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Sep 2022 10:57:17 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>google play</title>
+      <link>https://jtmuller5.github.io/tags/google-play/</link>
+      <pubDate>Tue, 20 Sep 2022 10:57:17 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/tags/google-play/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mobile</title>
+      <link>https://jtmuller5.github.io/tags/mobile/</link>
+      <pubDate>Tue, 20 Sep 2022 10:57:17 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/tags/mobile/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>ai</title>
       <link>https://jtmuller5.github.io/tags/ai/</link>
@@ -44,15 +62,6 @@
     </item>
     
     <item>
-      <title>blogging</title>
-      <link>https://jtmuller5.github.io/tags/blogging/</link>
-      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
-      
-      <guid>https://jtmuller5.github.io/tags/blogging/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>dart</title>
       <link>https://jtmuller5.github.io/tags/dart/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
@@ -85,24 +94,6 @@
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
       <guid>https://jtmuller5.github.io/tags/ios/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>mobile</title>
-      <link>https://jtmuller5.github.io/tags/mobile/</link>
-      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
-      
-      <guid>https://jtmuller5.github.io/tags/mobile/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>self-hosted</title>
-      <link>https://jtmuller5.github.io/tags/self-hosted/</link>
-      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
-      
-      <guid>https://jtmuller5.github.io/tags/self-hosted/</guid>
       <description></description>
     </item>
     

@@ -6,14 +6,17 @@
     <description>Recent content on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Sep 2022 23:08:45 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Sep 2022 10:57:17 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Read Slower</title>
-      <link>https://jtmuller5.github.io/posts/ideas/read_slower/read_slower/</link>
-      <pubDate>Mon, 19 Sep 2022 23:08:45 -0400</pubDate>
+      <title>Gripes with Managed Publishing</title>
+      <link>https://jtmuller5.github.io/posts/general/gripes_with_managed_publishing/gripes_with_managed_publishing/</link>
+      <pubDate>Tue, 20 Sep 2022 10:57:17 -0400</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/ideas/read_slower/read_slower/</guid>
-      <description></description>
+      <guid>https://jtmuller5.github.io/posts/general/gripes_with_managed_publishing/gripes_with_managed_publishing/</guid>
+      <description>Google Play&amp;rsquo;s Developer Console offers a pretty neat &amp;ldquo;Managed Publishing&amp;rdquo; feature that lets you decide when approved builds and app updates are published.
+Without Managed Publishing:
+Develop a new feature Add your new build to Google Play&amp;rsquo;s Production track Submit the build for review App passes review App is automatically published to the masses With Managed Publishing:
+Develop a new feature Add your new build to Google Play&amp;rsquo;s Production track Submit the build for review App passes review [NEW] App is added to a list of &amp;ldquo;Changes ready to publish&amp;rdquo; [NEW] App can be manually published when you&amp;rsquo;re ready It&amp;rsquo;s undeniably an amazing feature offered by our Lord and Savior, Google, but like all things software, it&amp;rsquo;s not perfect.</description>
     </item>
     
     <item>
@@ -45,18 +48,6 @@ Is it possible to verify these requirements are met before loading each new rout
       <guid>https://jtmuller5.github.io/posts/flutter/at_protocol_authentication/at_protocol_authentication/</guid>
       <description>If you’ve spent any amount of time developing mobile apps, you’re probably well aware of how public “private” data really is. Cloud databases like , , and protect their front gates with robust security measures like authentication keys, security rules, user roles, and field-specific restrictions. From the outside, these databases are fortresses with more than enough artillery to prevent people from seeing each other’s data.
 The issue however, is that the castle-keepers can see everything that gets brought into the castle.</description>
-    </item>
-    
-    <item>
-      <title>Build this blog</title>
-      <link>https://jtmuller5.github.io/posts/general/build_this_blog/build_this_blog/</link>
-      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
-      
-      <guid>https://jtmuller5.github.io/posts/general/build_this_blog/build_this_blog/</guid>
-      <description>Build this Blog Medium. Hashnode. Wordpress. Ghost. Log Rocket.
-There are a thousand blogging platforms that want your content, knowledge, and time. I say nay! In this article I&amp;rsquo;ll lay out all the steps you need to build this exact website and host your content on GitHub pages.
-What you&amp;rsquo;ll get:
-A blogging website hosted on GitHub The Hugo PaperMod theme Menus to filter content by categories and tags Full text search Tracking with Google Analytics Steps Create your Site Github allows individuals to create one free site per account.</description>
     </item>
     
     <item>

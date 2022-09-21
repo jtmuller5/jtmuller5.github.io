@@ -29,18 +29,6 @@ The issue however, is that the castle-keepers can see everything that gets broug
     </item>
     
     <item>
-      <title>Build this blog</title>
-      <link>https://jtmuller5.github.io/posts/general/build_this_blog/build_this_blog/</link>
-      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
-      
-      <guid>https://jtmuller5.github.io/posts/general/build_this_blog/build_this_blog/</guid>
-      <description>Build this Blog Medium. Hashnode. Wordpress. Ghost. Log Rocket.
-There are a thousand blogging platforms that want your content, knowledge, and time. I say nay! In this article I&amp;rsquo;ll lay out all the steps you need to build this exact website and host your content on GitHub pages.
-What you&amp;rsquo;ll get:
-A blogging website hosted on GitHub The Hugo PaperMod theme Menus to filter content by categories and tags Full text search Tracking with Google Analytics Steps Create your Site Github allows individuals to create one free site per account.</description>
-    </item>
-    
-    <item>
       <title>Continuous Animations in Flutter</title>
       <link>https://jtmuller5.github.io/posts/flutter/continuous_animations/continuous_animations/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
