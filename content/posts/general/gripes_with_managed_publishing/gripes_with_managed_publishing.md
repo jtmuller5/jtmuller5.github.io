@@ -58,6 +58,7 @@ Okay, cool. So what does this mean? It means that if you accidentally submit a b
 2. Build 126 was approved
 3. Later, I decided I did not want to do that and submitted build 127 as a Staged Rollout starting at 25%
 4. Build 127 was approved
+
 My assumption was that the higher build number from (4) would take precedence over the build from (2). Instead, I found myself staring at 2 approved builds and no way to remove the old one.
 
 Insanity.
