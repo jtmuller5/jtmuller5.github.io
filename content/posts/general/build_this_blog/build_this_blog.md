@@ -30,12 +30,12 @@ Github allows individuals to create one free site per account. Luckily, that's a
 
 1. Create a new repository
 
-![img.png](img.png)
+![img.png](../../../../static/new_repo.png)
 
 2. Name the repository \<your username>.github.io
 3. Navigate to the settings tab and select the Pages section
 4. Configure the site to "Deploy from a branch" and select the "/docs" folder
-![img_1.png](img_1.png)
+![img_1.png](../../../../static/repo_settings.png)
 
 The official GitHub pages tutorial can be found [here](https://docs.github.com/en/pages/quickstart).
 
@@ -76,7 +76,7 @@ npm run convert https://medium.com/@jtmuller5-98869/enhanced-enums-in-flutter-3-
 2. Select the "Admin" icon along the side bar
 3. Create a new property. Give it a name, a category, and select how you intend to use Google Analytics
 4. Select "Create". On the next screen, select the "Web" option
-![img_2.png](img_2.png)
+![img_2.png](../../../../static/web_platform.png)
 5. Add the name of your GitHub site in the Website URL field (ex. jtmuller5.github.io)
 6. Name the stream and select "Create Stream"
 7. Locate the _Measurement ID_ and copy it. In GA3 this was known as the _Tracking ID_
