@@ -47,6 +47,8 @@ the same folder as the .md file.
 ```aidl
 hugo new content/posts/build_this_blog/build_this_blog.md
 ```
+### Add Images
+[Images](https://gohugo.io/content-management/static-files/) can be added to blog posts by adding them to the static folder and then referencing them as if you were in the static folder. For example, if you have an image called test.png, you can add it to static/test.png and then reference it like so: `![My Image](/test.png)`
 
 ## Import Posts from Medium
 If you're arriving at this article after writing a handful of posts for other sites, you're first order of business should be to move your blogs from there to here. 
@@ -68,7 +70,37 @@ npm run convert https://medium.com/@jtmuller5-98869/enhanced-enums-in-flutter-3-
 
 ## Add your Social Links
 
+![img.png](/social_icons.png)
+
+To add social links to your blog's header, add the following to the params list in your config.yaml:
+```yaml
+socialIcons:
+    - name: twitter
+      url: "https://twitter.com/<username>"
+    - name: stackoverflow
+      url: "https://stackoverflow.com/users/<username>"
+    - name: github
+      url: "https://github.com/<username>"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/<username>/"
+    - name: buymeacoffee
+      url: "https://www.buymeacoffee.com/<username>"
+    - name: kofi
+      url: "https://kofi.com/<username>"
+```
+You can find all available social icons [here](https://github.com/adityatelange/hugo-PaperMod/wiki/Icons).
+
 ## Add Tags and Categories to your Post
+Hugo comes with two built in [taxonomies](https://gohugo.io/content-management/taxonomies/): tags and categories. You can easily add tags and categories to a post by adding the following lines to the top of that post:
+```aidl
+---
+title: "Build this blog"
+date: 2022-09-17T16:26:21-04:00
+draft: true
+categories: ["tutorials"] // Add this
+tags: ["blogging","self-hosted"] // Add this
+---
+```
 
 ## Add Google Analytics
 [Hugo has internal templates for Google Analytics tracking.](https://gohugo.io/templates/internal/#google-analytics)

@@ -81,7 +81,7 @@ params:
   homeInfoParams:
     Title: "Joe Muller"
     Content: >
-      Development and Ideas.
+      Development. Ideas. Developing Ideas. Ideating Development.
 
   socialIcons:
     - name: twitter
