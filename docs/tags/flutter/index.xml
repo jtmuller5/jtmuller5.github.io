@@ -39,6 +39,17 @@ It’s a simple law of mobile app development that gets less attention than it d
     </item>
     
     <item>
+      <title>Displaying Videos in Flutter from a URL</title>
+      <link>https://jtmuller5.github.io/posts/flutter/displaying_videos/displaying_videos/</link>
+      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/flutter/displaying_videos/displaying_videos/</guid>
+      <description>Displaying Videos in Flutter from a URL With the Stacked architecture In this article, I will be explaining how to display a video directly from a URL in Flutter (although any video URL will work). If you’re interested in saving videos to Cloud Storage, check out my previous article on that exact subject.
+Uploading Images to Cloud Storage Using Flutter
+If you do have videos in Cloud Storage, I’m assuming you’ll eventually want to display them.</description>
+    </item>
+    
+    <item>
       <title>Enhanced Enums in Flutter 3</title>
       <link>https://jtmuller5.github.io/posts/flutter/enhanced_enums/enhanced_enums/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
@@ -46,6 +57,20 @@ It’s a simple law of mobile app development that gets less attention than it d
       <guid>https://jtmuller5.github.io/posts/flutter/enhanced_enums/enhanced_enums/</guid>
       <description>Enums were good. Now they’re great. Flutter 3 Flutter 3.0 was announced at Google IO yesterday and as can be expected from a major version jump, there were a lot of new features to dig through. A few of the big ones:
 Stable support for macOS and Linux apps Improved Firebase integration Material 3 support Foldable phone support iOS release improvements Performance improvements for the web Theme extensions You can read more about the full release in the announcement here and if you’re someone that wants to see everything that was added, check out the release notes.</description>
+    </item>
+    
+    <item>
+      <title>Flutter Efficiently</title>
+      <link>https://jtmuller5.github.io/posts/flutter/flutter_efficiently/flutter_efficiently/</link>
+      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/flutter/flutter_efficiently/flutter_efficiently/</guid>
+      <description>Flutter Newbies Start Here If you’re new to Flutter development, I’d recommend starting with something a little less involved.
+I used this book to learn the Flutter language:
+Beginning Flutter: A Hands On Guide to App Development
+And this one to get started with mobile app development:
+Android Studio 3.4 Development Essentials — Kotlin Edition: Developing Android Apps Using Android Studio 3.4, Kotlin and Jetpack
+…And Let’s Go Good morning, afternoon, and evening to all the Flutter developers in the world and welcome to the blog post that’s going to make you love Google’s cross-platform development language more than you already do!</description>
     </item>
     
     <item>
@@ -69,6 +94,27 @@ flutter build apk This article will show you the fastest way to build an IPA for
       <guid>https://jtmuller5.github.io/posts/flutter/nested_firestore_objects/nested_firestore_objects/</guid>
       <description>Google’s Cloud Firestore is a tool that should be in every mobile app developer’s tool belt. The flexible and scalable database that it provides is unlike anything a coder could create alone and if your app is designed for a global audience, there aren’t many solutions like it. Plus, there’s a Flutter package ( cloud_firestore) that’s designed to make Flutter and Flame play nicely together.
 Unfortunately, there is one downside. The tool isn’t free to use and every read/write transaction your app makes with the Firestore database is counted against your daily quota (50,000 daily reads and 20,000 daily writes for the free tier plan).</description>
+    </item>
+    
+    <item>
+      <title>Image Compression in Flutter</title>
+      <link>https://jtmuller5.github.io/posts/flutter/image_compression/image_compression/</link>
+      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/flutter/image_compression/image_compression/</guid>
+      <description>Inspired by this Stack Overflow post
+For an app that deals heavily with uploading and downloading images from a server, file size can make or break the user experience. Large files will take longer to save, display, and manipulate, all of which will affect the app’s network performance. Depending on how image-heavy the application is, users may spend more time staring at loading screens than actually interacting with content.</description>
+    </item>
+    
+    <item>
+      <title>Implementing a Multi-Colored TabBar in Flutter</title>
+      <link>https://jtmuller5.github.io/posts/flutter/multi_colored_tab_bar/multi_colored_tab_bar/</link>
+      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/flutter/multi_colored_tab_bar/multi_colored_tab_bar/</guid>
+      <description>The Legend of the Multi-Colored TabBar
+A majority of popular mobile apps on the app store use a tried and true navigation scheme: the Bottom Navigation Bar. The idea is to have all 4 or 5 of the app’s main activities visible and within thumb’s reach. If you do a quick browse through the apps on your phone, you’ll find this pattern is far and away the most used.
+Bottom Navigation Bar Apps:</description>
     </item>
     
     <item>

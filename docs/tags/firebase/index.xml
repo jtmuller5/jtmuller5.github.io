@@ -8,6 +8,17 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 17 Sep 2022 16:26:21 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/firebase/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Displaying Videos in Flutter from a URL</title>
+      <link>https://jtmuller5.github.io/posts/flutter/displaying_videos/displaying_videos/</link>
+      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/flutter/displaying_videos/displaying_videos/</guid>
+      <description>Displaying Videos in Flutter from a URL With the Stacked architecture In this article, I will be explaining how to display a video directly from a URL in Flutter (although any video URL will work). If you’re interested in saving videos to Cloud Storage, check out my previous article on that exact subject.
+Uploading Images to Cloud Storage Using Flutter
+If you do have videos in Cloud Storage, I’m assuming you’ll eventually want to display them.</description>
+    </item>
+    
+    <item>
       <title>Handling Nested Objects in Firestore With Flutter</title>
       <link>https://jtmuller5.github.io/posts/flutter/nested_firestore_objects/nested_firestore_objects/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
