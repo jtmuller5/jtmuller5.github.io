@@ -7,7 +7,9 @@ Blogging and note taking site
 ```
 hugo new content/posts/name.md
 ```
-- Build pages
+
+## Deployment Steps
+### Build pages
 ```aidl
 hugo -D -d docs 
 ```

@@ -6,7 +6,7 @@
     <description>Recent content on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Sep 2022 14:20:47 -0700</lastBuildDate><atom:link href="https://jtmuller5.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Sep 2022 09:11:33 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Build this blog</title>
       <link>https://jtmuller5.github.io/posts/general/build_this_blog/build_this_blog/</link>
@@ -17,6 +17,24 @@
 There are a thousand blogging platforms that want your content, knowledge, and time. I say nay! In this article I&amp;rsquo;ll lay out all the steps you need to build this exact website and host your content on GitHub pages.
 What you&amp;rsquo;ll get:
 A blogging website hosted on GitHub The Hugo PaperMod theme Menus to filter content by categories and tags Full text search Tracking with Google Analytics Steps Create your Site Github allows individuals to create one free site per account.</description>
+    </item>
+    
+    <item>
+      <title>Careful_releases</title>
+      <link>https://jtmuller5.github.io/posts/general/careful_releases/careful_releases/</link>
+      <pubDate>Thu, 29 Sep 2022 09:11:33 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/general/careful_releases/careful_releases/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Impact_fanatics</title>
+      <link>https://jtmuller5.github.io/posts/ideas/impact_fanatics/impact_fanatics/</link>
+      <pubDate>Tue, 27 Sep 2022 18:03:38 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/ideas/impact_fanatics/impact_fanatics/</guid>
+      <description>Test meteor</description>
     </item>
     
     <item>
