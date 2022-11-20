@@ -17,15 +17,5 @@
 The longer I use Flutter though, the more often I bump up against one of its major downsides - there&amp;rsquo;s no fast way to update broken code installed through the app stores.</description>
     </item>
     
-    <item>
-      <title>PWA Install</title>
-      <link>https://jtmuller5.github.io/posts/flutter/pwa_install/pwa_install/</link>
-      <pubDate>Sat, 05 Nov 2022 09:32:33 -0400</pubDate>
-      
-      <guid>https://jtmuller5.github.io/posts/flutter/pwa_install/pwa_install/</guid>
-      <description>PWA is the Way Over the past month its become clear that Apple thinks it owns all apps on the App Store:
-Apple cracks down on NFT functionality, social post boosts with App Store rules Why Spotify is Really Mad at Apple Over &amp;lsquo;Unfair&amp;rsquo; Fees relate to Big New Feature Apple flexes its control over the App Store Whether your app sells audio books, social post boosts, or basically any other in-app commodity, Apple believes you owe it 30% for the privilege of using its platform.</description>
-    </item>
-    
   </channel>
 </rss>
