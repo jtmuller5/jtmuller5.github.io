@@ -15,7 +15,8 @@ Over time more people started using my apps. I started working at companies with
 
 Why?
 
-I've written a few Twitter threads about this:
+I've written a few Twitter threads about this: https://twitter.com/Mullr33/status/1557197870687731712?ref_src=twsrc%5Etfw
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Deploying a <a href="https://twitter.com/hashtag/Flutter?src=hash&amp;ref_src=twsrc%5Etfw">#Flutter</a> app to Google Play or the Apple App Store can be stressful, even if its been rigorously tested. Why?<br><br>Because it&#39;s basically impossible to perform a hot fix <br>🔥🫠<br><br>A pessimistic thread on a problem I&#39;d like a solution to 🧵</p>&mdash; @Muller@fosstodon.org 💙 🆓️ (@Mullr33) <a href="https://twitter.com/Mullr33/status/1557197870687731712?ref_src=twsrc%5Etfw">August 10, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 In short, both Google Play and the Apple App store do not support rollbacks. To fix a bug, you need to manually pull the last working branch of your code, make the necessary change, update the version number, and resubmit your app to the app store. At this point, the app stores will review your change and if you're lucky enough to get approved the first time, you can release the new version. All in all, this process could take hours or it could take days. Either way, that's usually way too long.
