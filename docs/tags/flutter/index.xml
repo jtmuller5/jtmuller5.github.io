@@ -6,7 +6,27 @@
     <description>Recent content in flutter on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Sep 2022 16:26:21 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/flutter/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Nov 2022 12:30:33 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/flutter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fly Safe</title>
+      <link>https://jtmuller5.github.io/posts/fly-safe/fly-safe/</link>
+      <pubDate>Sun, 20 Nov 2022 12:30:33 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/fly-safe/fly-safe/</guid>
+      <description>Over the last 3 years I&amp;rsquo;ve spent countless hours learning and using Google&amp;rsquo;s cross-platform UI framework, Flutter. I&amp;rsquo;ve built over 20 hobby apps, worked for several small startups, and used Flutter professionally at two large healthcare companies. Flutter is amazing and it&amp;rsquo;s allowed me to build an early career in software development.
+The longer I use Flutter though, the more often I bump up against one of its major downsides - there&amp;rsquo;s no fast way to update broken code installed through the app stores.</description>
+    </item>
+    
+    <item>
+      <title>PWA Install</title>
+      <link>https://jtmuller5.github.io/posts/flutter/pwa_install/pwa_install/</link>
+      <pubDate>Sat, 05 Nov 2022 09:32:33 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/flutter/pwa_install/pwa_install/</guid>
+      <description>PWA is the Way Over the past month its become clear that Apple thinks it owns all apps on the App Store:
+Apple cracks down on NFT functionality, social post boosts with App Store rules Why Spotify is Really Mad at Apple Over &amp;lsquo;Unfair&amp;rsquo; Fees relate to Big New Feature Apple flexes its control over the App Store Whether your app sells audio books, social post boosts, or basically any other in-app commodity, Apple believes you owe it 30% for the privilege of using its platform.</description>
+    </item>
+    
     <item>
       <title>An Intro to Route Guards in Flutter</title>
       <link>https://jtmuller5.github.io/posts/flutter/route_guards/route_guards/</link>

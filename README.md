@@ -1,15 +1,16 @@
 # jtmuller5.github.io
 Blogging and note taking site
 
-## Maintenance
-- Create a new post
+## Usage
+### Create a new post
 
 ```
-hugo new content/posts/name.md
+hugo new content/posts/name/name.md
 ```
 
 ## Deployment Steps
-### Build pages
+### 1. Build pages
 ```aidl
 hugo -D -d docs 
 ```
+### 2. Push changes to GitHub

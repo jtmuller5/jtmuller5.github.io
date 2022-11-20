@@ -6,7 +6,17 @@
     <description>Recent content in mobile on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Sep 2022 10:57:17 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/mobile/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Nov 2022 12:30:33 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/mobile/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fly Safe</title>
+      <link>https://jtmuller5.github.io/posts/fly-safe/fly-safe/</link>
+      <pubDate>Sun, 20 Nov 2022 12:30:33 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/fly-safe/fly-safe/</guid>
+      <description>Over the last 3 years I&amp;rsquo;ve spent countless hours learning and using Google&amp;rsquo;s cross-platform UI framework, Flutter. I&amp;rsquo;ve built over 20 hobby apps, worked for several small startups, and used Flutter professionally at two large healthcare companies. Flutter is amazing and it&amp;rsquo;s allowed me to build an early career in software development.
+The longer I use Flutter though, the more often I bump up against one of its major downsides - there&amp;rsquo;s no fast way to update broken code installed through the app stores.</description>
+    </item>
+    
     <item>
       <title>Gripes with Managed Publishing</title>
       <link>https://jtmuller5.github.io/posts/general/gripes_with_managed_publishing/gripes_with_managed_publishing/</link>
