@@ -6,7 +6,7 @@ categories: ["tutorials"]
 tags: ["supabase","typescript","flutter"]
 ---
 
-nstead of hardcoding Supabase interfaces or types in your TypeScript projects, you can use the Supabase CLI to generate types directly from your database tables. Make sure to add the output inside your src folder so the rest of your application can access it:
+Instead of hardcoding Supabase interfaces or types in your TypeScript projects, you can use the Supabase CLI to generate types directly from your database tables. Make sure to add the output inside your src folder so the rest of your application can access it:
 
 ```bash
 supabase gen types typescript --project-id abcdefghijklmnopqrst > src/types/database.types.ts

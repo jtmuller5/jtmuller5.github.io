@@ -36,7 +36,7 @@ Initialize Your Node.js Project: Navigate into your new directory and initialize
       <pubDate>Sun, 29 Sep 2024 15:29:05 -0400</pubDate>
       
       <guid>https://jtmuller5.github.io/posts/using-supabase-in-typescript/</guid>
-      <description>nstead of hardcoding Supabase interfaces or types in your TypeScript projects, you can use the Supabase CLI to generate types directly from your database tables. Make sure to add the output inside your src folder so the rest of your application can access it:
+      <description>Instead of hardcoding Supabase interfaces or types in your TypeScript projects, you can use the Supabase CLI to generate types directly from your database tables. Make sure to add the output inside your src folder so the rest of your application can access it:
 supabase gen types typescript --project-id abcdefghijklmnopqrst &amp;gt; src/types/database.types.ts This command will generate a .types.ts file that contains a single Database interface containing all of your tables and their columns.</description>
     </item>
     
