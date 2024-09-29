@@ -8,6 +8,26 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 29 Sep 2024 15:13:36 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/openai/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>AI Co-Founded</title>
+      <link>http://localhost:1313/posts/projects/ai-cofounded/</link>
+      <pubDate>Sun, 29 Sep 2024 15:13:36 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/projects/ai-cofounded/</guid>
+      <description>AI Co-Founded is a website that helps you generate business plans.
+https://aicofounded.com</description>
+    </item>
+    
+    <item>
+      <title>Crashify AI</title>
+      <link>http://localhost:1313/posts/projects/crashify/</link>
+      <pubDate>Sun, 29 Sep 2024 15:13:36 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/projects/crashify/</guid>
+      <description>Crashify AI is a website that lets you generate 10-part crash courses.
+https://crashify.ai</description>
+    </item>
+    
+    <item>
       <title>Generating Images With Dalle</title>
       <link>http://localhost:1313/posts/generating-images-with-dalle/</link>
       <pubDate>Sun, 29 Sep 2024 15:13:36 -0400</pubDate>

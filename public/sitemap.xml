@@ -56,11 +56,17 @@
     <loc>http://localhost:1313/tags/firebase/</loc>
     <lastmod>2024-09-29T15:20:26-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/flutter-to-firebase-hosting-github-workflow/</loc>
+    <loc>http://localhost:1313/posts/flutter/flutter-to-firebase-hosting-github-workflow/</loc>
     <lastmod>2024-09-29T15:20:26-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/github/</loc>
     <lastmod>2024-09-29T15:20:26-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/projects/ai-cofounded/</loc>
+    <lastmod>2024-09-29T15:13:36-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/projects/crashify/</loc>
+    <lastmod>2024-09-29T15:13:36-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/generating-images-with-dalle/</loc>
     <lastmod>2024-09-29T15:13:36-04:00</lastmod>
@@ -68,20 +74,29 @@
     <loc>http://localhost:1313/tags/openai/</loc>
     <lastmod>2024-09-29T15:13:36-04:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/project/</loc>
+    <lastmod>2024-09-29T15:13:36-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/projects/</loc>
+    <lastmod>2024-09-29T15:13:36-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/react/</loc>
+    <lastmod>2024-09-29T15:13:36-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tailwindcss/</loc>
+    <lastmod>2024-09-29T15:13:36-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/essays/</loc>
+    <lastmod>2022-11-20T12:30:33-05:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/fly-safe/fly-safe/</loc>
     <lastmod>2022-11-20T12:30:33-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/mobile/</loc>
     <lastmod>2022-11-20T12:30:33-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/opinion/</loc>
-    <lastmod>2022-11-20T12:30:33-05:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/pwa/</loc>
     <lastmod>2022-11-20T12:30:33-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/explorations/</loc>
-    <lastmod>2022-09-20T10:57:17-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/google-play/</loc>
     <lastmod>2022-09-20T10:57:17-04:00</lastmod>
@@ -93,6 +108,9 @@
     <lastmod>2022-09-19T21:21:28-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/ai/</loc>
+    <lastmod>2022-09-19T21:21:28-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/explorations/</loc>
     <lastmod>2022-09-19T21:21:28-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/keras/</loc>
