@@ -6,25 +6,25 @@
     <description>Recent content in React on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Sep 2024 15:13:36 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/react/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>AI Co-Founded</title>
-      <link>http://localhost:1313/posts/projects/ai-cofounded/</link>
-      <pubDate>Sun, 29 Sep 2024 15:13:36 -0400</pubDate>
-      
-      <guid>http://localhost:1313/posts/projects/ai-cofounded/</guid>
-      <description>AI Co-Founded is a website that helps you generate business plans.
-https://aicofounded.com</description>
-    </item>
-    
+    <lastBuildDate>Fri, 20 Sep 2024 15:13:36 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/react/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Crashify AI</title>
       <link>http://localhost:1313/posts/projects/crashify/</link>
-      <pubDate>Sun, 29 Sep 2024 15:13:36 -0400</pubDate>
+      <pubDate>Fri, 20 Sep 2024 15:13:36 -0400</pubDate>
       
       <guid>http://localhost:1313/posts/projects/crashify/</guid>
       <description>Crashify AI is a website that lets you generate 10-part crash courses.
 https://crashify.ai</description>
+    </item>
+    
+    <item>
+      <title>AI Co-Founded</title>
+      <link>http://localhost:1313/posts/projects/ai-cofounded/</link>
+      <pubDate>Tue, 27 Aug 2024 15:13:36 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/projects/ai-cofounded/</guid>
+      <description>AI Co-Founded is a website that helps you generate business plans.
+https://aicofounded.com</description>
     </item>
     
   </channel>

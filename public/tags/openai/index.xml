@@ -8,19 +8,18 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 29 Sep 2024 15:13:36 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/openai/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AI Co-Founded</title>
-      <link>http://localhost:1313/posts/projects/ai-cofounded/</link>
+      <title>Generating Images With Dalle</title>
+      <link>http://localhost:1313/posts/generating-images-with-dalle/</link>
       <pubDate>Sun, 29 Sep 2024 15:13:36 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/projects/ai-cofounded/</guid>
-      <description>AI Co-Founded is a website that helps you generate business plans.
-https://aicofounded.com</description>
+      <guid>http://localhost:1313/posts/generating-images-with-dalle/</guid>
+      <description>I&amp;rsquo;ve recently been working on an app with my wife called &amp;ldquo;Abi&amp;rsquo;s Recipes&amp;rdquo;. The app, designed for mobile and TV, aims to be the Netflix of recipes, with a focus on beautiful images and a simple interface. We wanted to generate images for the recipes that we don&amp;rsquo;t have photos for, and we wanted to do it in a way that was fun and creative. That&amp;rsquo;s where DALL-E comes in.</description>
     </item>
     
     <item>
       <title>Crashify AI</title>
       <link>http://localhost:1313/posts/projects/crashify/</link>
-      <pubDate>Sun, 29 Sep 2024 15:13:36 -0400</pubDate>
+      <pubDate>Fri, 20 Sep 2024 15:13:36 -0400</pubDate>
       
       <guid>http://localhost:1313/posts/projects/crashify/</guid>
       <description>Crashify AI is a website that lets you generate 10-part crash courses.
@@ -28,12 +27,13 @@ https://crashify.ai</description>
     </item>
     
     <item>
-      <title>Generating Images With Dalle</title>
-      <link>http://localhost:1313/posts/generating-images-with-dalle/</link>
-      <pubDate>Sun, 29 Sep 2024 15:13:36 -0400</pubDate>
+      <title>AI Co-Founded</title>
+      <link>http://localhost:1313/posts/projects/ai-cofounded/</link>
+      <pubDate>Tue, 27 Aug 2024 15:13:36 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/generating-images-with-dalle/</guid>
-      <description>I&amp;rsquo;ve recently been working on an app with my wife called &amp;ldquo;Abi&amp;rsquo;s Recipes&amp;rdquo;. The app, designed for mobile and TV, aims to be the Netflix of recipes, with a focus on beautiful images and a simple interface. We wanted to generate images for the recipes that we don&amp;rsquo;t have photos for, and we wanted to do it in a way that was fun and creative. That&amp;rsquo;s where DALL-E comes in.</description>
+      <guid>http://localhost:1313/posts/projects/ai-cofounded/</guid>
+      <description>AI Co-Founded is a website that helps you generate business plans.
+https://aicofounded.com</description>
     </item>
     
   </channel>
