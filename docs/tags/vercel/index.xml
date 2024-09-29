@@ -19,5 +19,15 @@ mkdir chitter-vercel This creates a directory named chitter-vercel.
 Initialize Your Node.js Project: Navigate into your new directory and initialize a Node.</description>
     </item>
     
+    <item>
+      <title>AI Co-Founded</title>
+      <link>https://jtmuller5.github.io/posts/projects/ai-cofounded/</link>
+      <pubDate>Tue, 27 Aug 2024 15:13:36 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/projects/ai-cofounded/</guid>
+      <description>AI Co-Founded is a website that helps you generate business plans.
+https://aicofounded.com</description>
+    </item>
+    
   </channel>
 </rss>

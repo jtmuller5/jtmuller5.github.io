@@ -28,5 +28,25 @@
 supabase gen types typescript --project-id abcdefghijklmnopqrst &amp;gt; src/types/database.types.ts This command will generate a .types.ts file that contains a single Database interface containing all of your tables and their columns.</description>
     </item>
     
+    <item>
+      <title>Crashify AI</title>
+      <link>https://jtmuller5.github.io/posts/projects/crashify/</link>
+      <pubDate>Fri, 20 Sep 2024 15:13:36 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/projects/crashify/</guid>
+      <description>Crashify AI is a website that lets you generate 10-part crash courses.
+https://crashify.ai</description>
+    </item>
+    
+    <item>
+      <title>AI Co-Founded</title>
+      <link>https://jtmuller5.github.io/posts/projects/ai-cofounded/</link>
+      <pubDate>Tue, 27 Aug 2024 15:13:36 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/projects/ai-cofounded/</guid>
+      <description>AI Co-Founded is a website that helps you generate business plans.
+https://aicofounded.com</description>
+    </item>
+    
   </channel>
 </rss>
