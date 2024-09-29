@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Dart on Joe Muller&#39;s Blog</title>
+    <link>http://localhost:1313/tags/dart/</link>
+    <description>Recent content in Dart on Joe Muller&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Sep 2022 16:26:21 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/dart/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enhanced Enums in Flutter 3</title>
+      <link>http://localhost:1313/posts/flutter/enhanced_enums/enhanced_enums/</link>
+      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/flutter/enhanced_enums/enhanced_enums/</guid>
+      <description>Enums were good. Now they’re great. Flutter 3 Flutter 3.0 was announced at Google IO yesterday and as can be expected from a major version jump, there were a lot of new features to dig through. A few of the big ones:
+Stable support for macOS and Linux apps Improved Firebase integration Material 3 support Foldable phone support iOS release improvements Performance improvements for the web Theme extensions You can read more about the full release in the announcement here and if you’re someone that wants to see everything that was added, check out the release notes.</description>
+    </item>
+    
+  </channel>
+</rss>

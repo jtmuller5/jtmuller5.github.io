@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>keras on Joe Muller&#39;s Blog</title>
+    <title>Keras on Joe Muller&#39;s Blog</title>
     <link>https://jtmuller5.github.io/tags/keras/</link>
-    <description>Recent content in keras on Joe Muller&#39;s Blog</description>
+    <description>Recent content in Keras on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 19 Sep 2022 21:21:28 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/keras/index.xml" rel="self" type="application/rss+xml" />

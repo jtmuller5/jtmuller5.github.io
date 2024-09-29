@@ -22,13 +22,13 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: MullrDev
+  title: Joe Muller' Blog
   description: "Blogging and note-taking site"
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
   # author: ["Me", "You"] # multiple authors
   # images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2006"
+  # DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
@@ -81,11 +81,11 @@ params:
   homeInfoParams:
     Title: "Joe Muller"
     Content: >
-      Development. Ideas. Developing Ideas. Ideating Development.
+      I've been thinking a bit.
 
   socialIcons:
     - name: twitter
-      url: "https://twitter.com/mullr33"
+      url: "https://twitter.com/code_ontherocks"
     - name: stackoverflow
       url: "https://stackoverflow.com/users/12806961/joe-muller"
     - name: github

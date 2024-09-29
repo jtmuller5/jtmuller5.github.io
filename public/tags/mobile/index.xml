@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mobile on Joe Muller&#39;s Blog</title>
+    <link>http://localhost:1313/tags/mobile/</link>
+    <description>Recent content in Mobile on Joe Muller&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Sep 2024 14:56:36 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/mobile/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Conversation Cost</title>
+      <link>http://localhost:1313/posts/conversation-cost/</link>
+      <pubDate>Sun, 29 Sep 2024 14:56:36 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/conversation-cost/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fly Safe</title>
+      <link>http://localhost:1313/posts/fly-safe/fly-safe/</link>
+      <pubDate>Sun, 20 Nov 2022 12:30:33 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/fly-safe/fly-safe/</guid>
+      <description>Over the last 3 years I&amp;rsquo;ve spent countless hours learning and using Google&amp;rsquo;s cross-platform UI framework, Flutter. I&amp;rsquo;ve built over 20 hobby apps, worked for several small startups, and used Flutter professionally at two large healthcare companies. Flutter is amazing and it&amp;rsquo;s allowed me to build an early career in software development.
+The longer I use Flutter though, the more often I bump up against one of its major downsides - there&amp;rsquo;s no fast way to update broken code installed through the app stores.</description>
+    </item>
+    
+    <item>
+      <title>Gripes with Managed Publishing</title>
+      <link>http://localhost:1313/posts/general/gripes_with_managed_publishing/gripes_with_managed_publishing/</link>
+      <pubDate>Tue, 20 Sep 2022 10:57:17 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/general/gripes_with_managed_publishing/gripes_with_managed_publishing/</guid>
+      <description>Google Play&amp;rsquo;s Developer Console offers a pretty neat &amp;ldquo;Managed Publishing&amp;rdquo; feature that lets you decide when approved builds and app updates are published.
+Without Managed Publishing:
+Develop a new feature Add your new build to Google Play&amp;rsquo;s Production track Submit the build for review App passes review App is automatically published to the masses With Managed Publishing:
+Develop a new feature Add your new build to Google Play&amp;rsquo;s Production track Submit the build for review App passes review [NEW] App is added to a list of &amp;ldquo;Changes ready to publish&amp;rdquo; [NEW] App can be manually published when you&amp;rsquo;re ready It&amp;rsquo;s undeniably an amazing feature offered by our Lord and Savior, Google, but like all things software, it&amp;rsquo;s not perfect.</description>
+    </item>
+    
+    <item>
+      <title>An Intro to Route Guards in Flutter</title>
+      <link>http://localhost:1313/posts/flutter/route_guards/route_guards/</link>
+      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/flutter/route_guards/route_guards/</guid>
+      <description>Hey! Don’t go there!
+Navigation in a mobile app is a bit more involved than pushing a route here and popping a route there. Some routes should only be viewed by a user who is authenticated while others are available to the public. Some routes will only behave and display properly if the user has an active internet connection while others show static assets that never change.
+Is it possible to verify these requirements are met before loading each new route?</description>
+    </item>
+    
+    <item>
+      <title>Authentication in Flutter Apps using the @Protocol</title>
+      <link>http://localhost:1313/posts/flutter/at_protocol_authentication/at_protocol_authentication/</link>
+      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/flutter/at_protocol_authentication/at_protocol_authentication/</guid>
+      <description>If you’ve spent any amount of time developing mobile apps, you’re probably well aware of how public “private” data really is. Cloud databases like , , and protect their front gates with robust security measures like authentication keys, security rules, user roles, and field-specific restrictions. From the outside, these databases are fortresses with more than enough artillery to prevent people from seeing each other’s data.
+The issue however, is that the castle-keepers can see everything that gets brought into the castle.</description>
+    </item>
+    
+    <item>
+      <title>Continuous Animations in Flutter</title>
+      <link>http://localhost:1313/posts/flutter/continuous_animations/continuous_animations/</link>
+      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/flutter/continuous_animations/continuous_animations/</guid>
+      <description>If your app ain’t animating, users ain’t engaging.
+It’s a simple law of mobile app development that gets less attention than it deserves. Users want the impression that your app is alive — a living, breathing creation that does more than respond to taps and scrolls. Dynamically changing gradients, bouncing dots, and widgets that push at their boundaries like animals in a cage all give your app a personality that users will be thinking about long after they lock their screens.</description>
+    </item>
+    
+    <item>
+      <title>Displaying Videos in Flutter from a URL</title>
+      <link>http://localhost:1313/posts/flutter/displaying_videos/displaying_videos/</link>
+      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/flutter/displaying_videos/displaying_videos/</guid>
+      <description>Displaying Videos in Flutter from a URL With the Stacked architecture In this article, I will be explaining how to display a video directly from a URL in Flutter (although any video URL will work). If you’re interested in saving videos to Cloud Storage, check out my previous article on that exact subject.
+Uploading Images to Cloud Storage Using Flutter
+If you do have videos in Cloud Storage, I’m assuming you’ll eventually want to display them.</description>
+    </item>
+    
+    <item>
+      <title>Enhanced Enums in Flutter 3</title>
+      <link>http://localhost:1313/posts/flutter/enhanced_enums/enhanced_enums/</link>
+      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/flutter/enhanced_enums/enhanced_enums/</guid>
+      <description>Enums were good. Now they’re great. Flutter 3 Flutter 3.0 was announced at Google IO yesterday and as can be expected from a major version jump, there were a lot of new features to dig through. A few of the big ones:
+Stable support for macOS and Linux apps Improved Firebase integration Material 3 support Foldable phone support iOS release improvements Performance improvements for the web Theme extensions You can read more about the full release in the announcement here and if you’re someone that wants to see everything that was added, check out the release notes.</description>
+    </item>
+    
+    <item>
+      <title>Flutter Efficiently</title>
+      <link>http://localhost:1313/posts/flutter/flutter_efficiently/flutter_efficiently/</link>
+      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/flutter/flutter_efficiently/flutter_efficiently/</guid>
+      <description>Flutter Newbies Start Here If you’re new to Flutter development, I’d recommend starting with something a little less involved.
+I used this book to learn the Flutter language:
+Beginning Flutter: A Hands On Guide to App Development
+And this one to get started with mobile app development:
+Android Studio 3.4 Development Essentials — Kotlin Edition: Developing Android Apps Using Android Studio 3.4, Kotlin and Jetpack
+…And Let’s Go Good morning, afternoon, and evening to all the Flutter developers in the world and welcome to the blog post that’s going to make you love Google’s cross-platform development language more than you already do!</description>
+    </item>
+    
+    <item>
+      <title>Flutter: Build an IPA</title>
+      <link>http://localhost:1313/posts/flutter/build_ipa/build_ipa/</link>
+      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/flutter/build_ipa/build_ipa/</guid>
+      <description>If you’d like to distribute your Flutter app to iOS-using testers via Firebase Distribution, you’ll need to build IPA files. IPA files are simply iOS Application files that behave like APK or app bundles on Android.
+Unlike APK or app bundles however, you can’t just run a flutter build command and create an IPA.
+Build App Bundle:
+flutter build appbundle Build APK:
+flutter build apk This article will show you the fastest way to build an IPA for your Flutter app.</description>
+    </item>
+    
+    <item>
+      <title>Handling Nested Objects in Firestore With Flutter</title>
+      <link>http://localhost:1313/posts/flutter/nested_firestore_objects/nested_firestore_objects/</link>
+      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/flutter/nested_firestore_objects/nested_firestore_objects/</guid>
+      <description>Google’s Cloud Firestore is a tool that should be in every mobile app developer’s tool belt. The flexible and scalable database that it provides is unlike anything a coder could create alone and if your app is designed for a global audience, there aren’t many solutions like it. Plus, there’s a Flutter package ( cloud_firestore) that’s designed to make Flutter and Flame play nicely together.
+Unfortunately, there is one downside. The tool isn’t free to use and every read/write transaction your app makes with the Firestore database is counted against your daily quota (50,000 daily reads and 20,000 daily writes for the free tier plan).</description>
+    </item>
+    
+    <item>
+      <title>Implementing a Multi-Colored TabBar in Flutter</title>
+      <link>http://localhost:1313/posts/flutter/multi_colored_tab_bar/multi_colored_tab_bar/</link>
+      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/flutter/multi_colored_tab_bar/multi_colored_tab_bar/</guid>
+      <description>The Legend of the Multi-Colored TabBar
+A majority of popular mobile apps on the app store use a tried and true navigation scheme: the Bottom Navigation Bar. The idea is to have all 4 or 5 of the app’s main activities visible and within thumb’s reach. If you do a quick browse through the apps on your phone, you’ll find this pattern is far and away the most used.
+Bottom Navigation Bar Apps:</description>
+    </item>
+    
+    <item>
+      <title>The @platform: A Firebase Alternative?</title>
+      <link>http://localhost:1313/posts/flutter/firebase_alternative/firebase_alternative/</link>
+      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/flutter/firebase_alternative/firebase_alternative/</guid>
+      <description>Firebase is awesome and I’ve used it in more apps than I can count (assuming I can only count to about 20). It has authentication, data storage, an intuitive querying SDK, and plenty of other features that most mobile app developers find themselves wanting at one point or another.
+So why replace it?
+I asked myself the same question many times and more than once my answer was “Don’t”. It had just about everything I needed…and then I was asked to implement End-to-End Encryption (E2EE) in a social media app.</description>
+    </item>
+    
+    <item>
+      <title>Uploading Images to Cloud Storage Using Flutter</title>
+      <link>http://localhost:1313/posts/flutter/cloud_storage_flutter/cloud_storage_flutter/</link>
+      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/flutter/cloud_storage_flutter/cloud_storage_flutter/</guid>
+      <description>I’ve used Google’s Firebase/Firestore database solution for nearly 6 months and had come to believe that it was an unstoppable force. If you’re only dealing with numbers, strings, and other simple data forms, this is true. The NoSQL database gives you immense control over how you store information a provides querying tools that can be used to find items meeting very specific criteria in a snap.
+But if you’re interested in storing and retrieving larger files like images and audio clips, Firestore is not the solution you need.</description>
+    </item>
+    
+  </channel>
+</rss>

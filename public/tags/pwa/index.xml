@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Pwa on Joe Muller&#39;s Blog</title>
+    <link>http://localhost:1313/tags/pwa/</link>
+    <description>Recent content in Pwa on Joe Muller&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Sep 2024 14:56:36 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/pwa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Conversation Cost</title>
+      <link>http://localhost:1313/posts/conversation-cost/</link>
+      <pubDate>Sun, 29 Sep 2024 14:56:36 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/conversation-cost/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fly Safe</title>
+      <link>http://localhost:1313/posts/fly-safe/fly-safe/</link>
+      <pubDate>Sun, 20 Nov 2022 12:30:33 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/fly-safe/fly-safe/</guid>
+      <description>Over the last 3 years I&amp;rsquo;ve spent countless hours learning and using Google&amp;rsquo;s cross-platform UI framework, Flutter. I&amp;rsquo;ve built over 20 hobby apps, worked for several small startups, and used Flutter professionally at two large healthcare companies. Flutter is amazing and it&amp;rsquo;s allowed me to build an early career in software development.
+The longer I use Flutter though, the more often I bump up against one of its major downsides - there&amp;rsquo;s no fast way to update broken code installed through the app stores.</description>
+    </item>
+    
+  </channel>
+</rss>

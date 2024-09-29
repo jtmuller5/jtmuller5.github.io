@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>flutter on Joe Muller&#39;s Blog</title>
+    <title>Flutter on Joe Muller&#39;s Blog</title>
     <link>https://jtmuller5.github.io/tags/flutter/</link>
-    <description>Recent content in flutter on Joe Muller&#39;s Blog</description>
+    <description>Recent content in Flutter on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Nov 2022 12:30:33 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/flutter/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Sep 2024 14:56:36 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/flutter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Conversation Cost</title>
+      <link>https://jtmuller5.github.io/posts/conversation-cost/</link>
+      <pubDate>Sun, 29 Sep 2024 14:56:36 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/conversation-cost/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Fly Safe</title>
       <link>https://jtmuller5.github.io/posts/fly-safe/fly-safe/</link>
@@ -15,6 +24,16 @@
       <guid>https://jtmuller5.github.io/posts/fly-safe/fly-safe/</guid>
       <description>Over the last 3 years I&amp;rsquo;ve spent countless hours learning and using Google&amp;rsquo;s cross-platform UI framework, Flutter. I&amp;rsquo;ve built over 20 hobby apps, worked for several small startups, and used Flutter professionally at two large healthcare companies. Flutter is amazing and it&amp;rsquo;s allowed me to build an early career in software development.
 The longer I use Flutter though, the more often I bump up against one of its major downsides - there&amp;rsquo;s no fast way to update broken code installed through the app stores.</description>
+    </item>
+    
+    <item>
+      <title>PWA Install</title>
+      <link>https://jtmuller5.github.io/posts/flutter/pwa_install/pwa_install/</link>
+      <pubDate>Sat, 05 Nov 2022 09:32:33 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/flutter/pwa_install/pwa_install/</guid>
+      <description>PWA is the Way Over the past month its become clear that Apple thinks it owns all apps on the App Store:
+Apple cracks down on NFT functionality, social post boosts with App Store rules Why Spotify is Really Mad at Apple Over &amp;lsquo;Unfair&amp;rsquo; Fees relate to Big New Feature Apple flexes its control over the App Store Whether your app sells audio books, social post boosts, or basically any other in-app commodity, Apple believes you owe it 30% for the privilege of using its platform.</description>
     </item>
     
     <item>
@@ -104,16 +123,6 @@ flutter build apk This article will show you the fastest way to build an IPA for
       <guid>https://jtmuller5.github.io/posts/flutter/nested_firestore_objects/nested_firestore_objects/</guid>
       <description>Google’s Cloud Firestore is a tool that should be in every mobile app developer’s tool belt. The flexible and scalable database that it provides is unlike anything a coder could create alone and if your app is designed for a global audience, there aren’t many solutions like it. Plus, there’s a Flutter package ( cloud_firestore) that’s designed to make Flutter and Flame play nicely together.
 Unfortunately, there is one downside. The tool isn’t free to use and every read/write transaction your app makes with the Firestore database is counted against your daily quota (50,000 daily reads and 20,000 daily writes for the free tier plan).</description>
-    </item>
-    
-    <item>
-      <title>Image Compression in Flutter</title>
-      <link>https://jtmuller5.github.io/posts/flutter/image_compression/image_compression/</link>
-      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
-      
-      <guid>https://jtmuller5.github.io/posts/flutter/image_compression/image_compression/</guid>
-      <description>Inspired by this Stack Overflow post
-For an app that deals heavily with uploading and downloading images from a server, file size can make or break the user experience. Large files will take longer to save, display, and manipulate, all of which will affect the app’s network performance. Depending on how image-heavy the application is, users may spend more time staring at loading screens than actually interacting with content.</description>
     </item>
     
     <item>

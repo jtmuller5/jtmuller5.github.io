@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>self-hosted on Joe Muller&#39;s Blog</title>
-    <link>https://jtmuller5.github.io/tags/self-hosted/</link>
-    <description>Recent content in self-hosted on Joe Muller&#39;s Blog</description>
+    <title>Self-Hosted on Joe Muller&#39;s Blog</title>
+    <link>http://localhost:1313/tags/self-hosted/</link>
+    <description>Recent content in Self-Hosted on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Sep 2022 16:26:21 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/self-hosted/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Sep 2022 16:26:21 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/self-hosted/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Build this blog</title>
-      <link>https://jtmuller5.github.io/posts/general/build_this_blog/build_this_blog/</link>
+      <link>http://localhost:1313/posts/general/build_this_blog/build_this_blog/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/general/build_this_blog/build_this_blog/</guid>
+      <guid>http://localhost:1313/posts/general/build_this_blog/build_this_blog/</guid>
       <description>Build this Blog Medium. Hashnode. Wordpress. Ghost. Log Rocket.
 There are a thousand blogging platforms that want your content, knowledge, and time. I say nay! In this article I&amp;rsquo;ll lay out all the steps you need to build this exact website and host your content on GitHub pages.
 What you&amp;rsquo;ll get:
-A blogging website hosted on GitHub The Hugo PaperMod theme Menus to filter content by categories and tags Full text search Tracking with Google Analytics Steps Create Your Site Github allows individuals to create one free site per account.</description>
+A blogging website hosted on GitHub The Hugo PaperMod theme Menus to filter content by categories and tags Full text search Tracking with Google Analytics Steps Create your Site Github allows individuals to create one free site per account.</description>
     </item>
     
   </channel>

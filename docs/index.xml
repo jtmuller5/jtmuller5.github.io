@@ -6,7 +6,7 @@
     <description>Recent content on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Nov 2022 12:30:33 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Sep 2024 14:56:36 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Build this blog</title>
       <link>https://jtmuller5.github.io/posts/general/build_this_blog/build_this_blog/</link>
@@ -20,6 +20,24 @@ A blogging website hosted on GitHub The Hugo PaperMod theme Menus to filter cont
     </item>
     
     <item>
+      <title>Conversation Cost</title>
+      <link>https://jtmuller5.github.io/posts/conversation-cost/</link>
+      <pubDate>Sun, 29 Sep 2024 14:56:36 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/conversation-cost/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eternity</title>
+      <link>https://jtmuller5.github.io/posts/eternity/eternity/</link>
+      <pubDate>Sun, 25 Dec 2022 09:54:25 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/eternity/eternity/</guid>
+      <description>The biggest question we can ask is how does the universe work. It isn</description>
+    </item>
+    
+    <item>
       <title>Fly Safe</title>
       <link>https://jtmuller5.github.io/posts/fly-safe/fly-safe/</link>
       <pubDate>Sun, 20 Nov 2022 12:30:33 -0500</pubDate>
@@ -27,6 +45,54 @@ A blogging website hosted on GitHub The Hugo PaperMod theme Menus to filter cont
       <guid>https://jtmuller5.github.io/posts/fly-safe/fly-safe/</guid>
       <description>Over the last 3 years I&amp;rsquo;ve spent countless hours learning and using Google&amp;rsquo;s cross-platform UI framework, Flutter. I&amp;rsquo;ve built over 20 hobby apps, worked for several small startups, and used Flutter professionally at two large healthcare companies. Flutter is amazing and it&amp;rsquo;s allowed me to build an early career in software development.
 The longer I use Flutter though, the more often I bump up against one of its major downsides - there&amp;rsquo;s no fast way to update broken code installed through the app stores.</description>
+    </item>
+    
+    <item>
+      <title>Flutter to React</title>
+      <link>https://jtmuller5.github.io/posts/flutter-to-react/flutter-to-react/</link>
+      <pubDate>Sun, 20 Nov 2022 09:46:44 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/flutter-to-react/flutter-to-react/</guid>
+      <description>Over the last 3 years I&amp;rsquo;ve spent countless hours learning and using Google&amp;rsquo;s cross-platform UI framework, Flutter. I&amp;rsquo;ve built a handful of hobby apps, worked for several small startups, and used Flutter professionally at two large healthcare companies. Flutter is amazing and it&amp;rsquo;s allowed me to build an early career in software development.
+The longer I use Flutter though, the more often I bump up against its downsides.
+When I first started building apps for myself and the 10 or so people that would find my app on the app stores, I didn&amp;rsquo;t think too much about things like hot-fixes or app review times.</description>
+    </item>
+    
+    <item>
+      <title>PWA Install</title>
+      <link>https://jtmuller5.github.io/posts/flutter/pwa_install/pwa_install/</link>
+      <pubDate>Sat, 05 Nov 2022 09:32:33 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/flutter/pwa_install/pwa_install/</guid>
+      <description>PWA is the Way Over the past month its become clear that Apple thinks it owns all apps on the App Store:
+Apple cracks down on NFT functionality, social post boosts with App Store rules Why Spotify is Really Mad at Apple Over &amp;lsquo;Unfair&amp;rsquo; Fees relate to Big New Feature Apple flexes its control over the App Store Whether your app sells audio books, social post boosts, or basically any other in-app commodity, Apple believes you owe it 30% for the privilege of using its platform.</description>
+    </item>
+    
+    <item>
+      <title>Careful_releases</title>
+      <link>https://jtmuller5.github.io/posts/general/careful_releases/careful_releases/</link>
+      <pubDate>Thu, 29 Sep 2022 09:11:33 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/general/careful_releases/careful_releases/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Impact Fanatics</title>
+      <link>https://jtmuller5.github.io/posts/ideas/impact_fanatics/impact_fanatics/</link>
+      <pubDate>Tue, 27 Sep 2022 18:03:38 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/ideas/impact_fanatics/impact_fanatics/</guid>
+      <description>Test meteor</description>
+    </item>
+    
+    <item>
+      <title>Flugo</title>
+      <link>https://jtmuller5.github.io/posts/flutter/flugo/flugo/</link>
+      <pubDate>Fri, 23 Sep 2022 14:20:47 -0700</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/flutter/flugo/flugo/</guid>
+      <description>Flutter Web is notoriously &amp;ldquo;not the correct solution&amp;rdquo; for content-heavy web pages. All Flutter content is rendered on an HTML canvas making it impossible for web crawlers to properly index any web page built with Flutter. This limitation is a nightmare for marketing folks whose jobs rely on SEO and similarly, a threat to the future of the Flutter framework. If the framework can only be used for standalone apps disconnected from the world wide web, I can&amp;rsquo;t imagine a future where it beats out a sea of technologies built to coalesce with the internet&amp;rsquo;s native tech stack (eg.</description>
     </item>
     
     <item>
@@ -39,6 +105,15 @@ The longer I use Flutter though, the more often I bump up against one of its maj
 Without Managed Publishing:
 Develop a new feature Add your new build to Google Play&amp;rsquo;s Production track Submit the build for review App passes review App is automatically published to the masses With Managed Publishing:
 Develop a new feature Add your new build to Google Play&amp;rsquo;s Production track Submit the build for review App passes review [NEW] App is added to a list of &amp;ldquo;Changes ready to publish&amp;rdquo; [NEW] App can be manually published when you&amp;rsquo;re ready It&amp;rsquo;s undeniably an amazing feature offered by our Lord and Savior, Google, but like all things software, it&amp;rsquo;s not perfect.</description>
+    </item>
+    
+    <item>
+      <title>Read Slower</title>
+      <link>https://jtmuller5.github.io/posts/ideas/read_slower/read_slower/</link>
+      <pubDate>Mon, 19 Sep 2022 23:08:45 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/ideas/read_slower/read_slower/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -141,16 +216,6 @@ Unfortunately, there is one downside. The tool isn’t free to use and every rea
     </item>
     
     <item>
-      <title>Image Compression in Flutter</title>
-      <link>https://jtmuller5.github.io/posts/flutter/image_compression/image_compression/</link>
-      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
-      
-      <guid>https://jtmuller5.github.io/posts/flutter/image_compression/image_compression/</guid>
-      <description>Inspired by this Stack Overflow post
-For an app that deals heavily with uploading and downloading images from a server, file size can make or break the user experience. Large files will take longer to save, display, and manipulate, all of which will affect the app’s network performance. Depending on how image-heavy the application is, users may spend more time staring at loading screens than actually interacting with content.</description>
-    </item>
-    
-    <item>
       <title>Implementing a Multi-Colored TabBar in Flutter</title>
       <link>https://jtmuller5.github.io/posts/flutter/multi_colored_tab_bar/multi_colored_tab_bar/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
@@ -180,6 +245,16 @@ I asked myself the same question many times and more than once my answer was “
       <guid>https://jtmuller5.github.io/posts/flutter/cloud_storage_flutter/cloud_storage_flutter/</guid>
       <description>I’ve used Google’s Firebase/Firestore database solution for nearly 6 months and had come to believe that it was an unstoppable force. If you’re only dealing with numbers, strings, and other simple data forms, this is true. The NoSQL database gives you immense control over how you store information a provides querying tools that can be used to find items meeting very specific criteria in a snap.
 But if you’re interested in storing and retrieving larger files like images and audio clips, Firestore is not the solution you need.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jtmuller5.github.io/posts/flutter/image_compression/image_compression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/flutter/image_compression/image_compression/</guid>
+      <description>image&amp;mdash;- title: &amp;ldquo;Image Compression in Flutter&amp;rdquo; date: 2022-09-17T16:26:21-04:00 draft: false categories: [&amp;ldquo;tutorials&amp;rdquo;] tags: [&amp;ldquo;flutter&amp;rdquo;,&amp;ldquo;mobile&amp;rdquo;] Inspired by this Stack Overflow post
+For an app that deals heavily with uploading and downloading images from a server, file size can make or break the user experience. Large files will take longer to save, display, and manipulate, all of which will affect the app’s network performance. Depending on how image-heavy the application is, users may spend more time staring at loading screens than actually interacting with content.</description>
     </item>
     
   </channel>
