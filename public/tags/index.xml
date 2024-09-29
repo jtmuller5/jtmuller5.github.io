@@ -6,29 +6,110 @@
     <description>Recent content in Tags on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Sep 2024 14:56:36 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Sep 2024 15:41:15 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Firebase</title>
-      <link>http://localhost:1313/tags/firebase/</link>
-      <pubDate>Sun, 29 Sep 2024 14:56:36 -0400</pubDate>
+      <title>Api</title>
+      <link>http://localhost:1313/tags/api/</link>
+      <pubDate>Sun, 29 Sep 2024 15:41:15 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/firebase/</guid>
+      <guid>http://localhost:1313/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Express</title>
+      <link>http://localhost:1313/tags/express/</link>
+      <pubDate>Sun, 29 Sep 2024 15:41:15 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/express/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Typescript</title>
+      <link>http://localhost:1313/tags/typescript/</link>
+      <pubDate>Sun, 29 Sep 2024 15:41:15 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/typescript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vercel</title>
+      <link>http://localhost:1313/tags/vercel/</link>
+      <pubDate>Sun, 29 Sep 2024 15:41:15 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/vercel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Slack</title>
+      <link>http://localhost:1313/tags/slack/</link>
+      <pubDate>Sun, 29 Sep 2024 15:36:18 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/slack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Supabase</title>
+      <link>http://localhost:1313/tags/supabase/</link>
+      <pubDate>Sun, 29 Sep 2024 15:36:18 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/supabase/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Flutter</title>
       <link>http://localhost:1313/tags/flutter/</link>
-      <pubDate>Sun, 29 Sep 2024 14:56:36 -0400</pubDate>
+      <pubDate>Sun, 29 Sep 2024 15:29:05 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/flutter/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Cicd</title>
+      <link>http://localhost:1313/tags/cicd/</link>
+      <pubDate>Sun, 29 Sep 2024 15:20:26 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/cicd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Firebase</title>
+      <link>http://localhost:1313/tags/firebase/</link>
+      <pubDate>Sun, 29 Sep 2024 15:20:26 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/firebase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Github</title>
+      <link>http://localhost:1313/tags/github/</link>
+      <pubDate>Sun, 29 Sep 2024 15:20:26 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Openai</title>
+      <link>http://localhost:1313/tags/openai/</link>
+      <pubDate>Sun, 29 Sep 2024 15:13:36 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/openai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Mobile</title>
       <link>http://localhost:1313/tags/mobile/</link>
-      <pubDate>Sun, 29 Sep 2024 14:56:36 -0400</pubDate>
+      <pubDate>Sun, 20 Nov 2022 12:30:33 -0500</pubDate>
       
       <guid>http://localhost:1313/tags/mobile/</guid>
       <description></description>
@@ -37,7 +118,7 @@
     <item>
       <title>Pwa</title>
       <link>http://localhost:1313/tags/pwa/</link>
-      <pubDate>Sun, 29 Sep 2024 14:56:36 -0400</pubDate>
+      <pubDate>Sun, 20 Nov 2022 12:30:33 -0500</pubDate>
       
       <guid>http://localhost:1313/tags/pwa/</guid>
       <description></description>

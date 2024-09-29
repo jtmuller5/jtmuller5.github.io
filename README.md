@@ -5,7 +5,7 @@ Blogging and note taking site
 ### Create a new post
 
 ```
-hugo new content/posts/name/name.md
+hugo new content/posts/name/index.md
 ```
 
 ## Deployment Steps

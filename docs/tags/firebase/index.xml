@@ -6,7 +6,17 @@
     <description>Recent content in Firebase on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Sep 2024 14:56:36 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/firebase/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Sep 2024 15:20:26 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/firebase/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flutter to Firebase Hosting Github Workflow</title>
+      <link>https://jtmuller5.github.io/posts/flutter/flutter-to-firebase-hosting-github-workflow/</link>
+      <pubDate>Sun, 29 Sep 2024 15:20:26 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/flutter/flutter-to-firebase-hosting-github-workflow/</guid>
+      <description>As soon as a Flutter project gains traction (or I&amp;rsquo;ve convinced myself that it will eventually gain traction), I like to set up a CI/CD pipeline so I can focus more on app development and less on manually deploying all of my changes to prod. This article in particular will provide an overview of the Github workflow I typically use for my Flutter projects that use Firebase Hosting.
+The Basics For the simplest projects that don&amp;rsquo;t require environments, variables, or Slack notifications, the workflow is straightforward.</description>
+    </item>
+    
     <item>
       <title>Conversation Cost</title>
       <link>https://jtmuller5.github.io/posts/conversation-cost/</link>

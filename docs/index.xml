@@ -6,7 +6,7 @@
     <description>Recent content on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Sep 2024 14:56:36 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Sep 2024 15:41:15 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Build this blog</title>
       <link>https://jtmuller5.github.io/posts/general/build_this_blog/build_this_blog/</link>
@@ -17,6 +17,58 @@
 There are a thousand blogging platforms that want your content, knowledge, and time. I say nay! In this article I&amp;rsquo;ll lay out all the steps you need to build this exact website and host your content on GitHub pages.
 What you&amp;rsquo;ll get:
 A blogging website hosted on GitHub The Hugo PaperMod theme Menus to filter content by categories and tags Full text search Tracking with Google Analytics Steps Create your Site Github allows individuals to create one free site per account.</description>
+    </item>
+    
+    <item>
+      <title>Express API Vercel</title>
+      <link>https://jtmuller5.github.io/posts/express-api-vercel/</link>
+      <pubDate>Sun, 29 Sep 2024 15:41:15 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/express-api-vercel/</guid>
+      <description>Welcome to this tutorial where we will create a simple API using TypeScript and deploy it using Vercel. This guide is suitable for beginners and assumes basic familiarity with Node.js. Let&amp;rsquo;s dive in!
+Setting Up Your Project Create a New Directory: Start by creating a new directory for your project. Open your terminal and run:
+mkdir chitter-vercel This creates a directory named chitter-vercel.
+Initialize Your Node.js Project: Navigate into your new directory and initialize a Node.</description>
+    </item>
+    
+    <item>
+      <title>Supabase Slack Notifications</title>
+      <link>https://jtmuller5.github.io/posts/supabase-slack-notifications/</link>
+      <pubDate>Sun, 29 Sep 2024 15:36:18 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/supabase-slack-notifications/</guid>
+      <description>Slack 1. Create a new Slack channel Create a slack channel in your workspace where the notifications will be displayed (ex. &amp;ldquo;notifications&amp;rdquo;)
+2. Create a Slack app Visit the Slack API webpage and &amp;ldquo;Create New App&amp;rdquo;. Give the app a name and select the Slack workspace you&amp;rsquo;re working with.
+3. Configure the Slack app Select &amp;ldquo;Incoming Webhooks&amp;rdquo; and flip the &amp;ldquo;Active Incoming Webhooks&amp;rdquo; switch on. 4. Create the webhook Add New Webhook to Workspace and select the &amp;ldquo;notifications&amp;rdquo; channel you created before.</description>
+    </item>
+    
+    <item>
+      <title>Using Supabase in Typescript</title>
+      <link>https://jtmuller5.github.io/posts/using-supabase-in-typescript/</link>
+      <pubDate>Sun, 29 Sep 2024 15:29:05 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/using-supabase-in-typescript/</guid>
+      <description>nstead of hardcoding Supabase interfaces or types in your TypeScript projects, you can use the Supabase CLI to generate types directly from your database tables. Make sure to add the output inside your src folder so the rest of your application can access it:
+supabase gen types typescript --project-id abcdefghijklmnopqrst &amp;gt; src/types/database.types.ts This command will generate a .types.ts file that contains a single Database interface containing all of your tables and their columns.</description>
+    </item>
+    
+    <item>
+      <title>Flutter to Firebase Hosting Github Workflow</title>
+      <link>https://jtmuller5.github.io/posts/flutter/flutter-to-firebase-hosting-github-workflow/</link>
+      <pubDate>Sun, 29 Sep 2024 15:20:26 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/flutter/flutter-to-firebase-hosting-github-workflow/</guid>
+      <description>As soon as a Flutter project gains traction (or I&amp;rsquo;ve convinced myself that it will eventually gain traction), I like to set up a CI/CD pipeline so I can focus more on app development and less on manually deploying all of my changes to prod. This article in particular will provide an overview of the Github workflow I typically use for my Flutter projects that use Firebase Hosting.
+The Basics For the simplest projects that don&amp;rsquo;t require environments, variables, or Slack notifications, the workflow is straightforward.</description>
+    </item>
+    
+    <item>
+      <title>Generating Images With Dalle</title>
+      <link>https://jtmuller5.github.io/posts/generating-images-with-dalle/</link>
+      <pubDate>Sun, 29 Sep 2024 15:13:36 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/generating-images-with-dalle/</guid>
+      <description>I&amp;rsquo;ve recently been working on an app with my wife called &amp;ldquo;Abi&amp;rsquo;s Recipes&amp;rdquo;. The app, designed for mobile and TV, aims to be the Netflix of recipes, with a focus on beautiful images and a simple interface. We wanted to generate images for the recipes that we don&amp;rsquo;t have photos for, and we wanted to do it in a way that was fun and creative. That&amp;rsquo;s where DALL-E comes in.</description>
     </item>
     
     <item>
@@ -256,6 +308,7 @@ But if you’re interested in storing and retrieving larger files like images an
       <description>image&amp;mdash;- title: &amp;ldquo;Image Compression in Flutter&amp;rdquo; date: 2022-09-17T16:26:21-04:00 draft: false categories: [&amp;ldquo;tutorials&amp;rdquo;] tags: [&amp;ldquo;flutter&amp;rdquo;,&amp;ldquo;mobile&amp;rdquo;] Inspired by this Stack Overflow post
 For an app that deals heavily with uploading and downloading images from a server, file size can make or break the user experience. Large files will take longer to save, display, and manipulate, all of which will affect the app’s network performance. Depending on how image-heavy the application is, users may spend more time staring at loading screens than actually interacting with content.</description>
     </item>
+    
     
   </channel>
 </rss>

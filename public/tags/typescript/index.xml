@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Typescript on Joe Muller&#39;s Blog</title>
+    <link>http://localhost:1313/tags/typescript/</link>
+    <description>Recent content in Typescript on Joe Muller&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Sep 2024 15:41:15 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Express API Vercel</title>
+      <link>http://localhost:1313/posts/express-api-vercel/</link>
+      <pubDate>Sun, 29 Sep 2024 15:41:15 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/express-api-vercel/</guid>
+      <description>Welcome to this tutorial where we will create a simple API using TypeScript and deploy it using Vercel. This guide is suitable for beginners and assumes basic familiarity with Node.js. Let&amp;rsquo;s dive in!
+Setting Up Your Project Create a New Directory: Start by creating a new directory for your project. Open your terminal and run:
+mkdir chitter-vercel This creates a directory named chitter-vercel.
+Initialize Your Node.js Project: Navigate into your new directory and initialize a Node.</description>
+    </item>
+    
+    <item>
+      <title>Supabase Slack Notifications</title>
+      <link>http://localhost:1313/posts/supabase-slack-notifications/</link>
+      <pubDate>Sun, 29 Sep 2024 15:36:18 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/supabase-slack-notifications/</guid>
+      <description>Slack 1. Create a new Slack channel Create a slack channel in your workspace where the notifications will be displayed (ex. &amp;ldquo;notifications&amp;rdquo;)
+2. Create a Slack app Visit the Slack API webpage and &amp;ldquo;Create New App&amp;rdquo;. Give the app a name and select the Slack workspace you&amp;rsquo;re working with.
+3. Configure the Slack app Select &amp;ldquo;Incoming Webhooks&amp;rdquo; and flip the &amp;ldquo;Active Incoming Webhooks&amp;rdquo; switch on. 4. Create the webhook Add New Webhook to Workspace and select the &amp;ldquo;notifications&amp;rdquo; channel you created before.</description>
+    </item>
+    
+    <item>
+      <title>Using Supabase in Typescript</title>
+      <link>http://localhost:1313/posts/using-supabase-in-typescript/</link>
+      <pubDate>Sun, 29 Sep 2024 15:29:05 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/using-supabase-in-typescript/</guid>
+      <description>nstead of hardcoding Supabase interfaces or types in your TypeScript projects, you can use the Supabase CLI to generate types directly from your database tables. Make sure to add the output inside your src folder so the rest of your application can access it:
+supabase gen types typescript --project-id abcdefghijklmnopqrst &amp;gt; src/types/database.types.ts This command will generate a .types.ts file that contains a single Database interface containing all of your tables and their columns.</description>
+    </item>
+    
+  </channel>
+</rss>

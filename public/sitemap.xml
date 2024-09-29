@@ -5,40 +5,79 @@
     <loc>http://localhost:1313/posts/general/build_this_blog/build_this_blog/</loc>
     <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/api/</loc>
+    <lastmod>2024-09-29T15:41:15-04:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-09-29T14:56:36-04:00</lastmod>
+    <lastmod>2024-09-29T15:41:15-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/conversation-cost/</loc>
-    <lastmod>2024-09-29T14:56:36-04:00</lastmod>
+    <loc>http://localhost:1313/tags/express/</loc>
+    <lastmod>2024-09-29T15:41:15-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/essays/</loc>
-    <lastmod>2024-09-29T14:56:36-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/firebase/</loc>
-    <lastmod>2024-09-29T14:56:36-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/flutter/</loc>
-    <lastmod>2024-09-29T14:56:36-04:00</lastmod>
+    <loc>http://localhost:1313/posts/express-api-vercel/</loc>
+    <lastmod>2024-09-29T15:41:15-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-09-29T14:56:36-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/mobile/</loc>
-    <lastmod>2024-09-29T14:56:36-04:00</lastmod>
+    <lastmod>2024-09-29T15:41:15-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-09-29T14:56:36-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/pwa/</loc>
-    <lastmod>2024-09-29T14:56:36-04:00</lastmod>
+    <lastmod>2024-09-29T15:41:15-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-09-29T14:56:36-04:00</lastmod>
+    <lastmod>2024-09-29T15:41:15-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/tutorials/</loc>
+    <lastmod>2024-09-29T15:41:15-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/typescript/</loc>
+    <lastmod>2024-09-29T15:41:15-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/vercel/</loc>
+    <lastmod>2024-09-29T15:41:15-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/slack/</loc>
+    <lastmod>2024-09-29T15:36:18-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/supabase/</loc>
+    <lastmod>2024-09-29T15:36:18-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/supabase-slack-notifications/</loc>
+    <lastmod>2024-09-29T15:36:18-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/flutter/</loc>
+    <lastmod>2024-09-29T15:29:05-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/using-supabase-in-typescript/</loc>
+    <lastmod>2024-09-29T15:29:05-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cicd/</loc>
+    <lastmod>2024-09-29T15:20:26-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/firebase/</loc>
+    <lastmod>2024-09-29T15:20:26-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/flutter-to-firebase-hosting-github-workflow/</loc>
+    <lastmod>2024-09-29T15:20:26-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/github/</loc>
+    <lastmod>2024-09-29T15:20:26-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/generating-images-with-dalle/</loc>
+    <lastmod>2024-09-29T15:13:36-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/openai/</loc>
+    <lastmod>2024-09-29T15:13:36-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/fly-safe/fly-safe/</loc>
     <lastmod>2022-11-20T12:30:33-05:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/mobile/</loc>
+    <lastmod>2022-11-20T12:30:33-05:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/opinion/</loc>
+    <lastmod>2022-11-20T12:30:33-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/pwa/</loc>
     <lastmod>2022-11-20T12:30:33-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/explorations/</loc>
@@ -110,12 +149,11 @@
     <loc>http://localhost:1313/posts/flutter/firebase_alternative/firebase_alternative/</loc>
     <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/tutorials/</loc>
-    <lastmod>2022-09-17T16:26:21-04:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/flutter/cloud_storage_flutter/cloud_storage_flutter/</loc>
     <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/flutter/image_compression/image_compression/</loc>
+  </url><url>
+    <loc>http://localhost:1313/search/</loc>
   </url>
 </urlset>

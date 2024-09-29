@@ -2,7 +2,7 @@
 title: "Fly Safe"
 date: 2022-11-20T12:30:33-05:00
 draft: false
-categories: ["opinion"]
+categories: ["essays"]
 tags: ["flutter","mobile","firebase","pwa"]
 ---
 Over the last 3 years I've spent countless hours learning and using Google's cross-platform UI framework, [Flutter](https://flutter.dev/). I've built over 20 hobby apps, worked for several small startups, and used Flutter professionally at two large healthcare companies. Flutter is amazing and it's allowed me to build an early career in software development.

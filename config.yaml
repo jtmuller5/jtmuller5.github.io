@@ -45,7 +45,7 @@ params:
   comments: false
   hidemeta: false
   hideSummary: false
-  showtoc: false
+  showtoc: true
   tocopen: false
 
   assets:
@@ -128,6 +128,10 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 0
     - identifier: categories
       name: Categories
       url: /categories/

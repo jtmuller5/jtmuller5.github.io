@@ -6,7 +6,36 @@
     <description>Recent content in Flutter on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Sep 2024 14:56:36 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/flutter/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Sep 2024 15:29:05 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/flutter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Supabase in Typescript</title>
+      <link>https://jtmuller5.github.io/posts/using-supabase-in-typescript/</link>
+      <pubDate>Sun, 29 Sep 2024 15:29:05 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/using-supabase-in-typescript/</guid>
+      <description>nstead of hardcoding Supabase interfaces or types in your TypeScript projects, you can use the Supabase CLI to generate types directly from your database tables. Make sure to add the output inside your src folder so the rest of your application can access it:
+supabase gen types typescript --project-id abcdefghijklmnopqrst &amp;gt; src/types/database.types.ts This command will generate a .types.ts file that contains a single Database interface containing all of your tables and their columns.</description>
+    </item>
+    
+    <item>
+      <title>Flutter to Firebase Hosting Github Workflow</title>
+      <link>https://jtmuller5.github.io/posts/flutter/flutter-to-firebase-hosting-github-workflow/</link>
+      <pubDate>Sun, 29 Sep 2024 15:20:26 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/flutter/flutter-to-firebase-hosting-github-workflow/</guid>
+      <description>As soon as a Flutter project gains traction (or I&amp;rsquo;ve convinced myself that it will eventually gain traction), I like to set up a CI/CD pipeline so I can focus more on app development and less on manually deploying all of my changes to prod. This article in particular will provide an overview of the Github workflow I typically use for my Flutter projects that use Firebase Hosting.
+The Basics For the simplest projects that don&amp;rsquo;t require environments, variables, or Slack notifications, the workflow is straightforward.</description>
+    </item>
+    
+    <item>
+      <title>Generating Images With Dalle</title>
+      <link>https://jtmuller5.github.io/posts/generating-images-with-dalle/</link>
+      <pubDate>Sun, 29 Sep 2024 15:13:36 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/generating-images-with-dalle/</guid>
+      <description>I&amp;rsquo;ve recently been working on an app with my wife called &amp;ldquo;Abi&amp;rsquo;s Recipes&amp;rdquo;. The app, designed for mobile and TV, aims to be the Netflix of recipes, with a focus on beautiful images and a simple interface. We wanted to generate images for the recipes that we don&amp;rsquo;t have photos for, and we wanted to do it in a way that was fun and creative. That&amp;rsquo;s where DALL-E comes in.</description>
+    </item>
+    
     <item>
       <title>Conversation Cost</title>
       <link>https://jtmuller5.github.io/posts/conversation-cost/</link>
