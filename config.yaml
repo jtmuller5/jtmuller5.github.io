@@ -81,7 +81,7 @@ params:
   homeInfoParams:
     Title: "Joe Muller"
     Content: >
-      I've been thinking a bit.
+      I've been thinking.
 
   socialIcons:
     - name: twitter
