@@ -6,7 +6,16 @@
     <description>Recent content in Typescript on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Sep 2024 15:41:15 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Oct 2024 08:43:45 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TypeScript Cheat Sheet</title>
+      <link>https://jtmuller5.github.io/posts/cheat-sheets/typescript/</link>
+      <pubDate>Tue, 01 Oct 2024 08:43:45 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/cheat-sheets/typescript/</guid>
+      <description>TypeScript Cheat Sheet 1. Basic Syntax Comments // Single-line comment /* Multi-line comment */ /** * Documentation comment */ Variables and Data Types // Type inference let name = &amp;#39;Bob&amp;#39;; let age = 30; // Explicit typing let name: string = &amp;#39;Bob&amp;#39;; let age: number = 30; let isStudent: boolean = true; let numbers: number[] = [1, 2, 3]; let tuple: [string, number] = [&amp;#39;hello&amp;#39;, 10]; let anyType: any = &amp;#39;anything&amp;#39;; Constants const PI: number = 3.</description>
+    </item>
+    
     <item>
       <title>Express API Vercel</title>
       <link>https://jtmuller5.github.io/posts/express-api-vercel/</link>

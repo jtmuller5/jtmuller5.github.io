@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Python on Joe Muller&#39;s Blog</title>
+    <link>https://jtmuller5.github.io/tags/python/</link>
+    <description>Recent content in Python on Joe Muller&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Oct 2024 08:43:45 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python Cheat Sheet</title>
+      <link>https://jtmuller5.github.io/posts/cheat-sheets/python/</link>
+      <pubDate>Tue, 01 Oct 2024 08:43:45 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/cheat-sheets/python/</guid>
+      <description>Python Cheat Sheet 1. Basic Syntax Comments # Single-line comment &amp;#34;&amp;#34;&amp;#34; Multi-line comment &amp;#34;&amp;#34;&amp;#34; def function(): &amp;#34;&amp;#34;&amp;#34; Docstring: used for function/class/module documentation &amp;#34;&amp;#34;&amp;#34; pass Variables and Data Types # Python uses dynamic typing name = &amp;#34;Bob&amp;#34; # str age = 30 # int height = 1.75 # float is_student = True # bool numbers = [1, 2, 3] # list person = {&amp;#34;name&amp;#34;: &amp;#34;Alice&amp;#34;, &amp;#34;age&amp;#34;: 25} # dict unique_numbers = {1, 2, 3} # set coordinates = (x, y) # tuple Constants # Python doesn&amp;#39;t have built-in constant types # Convention: use uppercase for constants PI = 3.</description>
+    </item>
+    
+  </channel>
+</rss>
