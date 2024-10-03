@@ -21,37 +21,37 @@ A blogging website hosted on GitHub The Hugo PaperMod theme Menus to filter cont
     
     <item>
       <title>Dart Cheat Sheet</title>
-      <link>https://jtmuller5.github.io/posts/cheat-sheets/dart/</link>
+      <link>https://jtmuller5.github.io/crash-courses/cheat-sheets/dart/</link>
       <pubDate>Tue, 01 Oct 2024 08:44:33 -0400</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/cheat-sheets/dart/</guid>
+      <guid>https://jtmuller5.github.io/crash-courses/cheat-sheets/dart/</guid>
       <description>Dart Cheat Sheet 1. Basic Syntax Comments // Single-line comment /* Multi-line comment */ /// Documentation comment Variables and Data Types // Type inference var name = &amp;#39;Bob&amp;#39;; Object obj = &amp;#39;Bob&amp;#39;; dynamic dyn = &amp;#39;Bob&amp;#39;; // Explicit typing String name = &amp;#39;Bob&amp;#39;; int age = 30; double height = 1.75; bool isStudent = true; List&amp;lt;int&amp;gt; numbers = [1, 2, 3]; Map&amp;lt;String, int&amp;gt; scores = {&amp;#39;Bob&amp;#39;: 90, &amp;#39;Alice&amp;#39;: 95}; Constants const pi = 3.</description>
     </item>
     
     <item>
       <title>Golang Cheat Sheet</title>
-      <link>https://jtmuller5.github.io/posts/cheat-sheets/golang/</link>
+      <link>https://jtmuller5.github.io/crash-courses/cheat-sheets/golang/</link>
       <pubDate>Tue, 01 Oct 2024 08:43:45 -0400</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/cheat-sheets/golang/</guid>
+      <guid>https://jtmuller5.github.io/crash-courses/cheat-sheets/golang/</guid>
       <description>Golang Cheat Sheet 1. Basic Syntax Comments // Single-line comment /* Multi-line comment */ Variables and Data Types var x int = 5 y := 10 // Type inference // Basic types var ( a bool = true b int = 10 c float64 = 3.14 d string = &amp;#34;Hello&amp;#34; ) Constants const Pi = 3.14 const ( StatusOK = 200 StatusNotFound = 404 ) Operators // Arithmetic: +, -, *, /, %, ++, -- // Comparison: ==, !</description>
     </item>
     
     <item>
       <title>Python Cheat Sheet</title>
-      <link>https://jtmuller5.github.io/posts/cheat-sheets/python/</link>
+      <link>https://jtmuller5.github.io/crash-courses/cheat-sheets/python/</link>
       <pubDate>Tue, 01 Oct 2024 08:43:45 -0400</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/cheat-sheets/python/</guid>
+      <guid>https://jtmuller5.github.io/crash-courses/cheat-sheets/python/</guid>
       <description>Python Cheat Sheet 1. Basic Syntax Comments # Single-line comment &amp;#34;&amp;#34;&amp;#34; Multi-line comment &amp;#34;&amp;#34;&amp;#34; def function(): &amp;#34;&amp;#34;&amp;#34; Docstring: used for function/class/module documentation &amp;#34;&amp;#34;&amp;#34; pass Variables and Data Types # Python uses dynamic typing name = &amp;#34;Bob&amp;#34; # str age = 30 # int height = 1.75 # float is_student = True # bool numbers = [1, 2, 3] # list person = {&amp;#34;name&amp;#34;: &amp;#34;Alice&amp;#34;, &amp;#34;age&amp;#34;: 25} # dict unique_numbers = {1, 2, 3} # set coordinates = (x, y) # tuple Constants # Python doesn&amp;#39;t have built-in constant types # Convention: use uppercase for constants PI = 3.</description>
     </item>
     
     <item>
       <title>TypeScript Cheat Sheet</title>
-      <link>https://jtmuller5.github.io/posts/cheat-sheets/typescript/</link>
+      <link>https://jtmuller5.github.io/crash-courses/cheat-sheets/typescript/</link>
       <pubDate>Tue, 01 Oct 2024 08:43:45 -0400</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/cheat-sheets/typescript/</guid>
+      <guid>https://jtmuller5.github.io/crash-courses/cheat-sheets/typescript/</guid>
       <description>TypeScript Cheat Sheet 1. Basic Syntax Comments // Single-line comment /* Multi-line comment */ /** * Documentation comment */ Variables and Data Types // Type inference let name = &amp;#39;Bob&amp;#39;; let age = 30; // Explicit typing let name: string = &amp;#39;Bob&amp;#39;; let age: number = 30; let isStudent: boolean = true; let numbers: number[] = [1, 2, 3]; let tuple: [string, number] = [&amp;#39;hello&amp;#39;, 10]; let anyType: any = &amp;#39;anything&amp;#39;; Constants const PI: number = 3.</description>
     </item>
     
@@ -327,10 +327,10 @@ But if you’re interested in storing and retrieving larger files like images an
     
     <item>
       <title></title>
-      <link>https://jtmuller5.github.io/posts/cheat-sheets/template/</link>
+      <link>https://jtmuller5.github.io/crash-courses/cheat-sheets/template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/cheat-sheets/template/</guid>
+      <guid>https://jtmuller5.github.io/crash-courses/cheat-sheets/template/</guid>
       <description>[Language Name] Cheat Sheet 1. Basic Syntax Comments Variables and Data Types Constants Operators Type Casting 2. Control Structures Conditional Statements (if, else, switch) Loops (for, while, do-while) Break and Continue Statements 3. Functions Function Declaration and Definition Parameters and Return Values Anonymous Functions / Lambdas (if applicable) Scope and Closures 4. Data Structures Arrays/Lists Dictionaries/Hash Tables/Maps Sets (if applicable) Tuples (if applicable) 5. Object-Oriented Programming (if applicable) Classes and Objects Inheritance Encapsulation Polymorphism Interfaces/Abstract Classes 6.</description>
     </item>
     

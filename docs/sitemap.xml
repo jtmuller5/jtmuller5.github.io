@@ -14,16 +14,16 @@
     <loc>https://jtmuller5.github.io/categories/cheat-sheets/</loc>
     <lastmod>2024-10-01T08:44:33-04:00</lastmod>
   </url><url>
+    <loc>https://jtmuller5.github.io/crash-courses/</loc>
+    <lastmod>2024-10-01T08:44:33-04:00</lastmod>
+  </url><url>
     <loc>https://jtmuller5.github.io/tags/dart/</loc>
     <lastmod>2024-10-01T08:44:33-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/cheat-sheets/dart/</loc>
+    <loc>https://jtmuller5.github.io/crash-courses/cheat-sheets/dart/</loc>
     <lastmod>2024-10-01T08:44:33-04:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/</loc>
-    <lastmod>2024-10-01T08:44:33-04:00</lastmod>
-  </url><url>
-    <loc>https://jtmuller5.github.io/posts/</loc>
     <lastmod>2024-10-01T08:44:33-04:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/</loc>
@@ -35,19 +35,19 @@
     <loc>https://jtmuller5.github.io/tags/golang/</loc>
     <lastmod>2024-10-01T08:43:45-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/cheat-sheets/golang/</loc>
+    <loc>https://jtmuller5.github.io/crash-courses/cheat-sheets/golang/</loc>
     <lastmod>2024-10-01T08:43:45-04:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/python/</loc>
     <lastmod>2024-10-01T08:43:45-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/cheat-sheets/python/</loc>
+    <loc>https://jtmuller5.github.io/crash-courses/cheat-sheets/python/</loc>
     <lastmod>2024-10-01T08:43:45-04:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/typescript/</loc>
     <lastmod>2024-10-01T08:43:45-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/cheat-sheets/typescript/</loc>
+    <loc>https://jtmuller5.github.io/crash-courses/cheat-sheets/typescript/</loc>
     <lastmod>2024-10-01T08:43:45-04:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/api/</loc>
@@ -57,6 +57,9 @@
     <lastmod>2024-09-29T15:41:15-04:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/posts/express-api-vercel/</loc>
+    <lastmod>2024-09-29T15:41:15-04:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/</loc>
     <lastmod>2024-09-29T15:41:15-04:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/categories/tutorials/</loc>
@@ -221,7 +224,7 @@
     <loc>https://jtmuller5.github.io/posts/philosophy/thinking-thought/</loc>
     <lastmod>2019-09-20T08:34:41-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/cheat-sheets/template/</loc>
+    <loc>https://jtmuller5.github.io/crash-courses/cheat-sheets/template/</loc>
   </url><url>
     <loc>https://jtmuller5.github.io/posts/flutter/image_compression/image_compression/</loc>
   </url><url>
