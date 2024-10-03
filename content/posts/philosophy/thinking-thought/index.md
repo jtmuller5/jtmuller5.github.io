@@ -1,6 +1,6 @@
 ---
 title: "Thinking Thought"
-date: 2019-09-31T08:34:41-04:00
+date: 2019-09-20T08:34:41-04:00
 draft: false
 categories: ["essays"]
 tags: ["philosophy"]

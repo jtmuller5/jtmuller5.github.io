@@ -317,6 +317,15 @@ But if you’re interested in storing and retrieving larger files like images an
     </item>
     
     <item>
+      <title>Thinking Thought</title>
+      <link>https://jtmuller5.github.io/posts/philosophy/thinking-thought/</link>
+      <pubDate>Fri, 20 Sep 2019 08:34:41 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/philosophy/thinking-thought/</guid>
+      <description>Purpose is a logic driven concept, one that can only be grasped by an entity with the potential to understand nebulous abstractions like reason and meaning. In simple terms, purpose is the &amp;ldquo;why&amp;rdquo; behind the &amp;ldquo;what&amp;rdquo; and it deals with questions that exist outside the plane of physical material. Objects in and of themselves are not concerned with the &amp;ldquo;why&amp;rdquo;. A rock in the middle of the desert does not care, nor have the capacity to care, about why it is destined to bake in a spotlight of solar radiation until the sun burns out.</description>
+    </item>
+    
+    <item>
       <title></title>
       <link>https://jtmuller5.github.io/posts/cheat-sheets/template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -335,15 +344,6 @@ But if you’re interested in storing and retrieving larger files like images an
 For an app that deals heavily with uploading and downloading images from a server, file size can make or break the user experience. Large files will take longer to save, display, and manipulate, all of which will affect the app’s network performance. Depending on how image-heavy the application is, users may spend more time staring at loading screens than actually interacting with content.</description>
     </item>
     
-    
-    <item>
-      <title>Thinking Thought</title>
-      <link>https://jtmuller5.github.io/posts/philosophy/thinking-thought/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jtmuller5.github.io/posts/philosophy/thinking-thought/</guid>
-      <description>Purpose is a logic driven concept, one that can only be grasped by an entity with the potential to understand nebulous abstractions like reason and meaning. In simple terms, purpose is the &amp;ldquo;why&amp;rdquo; behind the &amp;ldquo;what&amp;rdquo; and it deals with questions that exist outside the plane of physical material. Objects in and of themselves are not concerned with the &amp;ldquo;why&amp;rdquo;. A rock in the middle of the desert does not care, nor have the capacity to care, about why it is destined to bake in a spotlight of solar radiation until the sun burns out.</description>
-    </item>
     
   </channel>
 </rss>
