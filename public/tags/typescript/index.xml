@@ -6,7 +6,16 @@
     <description>Recent content in Typescript on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Sep 2024 15:41:15 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Oct 2024 08:43:45 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TypeScript Cheat Sheet</title>
+      <link>http://localhost:1313/posts/cheat-sheets/typescript/</link>
+      <pubDate>Tue, 01 Oct 2024 08:43:45 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/cheat-sheets/typescript/</guid>
+      <description>TypeScript Cheat Sheet 1. Basic Syntax Comments // Single-line comment /* Multi-line comment */ /** * Documentation comment */ Variables and Data Types // Type inference let name = &amp;#39;Bob&amp;#39;; let age = 30; // Explicit typing let name: string = &amp;#39;Bob&amp;#39;; let age: number = 30; let isStudent: boolean = true; let numbers: number[] = [1, 2, 3]; let tuple: [string, number] = [&amp;#39;hello&amp;#39;, 10]; let anyType: any = &amp;#39;anything&amp;#39;; Constants const PI: number = 3.</description>
+    </item>
+    
     <item>
       <title>Express API Vercel</title>
       <link>http://localhost:1313/posts/express-api-vercel/</link>
@@ -36,7 +45,7 @@ Initialize Your Node.js Project: Navigate into your new directory and initialize
       <pubDate>Sun, 29 Sep 2024 15:29:05 -0400</pubDate>
       
       <guid>http://localhost:1313/posts/using-supabase-in-typescript/</guid>
-      <description>nstead of hardcoding Supabase interfaces or types in your TypeScript projects, you can use the Supabase CLI to generate types directly from your database tables. Make sure to add the output inside your src folder so the rest of your application can access it:
+      <description>Instead of hardcoding Supabase interfaces or types in your TypeScript projects, you can use the Supabase CLI to generate types directly from your database tables. Make sure to add the output inside your src folder so the rest of your application can access it:
 supabase gen types typescript --project-id abcdefghijklmnopqrst &amp;gt; src/types/database.types.ts This command will generate a .types.ts file that contains a single Database interface containing all of your tables and their columns.</description>
     </item>
     

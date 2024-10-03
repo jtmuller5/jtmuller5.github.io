@@ -5,10 +5,52 @@
     <loc>http://localhost:1313/posts/general/build_this_blog/build_this_blog/</loc>
     <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/api/</loc>
-    <lastmod>2024-09-29T15:41:15-04:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2024-10-01T08:44:33-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cheat-sheet/</loc>
+    <lastmod>2024-10-01T08:44:33-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/cheat-sheets/</loc>
+    <lastmod>2024-10-01T08:44:33-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/dart/</loc>
+    <lastmod>2024-10-01T08:44:33-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/cheat-sheets/dart/</loc>
+    <lastmod>2024-10-01T08:44:33-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-10-01T08:44:33-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-10-01T08:44:33-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-10-01T08:44:33-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/go/</loc>
+    <lastmod>2024-10-01T08:43:45-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/golang/</loc>
+    <lastmod>2024-10-01T08:43:45-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/cheat-sheets/golang/</loc>
+    <lastmod>2024-10-01T08:43:45-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/python/</loc>
+    <lastmod>2024-10-01T08:43:45-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/cheat-sheets/python/</loc>
+    <lastmod>2024-10-01T08:43:45-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/typescript/</loc>
+    <lastmod>2024-10-01T08:43:45-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/cheat-sheets/typescript/</loc>
+    <lastmod>2024-10-01T08:43:45-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/api/</loc>
     <lastmod>2024-09-29T15:41:15-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/express/</loc>
@@ -17,19 +59,7 @@
     <loc>http://localhost:1313/posts/express-api-vercel/</loc>
     <lastmod>2024-09-29T15:41:15-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-09-29T15:41:15-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-09-29T15:41:15-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-09-29T15:41:15-04:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/tutorials/</loc>
-    <lastmod>2024-09-29T15:41:15-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/typescript/</loc>
     <lastmod>2024-09-29T15:41:15-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/vercel/</loc>
@@ -68,7 +98,10 @@
     <loc>http://localhost:1313/tags/openai/</loc>
     <lastmod>2024-09-29T15:13:36-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/projects/crashify/</loc>
+    <loc>http://localhost:1313/projects/</loc>
+    <lastmod>2024-09-20T15:13:36-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/crashify/</loc>
     <lastmod>2024-09-20T15:13:36-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/project/</loc>
@@ -86,7 +119,7 @@
     <loc>http://localhost:1313/tags/tailwindcss/</loc>
     <lastmod>2024-09-20T15:13:36-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/projects/ai-cofounded/</loc>
+    <loc>http://localhost:1313/projects/ai-cofounded/</loc>
     <lastmod>2024-08-27T15:13:36-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/essays/</loc>
@@ -137,9 +170,6 @@
     <loc>http://localhost:1313/posts/flutter/continuous_animations/continuous_animations/</loc>
     <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/dart/</loc>
-    <lastmod>2022-09-17T16:26:21-04:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/flutter/displaying_videos/displaying_videos/</loc>
     <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
@@ -173,8 +203,27 @@
     <loc>http://localhost:1313/posts/flutter/cloud_storage_flutter/cloud_storage_flutter/</loc>
     <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/philosophy/</loc>
+    <lastmod>2019-09-30T08:37:43-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/philosophy/sanguine-me/</loc>
+    <lastmod>2019-09-30T08:37:43-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/philosophy/inifinite-horror/</loc>
+    <lastmod>2019-09-26T08:40:17-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/philosophy/its-been-done/</loc>
+    <lastmod>2019-09-26T08:37:43-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/philosophy/purpose-is-my-purpose/</loc>
+    <lastmod>2019-09-25T08:41:39-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/cheat-sheets/template/</loc>
+  </url><url>
     <loc>http://localhost:1313/posts/flutter/image_compression/image_compression/</loc>
   </url><url>
     <loc>http://localhost:1313/search/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/philosophy/thinking-thought/</loc>
   </url>
 </urlset>

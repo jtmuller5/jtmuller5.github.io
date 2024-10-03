@@ -6,7 +6,16 @@
     <description>Recent content in Dart on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Sep 2022 16:26:21 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/dart/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Oct 2024 08:44:33 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/dart/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dart Cheat Sheet</title>
+      <link>http://localhost:1313/posts/cheat-sheets/dart/</link>
+      <pubDate>Tue, 01 Oct 2024 08:44:33 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/cheat-sheets/dart/</guid>
+      <description>Dart Cheat Sheet 1. Basic Syntax Comments // Single-line comment /* Multi-line comment */ /// Documentation comment Variables and Data Types // Type inference var name = &amp;#39;Bob&amp;#39;; Object obj = &amp;#39;Bob&amp;#39;; dynamic dyn = &amp;#39;Bob&amp;#39;; // Explicit typing String name = &amp;#39;Bob&amp;#39;; int age = 30; double height = 1.75; bool isStudent = true; List&amp;lt;int&amp;gt; numbers = [1, 2, 3]; Map&amp;lt;String, int&amp;gt; scores = {&amp;#39;Bob&amp;#39;: 90, &amp;#39;Alice&amp;#39;: 95}; Constants const pi = 3.</description>
+    </item>
+    
     <item>
       <title>Enhanced Enums in Flutter 3</title>
       <link>http://localhost:1313/posts/flutter/enhanced_enums/enhanced_enums/</link>

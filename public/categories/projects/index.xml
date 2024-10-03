@@ -9,20 +9,20 @@
     <lastBuildDate>Fri, 20 Sep 2024 15:13:36 -0400</lastBuildDate><atom:link href="http://localhost:1313/categories/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Crashify AI</title>
-      <link>http://localhost:1313/posts/projects/crashify/</link>
+      <link>http://localhost:1313/projects/crashify/</link>
       <pubDate>Fri, 20 Sep 2024 15:13:36 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/projects/crashify/</guid>
-      <description>Crashify AI is a website that lets you generate 10-part crash courses.
+      <guid>http://localhost:1313/projects/crashify/</guid>
+      <description>Crashify AI is a website that lets you generate 10-part &amp;ldquo;../../posts/projects/crashify&amp;quot;crash courses.
 https://crashify.ai</description>
     </item>
     
     <item>
       <title>AI Co-Founded</title>
-      <link>http://localhost:1313/posts/projects/ai-cofounded/</link>
+      <link>http://localhost:1313/projects/ai-cofounded/</link>
       <pubDate>Tue, 27 Aug 2024 15:13:36 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/projects/ai-cofounded/</guid>
+      <guid>http://localhost:1313/projects/ai-cofounded/</guid>
       <description>AI Co-Founded is a website that helps you generate business plans.
 https://aicofounded.com</description>
     </item>

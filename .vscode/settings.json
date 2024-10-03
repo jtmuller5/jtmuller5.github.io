@@ -1,5 +1,19 @@
 {
   "files.exclude": {
     "**/.git": false
-  }
+  },
+  "clibbits.snippets": [
+    {
+      "name": "Create Hugo Post",
+      "snippet": "hugo new content/posts/name/index.md"
+    },
+    {
+      "name": "Build Hugo Site",
+      "snippet": "hugo -D -d docs"
+    },
+    {
+      "name": "Run Site",
+      "snippet": "hugo server"
+    }
+  ]
 }

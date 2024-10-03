@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Golang on Joe Muller&#39;s Blog</title>
+    <link>http://localhost:1313/tags/golang/</link>
+    <description>Recent content in Golang on Joe Muller&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Oct 2024 08:43:45 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Golang Cheat Sheet</title>
+      <link>http://localhost:1313/posts/cheat-sheets/golang/</link>
+      <pubDate>Tue, 01 Oct 2024 08:43:45 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/cheat-sheets/golang/</guid>
+      <description>Golang Cheat Sheet 1. Basic Syntax Comments // Single-line comment /* Multi-line comment */ Variables and Data Types var x int = 5 y := 10 // Type inference // Basic types var ( a bool = true b int = 10 c float64 = 3.14 d string = &amp;#34;Hello&amp;#34; ) Constants const Pi = 3.14 const ( StatusOK = 200 StatusNotFound = 404 ) Operators // Arithmetic: +, -, *, /, %, ++, -- // Comparison: ==, !</description>
+    </item>
+    
+  </channel>
+</rss>
