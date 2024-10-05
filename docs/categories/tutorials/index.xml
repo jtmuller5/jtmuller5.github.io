@@ -6,7 +6,7 @@
     <description>Recent content in Tutorials on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Sep 2024 15:41:15 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/categories/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Oct 2024 08:04:55 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/categories/tutorials/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Build this blog</title>
       <link>https://jtmuller5.github.io/posts/general/build_this_blog/build_this_blog/</link>
@@ -17,6 +17,15 @@
 There are a thousand blogging platforms that want your content, knowledge, and time. I say nay! In this article I&amp;rsquo;ll lay out all the steps you need to build this exact website and host your content on GitHub pages.
 What you&amp;rsquo;ll get:
 A blogging website hosted on GitHub The Hugo PaperMod theme Menus to filter content by categories and tags Full text search Tracking with Google Analytics Steps Create your Site Github allows individuals to create one free site per account.</description>
+    </item>
+    
+    <item>
+      <title>Creating a VS Code Chat Extension With Claude</title>
+      <link>https://jtmuller5.github.io/posts/creating-a-vs-code-chat-extension-with-claude/</link>
+      <pubDate>Sat, 05 Oct 2024 08:04:55 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/creating-a-vs-code-chat-extension-with-claude/</guid>
+      <description>Claude Sonnet is undeniably one of the best frontier models for programming and I still reach for it despite having GPT-4o and o1 inside my VS Code editor. To make it even smarter and more effective, I use the Projects feature (available on the pro plan) to manage all of the documentation and general context related to what I&amp;rsquo;m working on. By uploading text and files related to the technology I&amp;rsquo;m using, Claude becomes a genius in exactly what I want him to be a genius in.</description>
     </item>
     
     <item>
