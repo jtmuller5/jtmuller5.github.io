@@ -4,6 +4,7 @@ date: 2024-10-31T23:42:39-04:00
 draft: false
 categories: ["tutorials"]
 tags: ["perplexity", "microsoft-edge", "efficiency"]
+showToc: false
 ---
 
 ![Make Perplexity the default search engine in Microsoft Edge](image.png)
@@ -20,3 +21,4 @@ tags: ["perplexity", "microsoft-edge", "efficiency"]
 6. Click "Save"
 7. Click the three dots next to Perplexity and select "Make default"
 
+If you don't want to set Perplexity as your default search engine, you can still use it by typing "@ai" in the address bar followed by your search query.

@@ -13,7 +13,7 @@
       <pubDate>Thu, 31 Oct 2024 23:42:39 -0400</pubDate>
       
       <guid>https://jtmuller5.github.io/posts/make-perplexity-default-search-engine-on-microsoft-edge/</guid>
-      <description> Just the Steps Open settings Search for &amp;ldquo;address bar&amp;rdquo; (Privacy, search, and services -&amp;gt; Address bar and search) Select &amp;ldquo;Manage search engines&amp;rdquo; Select &amp;ldquo;Add&amp;rdquo; Fill in the fields with the following information: Search engine: Perplexity Shortcut: @ai URL with %s in place of query: https://perplexity.ai/search/new?q=%s Click &amp;ldquo;Save&amp;rdquo; Click the three dots next to Perplexity and select &amp;ldquo;Make default&amp;rdquo; </description>
+      <description>Just the Steps Open settings Search for &amp;ldquo;address bar&amp;rdquo; (Privacy, search, and services -&amp;gt; Address bar and search) Select &amp;ldquo;Manage search engines&amp;rdquo; Select &amp;ldquo;Add&amp;rdquo; Fill in the fields with the following information: Search engine: Perplexity Shortcut: @ai URL with %s in place of query: https://perplexity.ai/search/new?q=%s Click &amp;ldquo;Save&amp;rdquo; Click the three dots next to Perplexity and select &amp;ldquo;Make default&amp;rdquo; If you don&amp;rsquo;t want to set Perplexity as your default search engine, you can still use it by typing &amp;ldquo;@ai&amp;rdquo; in the address bar followed by your search query.</description>
     </item>
     
   </channel>
