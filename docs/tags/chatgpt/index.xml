@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Chatgpt on Joe Muller&#39;s Blog</title>
+    <link>https://jtmuller5.github.io/tags/chatgpt/</link>
+    <description>Recent content in Chatgpt on Joe Muller&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Nov 2024 00:08:49 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/chatgpt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Make SearchGPT Default Search Engine on Microsoft Edge</title>
+      <link>https://jtmuller5.github.io/posts/make-chat-gpt-default-search-engine-on-microsoft-edge/</link>
+      <pubDate>Fri, 01 Nov 2024 00:08:49 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/make-chat-gpt-default-search-engine-on-microsoft-edge/</guid>
+      <description>Just the Steps Open settings Search for &amp;ldquo;address bar&amp;rdquo; (Privacy, search, and services -&amp;gt; Address bar and search) Select &amp;ldquo;Manage search engines&amp;rdquo; Select &amp;ldquo;Add&amp;rdquo; Fill in the fields with the following information: Search engine: SearchGPT Shortcut: @ai URL with %s in place of query: https://chatgpt.com/?q=%s&amp;amp;hints=search Click &amp;ldquo;Save&amp;rdquo; Click the three dots next to SearchGPT and select &amp;ldquo;Make default&amp;rdquo; If you don&amp;rsquo;t want to set SearchGPT as your default search engine, you can still use it by typing &amp;ldquo;@ai&amp;rdquo; in the address bar followed by your search query.</description>
+    </item>
+    
+  </channel>
+</rss>
