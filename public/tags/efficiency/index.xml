@@ -6,7 +6,25 @@
     <description>Recent content in Efficiency on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Sep 2022 16:26:21 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/efficiency/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Nov 2024 00:08:49 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/efficiency/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Make SearchGPT Default Search Engine on Microsoft Edge</title>
+      <link>http://localhost:1313/posts/make-chat-gpt-default-search-engine-on-microsoft-edge/</link>
+      <pubDate>Fri, 01 Nov 2024 00:08:49 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/make-chat-gpt-default-search-engine-on-microsoft-edge/</guid>
+      <description>Just the Steps Open settings Search for &amp;ldquo;address bar&amp;rdquo; (Privacy, search, and services -&amp;gt; Address bar and search) Select &amp;ldquo;Manage search engines&amp;rdquo; Select &amp;ldquo;Add&amp;rdquo; Fill in the fields with the following information: Search engine: SearchGPT Shortcut: @ai URL with %s in place of query: https://chatgpt.com/?q=%s&amp;amp;hints=search Click &amp;ldquo;Save&amp;rdquo; Click the three dots next to SearchGPT and select &amp;ldquo;Make default&amp;rdquo; If you don&amp;rsquo;t want to set SearchGPT as your default search engine, you can still use it by typing &amp;ldquo;@ai&amp;rdquo; in the address bar followed by your search query.</description>
+    </item>
+    
+    <item>
+      <title>Make Perplexity Default Search Engine on Microsoft Edge</title>
+      <link>http://localhost:1313/posts/make-perplexity-default-search-engine-on-microsoft-edge/</link>
+      <pubDate>Thu, 31 Oct 2024 23:42:39 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/make-perplexity-default-search-engine-on-microsoft-edge/</guid>
+      <description>Just the Steps Open settings Search for &amp;ldquo;address bar&amp;rdquo; (Privacy, search, and services -&amp;gt; Address bar and search) Select &amp;ldquo;Manage search engines&amp;rdquo; Select &amp;ldquo;Add&amp;rdquo; Fill in the fields with the following information: Search engine: Perplexity Shortcut: @ai URL with %s in place of query: https://perplexity.ai/search/new?q=%s Click &amp;ldquo;Save&amp;rdquo; Click the three dots next to Perplexity and select &amp;ldquo;Make default&amp;rdquo; If you don&amp;rsquo;t want to set Perplexity as your default search engine, you can still use it by typing &amp;ldquo;@ai&amp;rdquo; in the address bar followed by your search query.</description>
+    </item>
+    
     <item>
       <title>Flutter Efficiently</title>
       <link>http://localhost:1313/posts/flutter/flutter_efficiently/flutter_efficiently/</link>

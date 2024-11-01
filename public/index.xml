@@ -6,7 +6,7 @@
     <description>Recent content on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Oct 2024 08:44:33 -0400</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Nov 2024 00:08:49 -0400</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Build this blog</title>
       <link>http://localhost:1313/posts/general/build_this_blog/build_this_blog/</link>
@@ -17,6 +17,85 @@
 There are a thousand blogging platforms that want your content, knowledge, and time. I say nay! In this article I&amp;rsquo;ll lay out all the steps you need to build this exact website and host your content on GitHub pages.
 What you&amp;rsquo;ll get:
 A blogging website hosted on GitHub The Hugo PaperMod theme Menus to filter content by categories and tags Full text search Tracking with Google Analytics Steps Create your Site Github allows individuals to create one free site per account.</description>
+    </item>
+    
+    <item>
+      <title>Make SearchGPT Default Search Engine on Microsoft Edge</title>
+      <link>http://localhost:1313/posts/make-chat-gpt-default-search-engine-on-microsoft-edge/</link>
+      <pubDate>Fri, 01 Nov 2024 00:08:49 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/make-chat-gpt-default-search-engine-on-microsoft-edge/</guid>
+      <description>Just the Steps Open settings Search for &amp;ldquo;address bar&amp;rdquo; (Privacy, search, and services -&amp;gt; Address bar and search) Select &amp;ldquo;Manage search engines&amp;rdquo; Select &amp;ldquo;Add&amp;rdquo; Fill in the fields with the following information: Search engine: SearchGPT Shortcut: @ai URL with %s in place of query: https://chatgpt.com/?q=%s&amp;amp;hints=search Click &amp;ldquo;Save&amp;rdquo; Click the three dots next to SearchGPT and select &amp;ldquo;Make default&amp;rdquo; If you don&amp;rsquo;t want to set SearchGPT as your default search engine, you can still use it by typing &amp;ldquo;@ai&amp;rdquo; in the address bar followed by your search query.</description>
+    </item>
+    
+    <item>
+      <title>Make Perplexity Default Search Engine on Microsoft Edge</title>
+      <link>http://localhost:1313/posts/make-perplexity-default-search-engine-on-microsoft-edge/</link>
+      <pubDate>Thu, 31 Oct 2024 23:42:39 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/make-perplexity-default-search-engine-on-microsoft-edge/</guid>
+      <description>Just the Steps Open settings Search for &amp;ldquo;address bar&amp;rdquo; (Privacy, search, and services -&amp;gt; Address bar and search) Select &amp;ldquo;Manage search engines&amp;rdquo; Select &amp;ldquo;Add&amp;rdquo; Fill in the fields with the following information: Search engine: Perplexity Shortcut: @ai URL with %s in place of query: https://perplexity.ai/search/new?q=%s Click &amp;ldquo;Save&amp;rdquo; Click the three dots next to Perplexity and select &amp;ldquo;Make default&amp;rdquo; If you don&amp;rsquo;t want to set Perplexity as your default search engine, you can still use it by typing &amp;ldquo;@ai&amp;rdquo; in the address bar followed by your search query.</description>
+    </item>
+    
+    <item>
+      <title>Flutter Pwa Setup</title>
+      <link>http://localhost:1313/posts/flutter/flutter-pwa-setup/</link>
+      <pubDate>Wed, 30 Oct 2024 14:32:14 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/flutter/flutter-pwa-setup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flutter Shaders vs Code Setup</title>
+      <link>http://localhost:1313/posts/flutter/flutter-shaders-vs-code-setup/</link>
+      <pubDate>Mon, 28 Oct 2024 10:18:40 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/flutter/flutter-shaders-vs-code-setup/</guid>
+      <description>This blog post will cover how to set up your VS Code environment for Flutter development with shaders.
+To start, install the glslc command line compiler from this link: https://github.com/google/shaderc?tab=readme-ov-file#downloads
+Save the glslangValidator executable to a location on your computer and note the path.
+Next, install the following two VS Code extensions:
+Shader languages support for VS Code Shaderc GLSL Linter ASI for GLSL In the GLSL Lint extension settings, set the path to the glslangValidator executable.</description>
+    </item>
+    
+    <item>
+      <title>My AI Has No Hands</title>
+      <link>http://localhost:1313/posts/my-ai-has-no-hands/</link>
+      <pubDate>Fri, 11 Oct 2024 08:17:27 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/my-ai-has-no-hands/</guid>
+      <description>Lying to my AI is the only way to get it to do what I need it to do.
+Function calls only seem to work with fetching-type functions. Look this up. Get the weather. Find my account.</description>
+    </item>
+    
+    <item>
+      <title>Understanding Repaint Boundary in Flutter</title>
+      <link>http://localhost:1313/posts/flutter/understanding-repaint-boundary-in-flutter/</link>
+      <pubDate>Sun, 06 Oct 2024 10:27:19 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/flutter/understanding-repaint-boundary-in-flutter/</guid>
+      <description>Resources https://docs.flutter.dev/resources/architectural-overview#rendering-and-layout https://www.youtube.com/watch?v=UUfXWzp0-DU https://medium.com/@pomis172/understanding-composited-layers-to-improve-the-performance-of-flutter-apps-7b91079b4dd1 </description>
+    </item>
+    
+    <item>
+      <title>Creating a VS Code Chat Extension With Claude</title>
+      <link>http://localhost:1313/posts/creating-a-vs-code-chat-extension-with-claude/</link>
+      <pubDate>Sat, 05 Oct 2024 08:04:55 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/creating-a-vs-code-chat-extension-with-claude/</guid>
+      <description>Claude Sonnet is undeniably one of the best frontier models for programming and I still reach for it despite having GPT-4o and o1 inside my VS Code editor. To make it even smarter and more effective, I use the Projects feature (available on the pro plan) to manage all of the documentation and general context related to what I&amp;rsquo;m working on. By uploading text and files related to the technology I&amp;rsquo;m using, Claude becomes a genius in exactly what I want him to be a genius in.</description>
+    </item>
+    
+    <item>
+      <title>Cleaning Up Your Flutter Mac</title>
+      <link>http://localhost:1313/posts/cleaning-up-your-flutter-mac/</link>
+      <pubDate>Fri, 04 Oct 2024 16:03:20 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/cleaning-up-your-flutter-mac/</guid>
+      <description>I&amp;rsquo;ve owned my Macbook Pro for a little over 2 years. Somewhere along the way, between starting a gazillion side projects, downloading half of pub.dev, and poorly managing my Xcode installation, I nearly maxed out my storage.
+This blog will document the multitude of ways I clawed back the gigabytes.
+Identifying the Problems Without knowing which folders on your machine are taking up the most space, its impossible to get started cleaning things up.</description>
     </item>
     
     <item>
@@ -108,6 +187,15 @@ The Basics For the simplest projects that don&amp;rsquo;t require environments, 
     </item>
     
     <item>
+      <title>Conversation Cost</title>
+      <link>http://localhost:1313/posts/conversation-cost/</link>
+      <pubDate>Sun, 29 Sep 2024 14:56:36 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/conversation-cost/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Crashify AI</title>
       <link>http://localhost:1313/projects/crashify/</link>
       <pubDate>Fri, 20 Sep 2024 15:13:36 -0400</pubDate>
@@ -128,6 +216,15 @@ https://aicofounded.com</description>
     </item>
     
     <item>
+      <title>Eternity</title>
+      <link>http://localhost:1313/posts/eternity/eternity/</link>
+      <pubDate>Sun, 25 Dec 2022 09:54:25 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/eternity/eternity/</guid>
+      <description>The biggest question we can ask is how does the universe work. It isn</description>
+    </item>
+    
+    <item>
       <title>Fly Safe</title>
       <link>http://localhost:1313/posts/fly-safe/fly-safe/</link>
       <pubDate>Sun, 20 Nov 2022 12:30:33 -0500</pubDate>
@@ -135,6 +232,54 @@ https://aicofounded.com</description>
       <guid>http://localhost:1313/posts/fly-safe/fly-safe/</guid>
       <description>Over the last 3 years I&amp;rsquo;ve spent countless hours learning and using Google&amp;rsquo;s cross-platform UI framework, Flutter. I&amp;rsquo;ve built over 20 hobby apps, worked for several small startups, and used Flutter professionally at two large healthcare companies. Flutter is amazing and it&amp;rsquo;s allowed me to build an early career in software development.
 The longer I use Flutter though, the more often I bump up against one of its major downsides - there&amp;rsquo;s no fast way to update broken code installed through the app stores.</description>
+    </item>
+    
+    <item>
+      <title>Flutter to React</title>
+      <link>http://localhost:1313/posts/flutter-to-react/flutter-to-react/</link>
+      <pubDate>Sun, 20 Nov 2022 09:46:44 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/flutter-to-react/flutter-to-react/</guid>
+      <description>Over the last 3 years I&amp;rsquo;ve spent countless hours learning and using Google&amp;rsquo;s cross-platform UI framework, Flutter. I&amp;rsquo;ve built a handful of hobby apps, worked for several small startups, and used Flutter professionally at two large healthcare companies. Flutter is amazing and it&amp;rsquo;s allowed me to build an early career in software development.
+The longer I use Flutter though, the more often I bump up against its downsides.
+When I first started building apps for myself and the 10 or so people that would find my app on the app stores, I didn&amp;rsquo;t think too much about things like hot-fixes or app review times.</description>
+    </item>
+    
+    <item>
+      <title>PWA Install</title>
+      <link>http://localhost:1313/posts/flutter/pwa_install/pwa_install/</link>
+      <pubDate>Sat, 05 Nov 2022 09:32:33 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/flutter/pwa_install/pwa_install/</guid>
+      <description>PWA is the Way Over the past month its become clear that Apple thinks it owns all apps on the App Store:
+Apple cracks down on NFT functionality, social post boosts with App Store rules Why Spotify is Really Mad at Apple Over &amp;lsquo;Unfair&amp;rsquo; Fees relate to Big New Feature Apple flexes its control over the App Store Whether your app sells audio books, social post boosts, or basically any other in-app commodity, Apple believes you owe it 30% for the privilege of using its platform.</description>
+    </item>
+    
+    <item>
+      <title>Careful_releases</title>
+      <link>http://localhost:1313/posts/general/careful_releases/careful_releases/</link>
+      <pubDate>Thu, 29 Sep 2022 09:11:33 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/general/careful_releases/careful_releases/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Impact Fanatics</title>
+      <link>http://localhost:1313/posts/ideas/impact_fanatics/impact_fanatics/</link>
+      <pubDate>Tue, 27 Sep 2022 18:03:38 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/ideas/impact_fanatics/impact_fanatics/</guid>
+      <description>Test meteor</description>
+    </item>
+    
+    <item>
+      <title>Flugo</title>
+      <link>http://localhost:1313/posts/flutter/flugo/flugo/</link>
+      <pubDate>Fri, 23 Sep 2022 14:20:47 -0700</pubDate>
+      
+      <guid>http://localhost:1313/posts/flutter/flugo/flugo/</guid>
+      <description>Flutter Web is notoriously &amp;ldquo;not the correct solution&amp;rdquo; for content-heavy web pages. All Flutter content is rendered on an HTML canvas making it impossible for web crawlers to properly index any web page built with Flutter. This limitation is a nightmare for marketing folks whose jobs rely on SEO and similarly, a threat to the future of the Flutter framework. If the framework can only be used for standalone apps disconnected from the world wide web, I can&amp;rsquo;t imagine a future where it beats out a sea of technologies built to coalesce with the internet&amp;rsquo;s native tech stack (eg.</description>
     </item>
     
     <item>
@@ -147,6 +292,15 @@ The longer I use Flutter though, the more often I bump up against one of its maj
 Without Managed Publishing:
 Develop a new feature Add your new build to Google Play&amp;rsquo;s Production track Submit the build for review App passes review App is automatically published to the masses With Managed Publishing:
 Develop a new feature Add your new build to Google Play&amp;rsquo;s Production track Submit the build for review App passes review [NEW] App is added to a list of &amp;ldquo;Changes ready to publish&amp;rdquo; [NEW] App can be manually published when you&amp;rsquo;re ready It&amp;rsquo;s undeniably an amazing feature offered by our Lord and Savior, Google, but like all things software, it&amp;rsquo;s not perfect.</description>
+    </item>
+    
+    <item>
+      <title>Read Slower</title>
+      <link>http://localhost:1313/posts/ideas/read_slower/read_slower/</link>
+      <pubDate>Mon, 19 Sep 2022 23:08:45 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/ideas/read_slower/read_slower/</guid>
+      <description></description>
     </item>
     
     <item>

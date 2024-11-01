@@ -6,7 +6,16 @@
     <description>Recent content in Categories on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Oct 2024 08:44:33 -0400</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Nov 2024 00:08:49 -0400</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tutorials</title>
+      <link>http://localhost:1313/categories/tutorials/</link>
+      <pubDate>Fri, 01 Nov 2024 00:08:49 -0400</pubDate>
+      
+      <guid>http://localhost:1313/categories/tutorials/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Cheat-Sheets</title>
       <link>http://localhost:1313/categories/cheat-sheets/</link>
@@ -17,11 +26,11 @@
     </item>
     
     <item>
-      <title>Tutorials</title>
-      <link>http://localhost:1313/categories/tutorials/</link>
-      <pubDate>Sun, 29 Sep 2024 15:41:15 -0400</pubDate>
+      <title>Essays</title>
+      <link>http://localhost:1313/categories/essays/</link>
+      <pubDate>Sun, 29 Sep 2024 14:56:36 -0400</pubDate>
       
-      <guid>http://localhost:1313/categories/tutorials/</guid>
+      <guid>http://localhost:1313/categories/essays/</guid>
       <description></description>
     </item>
     
@@ -31,15 +40,6 @@
       <pubDate>Fri, 20 Sep 2024 15:13:36 -0400</pubDate>
       
       <guid>http://localhost:1313/categories/projects/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Essays</title>
-      <link>http://localhost:1313/categories/essays/</link>
-      <pubDate>Sun, 20 Nov 2022 12:30:33 -0500</pubDate>
-      
-      <guid>http://localhost:1313/categories/essays/</guid>
       <description></description>
     </item>
     

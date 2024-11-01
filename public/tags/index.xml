@@ -6,7 +6,115 @@
     <description>Recent content in Tags on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Oct 2024 08:44:33 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Nov 2024 00:08:49 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chatgpt</title>
+      <link>http://localhost:1313/tags/chatgpt/</link>
+      <pubDate>Fri, 01 Nov 2024 00:08:49 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/chatgpt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficiency</title>
+      <link>http://localhost:1313/tags/efficiency/</link>
+      <pubDate>Fri, 01 Nov 2024 00:08:49 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/efficiency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Openai</title>
+      <link>http://localhost:1313/tags/openai/</link>
+      <pubDate>Fri, 01 Nov 2024 00:08:49 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/openai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microsoft-Edge</title>
+      <link>http://localhost:1313/tags/microsoft-edge/</link>
+      <pubDate>Thu, 31 Oct 2024 23:42:39 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/microsoft-edge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Perplexity</title>
+      <link>http://localhost:1313/tags/perplexity/</link>
+      <pubDate>Thu, 31 Oct 2024 23:42:39 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/perplexity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flutter</title>
+      <link>http://localhost:1313/tags/flutter/</link>
+      <pubDate>Wed, 30 Oct 2024 14:32:14 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/flutter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flutter-Web</title>
+      <link>http://localhost:1313/tags/flutter-web/</link>
+      <pubDate>Wed, 30 Oct 2024 14:32:14 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/flutter-web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pwa</title>
+      <link>http://localhost:1313/tags/pwa/</link>
+      <pubDate>Wed, 30 Oct 2024 14:32:14 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/pwa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shaders</title>
+      <link>http://localhost:1313/tags/shaders/</link>
+      <pubDate>Mon, 28 Oct 2024 10:18:40 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/shaders/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Claude</title>
+      <link>http://localhost:1313/tags/claude/</link>
+      <pubDate>Sat, 05 Oct 2024 08:04:55 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/claude/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vs-Code</title>
+      <link>http://localhost:1313/tags/vs-code/</link>
+      <pubDate>Sat, 05 Oct 2024 08:04:55 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/vs-code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vs-Code-Extensions</title>
+      <link>http://localhost:1313/tags/vs-code-extensions/</link>
+      <pubDate>Sat, 05 Oct 2024 08:04:55 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/vs-code-extensions/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Cheat-Sheet</title>
       <link>http://localhost:1313/tags/cheat-sheet/</link>
@@ -107,15 +215,6 @@
     </item>
     
     <item>
-      <title>Flutter</title>
-      <link>http://localhost:1313/tags/flutter/</link>
-      <pubDate>Sun, 29 Sep 2024 15:29:05 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/flutter/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Cicd</title>
       <link>http://localhost:1313/tags/cicd/</link>
       <pubDate>Sun, 29 Sep 2024 15:20:26 -0400</pubDate>
@@ -143,11 +242,11 @@
     </item>
     
     <item>
-      <title>Openai</title>
-      <link>http://localhost:1313/tags/openai/</link>
-      <pubDate>Sun, 29 Sep 2024 15:13:36 -0400</pubDate>
+      <title>Mobile</title>
+      <link>http://localhost:1313/tags/mobile/</link>
+      <pubDate>Sun, 29 Sep 2024 14:56:36 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/openai/</guid>
+      <guid>http://localhost:1313/tags/mobile/</guid>
       <description></description>
     </item>
     
@@ -184,24 +283,6 @@
       <pubDate>Fri, 20 Sep 2024 15:13:36 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/tailwindcss/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mobile</title>
-      <link>http://localhost:1313/tags/mobile/</link>
-      <pubDate>Sun, 20 Nov 2022 12:30:33 -0500</pubDate>
-      
-      <guid>http://localhost:1313/tags/mobile/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pwa</title>
-      <link>http://localhost:1313/tags/pwa/</link>
-      <pubDate>Sun, 20 Nov 2022 12:30:33 -0500</pubDate>
-      
-      <guid>http://localhost:1313/tags/pwa/</guid>
       <description></description>
     </item>
     
@@ -256,15 +337,6 @@
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/blogging/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Efficiency</title>
-      <link>http://localhost:1313/tags/efficiency/</link>
-      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/efficiency/</guid>
       <description></description>
     </item>
     

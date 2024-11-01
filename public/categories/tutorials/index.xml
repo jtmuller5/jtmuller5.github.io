@@ -6,7 +6,7 @@
     <description>Recent content in Tutorials on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Sep 2024 15:41:15 -0400</lastBuildDate><atom:link href="http://localhost:1313/categories/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Nov 2024 00:08:49 -0400</lastBuildDate><atom:link href="http://localhost:1313/categories/tutorials/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Build this blog</title>
       <link>http://localhost:1313/posts/general/build_this_blog/build_this_blog/</link>
@@ -17,6 +17,64 @@
 There are a thousand blogging platforms that want your content, knowledge, and time. I say nay! In this article I&amp;rsquo;ll lay out all the steps you need to build this exact website and host your content on GitHub pages.
 What you&amp;rsquo;ll get:
 A blogging website hosted on GitHub The Hugo PaperMod theme Menus to filter content by categories and tags Full text search Tracking with Google Analytics Steps Create your Site Github allows individuals to create one free site per account.</description>
+    </item>
+    
+    <item>
+      <title>Make SearchGPT Default Search Engine on Microsoft Edge</title>
+      <link>http://localhost:1313/posts/make-chat-gpt-default-search-engine-on-microsoft-edge/</link>
+      <pubDate>Fri, 01 Nov 2024 00:08:49 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/make-chat-gpt-default-search-engine-on-microsoft-edge/</guid>
+      <description>Just the Steps Open settings Search for &amp;ldquo;address bar&amp;rdquo; (Privacy, search, and services -&amp;gt; Address bar and search) Select &amp;ldquo;Manage search engines&amp;rdquo; Select &amp;ldquo;Add&amp;rdquo; Fill in the fields with the following information: Search engine: SearchGPT Shortcut: @ai URL with %s in place of query: https://chatgpt.com/?q=%s&amp;amp;hints=search Click &amp;ldquo;Save&amp;rdquo; Click the three dots next to SearchGPT and select &amp;ldquo;Make default&amp;rdquo; If you don&amp;rsquo;t want to set SearchGPT as your default search engine, you can still use it by typing &amp;ldquo;@ai&amp;rdquo; in the address bar followed by your search query.</description>
+    </item>
+    
+    <item>
+      <title>Make Perplexity Default Search Engine on Microsoft Edge</title>
+      <link>http://localhost:1313/posts/make-perplexity-default-search-engine-on-microsoft-edge/</link>
+      <pubDate>Thu, 31 Oct 2024 23:42:39 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/make-perplexity-default-search-engine-on-microsoft-edge/</guid>
+      <description>Just the Steps Open settings Search for &amp;ldquo;address bar&amp;rdquo; (Privacy, search, and services -&amp;gt; Address bar and search) Select &amp;ldquo;Manage search engines&amp;rdquo; Select &amp;ldquo;Add&amp;rdquo; Fill in the fields with the following information: Search engine: Perplexity Shortcut: @ai URL with %s in place of query: https://perplexity.ai/search/new?q=%s Click &amp;ldquo;Save&amp;rdquo; Click the three dots next to Perplexity and select &amp;ldquo;Make default&amp;rdquo; If you don&amp;rsquo;t want to set Perplexity as your default search engine, you can still use it by typing &amp;ldquo;@ai&amp;rdquo; in the address bar followed by your search query.</description>
+    </item>
+    
+    <item>
+      <title>Flutter Pwa Setup</title>
+      <link>http://localhost:1313/posts/flutter/flutter-pwa-setup/</link>
+      <pubDate>Wed, 30 Oct 2024 14:32:14 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/flutter/flutter-pwa-setup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flutter Shaders vs Code Setup</title>
+      <link>http://localhost:1313/posts/flutter/flutter-shaders-vs-code-setup/</link>
+      <pubDate>Mon, 28 Oct 2024 10:18:40 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/flutter/flutter-shaders-vs-code-setup/</guid>
+      <description>This blog post will cover how to set up your VS Code environment for Flutter development with shaders.
+To start, install the glslc command line compiler from this link: https://github.com/google/shaderc?tab=readme-ov-file#downloads
+Save the glslangValidator executable to a location on your computer and note the path.
+Next, install the following two VS Code extensions:
+Shader languages support for VS Code Shaderc GLSL Linter ASI for GLSL In the GLSL Lint extension settings, set the path to the glslangValidator executable.</description>
+    </item>
+    
+    <item>
+      <title>Understanding Repaint Boundary in Flutter</title>
+      <link>http://localhost:1313/posts/flutter/understanding-repaint-boundary-in-flutter/</link>
+      <pubDate>Sun, 06 Oct 2024 10:27:19 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/flutter/understanding-repaint-boundary-in-flutter/</guid>
+      <description>Resources https://docs.flutter.dev/resources/architectural-overview#rendering-and-layout https://www.youtube.com/watch?v=UUfXWzp0-DU https://medium.com/@pomis172/understanding-composited-layers-to-improve-the-performance-of-flutter-apps-7b91079b4dd1 </description>
+    </item>
+    
+    <item>
+      <title>Creating a VS Code Chat Extension With Claude</title>
+      <link>http://localhost:1313/posts/creating-a-vs-code-chat-extension-with-claude/</link>
+      <pubDate>Sat, 05 Oct 2024 08:04:55 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/creating-a-vs-code-chat-extension-with-claude/</guid>
+      <description>Claude Sonnet is undeniably one of the best frontier models for programming and I still reach for it despite having GPT-4o and o1 inside my VS Code editor. To make it even smarter and more effective, I use the Projects feature (available on the pro plan) to manage all of the documentation and general context related to what I&amp;rsquo;m working on. By uploading text and files related to the technology I&amp;rsquo;m using, Claude becomes a genius in exactly what I want him to be a genius in.</description>
     </item>
     
     <item>
@@ -69,6 +127,16 @@ The Basics For the simplest projects that don&amp;rsquo;t require environments, 
       
       <guid>http://localhost:1313/posts/generating-images-with-dalle/</guid>
       <description>I&amp;rsquo;ve recently been working on an app with my wife called &amp;ldquo;Abi&amp;rsquo;s Recipes&amp;rdquo;. The app, designed for mobile and TV, aims to be the Netflix of recipes, with a focus on beautiful images and a simple interface. We wanted to generate images for the recipes that we don&amp;rsquo;t have photos for, and we wanted to do it in a way that was fun and creative. That&amp;rsquo;s where DALL-E comes in.</description>
+    </item>
+    
+    <item>
+      <title>PWA Install</title>
+      <link>http://localhost:1313/posts/flutter/pwa_install/pwa_install/</link>
+      <pubDate>Sat, 05 Nov 2022 09:32:33 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/flutter/pwa_install/pwa_install/</guid>
+      <description>PWA is the Way Over the past month its become clear that Apple thinks it owns all apps on the App Store:
+Apple cracks down on NFT functionality, social post boosts with App Store rules Why Spotify is Really Mad at Apple Over &amp;lsquo;Unfair&amp;rsquo; Fees relate to Big New Feature Apple flexes its control over the App Store Whether your app sells audio books, social post boosts, or basically any other in-app commodity, Apple believes you owe it 30% for the privilege of using its platform.</description>
     </item>
     
     <item>
