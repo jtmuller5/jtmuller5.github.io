@@ -3,7 +3,7 @@ title: "Make Perplexity Default Search Engine on Microsoft Edge"
 date: 2024-10-31T23:42:39-04:00
 draft: false
 categories: ["tutorials"]
-tags: ["perplexity", "microsoft-edge", "efficiency"]
+tags: ["perplexity", "microsoft-edge", "efficiency", "jts"]
 showToc: false
 ---
 

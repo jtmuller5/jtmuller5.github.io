@@ -3,7 +3,7 @@ title: "Make SearchGPT Default Search Engine on Microsoft Edge"
 date: 2024-11-01T00:08:49-04:00
 draft: false
 categories: ["tutorials"]
-tags: ["chatgpt", "openai", "efficiency"]
+tags: ["chatgpt", "openai", "efficiency","jts"]
 showToc: false
 ---
 

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Jts on Joe Muller&#39;s Blog</title>
+    <link>https://jtmuller5.github.io/tags/jts/</link>
+    <description>Recent content in Jts on Joe Muller&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 Nov 2024 15:33:39 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/jts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Create and Publish a Flutter Package</title>
+      <link>https://jtmuller5.github.io/posts/flutter/how-to-create-and-publish-a-flutter-package/</link>
+      <pubDate>Sun, 03 Nov 2024 15:33:39 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/flutter/how-to-create-and-publish-a-flutter-package/</guid>
+      <description>Just The Steps In the terminal, run the following command flutter create --template=package my_package Make your changes in the lib directory Update the pubspec.yaml file with your package information. Here&amp;rsquo;s an example: name: my_package description: A new Flutter package version: 0.0.1 homepage: https://example.com repository: type: git url: https://github.com/me/example Create an example directory with a sample Flutter app that demonstrates how to use your package flutter create example --empty Inside the pubspec.</description>
+    </item>
+    
+    <item>
+      <title>Make SearchGPT Default Search Engine on Microsoft Edge</title>
+      <link>https://jtmuller5.github.io/posts/make-chat-gpt-default-search-engine-on-microsoft-edge/</link>
+      <pubDate>Fri, 01 Nov 2024 00:08:49 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/make-chat-gpt-default-search-engine-on-microsoft-edge/</guid>
+      <description>Just the Steps Open settings Search for &amp;ldquo;address bar&amp;rdquo; (Privacy, search, and services -&amp;gt; Address bar and search) Select &amp;ldquo;Manage search engines&amp;rdquo; Select &amp;ldquo;Add&amp;rdquo; Fill in the fields with the following information: Search engine: SearchGPT Shortcut: @ai URL with %s in place of query: https://chatgpt.com/?q=%s&amp;amp;hints=search Click &amp;ldquo;Save&amp;rdquo; Click the three dots next to SearchGPT and select &amp;ldquo;Make default&amp;rdquo; If you don&amp;rsquo;t want to set SearchGPT as your default search engine, you can still use it by typing &amp;ldquo;@ai&amp;rdquo; in the address bar followed by your search query.</description>
+    </item>
+    
+    <item>
+      <title>Make Perplexity Default Search Engine on Microsoft Edge</title>
+      <link>https://jtmuller5.github.io/posts/make-perplexity-default-search-engine-on-microsoft-edge/</link>
+      <pubDate>Thu, 31 Oct 2024 23:42:39 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/make-perplexity-default-search-engine-on-microsoft-edge/</guid>
+      <description>Just the Steps Open settings Search for &amp;ldquo;address bar&amp;rdquo; (Privacy, search, and services -&amp;gt; Address bar and search) Select &amp;ldquo;Manage search engines&amp;rdquo; Select &amp;ldquo;Add&amp;rdquo; Fill in the fields with the following information: Search engine: Perplexity Shortcut: @ai URL with %s in place of query: https://perplexity.ai/search/new?q=%s Click &amp;ldquo;Save&amp;rdquo; Click the three dots next to Perplexity and select &amp;ldquo;Make default&amp;rdquo; If you don&amp;rsquo;t want to set Perplexity as your default search engine, you can still use it by typing &amp;ldquo;@ai&amp;rdquo; in the address bar followed by your search query.</description>
+    </item>
+    
+  </channel>
+</rss>

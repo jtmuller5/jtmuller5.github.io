@@ -6,7 +6,7 @@
     <description>Recent content in Posts on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Nov 2024 00:08:49 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Nov 2024 08:23:22 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Build this blog</title>
       <link>https://jtmuller5.github.io/posts/general/build_this_blog/build_this_blog/</link>
@@ -17,6 +17,15 @@
 There are a thousand blogging platforms that want your content, knowledge, and time. I say nay! In this article I&amp;rsquo;ll lay out all the steps you need to build this exact website and host your content on GitHub pages.
 What you&amp;rsquo;ll get:
 A blogging website hosted on GitHub The Hugo PaperMod theme Menus to filter content by categories and tags Full text search Tracking with Google Analytics Steps Create your Site Github allows individuals to create one free site per account.</description>
+    </item>
+    
+    <item>
+      <title>How to Create and Publish a Flutter Package</title>
+      <link>https://jtmuller5.github.io/posts/flutter/how-to-create-and-publish-a-flutter-package/</link>
+      <pubDate>Sun, 03 Nov 2024 15:33:39 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/flutter/how-to-create-and-publish-a-flutter-package/</guid>
+      <description>Just The Steps In the terminal, run the following command flutter create --template=package my_package Make your changes in the lib directory Update the pubspec.yaml file with your package information. Here&amp;rsquo;s an example: name: my_package description: A new Flutter package version: 0.0.1 homepage: https://example.com repository: type: git url: https://github.com/me/example Create an example directory with a sample Flutter app that demonstrates how to use your package flutter create example --empty Inside the pubspec.</description>
     </item>
     
     <item>

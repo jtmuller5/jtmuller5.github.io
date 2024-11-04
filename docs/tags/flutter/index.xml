@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Flutter on Joe Muller&#39;s Blog</title>
+    <title>Flutter&#34; on Joe Muller&#39;s Blog</title>
     <link>https://jtmuller5.github.io/tags/flutter/</link>
-    <description>Recent content in Flutter on Joe Muller&#39;s Blog</description>
+    <description>Recent content in Flutter&#34; on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Sep 2024 15:29:05 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/flutter/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Nov 2024 15:33:39 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/flutter/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Using Supabase in Typescript</title>
-      <link>https://jtmuller5.github.io/posts/using-supabase-in-typescript/</link>
-      <pubDate>Sun, 29 Sep 2024 15:29:05 -0400</pubDate>
+      <title>How to Create and Publish a Flutter Package</title>
+      <link>https://jtmuller5.github.io/posts/flutter/how-to-create-and-publish-a-flutter-package/</link>
+      <pubDate>Sun, 03 Nov 2024 15:33:39 -0500</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/using-supabase-in-typescript/</guid>
-      <description>Instead of hardcoding Supabase interfaces or types in your TypeScript projects, you can use the Supabase CLI to generate types directly from your database tables. Make sure to add the output inside your src folder so the rest of your application can access it:
-supabase gen types typescript --project-id abcdefghijklmnopqrst &amp;gt; src/types/database.types.ts This command will generate a .types.ts file that contains a single Database interface containing all of your tables and their columns.</description>
+      <guid>https://jtmuller5.github.io/posts/flutter/how-to-create-and-publish-a-flutter-package/</guid>
+      <description>Just The Steps In the terminal, run the following command flutter create --template=package my_package Make your changes in the lib directory Update the pubspec.yaml file with your package information. Here&amp;rsquo;s an example: name: my_package description: A new Flutter package version: 0.0.1 homepage: https://example.com repository: type: git url: https://github.com/me/example Create an example directory with a sample Flutter app that demonstrates how to use your package flutter create example --empty Inside the pubspec.</description>
     </item>
     
-    <item>
-      <title>Flutter to Firebase Hosting Github Workflow</title>
-      <link>https://jtmuller5.github.io/posts/flutter/flutter-to-firebase-hosting-github-workflow/</link>
+  </channel>
+</rss>
+ter/flutter-to-firebase-hosting-github-workflow/</link>
       <pubDate>Sun, 29 Sep 2024 15:20:26 -0400</pubDate>
       
       <guid>https://jtmuller5.github.io/posts/flutter/flutter-to-firebase-hosting-github-workflow/</guid>
