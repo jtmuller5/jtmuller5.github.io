@@ -3,7 +3,7 @@ title: "How to Create and Publish a Flutter Package"
 date: 2024-11-03T15:33:39-05:00
 draft: false
 categories: ["tutorials"]
-tags: [flutter","jts"]
+tags: ["flutter","jts"]
 ---
 
 ## Just The Steps

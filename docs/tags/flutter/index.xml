@@ -6,7 +6,16 @@
     <description>Recent content in Flutter on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Sep 2024 15:29:05 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/flutter/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Nov 2024 15:33:39 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/flutter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Create and Publish a Flutter Package</title>
+      <link>https://jtmuller5.github.io/posts/flutter/how-to-create-and-publish-a-flutter-package/</link>
+      <pubDate>Sun, 03 Nov 2024 15:33:39 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/flutter/how-to-create-and-publish-a-flutter-package/</guid>
+      <description>Just The Steps In the terminal, run the following command flutter create --template=package my_package Make your changes in the lib directory Update the pubspec.yaml file with your package information. Here&amp;rsquo;s an example: name: my_package description: A new Flutter package version: 0.0.1 homepage: https://example.com repository: type: git url: https://github.com/me/example Create an example directory with a sample Flutter app that demonstrates how to use your package flutter create example --empty Inside the pubspec.</description>
+    </item>
+    
     <item>
       <title>Using Supabase in Typescript</title>
       <link>https://jtmuller5.github.io/posts/using-supabase-in-typescript/</link>

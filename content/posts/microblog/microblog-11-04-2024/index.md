@@ -1,5 +1,5 @@
 ---
-title: "Microblog 11 04 2024"
+title: "11-04-2024"
 date: 2024-11-04T08:23:22-05:00
 draft: false
 categories: ["microblog"]
