@@ -6,7 +6,25 @@
     <description>Recent content in Tags on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Nov 2024 15:33:39 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Nov 2024 08:23:22 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ai</title>
+      <link>https://jtmuller5.github.io/tags/ai/</link>
+      <pubDate>Mon, 04 Nov 2024 08:23:22 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Philosophy</title>
+      <link>https://jtmuller5.github.io/tags/philosophy/</link>
+      <pubDate>Mon, 04 Nov 2024 08:23:22 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/tags/philosophy/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Flutter&#34;</title>
       <link>https://jtmuller5.github.io/tags/flutter/</link>
@@ -296,15 +314,6 @@
     </item>
     
     <item>
-      <title>Ai</title>
-      <link>https://jtmuller5.github.io/tags/ai/</link>
-      <pubDate>Mon, 19 Sep 2022 21:21:28 -0400</pubDate>
-      
-      <guid>https://jtmuller5.github.io/tags/ai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Keras</title>
       <link>https://jtmuller5.github.io/tags/keras/</link>
       <pubDate>Mon, 19 Sep 2022 21:21:28 -0400</pubDate>
@@ -355,15 +364,6 @@
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
       <guid>https://jtmuller5.github.io/tags/self-hosted/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Philosophy</title>
-      <link>https://jtmuller5.github.io/tags/philosophy/</link>
-      <pubDate>Mon, 30 Sep 2019 08:37:43 -0400</pubDate>
-      
-      <guid>https://jtmuller5.github.io/tags/philosophy/</guid>
       <description></description>
     </item>
     

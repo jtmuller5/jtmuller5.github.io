@@ -1,7 +1,7 @@
 ---
 title: "Microblog 11 04 2024"
 date: 2024-11-04T08:23:22-05:00
-draft: true
+draft: false
 categories: ["microblog"]
 tags: ["ai", "philosophy"]
 ---
