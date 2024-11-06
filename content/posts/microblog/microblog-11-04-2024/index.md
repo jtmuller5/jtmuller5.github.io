@@ -10,7 +10,7 @@ tags: ["ai", "philosophy"]
 
 ## The Conversation Cost
 
-AI copilots make you fast until they don't. There is a very real "conversation cost" that accrues as you use AI tools and its best illustrated with an example.
+AI copilots make you fast until they don't. There is a very real "conversation cost" that materializes as you use AI tools and it's best illustrated with an example.
  
 Say you want to create a two-sided marketplace for recruiters and job seekers. Standing in the middle of the greenfield, you can erect what appear to be finished structures in an incredibly short amount of time with AI. A landing page, authentication middleware, dashboards, database interfaces. The outline of the project is fast to assemble because the brush of the AI copilot is wide. 
 
@@ -25,5 +25,3 @@ First, we could abbreviate things; package requests up in pre-configured prompts
 A more original idea - we could map vocabulary words to complex operations. There is a wealth of shakespearean and non words in the English language that are rarely used but would be perfect for optimizing the input-to-output ratios of working with AI copilots. For example, maybe we could map the word "spry" to the modifier "with try catch blocks and documentation". Give me a spry function to make this POST request. That sounds fun and its endlessly customizable. I can imagine a world where developers are building apps with flowery language that sounds almost dulcet to an outside observer. This language would be called PoemScript.
 
 Finally, we might evolve in our coding practice to a point where character-by-character communication with the computer and AI assistant is a sluggish artifact of the past. What's faster? Speaking, of course, but that's boring. Art. That's more interesting. Perhaps we can evade the conversation cost of working with AI by evading the conversation altogether. Rather than have a back and forth with a program to build a program, we can transform our interactions into a unidirectional creative process. I'm writing in vagueities but it's because I don't know exactly what art as code would look like. Maybe we learn to draw ontological diagrams that are insta-translated into code. Or perhaps we return to the quill and our superintelligent systems know how to convert stroke widths, colors, and visual patterns into JavaScript. The integrated development environment could become the integrated _drawing_ environment and every picture and painting could be compiled, like the images on the walls of the castle in Super Mario 64. Beautiful.
-
----

@@ -6,14 +6,24 @@
     <description>Recent content in Ai on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Nov 2024 08:23:22 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Nov 2024 08:23:22 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>11-05-2024</title>
+      <link>https://jtmuller5.github.io/posts/microblog/microblog-11-05-2024/</link>
+      <pubDate>Tue, 05 Nov 2024 08:23:22 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/microblog/microblog-11-05-2024/</guid>
+      <description>November 5, 2024 Building an AI Chatbot with xAI xAI just released their API and through the end of the year you can get $25 in credits each month. I took it for a quick spin and set up a chatbot using NextJS and Deepgram.
+The first step was to create an xAI account and generate an API key: Then, spin up a quick NextJS web page that uses the AI SDK.</description>
+    </item>
+    
     <item>
       <title>11-04-2024</title>
       <link>https://jtmuller5.github.io/posts/microblog/microblog-11-04-2024/</link>
       <pubDate>Mon, 04 Nov 2024 08:23:22 -0500</pubDate>
       
       <guid>https://jtmuller5.github.io/posts/microblog/microblog-11-04-2024/</guid>
-      <description>November 4, 2024 The Conversation Cost AI copilots make you fast until they don&amp;rsquo;t. There is a very real &amp;ldquo;conversation cost&amp;rdquo; that accrues as you use AI tools and its best illustrated with an example.
+      <description>November 4, 2024 The Conversation Cost AI copilots make you fast until they don&amp;rsquo;t. There is a very real &amp;ldquo;conversation cost&amp;rdquo; that materializes as you use AI tools and it&amp;rsquo;s best illustrated with an example.
 Say you want to create a two-sided marketplace for recruiters and job seekers. Standing in the middle of the greenfield, you can erect what appear to be finished structures in an incredibly short amount of time with AI.</description>
     </item>
     
