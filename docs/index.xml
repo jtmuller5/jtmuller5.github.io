@@ -6,7 +6,7 @@
     <description>Recent content on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Nov 2024 08:23:22 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Nov 2024 08:23:22 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Build this blog</title>
       <link>https://jtmuller5.github.io/posts/general/build_this_blog/build_this_blog/</link>
@@ -17,6 +17,42 @@
 There are a thousand blogging platforms that want your content, knowledge, and time. I say nay! In this article I&amp;rsquo;ll lay out all the steps you need to build this exact website and host your content on GitHub pages.
 What you&amp;rsquo;ll get:
 A blogging website hosted on GitHub The Hugo PaperMod theme Menus to filter content by categories and tags Full text search Tracking with Google Analytics Steps Create your Site Github allows individuals to create one free site per account.</description>
+    </item>
+    
+    <item>
+      <title>11-11-2024</title>
+      <link>https://jtmuller5.github.io/posts/microblog/microblog-11-11-2024/</link>
+      <pubDate>Mon, 11 Nov 2024 08:23:22 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/microblog/microblog-11-11-2024/</guid>
+      <description>November 11, 2024 Training the AI I&amp;rsquo;ve been working on an AI receptionist recently and this must be what its like to build a frankenstein from the pieces lying around your workshop. The final result feels eerily human but noticeably artificial. I understand almost entirely how it works and that&amp;rsquo;s the oddity that demarcates the thing as non-human. I can&amp;rsquo;t predict what a human will do with 80% accuracy, nor will a human follow my script to a T.</description>
+    </item>
+    
+    <item>
+      <title>11-07-2024</title>
+      <link>https://jtmuller5.github.io/posts/microblog/microblog-11-07-2024/</link>
+      <pubDate>Sat, 09 Nov 2024 08:23:22 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/microblog/microblog-11-07-2024/</guid>
+      <description>November 7, 2024 A New Language Working with AI is like blending your brain on high. You can work on multiple projects back-to-back-to-back with moderate efficiency and that&amp;rsquo;s amazing and tiresome at the same time. AI has made me want to build more and so I start a new project every time the opportunity presents itself. My creative mind has become increasingly fractal, spiraling outward in every direction, and to keep up with my plans my brain needs to stay focused for longer.</description>
+    </item>
+    
+    <item>
+      <title>11-09-2024</title>
+      <link>https://jtmuller5.github.io/posts/microblog/microblog-11-09-2024/</link>
+      <pubDate>Sat, 09 Nov 2024 08:23:22 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/microblog/microblog-11-09-2024/</guid>
+      <description>November 9, 2024 Microblogging Made Easy Microblogging is easy, especially compared to macroblogging, but sometimes easy isn&amp;rsquo;t enough. We want effortless. I had an idea today to create an application that you could send thoughts and links to throughout the day and it would create a daily microblog post based on the content. With LLMs, I imagine this would be hardly more difficult than forming a juicy prompt and piping messages into it.</description>
+    </item>
+    
+    <item>
+      <title>11-06-2024</title>
+      <link>https://jtmuller5.github.io/posts/microblog/microblog-11-06-2024/</link>
+      <pubDate>Wed, 06 Nov 2024 08:23:22 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/microblog/microblog-11-06-2024/</guid>
+      <description>November 6, 2024 Towards Something The more I work as a developer, the more it becomes clear that I could spend my entire life struggling with the details. Every day there are new tools, frameworks, and patterns to learn. Tools you mastered change. The language syntaxes you burned into your connectome aren&amp;rsquo;t resilient to the turn of the clock hand. If I were an electrician, I could spend a lifetime pinching at the wires with solder-coated fingers.</description>
     </item>
     
     <item>

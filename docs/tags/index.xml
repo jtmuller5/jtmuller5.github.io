@@ -6,13 +6,40 @@
     <description>Recent content in Tags on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Nov 2024 08:23:22 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Nov 2024 08:23:22 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ai</title>
       <link>https://jtmuller5.github.io/tags/ai/</link>
-      <pubDate>Tue, 05 Nov 2024 08:23:22 -0500</pubDate>
+      <pubDate>Mon, 11 Nov 2024 08:23:22 -0500</pubDate>
       
       <guid>https://jtmuller5.github.io/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deepgram</title>
+      <link>https://jtmuller5.github.io/tags/deepgram/</link>
+      <pubDate>Sat, 09 Nov 2024 08:23:22 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/tags/deepgram/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elevenlabs</title>
+      <link>https://jtmuller5.github.io/tags/elevenlabs/</link>
+      <pubDate>Sat, 09 Nov 2024 08:23:22 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/tags/elevenlabs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vercel</title>
+      <link>https://jtmuller5.github.io/tags/vercel/</link>
+      <pubDate>Wed, 06 Nov 2024 08:23:22 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/tags/vercel/</guid>
       <description></description>
     </item>
     
@@ -193,15 +220,6 @@
       <pubDate>Sun, 29 Sep 2024 15:41:15 -0400</pubDate>
       
       <guid>https://jtmuller5.github.io/tags/express/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vercel</title>
-      <link>https://jtmuller5.github.io/tags/vercel/</link>
-      <pubDate>Sun, 29 Sep 2024 15:41:15 -0400</pubDate>
-      
-      <guid>https://jtmuller5.github.io/tags/vercel/</guid>
       <description></description>
     </item>
     
