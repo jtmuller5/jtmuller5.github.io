@@ -6,7 +6,7 @@
     <description>Recent content on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 17 Nov 2024 21:08:12 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Nov 2024 21:08:12 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Build this blog</title>
       <link>https://jtmuller5.github.io/posts/general/build_this_blog/build_this_blog/</link>
@@ -17,6 +17,18 @@
 There are a thousand blogging platforms that want your content, knowledge, and time. I say nay! In this article I&amp;rsquo;ll lay out all the steps you need to build this exact website and host your content on GitHub pages.
 What you&amp;rsquo;ll get:
 A blogging website hosted on GitHub The Hugo PaperMod theme Menus to filter content by categories and tags Full text search Tracking with Google Analytics Steps Create your Site Github allows individuals to create one free site per account.</description>
+    </item>
+    
+    <item>
+      <title>Create a Chrome Extension With React, Typescript, and Tailwindcss</title>
+      <link>https://jtmuller5.github.io/posts/create-a-chrome-extension-with-react-typescript-and-tailwindcss/</link>
+      <pubDate>Sat, 16 Nov 2024 21:08:12 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/create-a-chrome-extension-with-react-typescript-and-tailwindcss/</guid>
+      <description>Contents This article was inspired by Creating a Chrome Extension with React a Step by Step Guide.
+Creating a Popup 1. Create React App Use the official Create React App CLI to kickstart your project:
+npx create-react-app react-chrome-ext --template typescript cd react-chrome-ext 2. Update the Files Update App.tsx to show a simple string:
+function App() { return ( &amp;lt;div className=&amp;#34;App&amp;#34;&amp;gt; Hello World &amp;lt;/div&amp;gt; ); } export default App; Update index.tsx:</description>
     </item>
     
     <item>

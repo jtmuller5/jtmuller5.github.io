@@ -5,11 +5,29 @@
     <loc>https://jtmuller5.github.io/posts/general/build_this_blog/build_this_blog/</loc>
     <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
+    <loc>https://jtmuller5.github.io/categories/</loc>
+    <lastmod>2024-11-16T21:08:12-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/tags/chrome-extensions/</loc>
+    <lastmod>2024-11-16T21:08:12-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/create-a-chrome-extension-with-react-typescript-and-tailwindcss/</loc>
+    <lastmod>2024-11-16T21:08:12-05:00</lastmod>
+  </url><url>
     <loc>https://jtmuller5.github.io/</loc>
-    <lastmod>2024-11-17T21:08:12-05:00</lastmod>
+    <lastmod>2024-11-16T21:08:12-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/posts/</loc>
-    <lastmod>2024-11-17T21:08:12-05:00</lastmod>
+    <lastmod>2024-11-16T21:08:12-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/tags/react/</loc>
+    <lastmod>2024-11-16T21:08:12-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/tags/</loc>
+    <lastmod>2024-11-16T21:08:12-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/categories/tutorials/</loc>
+    <lastmod>2024-11-16T21:08:12-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/posts/microblog/microblog-11-11-2024/</loc>
     <lastmod>2024-11-11T08:23:22-05:00</lastmod>
@@ -17,13 +35,7 @@
     <loc>https://jtmuller5.github.io/tags/ai/</loc>
     <lastmod>2024-11-11T08:23:22-05:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/categories/</loc>
-    <lastmod>2024-11-11T08:23:22-05:00</lastmod>
-  </url><url>
     <loc>https://jtmuller5.github.io/categories/microblog/</loc>
-    <lastmod>2024-11-11T08:23:22-05:00</lastmod>
-  </url><url>
-    <loc>https://jtmuller5.github.io/tags/</loc>
     <lastmod>2024-11-11T08:23:22-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/posts/microblog/microblog-11-07-2024/</loc>
@@ -63,9 +75,6 @@
     <lastmod>2024-11-03T15:33:39-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/jts/</loc>
-    <lastmod>2024-11-03T15:33:39-05:00</lastmod>
-  </url><url>
-    <loc>https://jtmuller5.github.io/categories/tutorials/</loc>
     <lastmod>2024-11-03T15:33:39-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/chatgpt/</loc>
@@ -183,9 +192,6 @@
     <lastmod>2024-09-20T15:13:36-04:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/categories/projects/</loc>
-    <lastmod>2024-09-20T15:13:36-04:00</lastmod>
-  </url><url>
-    <loc>https://jtmuller5.github.io/tags/react/</loc>
     <lastmod>2024-09-20T15:13:36-04:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/render/</loc>
