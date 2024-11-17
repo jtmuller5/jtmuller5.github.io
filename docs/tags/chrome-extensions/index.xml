@@ -14,9 +14,10 @@
       
       <guid>https://jtmuller5.github.io/posts/create-a-chrome-extension-with-react-typescript-and-tailwindcss/</guid>
       <description>Contents This article was inspired by Creating a Chrome Extension with React a Step by Step Guide.
+For the full code, check out the repo.
 Creating a Popup 1. Create React App Use the official Create React App CLI to kickstart your project:
 npx create-react-app react-chrome-ext --template typescript cd react-chrome-ext 2. Update the Files Update App.tsx to show a simple string:
-function App() { return ( &amp;lt;div className=&amp;#34;App&amp;#34;&amp;gt; Hello World &amp;lt;/div&amp;gt; ); } export default App; Update index.tsx:</description>
+function App() { return ( &amp;lt;div className=&amp;#34;App&amp;#34;&amp;gt; Hello World &amp;lt;/div&amp;gt; ); } export default App; Update index.</description>
     </item>
     
   </channel>
