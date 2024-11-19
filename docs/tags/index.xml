@@ -8,36 +8,9 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 18 Nov 2024 12:00:00 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>“Chrome-Extensions”</title>
-      <link>https://jtmuller5.github.io/tags/chrome-extensions/</link>
-      <pubDate>Mon, 18 Nov 2024 12:00:00 -0500</pubDate>
-      
-      <guid>https://jtmuller5.github.io/tags/chrome-extensions/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>“React”</title>
-      <link>https://jtmuller5.github.io/tags/react/</link>
-      <pubDate>Mon, 18 Nov 2024 12:00:00 -0500</pubDate>
-      
-      <guid>https://jtmuller5.github.io/tags/react/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>“Vite”</title>
-      <link>https://jtmuller5.github.io/tags/vite/</link>
-      <pubDate>Mon, 18 Nov 2024 12:00:00 -0500</pubDate>
-      
-      <guid>https://jtmuller5.github.io/tags/vite/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Chrome-Extensions</title>
       <link>https://jtmuller5.github.io/tags/chrome-extensions/</link>
-      <pubDate>Sat, 16 Nov 2024 21:08:12 -0500</pubDate>
+      <pubDate>Mon, 18 Nov 2024 12:00:00 -0500</pubDate>
       
       <guid>https://jtmuller5.github.io/tags/chrome-extensions/</guid>
       <description></description>
@@ -46,9 +19,18 @@
     <item>
       <title>React</title>
       <link>https://jtmuller5.github.io/tags/react/</link>
-      <pubDate>Sat, 16 Nov 2024 21:08:12 -0500</pubDate>
+      <pubDate>Mon, 18 Nov 2024 12:00:00 -0500</pubDate>
       
       <guid>https://jtmuller5.github.io/tags/react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vite</title>
+      <link>https://jtmuller5.github.io/tags/vite/</link>
+      <pubDate>Mon, 18 Nov 2024 12:00:00 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/tags/vite/</guid>
       <description></description>
     </item>
     

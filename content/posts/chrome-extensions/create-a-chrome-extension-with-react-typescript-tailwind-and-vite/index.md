@@ -1,9 +1,9 @@
 ---
-title: “Create a Chrome Extension With React, TypeScript, Tailwind CSS, and Vite”
+title: "Create a Chrome Extension With React, TypeScript, Tailwind CSS, and Vite"
 date: 2024-11-18T12:00:00-05:00
 draft: false
-categories: [“tutorials”]
-tags: [“chrome-extensions”, “react”, “vite”]
+categories: ["tutorials"]
+tags: ["chrome-extensions", "react", "vite"]
 ---
 
 # Contents

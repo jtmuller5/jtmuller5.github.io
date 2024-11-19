@@ -6,7 +6,7 @@
     <description>Recent content in Tutorials on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Nov 2024 21:08:12 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/categories/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Nov 2024 12:00:00 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/categories/tutorials/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Build this blog</title>
       <link>https://jtmuller5.github.io/posts/general/build_this_blog/build_this_blog/</link>
@@ -17,6 +17,17 @@
 There are a thousand blogging platforms that want your content, knowledge, and time. I say nay! In this article I&amp;rsquo;ll lay out all the steps you need to build this exact website and host your content on GitHub pages.
 What you&amp;rsquo;ll get:
 A blogging website hosted on GitHub The Hugo PaperMod theme Menus to filter content by categories and tags Full text search Tracking with Google Analytics Steps Create your Site Github allows individuals to create one free site per account.</description>
+    </item>
+    
+    <item>
+      <title>Create a Chrome Extension With React, TypeScript, Tailwind CSS, and Vite</title>
+      <link>https://jtmuller5.github.io/posts/chrome-extensions/create-a-chrome-extension-with-react-typescript-tailwind-and-vite/</link>
+      <pubDate>Mon, 18 Nov 2024 12:00:00 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/chrome-extensions/create-a-chrome-extension-with-react-typescript-tailwind-and-vite/</guid>
+      <description>Contents After publishing my first article on building a Chrome Extension using React, TypeScript, TailWind, and Webpack, a handful of people commented that Webpack was an antique best left on the shelf. In this article, I will walk you through creating the a Chrome Extension that uses the same tech stack but with Vite as the build tool.
+For the full code, check out the GitHub repository.
+Introduction In this tutorial, we’ll build a Chrome extension using React, TypeScript, Tailwind CSS, and Vite.</description>
     </item>
     
     <item>
