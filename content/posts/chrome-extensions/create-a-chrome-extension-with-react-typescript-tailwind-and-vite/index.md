@@ -14,7 +14,7 @@ For the full code, check out the [GitHub repository](https://github.com/jtmuller
 
 ## Introduction
 
-In this tutorial, we’ll build a Chrome extension using React, TypeScript, Tailwind CSS, and [Vite](https://vite.dev/). Vite is a modern build tool that offers a fast and lean development experience. By the end of this guide, you’ll have a fully functional Chrome extension with a popup and side panel, all powered by React components styled with [Tailwind CSS](https://tailwindcss.com/).
+In this tutorial, we'll build a Chrome extension using React, TypeScript, Tailwind CSS, and [Vite](https://vite.dev/). Vite is a modern build tool that offers a fast and lean development experience. By the end of this guide, you'll have a fully functional Chrome extension with a popup and side panel, all powered by React components styled with [Tailwind CSS](https://tailwindcss.com/).
 
 Prerequisites
 
@@ -196,16 +196,16 @@ npm run build
 ### 9. Load the Extension in Chrome
 
 •	Open Chrome and navigate to chrome://extensions.
-•	Enable “Developer mode” if it’s not already enabled.
-•	Click “Load unpacked” and select the dist directory from your project.
+•	Enable "Developer mode" if it's not already enabled.
+•	Click "Load unpacked" and select the dist directory from your project.
 
-Your extension should now be loaded. Click the extension icon to see your popup with the green box and “Hello World” message.
+Your extension should now be loaded. Click the extension icon to see your popup with the green box and "Hello World" message.
 
 ![Vite Chrome Extension popup](image.png)
 
 ## Creating a Side Panel
 
-Let’s add a side panel to the extension.
+Let's add a side panel to the extension.
 
 ### 1. Install the Chrome Types
 
@@ -347,9 +347,9 @@ npm run build
 
 Reload the extension in Chrome:
 	•	Go back to chrome://extensions.
-	•	Click the “Reload” button for your extension.
+	•	Click the "Reload" button for your extension.
 
-Now, when you click the extension icon, it should open the side panel displaying “Side Panel”.
+Now, when you click the extension icon, it should open the side panel displaying "Side Panel".
 
 ## Organize Your Project
 
@@ -466,7 +466,7 @@ Rebuild and reload the extension to include the new options page.
 
 ## Communicate Between Components
 
-Use Chrome’s messaging API to enable communication between different parts of your extension.
+Use Chrome's messaging API to enable communication between different parts of your extension.
 
 ### 1. Sending a Message from Options
 

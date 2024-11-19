@@ -15,7 +15,7 @@
       <guid>https://jtmuller5.github.io/posts/chrome-extensions/create-a-chrome-extension-with-react-typescript-tailwind-and-vite/</guid>
       <description>Contents After publishing my first article on building a Chrome Extension using React, TypeScript, TailWind, and Webpack, a handful of people commented that Webpack was an antique best left on the shelf. In this article, I will walk you through creating the a Chrome Extension that uses the same tech stack but with Vite as the build tool.
 For the full code, check out the GitHub repository.
-Introduction In this tutorial, we’ll build a Chrome extension using React, TypeScript, Tailwind CSS, and Vite.</description>
+Introduction In this tutorial, we&amp;rsquo;ll build a Chrome extension using React, TypeScript, Tailwind CSS, and Vite.</description>
     </item>
     
   </channel>
