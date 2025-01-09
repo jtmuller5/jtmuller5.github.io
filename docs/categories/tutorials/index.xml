@@ -6,7 +6,7 @@
     <description>Recent content in Tutorials on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Nov 2024 12:00:00 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/categories/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Jan 2025 22:45:29 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/categories/tutorials/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Build this blog</title>
       <link>https://jtmuller5.github.io/posts/general/build_this_blog/build_this_blog/</link>
@@ -17,6 +17,17 @@
 There are a thousand blogging platforms that want your content, knowledge, and time. I say nay! In this article I&amp;rsquo;ll lay out all the steps you need to build this exact website and host your content on GitHub pages.
 What you&amp;rsquo;ll get:
 A blogging website hosted on GitHub The Hugo PaperMod theme Menus to filter content by categories and tags Full text search Tracking with Google Analytics Steps Create your Site Github allows individuals to create one free site per account.</description>
+    </item>
+    
+    <item>
+      <title>Resize Firebase Images Like a Pro</title>
+      <link>https://jtmuller5.github.io/posts/2025/resize-firebase-images-like-a-pro/</link>
+      <pubDate>Sat, 04 Jan 2025 22:45:29 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/2025/resize-firebase-images-like-a-pro/</guid>
+      <description>Contents The Firebase documentation leaves much to be desired. If you just want answers, these docs were made just for you. If you want more questions, head over here and start reading.
+In this blog, I&amp;rsquo;m going to walk you through setting up the Resize Images Firebase Extension and listening to a custom event so you can add the resized images to documents in your Firestore database.
+Setting Up the Extension Navigate to your Firebase project and select the Extensions item from the &amp;ldquo;Build&amp;rdquo; side menu.</description>
     </item>
     
     <item>
