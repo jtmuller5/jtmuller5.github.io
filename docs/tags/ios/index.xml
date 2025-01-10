@@ -6,7 +6,17 @@
     <description>Recent content in Ios on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Sep 2022 16:26:21 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/ios/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Jul 2023 15:13:36 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/ios/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bakedown</title>
+      <link>https://jtmuller5.github.io/projects/bakedown/</link>
+      <pubDate>Sat, 15 Jul 2023 15:13:36 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/projects/bakedown/</guid>
+      <description>Website: https://bakedown.app App Store: https://apps.apple.com/us/app/bakedown/id6445965871 Google Play: https://play.google.com/store/apps/details?id=com.mullr.abis_recipes&amp;amp;hl=en-US Status: Live Stack:
+Flutter Firebase RevenueCat Fastlane Streamline your baking experience with Bakedown! Import, organize, and customize your favorite pastry recipes—whether from the web or a photo—so you can focus on the joy of baking, not scrolling through ads.</description>
+    </item>
+    
     <item>
       <title>Flutter: Build an IPA</title>
       <link>https://jtmuller5.github.io/posts/flutter/build_ipa/build_ipa/</link>

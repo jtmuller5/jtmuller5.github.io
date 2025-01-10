@@ -6,7 +6,17 @@
     <description>Recent content in Vs-Code on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Oct 2024 08:04:55 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/vs-code/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Nov 2024 15:13:36 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/vs-code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Clibbits</title>
+      <link>https://jtmuller5.github.io/projects/clibbits/</link>
+      <pubDate>Wed, 20 Nov 2024 15:13:36 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/projects/clibbits/</guid>
+      <description>Website: https://marketplace.visualstudio.com/items?itemName=CodeontheRocks.clibbits Status: Live Stack:
+TypeScript Clibbits is a Visual Studio Code extension that simplifies copying file contents to your clipboard. It is designed to make working with LLMs outside of your IDE more efficient by letting you quickly copy open files and folders in a format that is easily understood by AI models.</description>
+    </item>
+    
     <item>
       <title>Creating a VS Code Chat Extension With Claude</title>
       <link>https://jtmuller5.github.io/posts/creating-a-vs-code-chat-extension-with-claude/</link>

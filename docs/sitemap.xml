@@ -5,6 +5,12 @@
     <loc>https://jtmuller5.github.io/posts/general/build_this_blog/build_this_blog/</loc>
     <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
+    <loc>https://jtmuller5.github.io/</loc>
+    <lastmod>2025-01-09T09:02:21-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/</loc>
+    <lastmod>2025-01-09T09:02:21-05:00</lastmod>
+  </url><url>
     <loc>https://jtmuller5.github.io/categories/</loc>
     <lastmod>2025-01-04T22:45:29-05:00</lastmod>
   </url><url>
@@ -12,12 +18,6 @@
     <lastmod>2025-01-04T22:45:29-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/firebase-cloud-functions/</loc>
-    <lastmod>2025-01-04T22:45:29-05:00</lastmod>
-  </url><url>
-    <loc>https://jtmuller5.github.io/</loc>
-    <lastmod>2025-01-04T22:45:29-05:00</lastmod>
-  </url><url>
-    <loc>https://jtmuller5.github.io/posts/</loc>
     <lastmod>2025-01-04T22:45:29-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/posts/2025/resize-firebase-images-like-a-pro/</loc>
@@ -44,6 +44,30 @@
     <loc>https://jtmuller5.github.io/categories/tutorial/</loc>
     <lastmod>2024-12-05T09:18:17-05:00</lastmod>
   </url><url>
+    <loc>https://jtmuller5.github.io/projects/</loc>
+    <lastmod>2024-11-20T15:13:36-04:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/tags/ai/</loc>
+    <lastmod>2024-11-20T15:13:36-04:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/tags/astro/</loc>
+    <lastmod>2024-11-20T15:13:36-04:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/projects/clibbits/</loc>
+    <lastmod>2024-11-20T15:13:36-04:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/projects/launch-thrifty/</loc>
+    <lastmod>2024-11-20T15:13:36-04:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/tags/llm/</loc>
+    <lastmod>2024-11-20T15:13:36-04:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/categories/projects/</loc>
+    <lastmod>2024-11-20T15:13:36-04:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/tags/vs-code/</loc>
+    <lastmod>2024-11-20T15:13:36-04:00</lastmod>
+  </url><url>
     <loc>https://jtmuller5.github.io/tags/chrome-extensions/</loc>
     <lastmod>2024-11-18T12:00:00-05:00</lastmod>
   </url><url>
@@ -60,9 +84,6 @@
     <lastmod>2024-11-16T21:08:12-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/posts/microblog/microblog-11-11-2024/</loc>
-    <lastmod>2024-11-11T08:23:22-05:00</lastmod>
-  </url><url>
-    <loc>https://jtmuller5.github.io/tags/ai/</loc>
     <lastmod>2024-11-11T08:23:22-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/categories/microblog/</loc>
@@ -134,9 +155,6 @@
     <loc>https://jtmuller5.github.io/posts/creating-a-vs-code-chat-extension-with-claude/</loc>
     <lastmod>2024-10-05T08:04:55-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/tags/vs-code/</loc>
-    <lastmod>2024-10-05T08:04:55-04:00</lastmod>
-  </url><url>
     <loc>https://jtmuller5.github.io/tags/vs-code-extensions/</loc>
     <lastmod>2024-10-05T08:04:55-04:00</lastmod>
   </url><url>
@@ -206,16 +224,10 @@
     <loc>https://jtmuller5.github.io/posts/generating-images-with-dalle/</loc>
     <lastmod>2024-09-29T15:13:36-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/projects/</loc>
-    <lastmod>2024-09-20T15:13:36-04:00</lastmod>
-  </url><url>
     <loc>https://jtmuller5.github.io/projects/crashify/</loc>
     <lastmod>2024-09-20T15:13:36-04:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/project/</loc>
-    <lastmod>2024-09-20T15:13:36-04:00</lastmod>
-  </url><url>
-    <loc>https://jtmuller5.github.io/categories/projects/</loc>
     <lastmod>2024-09-20T15:13:36-04:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/render/</loc>
@@ -226,6 +238,21 @@
   </url><url>
     <loc>https://jtmuller5.github.io/projects/ai-cofounded/</loc>
     <lastmod>2024-08-27T15:13:36-04:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/tags/android/</loc>
+    <lastmod>2023-07-15T15:13:36-04:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/projects/bakedown/</loc>
+    <lastmod>2023-07-15T15:13:36-04:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/tags/baking/</loc>
+    <lastmod>2023-07-15T15:13:36-04:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/tags/fastlane/</loc>
+    <lastmod>2023-07-15T15:13:36-04:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/tags/ios/</loc>
+    <lastmod>2023-07-15T15:13:36-04:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/categories/essays/</loc>
     <lastmod>2022-11-20T12:30:33-05:00</lastmod>
@@ -288,9 +315,6 @@
     <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/posts/flutter/multi_colored_tab_bar/multi_colored_tab_bar/</loc>
-    <lastmod>2022-09-17T16:26:21-04:00</lastmod>
-  </url><url>
-    <loc>https://jtmuller5.github.io/tags/ios/</loc>
     <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/self-hosted/</loc>

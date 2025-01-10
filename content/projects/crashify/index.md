@@ -10,6 +10,12 @@ cover:
   alt: "Hyper Book"
 ---
 
+**Website**: https://crashify.ai
+**Status**: On hold
+**Stack**:
+- TypeScript
+- React
+- Supabase
+
 Crashify AI is a website that lets you generate 10-part "../../posts/projects/crashify"crash courses.
 
-https://crashify.ai

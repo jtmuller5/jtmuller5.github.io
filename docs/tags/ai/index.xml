@@ -6,7 +6,17 @@
     <description>Recent content in Ai on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Nov 2024 08:23:22 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Nov 2024 15:13:36 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Clibbits</title>
+      <link>https://jtmuller5.github.io/projects/clibbits/</link>
+      <pubDate>Wed, 20 Nov 2024 15:13:36 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/projects/clibbits/</guid>
+      <description>Website: https://marketplace.visualstudio.com/items?itemName=CodeontheRocks.clibbits Status: Live Stack:
+TypeScript Clibbits is a Visual Studio Code extension that simplifies copying file contents to your clipboard. It is designed to make working with LLMs outside of your IDE more efficient by letting you quickly copy open files and folders in a format that is easily understood by AI models.</description>
+    </item>
+    
     <item>
       <title>11-11-2024</title>
       <link>https://jtmuller5.github.io/posts/microblog/microblog-11-11-2024/</link>
@@ -61,6 +71,16 @@ The first step was to create an xAI account and generate an API key: Then, spin 
       <guid>https://jtmuller5.github.io/posts/microblog/microblog-11-04-2024/</guid>
       <description>November 4, 2024 The Conversation Cost AI copilots make you fast until they don&amp;rsquo;t. There is a very real &amp;ldquo;conversation cost&amp;rdquo; that materializes as you use AI tools and it&amp;rsquo;s best illustrated with an example.
 Say you want to create a two-sided marketplace for recruiters and job seekers. Standing in the middle of the greenfield, you can erect what appear to be finished structures in an incredibly short amount of time with AI.</description>
+    </item>
+    
+    <item>
+      <title>Bakedown</title>
+      <link>https://jtmuller5.github.io/projects/bakedown/</link>
+      <pubDate>Sat, 15 Jul 2023 15:13:36 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/projects/bakedown/</guid>
+      <description>Website: https://bakedown.app App Store: https://apps.apple.com/us/app/bakedown/id6445965871 Google Play: https://play.google.com/store/apps/details?id=com.mullr.abis_recipes&amp;amp;hl=en-US Status: Live Stack:
+Flutter Firebase RevenueCat Fastlane Streamline your baking experience with Bakedown! Import, organize, and customize your favorite pastry recipes—whether from the web or a photo—so you can focus on the joy of baking, not scrolling through ads.</description>
     </item>
     
     <item>

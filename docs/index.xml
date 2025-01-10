@@ -6,7 +6,7 @@
     <description>Recent content on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Jan 2025 22:45:29 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Jan 2025 09:02:21 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Build this blog</title>
       <link>https://jtmuller5.github.io/posts/general/build_this_blog/build_this_blog/</link>
@@ -38,6 +38,26 @@ Setting Up the Extension Navigate to your Firebase project and select the Extens
       <guid>https://jtmuller5.github.io/posts/typescript/converting-a-javascript-/</guid>
       <description>Contents TypeScript has become increasingly popular due to its ability to bring static typing to JavaScript, enhancing code quality and developer productivity. Converting your existing JavaScript package to TypeScript can make it more robust and easier to maintain. In this guide, we’ll walk through the essential steps to transform your JavaScript package into a TypeScript package.
 1. Install TypeScript and Necessary Dependencies Begin by adding TypeScript and type definitions for Node.</description>
+    </item>
+    
+    <item>
+      <title>Clibbits</title>
+      <link>https://jtmuller5.github.io/projects/clibbits/</link>
+      <pubDate>Wed, 20 Nov 2024 15:13:36 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/projects/clibbits/</guid>
+      <description>Website: https://marketplace.visualstudio.com/items?itemName=CodeontheRocks.clibbits Status: Live Stack:
+TypeScript Clibbits is a Visual Studio Code extension that simplifies copying file contents to your clipboard. It is designed to make working with LLMs outside of your IDE more efficient by letting you quickly copy open files and folders in a format that is easily understood by AI models.</description>
+    </item>
+    
+    <item>
+      <title>Launch Thrifty</title>
+      <link>https://jtmuller5.github.io/projects/launch-thrifty/</link>
+      <pubDate>Wed, 20 Nov 2024 15:13:36 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/projects/launch-thrifty/</guid>
+      <description>Website: https://www.launchthrifty.com/ Status: In Progress Stack:
+TypeScript Astro Launch Thrifty is a directory of developer challenges that encourage creativity through constraints and limitations.</description>
     </item>
     
     <item>
@@ -250,8 +270,8 @@ The Basics For the simplest projects that don&amp;rsquo;t require environments, 
       <pubDate>Fri, 20 Sep 2024 15:13:36 -0400</pubDate>
       
       <guid>https://jtmuller5.github.io/projects/crashify/</guid>
-      <description>Crashify AI is a website that lets you generate 10-part &amp;ldquo;../../posts/projects/crashify&amp;quot;crash courses.
-https://crashify.ai</description>
+      <description>Website: https://crashify.ai Status: On hold Stack:
+TypeScript React Supabase Crashify AI is a website that lets you generate 10-part &amp;ldquo;../../posts/projects/crashify&amp;quot;crash courses.</description>
     </item>
     
     <item>
@@ -260,8 +280,18 @@ https://crashify.ai</description>
       <pubDate>Tue, 27 Aug 2024 15:13:36 -0400</pubDate>
       
       <guid>https://jtmuller5.github.io/projects/ai-cofounded/</guid>
-      <description>AI Co-Founded is a website that helps you generate business plans.
-https://aicofounded.com</description>
+      <description>Website: https://aicofounded.com Status: On hold Stack:
+TypeScript React Supabase AI Co-Founded is a website that helps you generate business plans.</description>
+    </item>
+    
+    <item>
+      <title>Bakedown</title>
+      <link>https://jtmuller5.github.io/projects/bakedown/</link>
+      <pubDate>Sat, 15 Jul 2023 15:13:36 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/projects/bakedown/</guid>
+      <description>Website: https://bakedown.app App Store: https://apps.apple.com/us/app/bakedown/id6445965871 Google Play: https://play.google.com/store/apps/details?id=com.mullr.abis_recipes&amp;amp;hl=en-US Status: Live Stack:
+Flutter Firebase RevenueCat Fastlane Streamline your baking experience with Bakedown! Import, organize, and customize your favorite pastry recipes—whether from the web or a photo—so you can focus on the joy of baking, not scrolling through ads.</description>
     </item>
     
     <item>
