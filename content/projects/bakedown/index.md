@@ -10,14 +10,14 @@ cover:
   alt: "Bakedown logo"
 ---
 
-**Website**: https://bakedown.app
-**App Store**: https://apps.apple.com/us/app/bakedown/id6445965871
-**Google Play**: https://play.google.com/store/apps/details?id=com.mullr.abis_recipes&hl=en-US 
-**Status**: Live
-**Stack**:
-- Flutter
-- Firebase
-- RevenueCat
-- Fastlane
+- **Website**: https://bakedown.app
+- **App Store**: https://apps.apple.com/us/app/bakedown/id6445965871
+- **Google Play**: https://play.google.com/store/apps/details?id=com.mullr.abis_recipes&hl=en-US 
+- **Status**: Live
+- **Stack**:
+    - Flutter
+    - Firebase
+    - RevenueCat
+    - Fastlane
 
 Streamline your baking experience with Bakedown! Import, organize, and customize your favorite pastry recipes—whether from the web or a photo—so you can focus on the joy of baking, not scrolling through ads.

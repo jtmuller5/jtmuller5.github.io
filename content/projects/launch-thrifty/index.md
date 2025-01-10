@@ -10,10 +10,10 @@ cover:
   alt: "Launch Thrifty Icon"
 ---
 
-**Website**: https://www.launchthrifty.com/
-**Status**: In Progress
-**Stack**:
-- TypeScript
-- Astro
+- **Website**: https://www.launchthrifty.com/
+- **Status**: In Progress
+- **Stack**:
+    - TypeScript
+    - Astro
 
 Launch Thrifty is a directory of developer challenges that encourage creativity through constraints and limitations.

@@ -34,8 +34,7 @@ supabase gen types typescript --project-id abcdefghijklmnopqrst &amp;gt; src/typ
       <pubDate>Fri, 20 Sep 2024 15:13:36 -0400</pubDate>
       
       <guid>https://jtmuller5.github.io/projects/crashify/</guid>
-      <description>Website: https://crashify.ai Status: On hold Stack:
-TypeScript React Supabase Crashify AI is a website that lets you generate 10-part &amp;ldquo;../../posts/projects/crashify&amp;quot;crash courses.</description>
+      <description>Website: https://crashify.ai Status: On hold Stack: TypeScript React Supabase Crashify AI is a website that lets you generate 10-part &amp;ldquo;../../posts/projects/crashify&amp;quot;crash courses.</description>
     </item>
     
     <item>
@@ -44,8 +43,7 @@ TypeScript React Supabase Crashify AI is a website that lets you generate 10-par
       <pubDate>Tue, 27 Aug 2024 15:13:36 -0400</pubDate>
       
       <guid>https://jtmuller5.github.io/projects/ai-cofounded/</guid>
-      <description>Website: https://aicofounded.com Status: On hold Stack:
-TypeScript React Supabase AI Co-Founded is a website that helps you generate business plans.</description>
+      <description>Website: https://aicofounded.com Status: On hold Stack: TypeScript React Supabase AI Co-Founded is a website that helps you generate business plans.</description>
     </item>
     
   </channel>

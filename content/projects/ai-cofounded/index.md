@@ -10,12 +10,12 @@ cover:
   alt: "Rocket"
 ---
 
-**Website**: https://aicofounded.com
-**Status**: On hold
-**Stack**:
-- TypeScript
-- React
-- Supabase
+- **Website**: https://aicofounded.com
+- **Status**: On hold
+- **Stack**:
+  - TypeScript
+  - React
+  - Supabase
 
 AI Co-Founded is a website that helps you generate business plans.
 
