@@ -6,7 +6,7 @@
     <description>Recent content on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Jan 2025 09:02:21 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Jan 2025 12:40:39 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Build this blog</title>
       <link>https://jtmuller5.github.io/posts/general/build_this_blog/build_this_blog/</link>
@@ -17,6 +17,18 @@
 There are a thousand blogging platforms that want your content, knowledge, and time. I say nay! In this article I&amp;rsquo;ll lay out all the steps you need to build this exact website and host your content on GitHub pages.
 What you&amp;rsquo;ll get:
 A blogging website hosted on GitHub The Hugo PaperMod theme Menus to filter content by categories and tags Full text search Tracking with Google Analytics Steps Create your Site Github allows individuals to create one free site per account.</description>
+    </item>
+    
+    <item>
+      <title>Vs Code Snippet Variables</title>
+      <link>https://jtmuller5.github.io/posts/2025/vs-code-snippet-variables/</link>
+      <pubDate>Sat, 11 Jan 2025 12:40:39 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/2025/vs-code-snippet-variables/</guid>
+      <description>Contents You should use VS Code snippets more than you do and that&amp;rsquo;s not just an opinion.
+The Snippet Syntax section of the VS Code snippet docs is a minefield of knowledge bombs.
+Common Transformations &amp;#34;Snippet Test&amp;#34;: { &amp;#34;scope&amp;#34;: &amp;#34;dart&amp;#34;, &amp;#34;prefix&amp;#34;: &amp;#34;foolsTest&amp;#34;, &amp;#34;body&amp;#34;: [ &amp;#34;${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}&amp;#34;, &amp;#34;${TM_FILENAME_BASE/(.*)/${1:/camelcase}/}&amp;#34;, &amp;#34;${TM_FILENAME_BASE/(.*)/${1:/upcase}/}&amp;#34;, &amp;#34;${TM_FILENAME_BASE/(.*)/${1:/downcase}/}&amp;#34;, &amp;#34;${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}&amp;#34;, ], &amp;#34;description&amp;#34;: &amp;#34;Snippet Test&amp;#34; } For the file test_test.dart, this outputs:
+TestTest testTest TEST_TEST test_test Test_test Step by Step Placeholders A placeholder in VS Code is a &amp;ldquo;tabstop&amp;rdquo; that appears in the rendered snippet.</description>
     </item>
     
     <item>

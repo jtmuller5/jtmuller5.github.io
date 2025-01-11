@@ -6,7 +6,43 @@
     <description>Recent content in Tags on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Jan 2025 22:45:29 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Jan 2025 12:40:39 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Efficiency</title>
+      <link>https://jtmuller5.github.io/tags/efficiency/</link>
+      <pubDate>Sat, 11 Jan 2025 12:40:39 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/tags/efficiency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regex</title>
+      <link>https://jtmuller5.github.io/tags/regex/</link>
+      <pubDate>Sat, 11 Jan 2025 12:40:39 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/tags/regex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Snippets</title>
+      <link>https://jtmuller5.github.io/tags/snippets/</link>
+      <pubDate>Sat, 11 Jan 2025 12:40:39 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/tags/snippets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vs-Code</title>
+      <link>https://jtmuller5.github.io/tags/vs-code/</link>
+      <pubDate>Sat, 11 Jan 2025 12:40:39 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/tags/vs-code/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Firebase</title>
       <link>https://jtmuller5.github.io/tags/firebase/</link>
@@ -76,15 +112,6 @@
       <pubDate>Wed, 20 Nov 2024 15:13:36 -0400</pubDate>
       
       <guid>https://jtmuller5.github.io/tags/llm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vs-Code</title>
-      <link>https://jtmuller5.github.io/tags/vs-code/</link>
-      <pubDate>Wed, 20 Nov 2024 15:13:36 -0400</pubDate>
-      
-      <guid>https://jtmuller5.github.io/tags/vs-code/</guid>
       <description></description>
     </item>
     
@@ -184,15 +211,6 @@
       <pubDate>Fri, 01 Nov 2024 00:08:49 -0400</pubDate>
       
       <guid>https://jtmuller5.github.io/tags/chatgpt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Efficiency</title>
-      <link>https://jtmuller5.github.io/tags/efficiency/</link>
-      <pubDate>Fri, 01 Nov 2024 00:08:49 -0400</pubDate>
-      
-      <guid>https://jtmuller5.github.io/tags/efficiency/</guid>
       <description></description>
     </item>
     
