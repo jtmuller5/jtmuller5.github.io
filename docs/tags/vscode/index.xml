@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Vscode on Joe Muller&#39;s Blog</title>
+    <link>https://jtmuller5.github.io/tags/vscode/</link>
+    <description>Recent content in Vscode on Joe Muller&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Jan 2025 17:57:48 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/vscode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Workspace Specific Markdown Snippets</title>
+      <link>https://jtmuller5.github.io/posts/2025/workspace-specific-markdown-snippets/</link>
+      <pubDate>Mon, 13 Jan 2025 17:57:48 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/2025/workspace-specific-markdown-snippets/</guid>
+      <description>I write a lot of tech focused content for my personal Hugo blog and my side project&amp;rsquo;s Astro website. Both of these documentation frameworks require you to add Frontmatter to the top of each article that outlines specific metadata. For example, the article&amp;rsquo;s title, description, and draft status would go here:
+--- title: &amp;#34;Workspace Specific Markdown Snippets&amp;#34; date: 2025-01-13T17:57:48-05:00 draft: true --- My issue is that I never remember everything that&amp;rsquo;s required by my blog schemas.</description>
+    </item>
+    
+  </channel>
+</rss>

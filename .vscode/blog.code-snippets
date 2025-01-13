@@ -1,0 +1,32 @@
+{
+  "Hugo Frontmatter": {
+    "prefix": "blogFrontmatter",
+    "body": [
+      "---",
+      "title: ${1:title}",
+      "date: $CURRENT_YEAR-$CURRENT_MONTH-${CURRENT_DATE}T$CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND$CURRENT_TIMEZONE_OFFSET",
+      "draft: true",
+      "tags: []",
+      "categories: [${2|tutorials,essays,projects,microblog,cheat-sheets|}]",
+      "---"
+    ],
+    "description": "Hugo Frontmatter"
+  },
+  "Hugo Project Frontmatter": {
+    "prefix": "projectFrontmatter",
+    "body": [
+      "---",
+      "title: ${1:title}",
+      "date: $CURRENT_YEAR-$CURRENT_MONTH-${CURRENT_DATE}T$CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND$CURRENT_TIMEZONE_OFFSET",
+      "draft: true",
+      "tags: []",
+      "categories: [\"projects\"]",
+      "cover:",
+      "  image: \"logo.png\"",
+      "  relative: false",
+      "  alt: \"${2:alt}\"",
+      "---"
+    ],
+    "description": "Hugo Project Frontmatter"
+  }
+}

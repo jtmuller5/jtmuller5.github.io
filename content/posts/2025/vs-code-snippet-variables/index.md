@@ -1,5 +1,5 @@
 ---
-title: "Vs Code Snippet Variables"
+title: "VS Code Snippet Variables"
 date: 2025-01-11T12:40:39-05:00
 draft: false
 categories: ["tutorials"]
