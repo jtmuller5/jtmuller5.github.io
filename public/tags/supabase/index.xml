@@ -13,9 +13,17 @@
       <pubDate>Sun, 29 Sep 2024 15:36:18 -0400</pubDate>
       
       <guid>http://localhost:1313/posts/supabase-slack-notifications/</guid>
-      <description>Slack 1. Create a new Slack channel Create a slack channel in your workspace where the notifications will be displayed (ex. &amp;ldquo;notifications&amp;rdquo;)
-2. Create a Slack app Visit the Slack API webpage and &amp;ldquo;Create New App&amp;rdquo;. Give the app a name and select the Slack workspace you&amp;rsquo;re working with.
-3. Configure the Slack app Select &amp;ldquo;Incoming Webhooks&amp;rdquo; and flip the &amp;ldquo;Active Incoming Webhooks&amp;rdquo; switch on. 4. Create the webhook Add New Webhook to Workspace and select the &amp;ldquo;notifications&amp;rdquo; channel you created before.</description>
+      <description>&lt;h1 id=&#34;slack&#34;&gt;Slack&lt;/h1&gt;
+&lt;h2 id=&#34;1-create-a-new-slack-channel&#34;&gt;1. Create a new Slack channel&lt;/h2&gt;
+&lt;p&gt;Create a slack channel in your workspace where the notifications will be displayed (ex. &amp;ldquo;notifications&amp;rdquo;)&lt;/p&gt;
+&lt;h2 id=&#34;2-create-a-slack-app&#34;&gt;2. Create a Slack app&lt;/h2&gt;
+&lt;p&gt;Visit the &lt;a href=&#34;https://api.slack.com/apps&#34;&gt;Slack API&lt;/a&gt; webpage and &amp;ldquo;Create New App&amp;rdquo;. Give the app a name and select the Slack workspace you&amp;rsquo;re working with.&lt;/p&gt;
+&lt;h2 id=&#34;3-configure-the-slack-app&#34;&gt;3. Configure the Slack app&lt;/h2&gt;
+&lt;p&gt;Select &amp;ldquo;Incoming Webhooks&amp;rdquo; and flip the &amp;ldquo;Active Incoming Webhooks&amp;rdquo; switch on.
+&lt;img loading=&#34;lazy&#34; src=&#34;./webhook-type.png&#34; alt=&#34;Slack Webhook Configuration&#34;  /&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;4-create-the-webhook&#34;&gt;4. Create the webhook&lt;/h2&gt;
+&lt;p&gt;Add New Webhook to Workspace and select the &amp;ldquo;notifications&amp;rdquo; channel you created before.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -24,8 +32,9 @@
       <pubDate>Sun, 29 Sep 2024 15:29:05 -0400</pubDate>
       
       <guid>http://localhost:1313/posts/using-supabase-in-typescript/</guid>
-      <description>Instead of hardcoding Supabase interfaces or types in your TypeScript projects, you can use the Supabase CLI to generate types directly from your database tables. Make sure to add the output inside your src folder so the rest of your application can access it:
-supabase gen types typescript --project-id abcdefghijklmnopqrst &amp;gt; src/types/database.types.ts This command will generate a .types.ts file that contains a single Database interface containing all of your tables and their columns.</description>
+      <description>&lt;p&gt;Instead of hardcoding Supabase interfaces or types in your TypeScript projects, you can use the Supabase CLI to generate types directly from your database tables. Make sure to add the output inside your src folder so the rest of your application can access it:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;supabase gen types typescript --project-id abcdefghijklmnopqrst &amp;gt; src/types/database.types.ts
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This command will generate a .types.ts file that contains a single Database interface containing all of your tables and their columns. The output looks something like this (I pulled this from the official docs):&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -34,7 +43,18 @@ supabase gen types typescript --project-id abcdefghijklmnopqrst &amp;gt; src/typ
       <pubDate>Fri, 20 Sep 2024 15:13:36 -0400</pubDate>
       
       <guid>http://localhost:1313/projects/crashify/</guid>
-      <description>Website: https://crashify.ai Status: On hold Stack: TypeScript React Supabase Crashify AI is a website that lets you generate 10-part &amp;ldquo;../../posts/projects/crashify&amp;quot;crash courses.</description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Website&lt;/strong&gt;: &lt;a href=&#34;https://crashify.ai&#34;&gt;https://crashify.ai&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Status&lt;/strong&gt;: On hold&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stack&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;TypeScript&lt;/li&gt;
+&lt;li&gt;React&lt;/li&gt;
+&lt;li&gt;Supabase&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Crashify AI is a website that lets you generate 10-part &amp;ldquo;../../posts/projects/crashify&amp;quot;crash courses.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -43,7 +63,18 @@ supabase gen types typescript --project-id abcdefghijklmnopqrst &amp;gt; src/typ
       <pubDate>Tue, 27 Aug 2024 15:13:36 -0400</pubDate>
       
       <guid>http://localhost:1313/projects/ai-cofounded/</guid>
-      <description>Website: https://aicofounded.com Status: On hold Stack: TypeScript React Supabase AI Co-Founded is a website that helps you generate business plans.</description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Website&lt;/strong&gt;: &lt;a href=&#34;https://aicofounded.com&#34;&gt;https://aicofounded.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Status&lt;/strong&gt;: On hold&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stack&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;TypeScript&lt;/li&gt;
+&lt;li&gt;React&lt;/li&gt;
+&lt;li&gt;Supabase&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;AI Co-Founded is a website that helps you generate business plans.&lt;/p&gt;</description>
     </item>
     
   </channel>

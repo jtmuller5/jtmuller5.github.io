@@ -17,6 +17,15 @@
     </item>
     
     <item>
+      <title>Microblog</title>
+      <link>http://localhost:1313/categories/microblog/</link>
+      <pubDate>Mon, 13 Jan 2025 13:53:00 -0500</pubDate>
+      
+      <guid>http://localhost:1313/categories/microblog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Tutorial</title>
       <link>http://localhost:1313/categories/tutorial/</link>
       <pubDate>Thu, 05 Dec 2024 09:18:17 -0500</pubDate>
@@ -31,15 +40,6 @@
       <pubDate>Wed, 20 Nov 2024 15:13:36 -0400</pubDate>
       
       <guid>http://localhost:1313/categories/projects/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Microblog</title>
-      <link>http://localhost:1313/categories/microblog/</link>
-      <pubDate>Mon, 11 Nov 2024 08:23:22 -0500</pubDate>
-      
-      <guid>http://localhost:1313/categories/microblog/</guid>
       <description></description>
     </item>
     

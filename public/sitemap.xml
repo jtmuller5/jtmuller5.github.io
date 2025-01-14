@@ -32,6 +32,12 @@
     <loc>http://localhost:1313/posts/2025/workspace-specific-markdown-snippets/</loc>
     <lastmod>2025-01-13T17:57:48-05:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/2025/weekly/2025-week-3/</loc>
+    <lastmod>2025-01-13T13:53:00-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/microblog/</loc>
+    <lastmod>2025-01-13T13:53:00-05:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/efficiency/</loc>
     <lastmod>2025-01-11T12:40:39-05:00</lastmod>
   </url><url>
@@ -108,9 +114,6 @@
     <lastmod>2024-11-16T21:08:12-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/microblog/microblog-11-11-2024/</loc>
-    <lastmod>2024-11-11T08:23:22-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/microblog/</loc>
     <lastmod>2024-11-11T08:23:22-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/microblog/microblog-11-07-2024/</loc>

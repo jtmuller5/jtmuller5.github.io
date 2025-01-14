@@ -13,7 +13,16 @@
       <pubDate>Wed, 20 Nov 2024 15:13:36 -0400</pubDate>
       
       <guid>http://localhost:1313/projects/clibbits/</guid>
-      <description>Website: https://marketplace.visualstudio.com/items?itemName=CodeontheRocks.clibbits Status: Live Stack: TypeScript Clibbits is a Visual Studio Code extension that simplifies copying file contents to your clipboard. It is designed to make working with LLMs outside of your IDE more efficient by letting you quickly copy open files and folders in a format that is easily understood by AI models.</description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Website&lt;/strong&gt;: &lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=CodeontheRocks.clibbits&#34;&gt;https://marketplace.visualstudio.com/items?itemName=CodeontheRocks.clibbits&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Status&lt;/strong&gt;: Live&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stack&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;TypeScript&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Clibbits is a Visual Studio Code extension that simplifies copying file contents to your clipboard. It is designed to make working with LLMs outside of your IDE more efficient by letting you quickly copy open files and folders in a format that is easily understood by AI models.&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -13,7 +13,27 @@
       <pubDate>Sun, 03 Nov 2024 15:33:39 -0500</pubDate>
       
       <guid>http://localhost:1313/posts/flutter/how-to-create-and-publish-a-flutter-package/</guid>
-      <description>Just The Steps In the terminal, run the following command flutter create --template=package my_package Make your changes in the lib directory Update the pubspec.yaml file with your package information. Here&amp;rsquo;s an example: name: my_package description: A new Flutter package version: 0.0.1 homepage: https://example.com repository: type: git url: https://github.com/me/example Create an example directory with a sample Flutter app that demonstrates how to use your package flutter create example --empty Inside the pubspec.</description>
+      <description>&lt;h2 id=&#34;just-the-steps&#34;&gt;Just The Steps&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;In the terminal, run the following command&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;flutter create --template&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;package my_package
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Make your changes in the &lt;code&gt;lib&lt;/code&gt; directory&lt;/li&gt;
+&lt;li&gt;Update the &lt;code&gt;pubspec.yaml&lt;/code&gt; file with your package information. Here&amp;rsquo;s an example:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;my_package&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;description&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;A new Flutter package&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;version&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0.0.1&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;homepage&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;https://example.com&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;repository&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;git&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;https://github.com/me/example&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Create an &lt;code&gt;example&lt;/code&gt; directory with a sample Flutter app that demonstrates how to use your package&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;flutter create example --empty
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Inside the &lt;code&gt;pubspec.yaml&lt;/code&gt; file in the &lt;code&gt;example&lt;/code&gt; directory, add the following:&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -22,7 +42,25 @@
       <pubDate>Fri, 01 Nov 2024 00:08:49 -0400</pubDate>
       
       <guid>http://localhost:1313/posts/make-chat-gpt-default-search-engine-on-microsoft-edge/</guid>
-      <description>Just the Steps Open settings Search for &amp;ldquo;address bar&amp;rdquo; (Privacy, search, and services -&amp;gt; Address bar and search) Select &amp;ldquo;Manage search engines&amp;rdquo; Select &amp;ldquo;Add&amp;rdquo; Fill in the fields with the following information: Search engine: SearchGPT Shortcut: @ai URL with %s in place of query: https://chatgpt.com/?q=%s&amp;amp;hints=search Click &amp;ldquo;Save&amp;rdquo; Click the three dots next to SearchGPT and select &amp;ldquo;Make default&amp;rdquo; If you don&amp;rsquo;t want to set SearchGPT as your default search engine, you can still use it by typing &amp;ldquo;@ai&amp;rdquo; in the address bar followed by your search query.</description>
+      <description>&lt;h1 id=&#34;just-the-steps&#34;&gt;Just the Steps&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Open settings&lt;/li&gt;
+&lt;li&gt;Search for &amp;ldquo;address bar&amp;rdquo; (Privacy, search, and services -&amp;gt; Address bar and search)&lt;/li&gt;
+&lt;li&gt;Select &amp;ldquo;Manage search engines&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Select &amp;ldquo;Add&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Fill in the fields with the following information:
+&lt;ul&gt;
+&lt;li&gt;Search engine: SearchGPT&lt;/li&gt;
+&lt;li&gt;Shortcut: @ai&lt;/li&gt;
+&lt;li&gt;URL with %s in place of query: &lt;a href=&#34;https://chatgpt.com/?q=%25s&amp;amp;hints=search&#34;&gt;https://chatgpt.com/?q=%s&amp;amp;hints=search&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Click &amp;ldquo;Save&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Click the three dots next to SearchGPT and select &amp;ldquo;Make default&amp;rdquo;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;image.png&#34; alt=&#34;Make SearchGPT the default search engine on Microsoft Edge&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;If you don&amp;rsquo;t want to set SearchGPT as your default search engine, you can still use it by typing &amp;ldquo;@ai&amp;rdquo; in the address bar followed by your search query.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -31,7 +69,25 @@
       <pubDate>Thu, 31 Oct 2024 23:42:39 -0400</pubDate>
       
       <guid>http://localhost:1313/posts/make-perplexity-default-search-engine-on-microsoft-edge/</guid>
-      <description>Just the Steps Open settings Search for &amp;ldquo;address bar&amp;rdquo; (Privacy, search, and services -&amp;gt; Address bar and search) Select &amp;ldquo;Manage search engines&amp;rdquo; Select &amp;ldquo;Add&amp;rdquo; Fill in the fields with the following information: Search engine: Perplexity Shortcut: @ai URL with %s in place of query: https://perplexity.ai/search/new?q=%s Click &amp;ldquo;Save&amp;rdquo; Click the three dots next to Perplexity and select &amp;ldquo;Make default&amp;rdquo; If you don&amp;rsquo;t want to set Perplexity as your default search engine, you can still use it by typing &amp;ldquo;@ai&amp;rdquo; in the address bar followed by your search query.</description>
+      <description>&lt;h1 id=&#34;just-the-steps&#34;&gt;Just the Steps&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Open settings&lt;/li&gt;
+&lt;li&gt;Search for &amp;ldquo;address bar&amp;rdquo; (Privacy, search, and services -&amp;gt; Address bar and search)&lt;/li&gt;
+&lt;li&gt;Select &amp;ldquo;Manage search engines&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Select &amp;ldquo;Add&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Fill in the fields with the following information:
+&lt;ul&gt;
+&lt;li&gt;Search engine: Perplexity&lt;/li&gt;
+&lt;li&gt;Shortcut: @ai&lt;/li&gt;
+&lt;li&gt;URL with %s in place of query: &lt;a href=&#34;https://perplexity.ai/search/new?q=%25s&#34;&gt;https://perplexity.ai/search/new?q=%s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Click &amp;ldquo;Save&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Click the three dots next to Perplexity and select &amp;ldquo;Make default&amp;rdquo;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;image.png&#34; alt=&#34;Make Perplexity the default search engine in Microsoft Edge&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;If you don&amp;rsquo;t want to set Perplexity as your default search engine, you can still use it by typing &amp;ldquo;@ai&amp;rdquo; in the address bar followed by your search query.&lt;/p&gt;</description>
     </item>
     
   </channel>

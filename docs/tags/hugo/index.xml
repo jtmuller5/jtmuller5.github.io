@@ -13,8 +13,13 @@
       <pubDate>Mon, 13 Jan 2025 17:57:48 -0500</pubDate>
       
       <guid>https://jtmuller5.github.io/posts/2025/workspace-specific-markdown-snippets/</guid>
-      <description>I write a lot of tech focused content for my personal Hugo blog and my side project&amp;rsquo;s Astro website. Both of these documentation frameworks require you to add Frontmatter to the top of each article that outlines specific metadata. For example, the article&amp;rsquo;s title, description, and draft status would go here:
---- title: &amp;#34;Workspace Specific Markdown Snippets&amp;#34; date: 2025-01-13T17:57:48-05:00 draft: true --- My issue is that I never remember everything that&amp;rsquo;s required by my blog schemas.</description>
+      <description>&lt;p&gt;I write a lot of tech focused content for my personal Hugo blog and my side project&amp;rsquo;s Astro website. Both of these documentation frameworks require you to add Frontmatter to the top of each article that outlines specific metadata. For example, the article&amp;rsquo;s title, description, and draft status would go here:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;title: &amp;#34;Workspace Specific Markdown Snippets&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;date: 2025-01-13T17:57:48-05:00
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;draft: true
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;My issue is that I never remember everything that&amp;rsquo;s required by my blog schemas. Tags, categories, publish dates, update dates, etc.&lt;/p&gt;</description>
     </item>
     
   </channel>

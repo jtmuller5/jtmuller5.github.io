@@ -13,10 +13,21 @@
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
       <guid>http://localhost:1313/posts/general/build_this_blog/build_this_blog/</guid>
-      <description>Build this Blog Medium. Hashnode. Wordpress. Ghost. Log Rocket.
-There are a thousand blogging platforms that want your content, knowledge, and time. I say nay! In this article I&amp;rsquo;ll lay out all the steps you need to build this exact website and host your content on GitHub pages.
-What you&amp;rsquo;ll get:
-A blogging website hosted on GitHub The Hugo PaperMod theme Menus to filter content by categories and tags Full text search Tracking with Google Analytics Steps Create your Site Github allows individuals to create one free site per account.</description>
+      <description>&lt;h1 id=&#34;build-this-blog&#34;&gt;Build this Blog&lt;/h1&gt;
+&lt;p&gt;Medium. Hashnode. Wordpress. Ghost. Log Rocket.&lt;/p&gt;
+&lt;p&gt;There are a thousand blogging platforms that want your content, knowledge, and time. I say nay! In this article I&amp;rsquo;ll lay out all the steps you need to build this exact website and host your
+content on
+GitHub pages.&lt;/p&gt;
+&lt;p&gt;What you&amp;rsquo;ll get:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; A blogging website hosted on GitHub&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; The Hugo PaperMod theme&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Menus to filter content by categories and tags&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Full text search&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Tracking with Google Analytics&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=2MsN8gpT6jY&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.youtube.com/vi/2MsN8gpT6jY/0.jpg#center&#34; alt=&#34;What is Github Pages?&#34;  /&gt;
+&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

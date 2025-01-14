@@ -1,9 +1,9 @@
 ---
 title: "2025 Week 3"
 date: 2025-01-13T13:53:00-05:00
-draft: true
+draft: false
 tags: []
-categories: [microblog]
+categories: ["microblog"]
 ---
 
 # Contents
@@ -13,6 +13,7 @@ categories: [microblog]
 - https://mynoise.net/: Ad-free background noise generator
 - https://lobste.rs/: Lobsters is a computing-focused community centered around link aggregation and discussion
 - https://netnewswire.com/: Free RSS feed reader
+- https://github.com/KKKZOZ/hugo-admonitions: GitHub style callouts for Hugo blogs
 
 ## Tips
 

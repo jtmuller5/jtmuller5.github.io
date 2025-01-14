@@ -1,7 +1,7 @@
-baseURL: 'https://jtmuller5.github.io'
-languageCode: 'en-us'
-title:  "Joe Muller's Blog"
-theme: "PaperMod"
+baseURL: "https://jtmuller5.github.io"
+languageCode: "en-us"
+title: "Joe Muller's Blog"
+theme: ["PaperMod", "hugo-admonitions"]
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -52,9 +52,9 @@ params:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
     favicon: "/favicon.ico"
-    favicon16x16:  "/favicon-16x16.png"
-    favicon32x32:  "/favicon-32x32.png"
-    apple_touch_icon:  "/apple-touch-icon.png"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
     # safari_pinned_tab: "<link / abs url>"
 
   label:

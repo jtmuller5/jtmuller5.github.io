@@ -6,14 +6,35 @@
     <description>Recent content in Microblog on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Nov 2024 08:23:22 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/categories/microblog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Jan 2025 13:53:00 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/categories/microblog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025 Week 3</title>
+      <link>https://jtmuller5.github.io/posts/2025/weekly/2025-week-3/</link>
+      <pubDate>Mon, 13 Jan 2025 13:53:00 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/2025/weekly/2025-week-3/</guid>
+      <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mynoise.net/&#34;&gt;https://mynoise.net/&lt;/a&gt;: Ad-free background noise generator&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lobste.rs/&#34;&gt;https://lobste.rs/&lt;/a&gt;: Lobsters is a computing-focused community centered around link aggregation and discussion&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://netnewswire.com/&#34;&gt;https://netnewswire.com/&lt;/a&gt;: Free RSS feed reader&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/KKKZOZ/hugo-admonitions&#34;&gt;https://github.com/KKKZOZ/hugo-admonitions&lt;/a&gt;: GitHub style callouts for Hugo blogs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;tips&#34;&gt;Tips&lt;/h2&gt;
+&lt;h3 id=&#34;use-typac-to-install-types&#34;&gt;Use TYPAC to Install Types&lt;/h3&gt;
+&lt;p&gt;Every time I get linted on missing types, I curse the creators of TypeScript, npm, and anyone related to those projects just to cover may bases. It seems like a flaw in the package management system. If I&amp;rsquo;m working on a TypeScript project, I &lt;em&gt;always&lt;/em&gt; want the types.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>11-11-2024</title>
       <link>https://jtmuller5.github.io/posts/microblog/microblog-11-11-2024/</link>
       <pubDate>Mon, 11 Nov 2024 08:23:22 -0500</pubDate>
       
       <guid>https://jtmuller5.github.io/posts/microblog/microblog-11-11-2024/</guid>
-      <description>November 11, 2024 Training the AI I&amp;rsquo;ve been working on an AI receptionist recently and this must be what its like to build a frankenstein from the pieces lying around your workshop. The final result feels eerily human but noticeably artificial. I understand almost entirely how it works and that&amp;rsquo;s the oddity that demarcates the thing as non-human. I can&amp;rsquo;t predict what a human will do with 80% accuracy, nor will a human follow my script to a T.</description>
+      <description>&lt;h1 id=&#34;november-11-2024&#34;&gt;November 11, 2024&lt;/h1&gt;
+&lt;h2 id=&#34;training-the-ai&#34;&gt;Training the AI&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;ve been working on an AI receptionist recently and this must be what its like to build a frankenstein from the pieces lying around your workshop. The final result feels eerily human but noticeably artificial. I understand almost entirely how it works and that&amp;rsquo;s the oddity that demarcates the thing as non-human. I can&amp;rsquo;t predict what a human will do with 80% accuracy, nor will a human follow my script to a T.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -22,7 +43,9 @@
       <pubDate>Sat, 09 Nov 2024 08:23:22 -0500</pubDate>
       
       <guid>https://jtmuller5.github.io/posts/microblog/microblog-11-07-2024/</guid>
-      <description>November 7, 2024 A New Language Working with AI is like blending your brain on high. You can work on multiple projects back-to-back-to-back with moderate efficiency and that&amp;rsquo;s amazing and tiresome at the same time. AI has made me want to build more and so I start a new project every time the opportunity presents itself. My creative mind has become increasingly fractal, spiraling outward in every direction, and to keep up with my plans my brain needs to stay focused for longer.</description>
+      <description>&lt;h1 id=&#34;november-7-2024&#34;&gt;November 7, 2024&lt;/h1&gt;
+&lt;h2 id=&#34;a-new-language&#34;&gt;A New Language&lt;/h2&gt;
+&lt;p&gt;Working with AI is like blending your brain on high. You can work on multiple projects back-to-back-to-back with moderate efficiency and that&amp;rsquo;s amazing and tiresome at the same time. AI has made me want to build more and so I start a new project every time the opportunity presents itself. My creative mind has become increasingly fractal, spiraling outward in every direction, and to keep up with my plans my brain needs to stay focused for longer.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -31,7 +54,9 @@
       <pubDate>Sat, 09 Nov 2024 08:23:22 -0500</pubDate>
       
       <guid>https://jtmuller5.github.io/posts/microblog/microblog-11-09-2024/</guid>
-      <description>November 9, 2024 Microblogging Made Easy Microblogging is easy, especially compared to macroblogging, but sometimes easy isn&amp;rsquo;t enough. We want effortless. I had an idea today to create an application that you could send thoughts and links to throughout the day and it would create a daily microblog post based on the content. With LLMs, I imagine this would be hardly more difficult than forming a juicy prompt and piping messages into it.</description>
+      <description>&lt;h1 id=&#34;november-9-2024&#34;&gt;November 9, 2024&lt;/h1&gt;
+&lt;h2 id=&#34;microblogging-made-easy&#34;&gt;Microblogging Made Easy&lt;/h2&gt;
+&lt;p&gt;Microblogging is easy, especially compared to macroblogging, but sometimes easy isn&amp;rsquo;t enough. We want effortless. I had an idea today to create an application that you could send thoughts and links to throughout the day and it would create a daily microblog post based on the content. With LLMs, I imagine this would be hardly more difficult than forming a juicy prompt and piping messages into it.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -40,7 +65,9 @@
       <pubDate>Wed, 06 Nov 2024 08:23:22 -0500</pubDate>
       
       <guid>https://jtmuller5.github.io/posts/microblog/microblog-11-06-2024/</guid>
-      <description>November 6, 2024 Towards Something The more I work as a developer, the more it becomes clear that I could spend my entire life struggling with the details. Every day there are new tools, frameworks, and patterns to learn. Tools you mastered change. The language syntaxes you burned into your connectome aren&amp;rsquo;t resilient to the turn of the clock hand. If I were an electrician, I could spend a lifetime pinching at the wires with solder-coated fingers.</description>
+      <description>&lt;h1 id=&#34;november-6-2024&#34;&gt;November 6, 2024&lt;/h1&gt;
+&lt;h2 id=&#34;towards-something&#34;&gt;Towards Something&lt;/h2&gt;
+&lt;p&gt;The more I work as a developer, the more it becomes clear that I could spend my entire life struggling with the details. Every day there are new tools, frameworks, and patterns to learn. Tools you mastered change. The language syntaxes you burned into your connectome aren&amp;rsquo;t resilient to the turn of the clock hand. If I were an electrician, I could spend a lifetime pinching at the wires with solder-coated fingers.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -49,8 +76,13 @@
       <pubDate>Tue, 05 Nov 2024 08:23:22 -0500</pubDate>
       
       <guid>https://jtmuller5.github.io/posts/microblog/microblog-11-05-2024/</guid>
-      <description>November 5, 2024 Building an AI Chatbot with xAI xAI just released their API and through the end of the year you can get $25 in credits each month. I took it for a quick spin and set up a chatbot using NextJS and Deepgram.
-The first step was to create an xAI account and generate an API key: Then, spin up a quick NextJS web page that uses the AI SDK.</description>
+      <description>&lt;h1 id=&#34;november-5-2024&#34;&gt;November 5, 2024&lt;/h1&gt;
+&lt;h2 id=&#34;building-an-ai-chatbot-with-xai&#34;&gt;Building an AI Chatbot with xAI&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://x.com/xai/status/1853505214181232828&#34;&gt;xAI just released their API&lt;/a&gt; and through the end of the year you can get $25 in credits each month. I took it for a quick spin and set up a chatbot using NextJS and Deepgram.&lt;/p&gt;
+&lt;p&gt;The first step was to create an xAI account and generate an API key:
+&lt;img loading=&#34;lazy&#34; src=&#34;image.png&#34; alt=&#34;xAI API Console&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;Then, spin up a quick NextJS web page that uses the &lt;a href=&#34;https://sdk.vercel.ai/&#34;&gt;AI SDK&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -59,8 +91,10 @@ The first step was to create an xAI account and generate an API key: Then, spin 
       <pubDate>Mon, 04 Nov 2024 08:23:22 -0500</pubDate>
       
       <guid>https://jtmuller5.github.io/posts/microblog/microblog-11-04-2024/</guid>
-      <description>November 4, 2024 The Conversation Cost AI copilots make you fast until they don&amp;rsquo;t. There is a very real &amp;ldquo;conversation cost&amp;rdquo; that materializes as you use AI tools and it&amp;rsquo;s best illustrated with an example.
-Say you want to create a two-sided marketplace for recruiters and job seekers. Standing in the middle of the greenfield, you can erect what appear to be finished structures in an incredibly short amount of time with AI.</description>
+      <description>&lt;h1 id=&#34;november-4-2024&#34;&gt;November 4, 2024&lt;/h1&gt;
+&lt;h2 id=&#34;the-conversation-cost&#34;&gt;The Conversation Cost&lt;/h2&gt;
+&lt;p&gt;AI copilots make you fast until they don&amp;rsquo;t. There is a very real &amp;ldquo;conversation cost&amp;rdquo; that materializes as you use AI tools and it&amp;rsquo;s best illustrated with an example.&lt;/p&gt;
+&lt;p&gt;Say you want to create a two-sided marketplace for recruiters and job seekers. Standing in the middle of the greenfield, you can erect what appear to be finished structures in an incredibly short amount of time with AI. A landing page, authentication middleware, dashboards, database interfaces. The outline of the project is fast to assemble because the brush of the AI copilot is wide.&lt;/p&gt;</description>
     </item>
     
   </channel>

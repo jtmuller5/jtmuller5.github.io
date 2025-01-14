@@ -13,7 +13,16 @@
       <pubDate>Wed, 20 Nov 2024 15:13:36 -0400</pubDate>
       
       <guid>http://localhost:1313/projects/clibbits/</guid>
-      <description>Website: https://marketplace.visualstudio.com/items?itemName=CodeontheRocks.clibbits Status: Live Stack: TypeScript Clibbits is a Visual Studio Code extension that simplifies copying file contents to your clipboard. It is designed to make working with LLMs outside of your IDE more efficient by letting you quickly copy open files and folders in a format that is easily understood by AI models.</description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Website&lt;/strong&gt;: &lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=CodeontheRocks.clibbits&#34;&gt;https://marketplace.visualstudio.com/items?itemName=CodeontheRocks.clibbits&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Status&lt;/strong&gt;: Live&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stack&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;TypeScript&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Clibbits is a Visual Studio Code extension that simplifies copying file contents to your clipboard. It is designed to make working with LLMs outside of your IDE more efficient by letting you quickly copy open files and folders in a format that is easily understood by AI models.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -22,7 +31,9 @@
       <pubDate>Mon, 11 Nov 2024 08:23:22 -0500</pubDate>
       
       <guid>http://localhost:1313/posts/microblog/microblog-11-11-2024/</guid>
-      <description>November 11, 2024 Training the AI I&amp;rsquo;ve been working on an AI receptionist recently and this must be what its like to build a frankenstein from the pieces lying around your workshop. The final result feels eerily human but noticeably artificial. I understand almost entirely how it works and that&amp;rsquo;s the oddity that demarcates the thing as non-human. I can&amp;rsquo;t predict what a human will do with 80% accuracy, nor will a human follow my script to a T.</description>
+      <description>&lt;h1 id=&#34;november-11-2024&#34;&gt;November 11, 2024&lt;/h1&gt;
+&lt;h2 id=&#34;training-the-ai&#34;&gt;Training the AI&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;ve been working on an AI receptionist recently and this must be what its like to build a frankenstein from the pieces lying around your workshop. The final result feels eerily human but noticeably artificial. I understand almost entirely how it works and that&amp;rsquo;s the oddity that demarcates the thing as non-human. I can&amp;rsquo;t predict what a human will do with 80% accuracy, nor will a human follow my script to a T.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -31,7 +42,9 @@
       <pubDate>Sat, 09 Nov 2024 08:23:22 -0500</pubDate>
       
       <guid>http://localhost:1313/posts/microblog/microblog-11-07-2024/</guid>
-      <description>November 7, 2024 A New Language Working with AI is like blending your brain on high. You can work on multiple projects back-to-back-to-back with moderate efficiency and that&amp;rsquo;s amazing and tiresome at the same time. AI has made me want to build more and so I start a new project every time the opportunity presents itself. My creative mind has become increasingly fractal, spiraling outward in every direction, and to keep up with my plans my brain needs to stay focused for longer.</description>
+      <description>&lt;h1 id=&#34;november-7-2024&#34;&gt;November 7, 2024&lt;/h1&gt;
+&lt;h2 id=&#34;a-new-language&#34;&gt;A New Language&lt;/h2&gt;
+&lt;p&gt;Working with AI is like blending your brain on high. You can work on multiple projects back-to-back-to-back with moderate efficiency and that&amp;rsquo;s amazing and tiresome at the same time. AI has made me want to build more and so I start a new project every time the opportunity presents itself. My creative mind has become increasingly fractal, spiraling outward in every direction, and to keep up with my plans my brain needs to stay focused for longer.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -40,7 +53,9 @@
       <pubDate>Sat, 09 Nov 2024 08:23:22 -0500</pubDate>
       
       <guid>http://localhost:1313/posts/microblog/microblog-11-09-2024/</guid>
-      <description>November 9, 2024 Microblogging Made Easy Microblogging is easy, especially compared to macroblogging, but sometimes easy isn&amp;rsquo;t enough. We want effortless. I had an idea today to create an application that you could send thoughts and links to throughout the day and it would create a daily microblog post based on the content. With LLMs, I imagine this would be hardly more difficult than forming a juicy prompt and piping messages into it.</description>
+      <description>&lt;h1 id=&#34;november-9-2024&#34;&gt;November 9, 2024&lt;/h1&gt;
+&lt;h2 id=&#34;microblogging-made-easy&#34;&gt;Microblogging Made Easy&lt;/h2&gt;
+&lt;p&gt;Microblogging is easy, especially compared to macroblogging, but sometimes easy isn&amp;rsquo;t enough. We want effortless. I had an idea today to create an application that you could send thoughts and links to throughout the day and it would create a daily microblog post based on the content. With LLMs, I imagine this would be hardly more difficult than forming a juicy prompt and piping messages into it.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -49,7 +64,9 @@
       <pubDate>Wed, 06 Nov 2024 08:23:22 -0500</pubDate>
       
       <guid>http://localhost:1313/posts/microblog/microblog-11-06-2024/</guid>
-      <description>November 6, 2024 Towards Something The more I work as a developer, the more it becomes clear that I could spend my entire life struggling with the details. Every day there are new tools, frameworks, and patterns to learn. Tools you mastered change. The language syntaxes you burned into your connectome aren&amp;rsquo;t resilient to the turn of the clock hand. If I were an electrician, I could spend a lifetime pinching at the wires with solder-coated fingers.</description>
+      <description>&lt;h1 id=&#34;november-6-2024&#34;&gt;November 6, 2024&lt;/h1&gt;
+&lt;h2 id=&#34;towards-something&#34;&gt;Towards Something&lt;/h2&gt;
+&lt;p&gt;The more I work as a developer, the more it becomes clear that I could spend my entire life struggling with the details. Every day there are new tools, frameworks, and patterns to learn. Tools you mastered change. The language syntaxes you burned into your connectome aren&amp;rsquo;t resilient to the turn of the clock hand. If I were an electrician, I could spend a lifetime pinching at the wires with solder-coated fingers.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -58,8 +75,13 @@
       <pubDate>Tue, 05 Nov 2024 08:23:22 -0500</pubDate>
       
       <guid>http://localhost:1313/posts/microblog/microblog-11-05-2024/</guid>
-      <description>November 5, 2024 Building an AI Chatbot with xAI xAI just released their API and through the end of the year you can get $25 in credits each month. I took it for a quick spin and set up a chatbot using NextJS and Deepgram.
-The first step was to create an xAI account and generate an API key: Then, spin up a quick NextJS web page that uses the AI SDK.</description>
+      <description>&lt;h1 id=&#34;november-5-2024&#34;&gt;November 5, 2024&lt;/h1&gt;
+&lt;h2 id=&#34;building-an-ai-chatbot-with-xai&#34;&gt;Building an AI Chatbot with xAI&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://x.com/xai/status/1853505214181232828&#34;&gt;xAI just released their API&lt;/a&gt; and through the end of the year you can get $25 in credits each month. I took it for a quick spin and set up a chatbot using NextJS and Deepgram.&lt;/p&gt;
+&lt;p&gt;The first step was to create an xAI account and generate an API key:
+&lt;img loading=&#34;lazy&#34; src=&#34;image.png&#34; alt=&#34;xAI API Console&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;Then, spin up a quick NextJS web page that uses the &lt;a href=&#34;https://sdk.vercel.ai/&#34;&gt;AI SDK&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -68,8 +90,10 @@ The first step was to create an xAI account and generate an API key: Then, spin 
       <pubDate>Mon, 04 Nov 2024 08:23:22 -0500</pubDate>
       
       <guid>http://localhost:1313/posts/microblog/microblog-11-04-2024/</guid>
-      <description>November 4, 2024 The Conversation Cost AI copilots make you fast until they don&amp;rsquo;t. There is a very real &amp;ldquo;conversation cost&amp;rdquo; that materializes as you use AI tools and it&amp;rsquo;s best illustrated with an example.
-Say you want to create a two-sided marketplace for recruiters and job seekers. Standing in the middle of the greenfield, you can erect what appear to be finished structures in an incredibly short amount of time with AI.</description>
+      <description>&lt;h1 id=&#34;november-4-2024&#34;&gt;November 4, 2024&lt;/h1&gt;
+&lt;h2 id=&#34;the-conversation-cost&#34;&gt;The Conversation Cost&lt;/h2&gt;
+&lt;p&gt;AI copilots make you fast until they don&amp;rsquo;t. There is a very real &amp;ldquo;conversation cost&amp;rdquo; that materializes as you use AI tools and it&amp;rsquo;s best illustrated with an example.&lt;/p&gt;
+&lt;p&gt;Say you want to create a two-sided marketplace for recruiters and job seekers. Standing in the middle of the greenfield, you can erect what appear to be finished structures in an incredibly short amount of time with AI. A landing page, authentication middleware, dashboards, database interfaces. The outline of the project is fast to assemble because the brush of the AI copilot is wide.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -78,7 +102,21 @@ Say you want to create a two-sided marketplace for recruiters and job seekers. S
       <pubDate>Sat, 15 Jul 2023 15:13:36 -0400</pubDate>
       
       <guid>http://localhost:1313/projects/bakedown/</guid>
-      <description>Website: https://bakedown.app App Store: https://apps.apple.com/us/app/bakedown/id6445965871 Google Play: https://play.google.com/store/apps/details?id=com.mullr.abis_recipes&amp;amp;hl=en-US Status: Live Stack: Flutter Firebase RevenueCat Fastlane Streamline your baking experience with Bakedown! Import, organize, and customize your favorite pastry recipes—whether from the web or a photo—so you can focus on the joy of baking, not scrolling through ads.</description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Website&lt;/strong&gt;: &lt;a href=&#34;https://bakedown.app&#34;&gt;https://bakedown.app&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;App Store&lt;/strong&gt;: &lt;a href=&#34;https://apps.apple.com/us/app/bakedown/id6445965871&#34;&gt;https://apps.apple.com/us/app/bakedown/id6445965871&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Google Play&lt;/strong&gt;: &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.mullr.abis_recipes&amp;amp;hl=en-US&#34;&gt;https://play.google.com/store/apps/details?id=com.mullr.abis_recipes&amp;amp;hl=en-US&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Status&lt;/strong&gt;: Live&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stack&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Flutter&lt;/li&gt;
+&lt;li&gt;Firebase&lt;/li&gt;
+&lt;li&gt;RevenueCat&lt;/li&gt;
+&lt;li&gt;Fastlane&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Streamline your baking experience with Bakedown! Import, organize, and customize your favorite pastry recipes—whether from the web or a photo—so you can focus on the joy of baking, not scrolling through ads.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -87,8 +125,12 @@ Say you want to create a two-sided marketplace for recruiters and job seekers. S
       <pubDate>Mon, 19 Sep 2022 21:21:28 -0400</pubDate>
       
       <guid>http://localhost:1313/posts/ai/tensorflow_and_keras/tensorflow_and_keras/</guid>
-      <description>The future seems to be full of complexities the human mind will not fully comprehend. We don&amp;rsquo;t know everything and we won&amp;rsquo;t know everything and so it seems appropriate to operate under the assumption that we will always be pushing up against new knowledge.
-With that said, becoming familiar with machine learning and artificial intelligence early will put you in the best position to conquer the complex world of the future.</description>
+      <description>&lt;p&gt;The future seems to be full of complexities the human mind will not fully comprehend. We don&amp;rsquo;t know everything and we won&amp;rsquo;t know everything and so it seems appropriate to operate under the
+assumption that we will always be pushing up against new knowledge.&lt;/p&gt;
+&lt;p&gt;With that said, becoming familiar with machine learning and artificial intelligence early will put you in the best position to conquer the complex world of the future. For one, you&amp;rsquo;ll understand
+the foundation that the most foreign complexities are built on (ex. AGI, Stable Diffusion, large language models, etc). For two, you&amp;rsquo;ll have an incredibly powerful tool in your pocket to attack the
+problems you do
+understand.&lt;/p&gt;</description>
     </item>
     
   </channel>

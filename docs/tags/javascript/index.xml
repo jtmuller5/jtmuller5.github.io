@@ -13,8 +13,10 @@
       <pubDate>Thu, 05 Dec 2024 09:18:17 -0500</pubDate>
       
       <guid>https://jtmuller5.github.io/posts/typescript/converting-a-javascript-/</guid>
-      <description>Contents TypeScript has become increasingly popular due to its ability to bring static typing to JavaScript, enhancing code quality and developer productivity. Converting your existing JavaScript package to TypeScript can make it more robust and easier to maintain. In this guide, we’ll walk through the essential steps to transform your JavaScript package into a TypeScript package.
-1. Install TypeScript and Necessary Dependencies Begin by adding TypeScript and type definitions for Node.</description>
+      <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
+&lt;p&gt;TypeScript has become increasingly popular due to its ability to bring static typing to JavaScript, enhancing code quality and developer productivity. Converting your existing JavaScript package to TypeScript can make it more robust and easier to maintain. In this guide, we’ll walk through the essential steps to transform your JavaScript package into a TypeScript package.&lt;/p&gt;
+&lt;h2 id=&#34;1-install-typescript-and-necessary-dependencies&#34;&gt;1. Install TypeScript and Necessary Dependencies&lt;/h2&gt;
+&lt;p&gt;Begin by adding TypeScript and type definitions for Node.js to your development dependencies.&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -13,10 +13,25 @@
       <pubDate>Tue, 20 Sep 2022 10:57:17 -0400</pubDate>
       
       <guid>http://localhost:1313/posts/general/gripes_with_managed_publishing/gripes_with_managed_publishing/</guid>
-      <description>Google Play&amp;rsquo;s Developer Console offers a pretty neat &amp;ldquo;Managed Publishing&amp;rdquo; feature that lets you decide when approved builds and app updates are published.
-Without Managed Publishing:
-Develop a new feature Add your new build to Google Play&amp;rsquo;s Production track Submit the build for review App passes review App is automatically published to the masses With Managed Publishing:
-Develop a new feature Add your new build to Google Play&amp;rsquo;s Production track Submit the build for review App passes review [NEW] App is added to a list of &amp;ldquo;Changes ready to publish&amp;rdquo; [NEW] App can be manually published when you&amp;rsquo;re ready It&amp;rsquo;s undeniably an amazing feature offered by our Lord and Savior, Google, but like all things software, it&amp;rsquo;s not perfect.</description>
+      <description>&lt;p&gt;Google Play&amp;rsquo;s Developer Console offers a pretty neat &amp;ldquo;&lt;a href=&#34;https://support.google.com/googleplay/android-developer/answer/9859654?hl=en&#34;&gt;Managed Publishing&lt;/a&gt;&amp;rdquo; feature that lets you decide when approved builds and app updates are published.&lt;/p&gt;
+&lt;p&gt;Without Managed Publishing:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Develop a new feature&lt;/li&gt;
+&lt;li&gt;Add your new build to Google Play&amp;rsquo;s Production track&lt;/li&gt;
+&lt;li&gt;Submit the build for review&lt;/li&gt;
+&lt;li&gt;App passes review&lt;/li&gt;
+&lt;li&gt;App is automatically published to the masses&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;With Managed Publishing:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Develop a new feature&lt;/li&gt;
+&lt;li&gt;Add your new build to Google Play&amp;rsquo;s Production track&lt;/li&gt;
+&lt;li&gt;Submit the build for review&lt;/li&gt;
+&lt;li&gt;App passes review&lt;/li&gt;
+&lt;li&gt;[NEW] App is added to a list of &amp;ldquo;Changes ready to publish&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;[NEW] App can be manually published when you&amp;rsquo;re ready&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;It&amp;rsquo;s undeniably an amazing feature offered by our Lord and Savior, Google, but like all things software, it&amp;rsquo;s not perfect. As I discovered earlier today, there are some annoying quirks that aren&amp;rsquo;t documented anywhere but in the deepest abysses of StackOverflow. So, I decided to compile them into one place.&lt;/p&gt;</description>
     </item>
     
   </channel>

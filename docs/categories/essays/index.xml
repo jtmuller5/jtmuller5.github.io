@@ -13,8 +13,8 @@
       <pubDate>Sun, 20 Nov 2022 12:30:33 -0500</pubDate>
       
       <guid>https://jtmuller5.github.io/posts/fly-safe/fly-safe/</guid>
-      <description>Over the last 3 years I&amp;rsquo;ve spent countless hours learning and using Google&amp;rsquo;s cross-platform UI framework, Flutter. I&amp;rsquo;ve built over 20 hobby apps, worked for several small startups, and used Flutter professionally at two large healthcare companies. Flutter is amazing and it&amp;rsquo;s allowed me to build an early career in software development.
-The longer I use Flutter though, the more often I bump up against one of its major downsides - there&amp;rsquo;s no fast way to update broken code installed through the app stores.</description>
+      <description>&lt;p&gt;Over the last 3 years I&amp;rsquo;ve spent countless hours learning and using Google&amp;rsquo;s cross-platform UI framework, &lt;a href=&#34;https://flutter.dev/&#34;&gt;Flutter&lt;/a&gt;. I&amp;rsquo;ve built over 20 hobby apps, worked for several small startups, and used Flutter professionally at two large healthcare companies. Flutter is amazing and it&amp;rsquo;s allowed me to build an early career in software development.&lt;/p&gt;
+&lt;p&gt;The longer I use Flutter though, the more often I bump up against one of its major downsides - there&amp;rsquo;s no fast way to update broken code installed through the app stores.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -23,10 +23,25 @@ The longer I use Flutter though, the more often I bump up against one of its maj
       <pubDate>Tue, 20 Sep 2022 10:57:17 -0400</pubDate>
       
       <guid>https://jtmuller5.github.io/posts/general/gripes_with_managed_publishing/gripes_with_managed_publishing/</guid>
-      <description>Google Play&amp;rsquo;s Developer Console offers a pretty neat &amp;ldquo;Managed Publishing&amp;rdquo; feature that lets you decide when approved builds and app updates are published.
-Without Managed Publishing:
-Develop a new feature Add your new build to Google Play&amp;rsquo;s Production track Submit the build for review App passes review App is automatically published to the masses With Managed Publishing:
-Develop a new feature Add your new build to Google Play&amp;rsquo;s Production track Submit the build for review App passes review [NEW] App is added to a list of &amp;ldquo;Changes ready to publish&amp;rdquo; [NEW] App can be manually published when you&amp;rsquo;re ready It&amp;rsquo;s undeniably an amazing feature offered by our Lord and Savior, Google, but like all things software, it&amp;rsquo;s not perfect.</description>
+      <description>&lt;p&gt;Google Play&amp;rsquo;s Developer Console offers a pretty neat &amp;ldquo;&lt;a href=&#34;https://support.google.com/googleplay/android-developer/answer/9859654?hl=en&#34;&gt;Managed Publishing&lt;/a&gt;&amp;rdquo; feature that lets you decide when approved builds and app updates are published.&lt;/p&gt;
+&lt;p&gt;Without Managed Publishing:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Develop a new feature&lt;/li&gt;
+&lt;li&gt;Add your new build to Google Play&amp;rsquo;s Production track&lt;/li&gt;
+&lt;li&gt;Submit the build for review&lt;/li&gt;
+&lt;li&gt;App passes review&lt;/li&gt;
+&lt;li&gt;App is automatically published to the masses&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;With Managed Publishing:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Develop a new feature&lt;/li&gt;
+&lt;li&gt;Add your new build to Google Play&amp;rsquo;s Production track&lt;/li&gt;
+&lt;li&gt;Submit the build for review&lt;/li&gt;
+&lt;li&gt;App passes review&lt;/li&gt;
+&lt;li&gt;[NEW] App is added to a list of &amp;ldquo;Changes ready to publish&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;[NEW] App can be manually published when you&amp;rsquo;re ready&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;It&amp;rsquo;s undeniably an amazing feature offered by our Lord and Savior, Google, but like all things software, it&amp;rsquo;s not perfect. As I discovered earlier today, there are some annoying quirks that aren&amp;rsquo;t documented anywhere but in the deepest abysses of StackOverflow. So, I decided to compile them into one place.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -35,7 +50,7 @@ Develop a new feature Add your new build to Google Play&amp;rsquo;s Production t
       <pubDate>Mon, 30 Sep 2019 08:37:43 -0400</pubDate>
       
       <guid>https://jtmuller5.github.io/posts/philosophy/sanguine-me/</guid>
-      <description>Pontificating life&amp;rsquo;s purpose, or the lack thereof, can be a demoralizing practice. No worldly endeavor appears to have eternal ramifications and no eternal endgame seems rewarding enough to offset the suffering required to get there. If you aren&amp;rsquo;t careful, it&amp;rsquo;s dangerously easy to fall prey to the pernicious idea that nothing is worth doing. It&amp;rsquo;s an idea that feeds itself, validating its core concepts in realtime and offering an escape hatch that justifies the damages it has inflicted.</description>
+      <description>&lt;p&gt;Pontificating life&amp;rsquo;s purpose, or the lack thereof, can be a demoralizing practice. No worldly endeavor appears to have eternal ramifications and no eternal endgame seems rewarding enough to offset the suffering required to get there. If you aren&amp;rsquo;t careful, it&amp;rsquo;s dangerously easy to fall prey to the pernicious idea that nothing is worth doing. It&amp;rsquo;s an idea that feeds itself, validating its core concepts in realtime and offering an escape hatch that justifies the damages it has inflicted. You become so overwhelmed by the pointless work you&amp;rsquo;re doing day in and day out that you put in less and less effort because in the long run, you don&amp;rsquo;t believe it will matter one way or another. Your performance deteriorates. Life gets worse as society peers at you with an unforgiving gaze. Knowing you should be more deliberate with your efforts, you try to pay more attention to the things that will benefit your career and help you earn money but you&amp;rsquo;re constantly reminded that even money and a successful career won&amp;rsquo;t solve the philosophical problem that caused you to relinquish in the first place. So you relinquish again and life gets harder, the looming force of a single idea powering you downward in a straight line (forget the spiral). How sad.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -44,7 +59,7 @@ Develop a new feature Add your new build to Google Play&amp;rsquo;s Production t
       <pubDate>Thu, 26 Sep 2019 08:40:17 -0400</pubDate>
       
       <guid>https://jtmuller5.github.io/posts/philosophy/inifinite-horror/</guid>
-      <description>Religions all over the globe imagine an eternal, peaceful existence that follows the one we inhabit now. In Christianity, this eternal resting place devoid of pain and loss is called heaven and millions of the Christian faith mold their everyday behavior to meet the entry qualifications to this domain. They refrain from lying, cheating, stealing, murdering, lusting, and coveting all because these activities are sinful and would cause them to stumble in their walk with Jesus.</description>
+      <description>&lt;p&gt;Religions all over the globe imagine an eternal, peaceful existence that follows the one we inhabit now. In Christianity, this eternal resting place devoid of pain and loss is called heaven and millions of the Christian faith mold their everyday behavior to meet the entry qualifications to this domain. They refrain from lying, cheating, stealing, murdering, lusting, and coveting all because these activities are sinful and would cause them to stumble in their walk with Jesus. All of these things should be avoided if you want to live an easy life, but avoiding them in order to gain access to an eternal world is bizarre in my opinion and not because this place may not exist. I think it&amp;rsquo;s bizarre because if this place did exist, going there would inevitably be torture for the perfect human mind (I say &amp;ldquo;perfect&amp;rdquo; because one could argue that an imperfect mind, ridden with a faulty and transient memory would play and enjoy this realm forever without ever being totally satisfied or saturated. I&amp;rsquo;ll discuss this later since this argument relies on several assumptions about how the biology of the human mind is preserved in an ethereal world).&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -53,7 +68,7 @@ Develop a new feature Add your new build to Google Play&amp;rsquo;s Production t
       <pubDate>Thu, 26 Sep 2019 08:37:43 -0400</pubDate>
       
       <guid>https://jtmuller5.github.io/posts/philosophy/its-been-done/</guid>
-      <description>When I was a kid I loved role playing video games, especially the open world kind where rare items littered the landscape and achievements were unlocked by doing just about anything. The sprawling checklists of things to do and buy and find kept me occupied for hundreds of hours and I would make up ridiculous goals for myself, such as to collect every item in Fallout 3 or find all 100-something stars in Super Mario 64 (I&amp;rsquo;ll admit the Fallout goal was a tad more extreme).</description>
+      <description>&lt;p&gt;When I was a kid I loved role playing video games, especially the open world kind where rare items littered the landscape and achievements were unlocked by doing just about anything. The sprawling checklists of things to do and buy and find kept me occupied for hundreds of hours and I would make up ridiculous goals for myself, such as to collect every item in Fallout 3 or find all 100-something stars in Super Mario 64 (I&amp;rsquo;ll admit the Fallout goal was a tad more extreme). I think my addiction was rooted in the idea that finding every rare item or reaching the max level was an impressive accomplishment that somehow bolstered my real world ability to be successful. After all, these things weren&amp;rsquo;t necessarily easy.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -62,7 +77,7 @@ Develop a new feature Add your new build to Google Play&amp;rsquo;s Production t
       <pubDate>Wed, 25 Sep 2019 08:41:39 -0400</pubDate>
       
       <guid>https://jtmuller5.github.io/posts/philosophy/purpose-is-my-purpose/</guid>
-      <description>I&amp;rsquo;ve spent a lot of time thinking about what the purpose of life is and whether or not existence is supported by some underlying reasoning. It&amp;rsquo;s a thought stream with a current that cannot be escaped. Once the mind starts to ponder &amp;ldquo;why&amp;rdquo; something must be done, it doesn&amp;rsquo;t stop pondering. Everything that get&amp;rsquo;s you excited or arouses fear or builds anticipation is now engulfed in a single thought cloud that fogs the emotional impact.</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve spent a lot of time thinking about what the purpose of life is and whether or not existence is supported by some underlying reasoning. It&amp;rsquo;s a thought stream with a current that cannot be escaped. Once the mind starts to ponder &amp;ldquo;why&amp;rdquo; something must be done, it doesn&amp;rsquo;t stop pondering. Everything that get&amp;rsquo;s you excited or arouses fear or builds anticipation is now engulfed in a single thought cloud that fogs the emotional impact. I find each surge of dopamine in my mind being countered with an equal surge of pessimistic logic, specifically the idea that, &amp;ldquo;in 100 years, I&amp;rsquo;ll be dead anyways&amp;rdquo;. It&amp;rsquo;s a depressing plague in some instances and a reassuring sedative in others. The good things in life are temporary and so are the bad, each one inevitably being stamped out by the boot of father time. These ideas have made me rethink everything I&amp;rsquo;ve wanted to do in life, and more importantly, they&amp;rsquo;ve made me reevaluate the concept of wanting altogether.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -71,7 +86,7 @@ Develop a new feature Add your new build to Google Play&amp;rsquo;s Production t
       <pubDate>Fri, 20 Sep 2019 08:34:41 -0400</pubDate>
       
       <guid>https://jtmuller5.github.io/posts/philosophy/thinking-thought/</guid>
-      <description>Purpose is a logic driven concept, one that can only be grasped by an entity with the potential to understand nebulous abstractions like reason and meaning. In simple terms, purpose is the &amp;ldquo;why&amp;rdquo; behind the &amp;ldquo;what&amp;rdquo; and it deals with questions that exist outside the plane of physical material. Objects in and of themselves are not concerned with the &amp;ldquo;why&amp;rdquo;. A rock in the middle of the desert does not care, nor have the capacity to care, about why it is destined to bake in a spotlight of solar radiation until the sun burns out.</description>
+      <description>&lt;p&gt;Purpose is a logic driven concept, one that can only be grasped by an entity with the potential to understand nebulous abstractions like reason and meaning. In simple terms, purpose is the &amp;ldquo;why&amp;rdquo; behind the &amp;ldquo;what&amp;rdquo; and it deals with questions that exist outside the plane of physical material. Objects in and of themselves are not concerned with the &amp;ldquo;why&amp;rdquo;. A rock in the middle of the desert does not care, nor have the capacity to care, about why it is destined to bake in a spotlight of solar radiation until the sun burns out. This goes for all things that have no means of deliberately responding to their environments - rocks, water droplets, the metal carcass of an old car. No, these things exist in a realm that is indifferent to any underlying, supernatural force&amp;hellip;or so it seems.&lt;/p&gt;</description>
     </item>
     
   </channel>

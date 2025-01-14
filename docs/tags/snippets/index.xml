@@ -13,10 +13,31 @@
       <pubDate>Sat, 11 Jan 2025 12:40:39 -0500</pubDate>
       
       <guid>https://jtmuller5.github.io/posts/2025/vs-code-snippet-variables/</guid>
-      <description>Contents You should use VS Code snippets more than you do and that&amp;rsquo;s not just an opinion.
-The Snippet Syntax section of the VS Code snippet docs is a minefield of knowledge bombs.
-Common Transformations &amp;#34;Snippet Test&amp;#34;: { &amp;#34;scope&amp;#34;: &amp;#34;dart&amp;#34;, &amp;#34;prefix&amp;#34;: &amp;#34;foolsTest&amp;#34;, &amp;#34;body&amp;#34;: [ &amp;#34;${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}&amp;#34;, &amp;#34;${TM_FILENAME_BASE/(.*)/${1:/camelcase}/}&amp;#34;, &amp;#34;${TM_FILENAME_BASE/(.*)/${1:/upcase}/}&amp;#34;, &amp;#34;${TM_FILENAME_BASE/(.*)/${1:/downcase}/}&amp;#34;, &amp;#34;${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}&amp;#34;, ], &amp;#34;description&amp;#34;: &amp;#34;Snippet Test&amp;#34; } For the file test_test.dart, this outputs:
-TestTest testTest TEST_TEST test_test Test_test Step by Step Placeholders A placeholder in VS Code is a &amp;ldquo;tabstop&amp;rdquo; that appears in the rendered snippet.</description>
+      <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
+&lt;p&gt;You should use VS Code snippets more than you do and that&amp;rsquo;s not just an opinion.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://code.visualstudio.com/docs/editor/userdefinedsnippets#_snippet-syntax&#34;&gt;Snippet Syntax section&lt;/a&gt; of the VS Code snippet docs is a minefield of knowledge bombs.&lt;/p&gt;
+&lt;h2 id=&#34;common-transformations&#34;&gt;Common Transformations&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Snippet Test&amp;#34;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		&lt;span class=&#34;nt&#34;&gt;&amp;#34;scope&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;dart&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		&lt;span class=&#34;nt&#34;&gt;&amp;#34;prefix&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;foolsTest&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		&lt;span class=&#34;nt&#34;&gt;&amp;#34;body&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			&lt;span class=&#34;s2&#34;&gt;&amp;#34;${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			&lt;span class=&#34;s2&#34;&gt;&amp;#34;${TM_FILENAME_BASE/(.*)/${1:/camelcase}/}&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			&lt;span class=&#34;s2&#34;&gt;&amp;#34;${TM_FILENAME_BASE/(.*)/${1:/upcase}/}&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			&lt;span class=&#34;s2&#34;&gt;&amp;#34;${TM_FILENAME_BASE/(.*)/${1:/downcase}/}&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			&lt;span class=&#34;s2&#34;&gt;&amp;#34;${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		&lt;span class=&#34;nt&#34;&gt;&amp;#34;description&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Snippet Test&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For the file &lt;code&gt;test_test.dart&lt;/code&gt;, this outputs:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;TestTest
+testTest
+TEST_TEST
+test_test
+Test_test
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;step-by-step&#34;&gt;Step by Step&lt;/h2&gt;
+&lt;h3 id=&#34;placeholders&#34;&gt;Placeholders&lt;/h3&gt;
+&lt;p&gt;A &lt;a href=&#34;https://code.visualstudio.com/docs/editor/userdefinedsnippets#_placeholders&#34;&gt;placeholder&lt;/a&gt; in VS Code is a &amp;ldquo;tabstop&amp;rdquo; that appears in the rendered snippet. A tabstop is simply a cursor position within a snippet body.&lt;/p&gt;</description>
     </item>
     
   </channel>

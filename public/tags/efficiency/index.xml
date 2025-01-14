@@ -13,10 +13,31 @@
       <pubDate>Sat, 11 Jan 2025 12:40:39 -0500</pubDate>
       
       <guid>http://localhost:1313/posts/2025/vs-code-snippet-variables/</guid>
-      <description>Contents You should use VS Code snippets more than you do and that&amp;rsquo;s not just an opinion.
-The Snippet Syntax section of the VS Code snippet docs is a minefield of knowledge bombs.
-Common Transformations &amp;#34;Snippet Test&amp;#34;: { &amp;#34;scope&amp;#34;: &amp;#34;dart&amp;#34;, &amp;#34;prefix&amp;#34;: &amp;#34;foolsTest&amp;#34;, &amp;#34;body&amp;#34;: [ &amp;#34;${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}&amp;#34;, &amp;#34;${TM_FILENAME_BASE/(.*)/${1:/camelcase}/}&amp;#34;, &amp;#34;${TM_FILENAME_BASE/(.*)/${1:/upcase}/}&amp;#34;, &amp;#34;${TM_FILENAME_BASE/(.*)/${1:/downcase}/}&amp;#34;, &amp;#34;${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}&amp;#34;, ], &amp;#34;description&amp;#34;: &amp;#34;Snippet Test&amp;#34; } For the file test_test.dart, this outputs:
-TestTest testTest TEST_TEST test_test Test_test Step by Step Placeholders A placeholder in VS Code is a &amp;ldquo;tabstop&amp;rdquo; that appears in the rendered snippet.</description>
+      <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
+&lt;p&gt;You should use VS Code snippets more than you do and that&amp;rsquo;s not just an opinion.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://code.visualstudio.com/docs/editor/userdefinedsnippets#_snippet-syntax&#34;&gt;Snippet Syntax section&lt;/a&gt; of the VS Code snippet docs is a minefield of knowledge bombs.&lt;/p&gt;
+&lt;h2 id=&#34;common-transformations&#34;&gt;Common Transformations&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Snippet Test&amp;#34;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		&lt;span class=&#34;nt&#34;&gt;&amp;#34;scope&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;dart&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		&lt;span class=&#34;nt&#34;&gt;&amp;#34;prefix&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;foolsTest&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		&lt;span class=&#34;nt&#34;&gt;&amp;#34;body&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			&lt;span class=&#34;s2&#34;&gt;&amp;#34;${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			&lt;span class=&#34;s2&#34;&gt;&amp;#34;${TM_FILENAME_BASE/(.*)/${1:/camelcase}/}&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			&lt;span class=&#34;s2&#34;&gt;&amp;#34;${TM_FILENAME_BASE/(.*)/${1:/upcase}/}&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			&lt;span class=&#34;s2&#34;&gt;&amp;#34;${TM_FILENAME_BASE/(.*)/${1:/downcase}/}&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			&lt;span class=&#34;s2&#34;&gt;&amp;#34;${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		&lt;span class=&#34;nt&#34;&gt;&amp;#34;description&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Snippet Test&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For the file &lt;code&gt;test_test.dart&lt;/code&gt;, this outputs:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;TestTest
+testTest
+TEST_TEST
+test_test
+Test_test
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;step-by-step&#34;&gt;Step by Step&lt;/h2&gt;
+&lt;h3 id=&#34;placeholders&#34;&gt;Placeholders&lt;/h3&gt;
+&lt;p&gt;A &lt;a href=&#34;https://code.visualstudio.com/docs/editor/userdefinedsnippets#_placeholders&#34;&gt;placeholder&lt;/a&gt; in VS Code is a &amp;ldquo;tabstop&amp;rdquo; that appears in the rendered snippet. A tabstop is simply a cursor position within a snippet body.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -25,7 +46,25 @@ TestTest testTest TEST_TEST test_test Test_test Step by Step Placeholders A plac
       <pubDate>Fri, 01 Nov 2024 00:08:49 -0400</pubDate>
       
       <guid>http://localhost:1313/posts/make-chat-gpt-default-search-engine-on-microsoft-edge/</guid>
-      <description>Just the Steps Open settings Search for &amp;ldquo;address bar&amp;rdquo; (Privacy, search, and services -&amp;gt; Address bar and search) Select &amp;ldquo;Manage search engines&amp;rdquo; Select &amp;ldquo;Add&amp;rdquo; Fill in the fields with the following information: Search engine: SearchGPT Shortcut: @ai URL with %s in place of query: https://chatgpt.com/?q=%s&amp;amp;hints=search Click &amp;ldquo;Save&amp;rdquo; Click the three dots next to SearchGPT and select &amp;ldquo;Make default&amp;rdquo; If you don&amp;rsquo;t want to set SearchGPT as your default search engine, you can still use it by typing &amp;ldquo;@ai&amp;rdquo; in the address bar followed by your search query.</description>
+      <description>&lt;h1 id=&#34;just-the-steps&#34;&gt;Just the Steps&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Open settings&lt;/li&gt;
+&lt;li&gt;Search for &amp;ldquo;address bar&amp;rdquo; (Privacy, search, and services -&amp;gt; Address bar and search)&lt;/li&gt;
+&lt;li&gt;Select &amp;ldquo;Manage search engines&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Select &amp;ldquo;Add&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Fill in the fields with the following information:
+&lt;ul&gt;
+&lt;li&gt;Search engine: SearchGPT&lt;/li&gt;
+&lt;li&gt;Shortcut: @ai&lt;/li&gt;
+&lt;li&gt;URL with %s in place of query: &lt;a href=&#34;https://chatgpt.com/?q=%25s&amp;amp;hints=search&#34;&gt;https://chatgpt.com/?q=%s&amp;amp;hints=search&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Click &amp;ldquo;Save&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Click the three dots next to SearchGPT and select &amp;ldquo;Make default&amp;rdquo;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;image.png&#34; alt=&#34;Make SearchGPT the default search engine on Microsoft Edge&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;If you don&amp;rsquo;t want to set SearchGPT as your default search engine, you can still use it by typing &amp;ldquo;@ai&amp;rdquo; in the address bar followed by your search query.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -34,7 +73,25 @@ TestTest testTest TEST_TEST test_test Test_test Step by Step Placeholders A plac
       <pubDate>Thu, 31 Oct 2024 23:42:39 -0400</pubDate>
       
       <guid>http://localhost:1313/posts/make-perplexity-default-search-engine-on-microsoft-edge/</guid>
-      <description>Just the Steps Open settings Search for &amp;ldquo;address bar&amp;rdquo; (Privacy, search, and services -&amp;gt; Address bar and search) Select &amp;ldquo;Manage search engines&amp;rdquo; Select &amp;ldquo;Add&amp;rdquo; Fill in the fields with the following information: Search engine: Perplexity Shortcut: @ai URL with %s in place of query: https://perplexity.ai/search/new?q=%s Click &amp;ldquo;Save&amp;rdquo; Click the three dots next to Perplexity and select &amp;ldquo;Make default&amp;rdquo; If you don&amp;rsquo;t want to set Perplexity as your default search engine, you can still use it by typing &amp;ldquo;@ai&amp;rdquo; in the address bar followed by your search query.</description>
+      <description>&lt;h1 id=&#34;just-the-steps&#34;&gt;Just the Steps&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Open settings&lt;/li&gt;
+&lt;li&gt;Search for &amp;ldquo;address bar&amp;rdquo; (Privacy, search, and services -&amp;gt; Address bar and search)&lt;/li&gt;
+&lt;li&gt;Select &amp;ldquo;Manage search engines&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Select &amp;ldquo;Add&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Fill in the fields with the following information:
+&lt;ul&gt;
+&lt;li&gt;Search engine: Perplexity&lt;/li&gt;
+&lt;li&gt;Shortcut: @ai&lt;/li&gt;
+&lt;li&gt;URL with %s in place of query: &lt;a href=&#34;https://perplexity.ai/search/new?q=%25s&#34;&gt;https://perplexity.ai/search/new?q=%s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Click &amp;ldquo;Save&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Click the three dots next to Perplexity and select &amp;ldquo;Make default&amp;rdquo;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;image.png&#34; alt=&#34;Make Perplexity the default search engine in Microsoft Edge&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;If you don&amp;rsquo;t want to set Perplexity as your default search engine, you can still use it by typing &amp;ldquo;@ai&amp;rdquo; in the address bar followed by your search query.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -43,12 +100,14 @@ TestTest testTest TEST_TEST test_test Test_test Step by Step Placeholders A plac
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
       <guid>http://localhost:1313/posts/flutter/flutter_efficiently/flutter_efficiently/</guid>
-      <description>Flutter Newbies Start Here If you’re new to Flutter development, I’d recommend starting with something a little less involved.
-I used this book to learn the Flutter language:
-Beginning Flutter: A Hands On Guide to App Development
-And this one to get started with mobile app development:
-Android Studio 3.4 Development Essentials — Kotlin Edition: Developing Android Apps Using Android Studio 3.4, Kotlin and Jetpack
-…And Let’s Go Good morning, afternoon, and evening to all the Flutter developers in the world and welcome to the blog post that’s going to make you love Google’s cross-platform development language more than you already do!</description>
+      <description>&lt;h2 id=&#34;flutter-newbies-start-here&#34;&gt;Flutter Newbies Start Here&lt;/h2&gt;
+&lt;p&gt;If you’re new to Flutter development, I’d recommend starting with something a little less involved.&lt;/p&gt;
+&lt;p&gt;I used this book to learn the Flutter language:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://amzn.to/3hAYWOL&#34;&gt;Beginning Flutter: A Hands On Guide to App Development&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;And this one to get started with mobile app development:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://amzn.to/2RzNrgg&#34;&gt;Android Studio 3.4 Development Essentials — Kotlin Edition: Developing Android Apps Using Android Studio 3.4, Kotlin and Jetpack&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;and-lets-go&#34;&gt;…And Let’s Go&lt;/h1&gt;
+&lt;p&gt;Good morning, afternoon, and evening to all the Flutter developers in the world and welcome to the blog post that’s going to make you love Google’s cross-platform development language more than you already do! For those of you that aren’t familiar with the &lt;a href=&#34;https://foresightmobile.com/blog/2020/02/05/the-rising-popularity-of-flutter-7hgze&#34;&gt;number one rising language for mobile development&lt;/a&gt;, get familiar. This language is perfect for creating beautiful mobile applications for Android, iOS, and web, and it has a community that is expanding like California wildfires.&lt;/p&gt;</description>
     </item>
     
   </channel>

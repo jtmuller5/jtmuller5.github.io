@@ -13,7 +13,21 @@
       <pubDate>Sat, 15 Jul 2023 15:13:36 -0400</pubDate>
       
       <guid>http://localhost:1313/projects/bakedown/</guid>
-      <description>Website: https://bakedown.app App Store: https://apps.apple.com/us/app/bakedown/id6445965871 Google Play: https://play.google.com/store/apps/details?id=com.mullr.abis_recipes&amp;amp;hl=en-US Status: Live Stack: Flutter Firebase RevenueCat Fastlane Streamline your baking experience with Bakedown! Import, organize, and customize your favorite pastry recipes—whether from the web or a photo—so you can focus on the joy of baking, not scrolling through ads.</description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Website&lt;/strong&gt;: &lt;a href=&#34;https://bakedown.app&#34;&gt;https://bakedown.app&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;App Store&lt;/strong&gt;: &lt;a href=&#34;https://apps.apple.com/us/app/bakedown/id6445965871&#34;&gt;https://apps.apple.com/us/app/bakedown/id6445965871&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Google Play&lt;/strong&gt;: &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.mullr.abis_recipes&amp;amp;hl=en-US&#34;&gt;https://play.google.com/store/apps/details?id=com.mullr.abis_recipes&amp;amp;hl=en-US&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Status&lt;/strong&gt;: Live&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stack&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Flutter&lt;/li&gt;
+&lt;li&gt;Firebase&lt;/li&gt;
+&lt;li&gt;RevenueCat&lt;/li&gt;
+&lt;li&gt;Fastlane&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Streamline your baking experience with Bakedown! Import, organize, and customize your favorite pastry recipes—whether from the web or a photo—so you can focus on the joy of baking, not scrolling through ads.&lt;/p&gt;</description>
     </item>
     
   </channel>

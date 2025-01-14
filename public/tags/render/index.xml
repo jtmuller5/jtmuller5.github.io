@@ -13,7 +13,18 @@
       <pubDate>Fri, 20 Sep 2024 15:13:36 -0400</pubDate>
       
       <guid>http://localhost:1313/projects/crashify/</guid>
-      <description>Website: https://crashify.ai Status: On hold Stack: TypeScript React Supabase Crashify AI is a website that lets you generate 10-part &amp;ldquo;../../posts/projects/crashify&amp;quot;crash courses.</description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Website&lt;/strong&gt;: &lt;a href=&#34;https://crashify.ai&#34;&gt;https://crashify.ai&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Status&lt;/strong&gt;: On hold&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stack&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;TypeScript&lt;/li&gt;
+&lt;li&gt;React&lt;/li&gt;
+&lt;li&gt;Supabase&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Crashify AI is a website that lets you generate 10-part &amp;ldquo;../../posts/projects/crashify&amp;quot;crash courses.&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -13,7 +13,25 @@
       <pubDate>Thu, 31 Oct 2024 23:42:39 -0400</pubDate>
       
       <guid>https://jtmuller5.github.io/posts/make-perplexity-default-search-engine-on-microsoft-edge/</guid>
-      <description>Just the Steps Open settings Search for &amp;ldquo;address bar&amp;rdquo; (Privacy, search, and services -&amp;gt; Address bar and search) Select &amp;ldquo;Manage search engines&amp;rdquo; Select &amp;ldquo;Add&amp;rdquo; Fill in the fields with the following information: Search engine: Perplexity Shortcut: @ai URL with %s in place of query: https://perplexity.ai/search/new?q=%s Click &amp;ldquo;Save&amp;rdquo; Click the three dots next to Perplexity and select &amp;ldquo;Make default&amp;rdquo; If you don&amp;rsquo;t want to set Perplexity as your default search engine, you can still use it by typing &amp;ldquo;@ai&amp;rdquo; in the address bar followed by your search query.</description>
+      <description>&lt;h1 id=&#34;just-the-steps&#34;&gt;Just the Steps&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Open settings&lt;/li&gt;
+&lt;li&gt;Search for &amp;ldquo;address bar&amp;rdquo; (Privacy, search, and services -&amp;gt; Address bar and search)&lt;/li&gt;
+&lt;li&gt;Select &amp;ldquo;Manage search engines&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Select &amp;ldquo;Add&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Fill in the fields with the following information:
+&lt;ul&gt;
+&lt;li&gt;Search engine: Perplexity&lt;/li&gt;
+&lt;li&gt;Shortcut: @ai&lt;/li&gt;
+&lt;li&gt;URL with %s in place of query: &lt;a href=&#34;https://perplexity.ai/search/new?q=%25s&#34;&gt;https://perplexity.ai/search/new?q=%s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Click &amp;ldquo;Save&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Click the three dots next to Perplexity and select &amp;ldquo;Make default&amp;rdquo;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;image.png&#34; alt=&#34;Make Perplexity the default search engine in Microsoft Edge&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;If you don&amp;rsquo;t want to set Perplexity as your default search engine, you can still use it by typing &amp;ldquo;@ai&amp;rdquo; in the address bar followed by your search query.&lt;/p&gt;</description>
     </item>
     
   </channel>

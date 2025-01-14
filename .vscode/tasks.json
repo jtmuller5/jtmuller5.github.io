@@ -26,6 +26,13 @@
         "isDefault": true
       },
       "problemMatcher": []
+    },
+    {
+      "label": "Update Hugo",
+      "type": "shell",
+      "command": "brew upgrade hugo",
+      "group": "none",
+      "problemMatcher": []
     }
   ],
   "inputs": [

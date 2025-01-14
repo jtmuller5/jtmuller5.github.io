@@ -13,9 +13,11 @@
       <pubDate>Mon, 18 Nov 2024 12:00:00 -0500</pubDate>
       
       <guid>http://localhost:1313/posts/chrome-extensions/create-a-chrome-extension-with-react-typescript-tailwind-and-vite/</guid>
-      <description>Contents After publishing my first article on building a Chrome Extension using React, TypeScript, TailWind, and Webpack, a handful of people commented that Webpack was an antique best left on the shelf. In this article, I will walk you through creating the a Chrome Extension that uses the same tech stack but with Vite as the build tool.
-For the full code, check out the GitHub repository.
-Introduction In this tutorial, we&amp;rsquo;ll build a Chrome extension using React, TypeScript, Tailwind CSS, and Vite.</description>
+      <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
+&lt;p&gt;After publishing my first article on &lt;a href=&#34;https://joemuller.com/posts/create-a-chrome-extension-with-react-typescript-and-tailwindcss/&#34;&gt;building a Chrome Extension using React, TypeScript, TailWind, and Webpack&lt;/a&gt;, a handful of people commented that Webpack was an antique best left on the shelf. In this article, I will walk you through creating the a Chrome Extension that uses the same tech stack but with Vite as the build tool.&lt;/p&gt;
+&lt;p&gt;For the full code, check out the &lt;a href=&#34;https://github.com/jtmuller5/cotr_react_chrome_extension_vite&#34;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;In this tutorial, we&amp;rsquo;ll build a Chrome extension using React, TypeScript, Tailwind CSS, and &lt;a href=&#34;https://vite.dev/&#34;&gt;Vite&lt;/a&gt;. Vite is a modern build tool that offers a fast and lean development experience. By the end of this guide, you&amp;rsquo;ll have a fully functional Chrome extension with a popup and side panel, all powered by React components styled with &lt;a href=&#34;https://tailwindcss.com/&#34;&gt;Tailwind CSS&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -24,11 +26,28 @@ Introduction In this tutorial, we&amp;rsquo;ll build a Chrome extension using Re
       <pubDate>Sat, 16 Nov 2024 21:08:12 -0500</pubDate>
       
       <guid>http://localhost:1313/posts/chrome-extensions/create-a-chrome-extension-with-react-typescript-and-tailwindcss/</guid>
-      <description>Contents This article was inspired by Creating a Chrome Extension with React a Step by Step Guide.
-For the full code, check out the repo.
-Creating a Popup 1. Create React App Use the official Create React App CLI to kickstart your project:
-npx create-react-app react-chrome-ext --template typescript cd react-chrome-ext 2. Update the Files Update App.tsx to show a simple string:
-function App() { return ( &amp;lt;div className=&amp;#34;App&amp;#34;&amp;gt; Hello World &amp;lt;/div&amp;gt; ); } export default App; Update index.</description>
+      <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This article was inspired by &lt;a href=&#34;https://medium.com/@tharshita13/creating-a-chrome-extension-with-react-a-step-by-step-guide-47fe9bab24a1&#34;&gt;Creating a Chrome Extension with React a Step by Step Guide&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For the full code, check out the &lt;a href=&#34;https://github.com/jtmuller5/cotr-react-chrome-extension-webpack&#34;&gt;repo&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;creating-a-popup&#34;&gt;Creating a Popup&lt;/h2&gt;
+&lt;h3 id=&#34;1-create-react-app&#34;&gt;1. Create React App&lt;/h3&gt;
+&lt;p&gt;Use the official Create React App CLI to kickstart your project:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npx create-react-app react-chrome-ext --template typescript
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; react-chrome-ext
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;2-update-the-files&#34;&gt;2. Update the Files&lt;/h3&gt;
+&lt;p&gt;Update &lt;code&gt;App.tsx&lt;/code&gt; to show a simple string:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-typescript&#34; data-lang=&#34;typescript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;App() {&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;className&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;App&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nx&#34;&gt;Hello&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;World&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;default&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;App&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Update &lt;code&gt;index.tsx&lt;/code&gt;:&lt;/p&gt;</description>
     </item>
     
   </channel>

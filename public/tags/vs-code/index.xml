@@ -13,10 +13,31 @@
       <pubDate>Sat, 11 Jan 2025 12:40:39 -0500</pubDate>
       
       <guid>http://localhost:1313/posts/2025/vs-code-snippet-variables/</guid>
-      <description>Contents You should use VS Code snippets more than you do and that&amp;rsquo;s not just an opinion.
-The Snippet Syntax section of the VS Code snippet docs is a minefield of knowledge bombs.
-Common Transformations &amp;#34;Snippet Test&amp;#34;: { &amp;#34;scope&amp;#34;: &amp;#34;dart&amp;#34;, &amp;#34;prefix&amp;#34;: &amp;#34;foolsTest&amp;#34;, &amp;#34;body&amp;#34;: [ &amp;#34;${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}&amp;#34;, &amp;#34;${TM_FILENAME_BASE/(.*)/${1:/camelcase}/}&amp;#34;, &amp;#34;${TM_FILENAME_BASE/(.*)/${1:/upcase}/}&amp;#34;, &amp;#34;${TM_FILENAME_BASE/(.*)/${1:/downcase}/}&amp;#34;, &amp;#34;${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}&amp;#34;, ], &amp;#34;description&amp;#34;: &amp;#34;Snippet Test&amp;#34; } For the file test_test.dart, this outputs:
-TestTest testTest TEST_TEST test_test Test_test Step by Step Placeholders A placeholder in VS Code is a &amp;ldquo;tabstop&amp;rdquo; that appears in the rendered snippet.</description>
+      <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
+&lt;p&gt;You should use VS Code snippets more than you do and that&amp;rsquo;s not just an opinion.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://code.visualstudio.com/docs/editor/userdefinedsnippets#_snippet-syntax&#34;&gt;Snippet Syntax section&lt;/a&gt; of the VS Code snippet docs is a minefield of knowledge bombs.&lt;/p&gt;
+&lt;h2 id=&#34;common-transformations&#34;&gt;Common Transformations&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Snippet Test&amp;#34;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		&lt;span class=&#34;nt&#34;&gt;&amp;#34;scope&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;dart&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		&lt;span class=&#34;nt&#34;&gt;&amp;#34;prefix&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;foolsTest&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		&lt;span class=&#34;nt&#34;&gt;&amp;#34;body&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			&lt;span class=&#34;s2&#34;&gt;&amp;#34;${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			&lt;span class=&#34;s2&#34;&gt;&amp;#34;${TM_FILENAME_BASE/(.*)/${1:/camelcase}/}&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			&lt;span class=&#34;s2&#34;&gt;&amp;#34;${TM_FILENAME_BASE/(.*)/${1:/upcase}/}&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			&lt;span class=&#34;s2&#34;&gt;&amp;#34;${TM_FILENAME_BASE/(.*)/${1:/downcase}/}&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			&lt;span class=&#34;s2&#34;&gt;&amp;#34;${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		&lt;span class=&#34;nt&#34;&gt;&amp;#34;description&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Snippet Test&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For the file &lt;code&gt;test_test.dart&lt;/code&gt;, this outputs:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;TestTest
+testTest
+TEST_TEST
+test_test
+Test_test
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;step-by-step&#34;&gt;Step by Step&lt;/h2&gt;
+&lt;h3 id=&#34;placeholders&#34;&gt;Placeholders&lt;/h3&gt;
+&lt;p&gt;A &lt;a href=&#34;https://code.visualstudio.com/docs/editor/userdefinedsnippets#_placeholders&#34;&gt;placeholder&lt;/a&gt; in VS Code is a &amp;ldquo;tabstop&amp;rdquo; that appears in the rendered snippet. A tabstop is simply a cursor position within a snippet body.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -25,7 +46,16 @@ TestTest testTest TEST_TEST test_test Test_test Step by Step Placeholders A plac
       <pubDate>Wed, 20 Nov 2024 15:13:36 -0400</pubDate>
       
       <guid>http://localhost:1313/projects/clibbits/</guid>
-      <description>Website: https://marketplace.visualstudio.com/items?itemName=CodeontheRocks.clibbits Status: Live Stack: TypeScript Clibbits is a Visual Studio Code extension that simplifies copying file contents to your clipboard. It is designed to make working with LLMs outside of your IDE more efficient by letting you quickly copy open files and folders in a format that is easily understood by AI models.</description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Website&lt;/strong&gt;: &lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=CodeontheRocks.clibbits&#34;&gt;https://marketplace.visualstudio.com/items?itemName=CodeontheRocks.clibbits&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Status&lt;/strong&gt;: Live&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stack&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;TypeScript&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Clibbits is a Visual Studio Code extension that simplifies copying file contents to your clipboard. It is designed to make working with LLMs outside of your IDE more efficient by letting you quickly copy open files and folders in a format that is easily understood by AI models.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -34,7 +64,7 @@ TestTest testTest TEST_TEST test_test Test_test Step by Step Placeholders A plac
       <pubDate>Sat, 05 Oct 2024 08:04:55 -0400</pubDate>
       
       <guid>http://localhost:1313/posts/creating-a-vs-code-chat-extension-with-claude/</guid>
-      <description>Claude Sonnet is undeniably one of the best frontier models for programming and I still reach for it despite having GPT-4o and o1 inside my VS Code editor. To make it even smarter and more effective, I use the Projects feature (available on the pro plan) to manage all of the documentation and general context related to what I&amp;rsquo;m working on. By uploading text and files related to the technology I&amp;rsquo;m using, Claude becomes a genius in exactly what I want him to be a genius in.</description>
+      <description>&lt;p&gt;Claude Sonnet is undeniably one of the best frontier models for programming and I still reach for it despite having GPT-4o and o1 inside my VS Code editor. To make it even smarter and more effective, I use the Projects feature (available on the pro plan) to manage all of the documentation and general context related to what I&amp;rsquo;m working on. By uploading text and files related to the technology I&amp;rsquo;m using, Claude becomes a genius in exactly what I want him to be a genius in.&lt;/p&gt;</description>
     </item>
     
   </channel>
