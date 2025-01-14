@@ -6,36 +6,14 @@
     <description>Recent content in Flutter on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Oct 2024 14:32:14 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/flutter/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Nov 2024 15:33:39 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/flutter/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Flutter Pwa Setup</title>
-      <link>http://localhost:1313/posts/flutter/flutter-pwa-setup/</link>
-      <pubDate>Wed, 30 Oct 2024 14:32:14 -0400</pubDate>
+      <title>How to Create and Publish a Flutter Package</title>
+      <link>http://localhost:1313/posts/flutter/how-to-create-and-publish-a-flutter-package/</link>
+      <pubDate>Sun, 03 Nov 2024 15:33:39 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/flutter/flutter-pwa-setup/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Flutter Shaders vs Code Setup</title>
-      <link>http://localhost:1313/posts/flutter/flutter-shaders-vs-code-setup/</link>
-      <pubDate>Mon, 28 Oct 2024 10:18:40 -0400</pubDate>
-      
-      <guid>http://localhost:1313/posts/flutter/flutter-shaders-vs-code-setup/</guid>
-      <description>This blog post will cover how to set up your VS Code environment for Flutter development with shaders.
-To start, install the glslc command line compiler from this link: https://github.com/google/shaderc?tab=readme-ov-file#downloads
-Save the glslangValidator executable to a location on your computer and note the path.
-Next, install the following two VS Code extensions:
-Shader languages support for VS Code Shaderc GLSL Linter ASI for GLSL In the GLSL Lint extension settings, set the path to the glslangValidator executable.</description>
-    </item>
-    
-    <item>
-      <title>Understanding Repaint Boundary in Flutter</title>
-      <link>http://localhost:1313/posts/flutter/understanding-repaint-boundary-in-flutter/</link>
-      <pubDate>Sun, 06 Oct 2024 10:27:19 -0400</pubDate>
-      
-      <guid>http://localhost:1313/posts/flutter/understanding-repaint-boundary-in-flutter/</guid>
-      <description>Resources https://docs.flutter.dev/resources/architectural-overview#rendering-and-layout https://www.youtube.com/watch?v=UUfXWzp0-DU https://medium.com/@pomis172/understanding-composited-layers-to-improve-the-performance-of-flutter-apps-7b91079b4dd1 </description>
+      <guid>http://localhost:1313/posts/flutter/how-to-create-and-publish-a-flutter-package/</guid>
+      <description>Just The Steps In the terminal, run the following command flutter create --template=package my_package Make your changes in the lib directory Update the pubspec.yaml file with your package information. Here&amp;rsquo;s an example: name: my_package description: A new Flutter package version: 0.0.1 homepage: https://example.com repository: type: git url: https://github.com/me/example Create an example directory with a sample Flutter app that demonstrates how to use your package flutter create example --empty Inside the pubspec.</description>
     </item>
     
     <item>
@@ -68,12 +46,12 @@ The Basics For the simplest projects that don&amp;rsquo;t require environments, 
     </item>
     
     <item>
-      <title>Conversation Cost</title>
-      <link>http://localhost:1313/posts/conversation-cost/</link>
-      <pubDate>Sun, 29 Sep 2024 14:56:36 -0400</pubDate>
+      <title>Bakedown</title>
+      <link>http://localhost:1313/projects/bakedown/</link>
+      <pubDate>Sat, 15 Jul 2023 15:13:36 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/conversation-cost/</guid>
-      <description></description>
+      <guid>http://localhost:1313/projects/bakedown/</guid>
+      <description>Website: https://bakedown.app App Store: https://apps.apple.com/us/app/bakedown/id6445965871 Google Play: https://play.google.com/store/apps/details?id=com.mullr.abis_recipes&amp;amp;hl=en-US Status: Live Stack: Flutter Firebase RevenueCat Fastlane Streamline your baking experience with Bakedown! Import, organize, and customize your favorite pastry recipes—whether from the web or a photo—so you can focus on the joy of baking, not scrolling through ads.</description>
     </item>
     
     <item>
@@ -84,16 +62,6 @@ The Basics For the simplest projects that don&amp;rsquo;t require environments, 
       <guid>http://localhost:1313/posts/fly-safe/fly-safe/</guid>
       <description>Over the last 3 years I&amp;rsquo;ve spent countless hours learning and using Google&amp;rsquo;s cross-platform UI framework, Flutter. I&amp;rsquo;ve built over 20 hobby apps, worked for several small startups, and used Flutter professionally at two large healthcare companies. Flutter is amazing and it&amp;rsquo;s allowed me to build an early career in software development.
 The longer I use Flutter though, the more often I bump up against one of its major downsides - there&amp;rsquo;s no fast way to update broken code installed through the app stores.</description>
-    </item>
-    
-    <item>
-      <title>PWA Install</title>
-      <link>http://localhost:1313/posts/flutter/pwa_install/pwa_install/</link>
-      <pubDate>Sat, 05 Nov 2022 09:32:33 -0400</pubDate>
-      
-      <guid>http://localhost:1313/posts/flutter/pwa_install/pwa_install/</guid>
-      <description>PWA is the Way Over the past month its become clear that Apple thinks it owns all apps on the App Store:
-Apple cracks down on NFT functionality, social post boosts with App Store rules Why Spotify is Really Mad at Apple Over &amp;lsquo;Unfair&amp;rsquo; Fees relate to Big New Feature Apple flexes its control over the App Store Whether your app sells audio books, social post boosts, or basically any other in-app commodity, Apple believes you owe it 30% for the privilege of using its platform.</description>
     </item>
     
     <item>

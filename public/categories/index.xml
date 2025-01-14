@@ -6,13 +6,40 @@
     <description>Recent content in Categories on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Nov 2024 00:08:49 -0400</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Jan 2025 17:57:48 -0500</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tutorials</title>
       <link>http://localhost:1313/categories/tutorials/</link>
-      <pubDate>Fri, 01 Nov 2024 00:08:49 -0400</pubDate>
+      <pubDate>Mon, 13 Jan 2025 17:57:48 -0500</pubDate>
       
       <guid>http://localhost:1313/categories/tutorials/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>http://localhost:1313/categories/tutorial/</link>
+      <pubDate>Thu, 05 Dec 2024 09:18:17 -0500</pubDate>
+      
+      <guid>http://localhost:1313/categories/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/categories/projects/</link>
+      <pubDate>Wed, 20 Nov 2024 15:13:36 -0400</pubDate>
+      
+      <guid>http://localhost:1313/categories/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microblog</title>
+      <link>http://localhost:1313/categories/microblog/</link>
+      <pubDate>Mon, 11 Nov 2024 08:23:22 -0500</pubDate>
+      
+      <guid>http://localhost:1313/categories/microblog/</guid>
       <description></description>
     </item>
     
@@ -28,18 +55,9 @@
     <item>
       <title>Essays</title>
       <link>http://localhost:1313/categories/essays/</link>
-      <pubDate>Sun, 29 Sep 2024 14:56:36 -0400</pubDate>
+      <pubDate>Sun, 20 Nov 2022 12:30:33 -0500</pubDate>
       
       <guid>http://localhost:1313/categories/essays/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>http://localhost:1313/categories/projects/</link>
-      <pubDate>Fri, 20 Sep 2024 15:13:36 -0400</pubDate>
-      
-      <guid>http://localhost:1313/categories/projects/</guid>
       <description></description>
     </item>
     

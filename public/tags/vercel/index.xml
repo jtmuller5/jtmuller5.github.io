@@ -6,7 +6,16 @@
     <description>Recent content in Vercel on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Sep 2024 15:41:15 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/vercel/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Nov 2024 08:23:22 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/vercel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>11-06-2024</title>
+      <link>http://localhost:1313/posts/microblog/microblog-11-06-2024/</link>
+      <pubDate>Wed, 06 Nov 2024 08:23:22 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/microblog/microblog-11-06-2024/</guid>
+      <description>November 6, 2024 Towards Something The more I work as a developer, the more it becomes clear that I could spend my entire life struggling with the details. Every day there are new tools, frameworks, and patterns to learn. Tools you mastered change. The language syntaxes you burned into your connectome aren&amp;rsquo;t resilient to the turn of the clock hand. If I were an electrician, I could spend a lifetime pinching at the wires with solder-coated fingers.</description>
+    </item>
+    
     <item>
       <title>Express API Vercel</title>
       <link>http://localhost:1313/posts/express-api-vercel/</link>
@@ -25,8 +34,7 @@ Initialize Your Node.js Project: Navigate into your new directory and initialize
       <pubDate>Tue, 27 Aug 2024 15:13:36 -0400</pubDate>
       
       <guid>http://localhost:1313/projects/ai-cofounded/</guid>
-      <description>AI Co-Founded is a website that helps you generate business plans.
-https://aicofounded.com</description>
+      <description>Website: https://aicofounded.com Status: On hold Stack: TypeScript React Supabase AI Co-Founded is a website that helps you generate business plans.</description>
     </item>
     
   </channel>

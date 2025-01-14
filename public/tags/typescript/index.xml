@@ -6,7 +6,28 @@
     <description>Recent content in Typescript on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Oct 2024 08:43:45 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Jan 2025 22:45:29 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resize Firebase Images Like a Pro</title>
+      <link>http://localhost:1313/posts/2025/resize-firebase-images-like-a-pro/</link>
+      <pubDate>Sat, 04 Jan 2025 22:45:29 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/2025/resize-firebase-images-like-a-pro/</guid>
+      <description>Contents The Firebase documentation leaves much to be desired. If you just want answers, these docs were made just for you. If you want more questions, head over here and start reading.
+In this blog, I&amp;rsquo;m going to walk you through setting up the Resize Images Firebase Extension and listening to a custom event so you can add the resized images to documents in your Firestore database.
+Setting Up the Extension Navigate to your Firebase project and select the Extensions item from the &amp;ldquo;Build&amp;rdquo; side menu.</description>
+    </item>
+    
+    <item>
+      <title>Converting a JavaScript Package to TypeScript: A Step-by-Step Guide</title>
+      <link>http://localhost:1313/posts/typescript/converting-a-javascript-/</link>
+      <pubDate>Thu, 05 Dec 2024 09:18:17 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/typescript/converting-a-javascript-/</guid>
+      <description>Contents TypeScript has become increasingly popular due to its ability to bring static typing to JavaScript, enhancing code quality and developer productivity. Converting your existing JavaScript package to TypeScript can make it more robust and easier to maintain. In this guide, we’ll walk through the essential steps to transform your JavaScript package into a TypeScript package.
+1. Install TypeScript and Necessary Dependencies Begin by adding TypeScript and type definitions for Node.</description>
+    </item>
+    
     <item>
       <title>TypeScript Cheat Sheet</title>
       <link>http://localhost:1313/crash-courses/cheat-sheets/typescript/</link>

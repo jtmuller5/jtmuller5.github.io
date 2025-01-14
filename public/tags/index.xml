@@ -6,22 +6,238 @@
     <description>Recent content in Tags on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Nov 2024 00:08:49 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Jan 2025 17:57:48 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Chatgpt</title>
-      <link>http://localhost:1313/tags/chatgpt/</link>
-      <pubDate>Fri, 01 Nov 2024 00:08:49 -0400</pubDate>
+      <title>Hugo</title>
+      <link>http://localhost:1313/tags/hugo/</link>
+      <pubDate>Mon, 13 Jan 2025 17:57:48 -0500</pubDate>
       
-      <guid>http://localhost:1313/tags/chatgpt/</guid>
+      <guid>http://localhost:1313/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vs-Code-Snippets</title>
+      <link>http://localhost:1313/tags/vs-code-snippets/</link>
+      <pubDate>Mon, 13 Jan 2025 17:57:48 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/vs-code-snippets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vscode</title>
+      <link>http://localhost:1313/tags/vscode/</link>
+      <pubDate>Mon, 13 Jan 2025 17:57:48 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/vscode/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Efficiency</title>
       <link>http://localhost:1313/tags/efficiency/</link>
-      <pubDate>Fri, 01 Nov 2024 00:08:49 -0400</pubDate>
+      <pubDate>Sat, 11 Jan 2025 12:40:39 -0500</pubDate>
       
       <guid>http://localhost:1313/tags/efficiency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regex</title>
+      <link>http://localhost:1313/tags/regex/</link>
+      <pubDate>Sat, 11 Jan 2025 12:40:39 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/regex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Snippets</title>
+      <link>http://localhost:1313/tags/snippets/</link>
+      <pubDate>Sat, 11 Jan 2025 12:40:39 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/snippets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vs-Code</title>
+      <link>http://localhost:1313/tags/vs-code/</link>
+      <pubDate>Sat, 11 Jan 2025 12:40:39 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/vs-code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Firebase</title>
+      <link>http://localhost:1313/tags/firebase/</link>
+      <pubDate>Sat, 04 Jan 2025 22:45:29 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/firebase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Firebase-Cloud-Functions</title>
+      <link>http://localhost:1313/tags/firebase-cloud-functions/</link>
+      <pubDate>Sat, 04 Jan 2025 22:45:29 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/firebase-cloud-functions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Typescript</title>
+      <link>http://localhost:1313/tags/typescript/</link>
+      <pubDate>Sat, 04 Jan 2025 22:45:29 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/typescript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript</title>
+      <link>http://localhost:1313/tags/javascript/</link>
+      <pubDate>Thu, 05 Dec 2024 09:18:17 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Npm</title>
+      <link>http://localhost:1313/tags/npm/</link>
+      <pubDate>Thu, 05 Dec 2024 09:18:17 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/npm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ai</title>
+      <link>http://localhost:1313/tags/ai/</link>
+      <pubDate>Wed, 20 Nov 2024 15:13:36 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Astro</title>
+      <link>http://localhost:1313/tags/astro/</link>
+      <pubDate>Wed, 20 Nov 2024 15:13:36 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/astro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Llm</title>
+      <link>http://localhost:1313/tags/llm/</link>
+      <pubDate>Wed, 20 Nov 2024 15:13:36 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/llm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chrome-Extensions</title>
+      <link>http://localhost:1313/tags/chrome-extensions/</link>
+      <pubDate>Mon, 18 Nov 2024 12:00:00 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/chrome-extensions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>React</title>
+      <link>http://localhost:1313/tags/react/</link>
+      <pubDate>Mon, 18 Nov 2024 12:00:00 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vite</title>
+      <link>http://localhost:1313/tags/vite/</link>
+      <pubDate>Mon, 18 Nov 2024 12:00:00 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/vite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deepgram</title>
+      <link>http://localhost:1313/tags/deepgram/</link>
+      <pubDate>Sat, 09 Nov 2024 08:23:22 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/deepgram/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elevenlabs</title>
+      <link>http://localhost:1313/tags/elevenlabs/</link>
+      <pubDate>Sat, 09 Nov 2024 08:23:22 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/elevenlabs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vercel</title>
+      <link>http://localhost:1313/tags/vercel/</link>
+      <pubDate>Wed, 06 Nov 2024 08:23:22 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/vercel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xai</title>
+      <link>http://localhost:1313/tags/xai/</link>
+      <pubDate>Tue, 05 Nov 2024 08:23:22 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/xai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Philosophy</title>
+      <link>http://localhost:1313/tags/philosophy/</link>
+      <pubDate>Mon, 04 Nov 2024 08:23:22 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/philosophy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flutter</title>
+      <link>http://localhost:1313/tags/flutter/</link>
+      <pubDate>Sun, 03 Nov 2024 15:33:39 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/flutter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jts</title>
+      <link>http://localhost:1313/tags/jts/</link>
+      <pubDate>Sun, 03 Nov 2024 15:33:39 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/jts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chatgpt</title>
+      <link>http://localhost:1313/tags/chatgpt/</link>
+      <pubDate>Fri, 01 Nov 2024 00:08:49 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/chatgpt/</guid>
       <description></description>
     </item>
     
@@ -53,56 +269,11 @@
     </item>
     
     <item>
-      <title>Flutter</title>
-      <link>http://localhost:1313/tags/flutter/</link>
-      <pubDate>Wed, 30 Oct 2024 14:32:14 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/flutter/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Flutter-Web</title>
-      <link>http://localhost:1313/tags/flutter-web/</link>
-      <pubDate>Wed, 30 Oct 2024 14:32:14 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/flutter-web/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pwa</title>
-      <link>http://localhost:1313/tags/pwa/</link>
-      <pubDate>Wed, 30 Oct 2024 14:32:14 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/pwa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shaders</title>
-      <link>http://localhost:1313/tags/shaders/</link>
-      <pubDate>Mon, 28 Oct 2024 10:18:40 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/shaders/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Claude</title>
       <link>http://localhost:1313/tags/claude/</link>
       <pubDate>Sat, 05 Oct 2024 08:04:55 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/claude/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vs-Code</title>
-      <link>http://localhost:1313/tags/vs-code/</link>
-      <pubDate>Sat, 05 Oct 2024 08:04:55 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/vs-code/</guid>
       <description></description>
     </item>
     
@@ -161,15 +332,6 @@
     </item>
     
     <item>
-      <title>Typescript</title>
-      <link>http://localhost:1313/tags/typescript/</link>
-      <pubDate>Tue, 01 Oct 2024 08:43:45 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/typescript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Api</title>
       <link>http://localhost:1313/tags/api/</link>
       <pubDate>Sun, 29 Sep 2024 15:41:15 -0400</pubDate>
@@ -184,15 +346,6 @@
       <pubDate>Sun, 29 Sep 2024 15:41:15 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/express/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vercel</title>
-      <link>http://localhost:1313/tags/vercel/</link>
-      <pubDate>Sun, 29 Sep 2024 15:41:15 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/vercel/</guid>
       <description></description>
     </item>
     
@@ -224,15 +377,6 @@
     </item>
     
     <item>
-      <title>Firebase</title>
-      <link>http://localhost:1313/tags/firebase/</link>
-      <pubDate>Sun, 29 Sep 2024 15:20:26 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/firebase/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Github</title>
       <link>http://localhost:1313/tags/github/</link>
       <pubDate>Sun, 29 Sep 2024 15:20:26 -0400</pubDate>
@@ -242,29 +386,11 @@
     </item>
     
     <item>
-      <title>Mobile</title>
-      <link>http://localhost:1313/tags/mobile/</link>
-      <pubDate>Sun, 29 Sep 2024 14:56:36 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/mobile/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Project</title>
       <link>http://localhost:1313/tags/project/</link>
       <pubDate>Fri, 20 Sep 2024 15:13:36 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>React</title>
-      <link>http://localhost:1313/tags/react/</link>
-      <pubDate>Fri, 20 Sep 2024 15:13:36 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/react/</guid>
       <description></description>
     </item>
     
@@ -287,20 +413,65 @@
     </item>
     
     <item>
+      <title>Android</title>
+      <link>http://localhost:1313/tags/android/</link>
+      <pubDate>Sat, 15 Jul 2023 15:13:36 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Baking</title>
+      <link>http://localhost:1313/tags/baking/</link>
+      <pubDate>Sat, 15 Jul 2023 15:13:36 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/baking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fastlane</title>
+      <link>http://localhost:1313/tags/fastlane/</link>
+      <pubDate>Sat, 15 Jul 2023 15:13:36 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/fastlane/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ios</title>
+      <link>http://localhost:1313/tags/ios/</link>
+      <pubDate>Sat, 15 Jul 2023 15:13:36 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/ios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mobile</title>
+      <link>http://localhost:1313/tags/mobile/</link>
+      <pubDate>Sun, 20 Nov 2022 12:30:33 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/mobile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pwa</title>
+      <link>http://localhost:1313/tags/pwa/</link>
+      <pubDate>Sun, 20 Nov 2022 12:30:33 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/pwa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Google Play</title>
       <link>http://localhost:1313/tags/google-play/</link>
       <pubDate>Tue, 20 Sep 2022 10:57:17 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/google-play/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ai</title>
-      <link>http://localhost:1313/tags/ai/</link>
-      <pubDate>Mon, 19 Sep 2022 21:21:28 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/ai/</guid>
       <description></description>
     </item>
     
@@ -341,29 +512,11 @@
     </item>
     
     <item>
-      <title>Ios</title>
-      <link>http://localhost:1313/tags/ios/</link>
-      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/ios/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Self-Hosted</title>
       <link>http://localhost:1313/tags/self-hosted/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/self-hosted/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Philosophy</title>
-      <link>http://localhost:1313/tags/philosophy/</link>
-      <pubDate>Mon, 30 Sep 2019 08:37:43 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/philosophy/</guid>
       <description></description>
     </item>
     

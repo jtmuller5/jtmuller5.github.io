@@ -2,7 +2,8 @@
 title: "2025 Week 3"
 date: 2025-01-13T13:53:00-05:00
 draft: true
-
+tags: []
+categories: [microblog]
 ---
 
 # Contents
@@ -11,6 +12,7 @@ draft: true
 
 - https://mynoise.net/: Ad-free background noise generator
 - https://lobste.rs/: Lobsters is a computing-focused community centered around link aggregation and discussion
+- https://netnewswire.com/: Free RSS feed reader
 
 ## Tips
 
@@ -63,3 +65,7 @@ git reset HEAD~
 ```bash
 git status
 ```
+
+## Websocket Basics
+
+All websockets begin as normal HTTP servers. On the `upgrade` event, the server can upgrade to a websocket, allowing bidirectional communication. This [video](https://www.youtube.com/watch?v=2Nt-ZrNP22A) gives a pretty good overview of the process.

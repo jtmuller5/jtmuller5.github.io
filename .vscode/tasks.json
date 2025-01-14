@@ -16,6 +16,16 @@
       "command": "hugo -D -d docs",
       "group": "none",
       "problemMatcher": []
+    },
+    {
+      "label": "Run Site",
+      "type": "shell",
+      "command": "hugo server",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
     }
   ],
   "inputs": [

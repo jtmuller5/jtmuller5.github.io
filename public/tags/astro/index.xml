@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Astro on Joe Muller&#39;s Blog</title>
+    <link>http://localhost:1313/tags/astro/</link>
+    <description>Recent content in Astro on Joe Muller&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Nov 2024 15:13:36 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/astro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Launch Thrifty</title>
+      <link>http://localhost:1313/projects/launch-thrifty/</link>
+      <pubDate>Wed, 20 Nov 2024 15:13:36 -0400</pubDate>
+      
+      <guid>http://localhost:1313/projects/launch-thrifty/</guid>
+      <description>Website: https://www.launchthrifty.com/ Status: In Progress Stack: TypeScript Astro Launch Thrifty is a directory of developer challenges that encourage creativity through constraints and limitations.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -40,6 +40,10 @@ In the `.vscode` folder of this blog, I created a `blog.code-snippets` file that
 }
 ```
 
+:::note
+Pressing ctrl + space will still pull up snippets in a markdown file. If that's good enough for you, ignore the next section.
+:::
+
 Normally, this would work fine and typing "blogFrontmatter" would show the snippet dropdown. Markdown is different (and I'm assuming it's because Markdown can contain a bunch of words that could trigger false positive snippet activations).
 
 To fix this, you need to open the workspace `settings.json` file... 

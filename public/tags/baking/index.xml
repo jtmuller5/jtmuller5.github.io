@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Baking on Joe Muller&#39;s Blog</title>
+    <link>http://localhost:1313/tags/baking/</link>
+    <description>Recent content in Baking on Joe Muller&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Jul 2023 15:13:36 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/baking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bakedown</title>
+      <link>http://localhost:1313/projects/bakedown/</link>
+      <pubDate>Sat, 15 Jul 2023 15:13:36 -0400</pubDate>
+      
+      <guid>http://localhost:1313/projects/bakedown/</guid>
+      <description>Website: https://bakedown.app App Store: https://apps.apple.com/us/app/bakedown/id6445965871 Google Play: https://play.google.com/store/apps/details?id=com.mullr.abis_recipes&amp;amp;hl=en-US Status: Live Stack: Flutter Firebase RevenueCat Fastlane Streamline your baking experience with Bakedown! Import, organize, and customize your favorite pastry recipes—whether from the web or a photo—so you can focus on the joy of baking, not scrolling through ads.</description>
+    </item>
+    
+  </channel>
+</rss>
