@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Remote-Config on Joe Muller&#39;s Blog</title>
+    <link>http://localhost:1313/tags/remote-config/</link>
+    <description>Recent content in Remote-Config on Joe Muller&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Jan 2025 06:07:24 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/remote-config/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Track Firebase Remote Config Version</title>
+      <link>http://localhost:1313/posts/2025/track-firebase-remote-config-version/</link>
+      <pubDate>Fri, 17 Jan 2025 06:07:24 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/2025/track-firebase-remote-config-version/</guid>
+      <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
+&lt;p&gt;I use Firebase &lt;a href=&#34;https://firebase.google.com/docs/remote-config/&#34;&gt;Remote Config&lt;/a&gt; to manage AB tests in most of my software projects.&lt;/p&gt;
+&lt;h2 id=&#34;boolean-ab-testing&#34;&gt;Boolean AB Testing&lt;/h2&gt;
+&lt;p&gt;Whenever I want to run a new AB test, I create a new boolean parameter in my Remote Config (RC) console with the name of the new test (ex. &lt;code&gt;show_pro_button&lt;/code&gt;). The default should be &lt;code&gt;false&lt;/code&gt; since the test will be off for anyone not in the test set.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;image.png&#34; alt=&#34;Remote Config boolean AB Test&#34;  /&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,13 +2,6 @@
   "files.exclude": {
     "**/.git": false
   },
-  "[markdown]": {
-    "editor.quickSuggestions": {
-      "other": true,
-      "comments": true,
-      "strings": true
-    }
-  },
   "clibbits.snippets": [
     {
       "name": "Create Hugo Post",

@@ -14,6 +14,9 @@ categories: ["microblog"]
 - https://lobste.rs/: Lobsters is a computing-focused community centered around link aggregation and discussion
 - https://netnewswire.com/: Free RSS feed reader
 - https://github.com/KKKZOZ/hugo-admonitions: GitHub style callouts for Hugo blogs
+- https://sfpc.study/: The School for Poetic Computation (a cool website design)
+- https://exa.ai: AI search how it should be done
+- https://og.new/: No-code app for creating slick OG images
 
 ## Tips
 
@@ -67,6 +70,20 @@ git reset HEAD~
 git status
 ```
 
+### Make Git Recognize File Name Changes
+
+Apparently, changing a character in a file name from uppercase to lowercase is [not detected by git](https://stackoverflow.com/a/71231672/12806961). For example, changing `NoteTaker.ts` to `noteTaker.ts` is not registered as a change.
+
+To fix this (obviously bad default), you can run this in your terminal:
+
+```bash
+git config core.ignorecase false
+```
+
 ## Websocket Basics
 
 All websockets begin as normal HTTP servers. On the `upgrade` event, the server can upgrade to a websocket, allowing bidirectional communication. This [video](https://www.youtube.com/watch?v=2Nt-ZrNP22A) gives a pretty good overview of the process.
+
+## Firebase Remote Config Versions
+
+I wrote an [article](/posts/2025/track-firebase-remote-config-version) about tracking the Firebase Remote Config version. Every time you update your RC template, Firebase increments the `version` number allowing you to compare versions.
