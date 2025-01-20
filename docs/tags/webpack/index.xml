@@ -13,7 +13,7 @@
       <pubDate>Fri, 15 Nov 2024 09:18:17 -0500</pubDate>
       
       <guid>https://jtmuller5.github.io/posts/what-is-webpack/</guid>
-      <description>Webpack is a static module bundler built for JavaScript. It&amp;rsquo;s goal is to bundle your JavaScript app into an optimized set of files that can be sent to the browser. JavaScript modules allow developers to break large applications into smaller and easier to maintain chunks of code. Prior to Webpack, developers had to manually import modules while considering dependency load order, global scope pollution, and general dependency management between multiple modules.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Webpack&#34;&gt;Webpack&lt;/a&gt; is a static module bundler built for JavaScript. It&amp;rsquo;s goal is to bundle your JavaScript app into an optimized set of files that can be sent to the browser. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules&#34;&gt;JavaScript modules&lt;/a&gt; allow developers to break large applications into smaller and easier to maintain chunks of code. Prior to Webpack, developers had to manually import modules while considering dependency load order, global scope pollution, and general dependency management between multiple modules.&lt;/p&gt;</description>
     </item>
     
   </channel>

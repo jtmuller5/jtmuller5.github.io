@@ -13,11 +13,16 @@
       <pubDate>Mon, 28 Oct 2024 10:18:40 -0400</pubDate>
       
       <guid>https://jtmuller5.github.io/posts/flutter/flutter-shaders-vs-code-setup/</guid>
-      <description>This blog post will cover how to set up your VS Code environment for Flutter development with shaders.
-To start, install the glslc command line compiler from this link: https://github.com/google/shaderc?tab=readme-ov-file#downloads
-Save the glslangValidator executable to a location on your computer and note the path.
-Next, install the following two VS Code extensions:
-Shader languages support for VS Code Shaderc GLSL Linter ASI for GLSL In the GLSL Lint extension settings, set the path to the glslangValidator executable.</description>
+      <description>&lt;p&gt;This blog post will cover how to set up your VS Code environment for Flutter development with shaders.&lt;/p&gt;
+&lt;p&gt;To start, install the glslc command line compiler from this link: &lt;a href=&#34;https://github.com/google/shaderc?tab=readme-ov-file#downloads&#34;&gt;https://github.com/google/shaderc?tab=readme-ov-file#downloads&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Save the glslangValidator executable to a location on your computer and note the path.&lt;/p&gt;
+&lt;p&gt;Next, install the following two VS Code extensions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=slevesque.shader&#34;&gt;Shader languages support for VS Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=majicDave.vscode-shaderc&#34;&gt;Shaderc GLSL Linter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=DrDesten.asi-glsl&#34;&gt;ASI for GLSL&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In the GLSL Lint extension settings, set the path to the glslangValidator executable. My extension settings look like this:&lt;/p&gt;</description>
     </item>
     
   </channel>
