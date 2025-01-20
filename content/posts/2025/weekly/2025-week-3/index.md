@@ -17,6 +17,7 @@ categories: ["microblog"]
 - https://sfpc.study/: The School for Poetic Computation (a cool website design)
 - https://exa.ai: AI search how it should be done
 - https://og.new/: No-code app for creating slick OG images
+- https://gradio.app/: Build ML models in minutes
 
 ## Tips
 

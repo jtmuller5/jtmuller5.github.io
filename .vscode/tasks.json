@@ -1,12 +1,17 @@
 {
-  // See https://go.microsoft.com/fwlink/?LinkId=733558
-  // for the documentation about the tasks.json format
   "version": "2.0.0",
   "tasks": [
     {
       "label": "Create Hugo Post",
       "type": "shell",
       "command": "hugo new content/posts/${input:name}/index.md",
+      "group": "none",
+      "problemMatcher": []
+    },
+    {
+      "label": "Create Weekly Post",
+      "type": "shell",
+      "command": "hugo new content/posts/2025/weekly/2025-week-${input:week}/index.md",
       "group": "none",
       "problemMatcher": []
     },
@@ -40,6 +45,11 @@
       "id": "name",
       "type": "promptString",
       "description": "Enter the name of the post"
+    },
+    {
+      "id": "week",
+      "type": "promptString",
+      "description": "Enter the week number"
     }
   ]
 }
