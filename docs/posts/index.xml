@@ -6,28 +6,29 @@
     <description>Recent content in Posts on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Jan 2025 05:52:31 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Feb 2025 06:27:01 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Build this blog</title>
-      <link>https://jtmuller5.github.io/posts/general/build_this_blog/build_this_blog/</link>
-      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
+      <title>2025 Week 5</title>
+      <link>https://jtmuller5.github.io/posts/2025/weekly/2025-week-5/</link>
+      <pubDate>Mon, 27 Jan 2025 05:52:31 -0500</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/general/build_this_blog/build_this_blog/</guid>
-      <description>&lt;h1 id=&#34;build-this-blog&#34;&gt;Build this Blog&lt;/h1&gt;
-&lt;p&gt;Medium. Hashnode. Wordpress. Ghost. Log Rocket.&lt;/p&gt;
-&lt;p&gt;There are a thousand blogging platforms that want your content, knowledge, and time. I say nay! In this article I&amp;rsquo;ll lay out all the steps you need to build this exact website and host your
-content on
-GitHub pages.&lt;/p&gt;
-&lt;p&gt;What you&amp;rsquo;ll get:&lt;/p&gt;
+      <guid>https://jtmuller5.github.io/posts/2025/weekly/2025-week-5/</guid>
+      <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; A blogging website hosted on GitHub&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; The Hugo PaperMod theme&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Menus to filter content by categories and tags&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Full text search&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Tracking with Google Analytics&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.astral.sh/uv/&#34;&gt;https://docs.astral.sh/uv/&lt;/a&gt;: Extremely fast Python package and project manager&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/animotionjs/animotion&#34;&gt;https://github.com/animotionjs/animotion&lt;/a&gt;: Presentational framework for creating slides and visualizing ideas with code&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/slidevjs/slidev&#34;&gt;https://github.com/slidevjs/slidev&lt;/a&gt;: Presentation Slides for Developers (with support for &lt;a href=&#34;https://github.com/shikijs/shiki-magic-move&#34;&gt;Shiki Magic Move&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://block.github.io/goose/&#34;&gt;https://block.github.io/goose/&lt;/a&gt;: On device AI-agent&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=2MsN8gpT6jY&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.youtube.com/vi/2MsN8gpT6jY/0.jpg#center&#34; alt=&#34;What is Github Pages?&#34;  /&gt;
-&lt;/a&gt;&lt;/p&gt;</description>
+&lt;h2 id=&#34;quotes&#34;&gt;Quotes&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;God exists since mathematics is consistent, and the Devil exists since we cannot prove it.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;André Weil&lt;/p&gt;
+&lt;h2 id=&#34;tips&#34;&gt;Tips&lt;/h2&gt;
+&lt;h3 id=&#34;open-vs-code-in-same-window-from-command-line&#34;&gt;Open VS Code in Same Window from Command Line&lt;/h3&gt;
+&lt;p&gt;In the past, I would always open new projects in VS code by navigating to them and running the simple and famous command:&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -509,6 +510,29 @@ understand.&lt;/p&gt;</description>
 &lt;/p&gt;
 &lt;p&gt;If you’ve spent any amount of time developing mobile apps, you’re probably well aware of how public “private” data really is. Cloud databases like , , and protect their front gates with robust security measures like authentication keys, security rules, user roles, and field-specific restrictions. From the outside, these databases are fortresses with more than enough artillery to prevent people from seeing &lt;em&gt;each other’s&lt;/em&gt; data.&lt;/p&gt;
 &lt;p&gt;The issue however, is that the castle-keepers can see everything that gets brought into the castle. Your name. Your contact info. Your personal information. It all exists on a database that is not absolutely private and that should give you pause. Below is a screenshot from a test app I made using Google’s Firestore as a database and yeah…as the owner of the database I can peruse the user records at my leisure.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Build this blog</title>
+      <link>https://jtmuller5.github.io/posts/general/build_this_blog/build_this_blog/</link>
+      <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/general/build_this_blog/build_this_blog/</guid>
+      <description>&lt;h1 id=&#34;build-this-blog&#34;&gt;Build this Blog&lt;/h1&gt;
+&lt;p&gt;Medium. Hashnode. Wordpress. Ghost. Log Rocket.&lt;/p&gt;
+&lt;p&gt;There are a thousand blogging platforms that want your content, knowledge, and time. I say nay! In this article I&amp;rsquo;ll lay out all the steps you need to build this exact website and host your
+content on
+GitHub pages.&lt;/p&gt;
+&lt;p&gt;What you&amp;rsquo;ll get:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; A blogging website hosted on GitHub&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; The Hugo PaperMod theme&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Menus to filter content by categories and tags&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Full text search&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Tracking with Google Analytics&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=2MsN8gpT6jY&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.youtube.com/vi/2MsN8gpT6jY/0.jpg#center&#34; alt=&#34;What is Github Pages?&#34;  /&gt;
+&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>

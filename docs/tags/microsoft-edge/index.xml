@@ -6,7 +6,31 @@
     <description>Recent content in Microsoft-Edge on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 31 Oct 2024 23:42:39 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/microsoft-edge/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Jan 2025 05:52:31 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/microsoft-edge/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025 Week 5</title>
+      <link>https://jtmuller5.github.io/posts/2025/weekly/2025-week-5/</link>
+      <pubDate>Mon, 27 Jan 2025 05:52:31 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/2025/weekly/2025-week-5/</guid>
+      <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.astral.sh/uv/&#34;&gt;https://docs.astral.sh/uv/&lt;/a&gt;: Extremely fast Python package and project manager&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/animotionjs/animotion&#34;&gt;https://github.com/animotionjs/animotion&lt;/a&gt;: Presentational framework for creating slides and visualizing ideas with code&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/slidevjs/slidev&#34;&gt;https://github.com/slidevjs/slidev&lt;/a&gt;: Presentation Slides for Developers (with support for &lt;a href=&#34;https://github.com/shikijs/shiki-magic-move&#34;&gt;Shiki Magic Move&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://block.github.io/goose/&#34;&gt;https://block.github.io/goose/&lt;/a&gt;: On device AI-agent&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;quotes&#34;&gt;Quotes&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;God exists since mathematics is consistent, and the Devil exists since we cannot prove it.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;André Weil&lt;/p&gt;
+&lt;h2 id=&#34;tips&#34;&gt;Tips&lt;/h2&gt;
+&lt;h3 id=&#34;open-vs-code-in-same-window-from-command-line&#34;&gt;Open VS Code in Same Window from Command Line&lt;/h3&gt;
+&lt;p&gt;In the past, I would always open new projects in VS code by navigating to them and running the simple and famous command:&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Make Perplexity Default Search Engine on Microsoft Edge</title>
       <link>https://jtmuller5.github.io/posts/make-perplexity-default-search-engine-on-microsoft-edge/</link>
