@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Webpack on Joe Muller&#39;s Blog</title>
-    <link>https://jtmuller5.github.io/tags/webpack/</link>
+    <link>http://localhost:1313/tags/webpack/</link>
     <description>Recent content in Webpack on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Nov 2024 09:18:17 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/webpack/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Nov 2024 09:18:17 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/webpack/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What Is Webpack</title>
-      <link>https://jtmuller5.github.io/posts/what-is-webpack/</link>
+      <link>http://localhost:1313/posts/what-is-webpack/</link>
       <pubDate>Fri, 15 Nov 2024 09:18:17 -0500</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/what-is-webpack/</guid>
+      <guid>http://localhost:1313/posts/what-is-webpack/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Webpack&#34;&gt;Webpack&lt;/a&gt; is a static module bundler built for JavaScript. It&amp;rsquo;s goal is to bundle your JavaScript app into an optimized set of files that can be sent to the browser. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules&#34;&gt;JavaScript modules&lt;/a&gt; allow developers to break large applications into smaller and easier to maintain chunks of code. Prior to Webpack, developers had to manually import modules while considering dependency load order, global scope pollution, and general dependency management between multiple modules.&lt;/p&gt;</description>
     </item>
     

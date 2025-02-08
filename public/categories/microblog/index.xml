@@ -8,12 +8,12 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 08 Feb 2025 08:40:01 -0500</lastBuildDate><atom:link href="http://localhost:1313/categories/microblog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Search Specific vs Code Folder</title>
+      <title>Search Specific VS Code Folder</title>
       <link>http://localhost:1313/posts/2025/weekly/2025-week-6/search-specific-vs-code-folder/</link>
       <pubDate>Sat, 08 Feb 2025 08:40:01 -0500</pubDate>
       
       <guid>http://localhost:1313/posts/2025/weekly/2025-week-6/search-specific-vs-code-folder/</guid>
-      <description>&lt;h2 id=&#34;search-specific-vs-code-folder&#34;&gt;Search Specific VS Code Folder&lt;/h2&gt;
+      <description>&lt;h1 id=&#34;search-specific-vs-code-folder&#34;&gt;Search Specific VS Code Folder&lt;/h1&gt;
 &lt;p&gt;I am committed to turning my &amp;ldquo;blog&amp;rdquo; project into a personal note taking repository. In doing so, I started researching better ways to use VS Code to search for files. &lt;a href=&#34;https://stackoverflow.com/a/43651677/12806961&#34;&gt;I found&lt;/a&gt; that you can search a specific folder by right clicking it in the explorer and selecting &amp;ldquo;Find in Folder&amp;rdquo;. This will auto-populate the &lt;code&gt;files to include&lt;/code&gt; field with the folder you selected.&lt;/p&gt;</description>
     </item>
     
@@ -114,6 +114,18 @@
 &lt;h2 id=&#34;tips&#34;&gt;Tips&lt;/h2&gt;
 &lt;h3 id=&#34;use-typac-to-install-types&#34;&gt;Use TYPAC to Install Types&lt;/h3&gt;
 &lt;p&gt;Every time I get linted on missing types, I curse the creators of TypeScript, npm, and anyone related to those projects just to cover may bases. It seems like a flaw in the package management system. If I&amp;rsquo;m working on a TypeScript project, I &lt;em&gt;always&lt;/em&gt; want the types.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>11-19-2024</title>
+      <link>http://localhost:1313/posts/microblog/microblog-11-19-2024/</link>
+      <pubDate>Tue, 19 Nov 2024 08:23:22 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/microblog/microblog-11-19-2024/</guid>
+      <description>&lt;h1 id=&#34;november-19-2024&#34;&gt;November 19, 2024&lt;/h1&gt;
+&lt;h2 id=&#34;a-hard-problem&#34;&gt;A Hard Problem&lt;/h2&gt;
+&lt;p&gt;It&amp;rsquo;s easy to fool yourself into thinking superintelligenc is only a good training run away. Maybe if we scale something up enough we&amp;rsquo;ll meet god. More data, more training time, more inference. Who knows.&lt;/p&gt;
+&lt;p&gt;But if you imagine the problem &lt;em&gt;as if it were&lt;/em&gt; a different problem, it starts to feel more and more difficult. For example, what if creating AGI was similar to solving autoimmune issues in human biology. That problem is multifaceted, layered, complex, context dependent, and filled with unknowns. Or what if the difficulty of creating AGI was equal to the difficulty of creating anti-gravity technology. Does it start to seem further away or closer?&lt;/p&gt;</description>
     </item>
     
     <item>

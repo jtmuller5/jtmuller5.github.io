@@ -8,13 +8,22 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 08 Feb 2025 08:40:01 -0500</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Search Specific vs Code Folder</title>
+      <title>Search Specific VS Code Folder</title>
       <link>http://localhost:1313/posts/2025/weekly/2025-week-6/search-specific-vs-code-folder/</link>
       <pubDate>Sat, 08 Feb 2025 08:40:01 -0500</pubDate>
       
       <guid>http://localhost:1313/posts/2025/weekly/2025-week-6/search-specific-vs-code-folder/</guid>
-      <description>&lt;h2 id=&#34;search-specific-vs-code-folder&#34;&gt;Search Specific VS Code Folder&lt;/h2&gt;
+      <description>&lt;h1 id=&#34;search-specific-vs-code-folder&#34;&gt;Search Specific VS Code Folder&lt;/h1&gt;
 &lt;p&gt;I am committed to turning my &amp;ldquo;blog&amp;rdquo; project into a personal note taking repository. In doing so, I started researching better ways to use VS Code to search for files. &lt;a href=&#34;https://stackoverflow.com/a/43651677/12806961&#34;&gt;I found&lt;/a&gt; that you can search a specific folder by right clicking it in the explorer and selecting &amp;ldquo;Find in Folder&amp;rdquo;. This will auto-populate the &lt;code&gt;files to include&lt;/code&gt; field with the folder you selected.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>title</title>
+      <link>http://localhost:1313/posts/study/plant-propogation/</link>
+      <pubDate>Sat, 08 Feb 2025 08:12:21 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/study/plant-propogation/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -47,6 +56,20 @@
     </item>
     
     <item>
+      <title>Going Local</title>
+      <link>http://localhost:1313/posts/2025/going-local/</link>
+      <pubDate>Fri, 31 Jan 2025 16:50:19 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/2025/going-local/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/karpathy/nanoGPT&#34;&gt;https://github.com/karpathy/nanoGPT&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pcpartpicker.com/&#34;&gt;https://pcpartpicker.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://llm-calc.rayfernando.ai/&#34;&gt;https://llm-calc.rayfernando.ai/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://atlassc.net/2025/01/29/run-deepseek-r1&#34;&gt;https://atlassc.net/2025/01/29/run-deepseek-r1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
       <title>2025 Week 5</title>
       <link>http://localhost:1313/posts/2025/weekly/2025-week-5/week-5/</link>
       <pubDate>Mon, 27 Jan 2025 05:52:31 -0500</pubDate>
@@ -68,6 +91,15 @@
 &lt;h2 id=&#34;tips&#34;&gt;Tips&lt;/h2&gt;
 &lt;h3 id=&#34;open-vs-code-in-same-window-from-command-line&#34;&gt;Open VS Code in Same Window from Command Line&lt;/h3&gt;
 &lt;p&gt;In the past, I would always open new projects in VS code by navigating to them and running the simple and famous command:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Llamaindex Response Modes</title>
+      <link>http://localhost:1313/posts/2025/llamaindex-response-modes/</link>
+      <pubDate>Sat, 25 Jan 2025 12:46:56 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/2025/llamaindex-response-modes/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://docs.llamaindex.ai/en/stable/module_guides/deploying/query_engine/response_modes/&#34;&gt;https://docs.llamaindex.ai/en/stable/module_guides/deploying/query_engine/response_modes/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -179,6 +211,35 @@ Test_test
     </item>
     
     <item>
+      <title>Create a Preact App</title>
+      <link>http://localhost:1313/posts/2025/create-a-preact-app/</link>
+      <pubDate>Thu, 09 Jan 2025 09:02:21 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/2025/create-a-preact-app/</guid>
+      <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
+&lt;h2 id=&#34;get-started&#34;&gt;Get Started&lt;/h2&gt;
+&lt;p&gt;This article provides just the steps for creating a Preact app with Vite and TailwindCSS. To start, &lt;a href=&#34;https://preactjs.com/guide/v10/getting-started/#create-a-vite-powered-preact-app&#34;&gt;create a new Preact app&lt;/a&gt; using the following command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm init preact
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;install-tailwind&#34;&gt;Install Tailwind&lt;/h2&gt;
+&lt;p&gt;Since this is a Vite app, you can follow the instructions for &lt;a href=&#34;https://tailwindcss.com/docs/guides/vite&#34;&gt;installing TailwindCSS with Vite&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm install -D tailwindcss postcss autoprefixer
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npx tailwindcss init -p
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Update the content field of your &lt;code&gt;tailwind.config.js&lt;/code&gt; file:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/** @type {import(&amp;#39;tailwindcss&amp;#39;).Config} */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;default&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;content&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;s2&#34;&gt;&amp;#34;./index.html&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;s2&#34;&gt;&amp;#34;./src/**/*.{js,ts,jsx,tsx}&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;],&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;theme&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;extend&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;plugins&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[],&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And finally add the Tailwind directives to the &lt;code&gt;style.css&lt;/code&gt; file in the &lt;code&gt;src&lt;/code&gt; directory:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Resize Firebase Images Like a Pro</title>
       <link>http://localhost:1313/posts/2025/resize-firebase-images-like-a-pro/</link>
       <pubDate>Sat, 04 Jan 2025 22:45:29 -0500</pubDate>
@@ -189,6 +250,24 @@ Test_test
 &lt;p&gt;In this blog, I&amp;rsquo;m going to walk you through setting up the &lt;a href=&#34;https://extensions.dev/extensions/firebase/storage-resize-images&#34;&gt;Resize Images Firebase Extension&lt;/a&gt; and listening to a custom event so you can add the resized images to documents in your Firestore database.&lt;/p&gt;
 &lt;h2 id=&#34;setting-up-the-extension&#34;&gt;Setting Up the Extension&lt;/h2&gt;
 &lt;p&gt;Navigate to your Firebase project and select the Extensions item from the &amp;ldquo;Build&amp;rdquo; side menu. Select the &amp;ldquo;Explore all Extensions&amp;rdquo; button and then search for &amp;ldquo;resize images&amp;rdquo;. Press the &amp;ldquo;Install&amp;rdquo; button. Good job, buddy.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Super Developer</title>
+      <link>http://localhost:1313/posts/2025/super-developer/</link>
+      <pubDate>Mon, 23 Dec 2024 15:09:25 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/2025/super-developer/</guid>
+      <description>&lt;p&gt;You won&amp;rsquo;t lose your&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PDFJS in Vite</title>
+      <link>http://localhost:1313/posts/vite/pdfjs-in-vite/</link>
+      <pubDate>Wed, 11 Dec 2024 17:30:15 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/vite/pdfjs-in-vite/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -204,6 +283,18 @@ Test_test
     </item>
     
     <item>
+      <title>11-19-2024</title>
+      <link>http://localhost:1313/posts/microblog/microblog-11-19-2024/</link>
+      <pubDate>Tue, 19 Nov 2024 08:23:22 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/microblog/microblog-11-19-2024/</guid>
+      <description>&lt;h1 id=&#34;november-19-2024&#34;&gt;November 19, 2024&lt;/h1&gt;
+&lt;h2 id=&#34;a-hard-problem&#34;&gt;A Hard Problem&lt;/h2&gt;
+&lt;p&gt;It&amp;rsquo;s easy to fool yourself into thinking superintelligenc is only a good training run away. Maybe if we scale something up enough we&amp;rsquo;ll meet god. More data, more training time, more inference. Who knows.&lt;/p&gt;
+&lt;p&gt;But if you imagine the problem &lt;em&gt;as if it were&lt;/em&gt; a different problem, it starts to feel more and more difficult. For example, what if creating AGI was similar to solving autoimmune issues in human biology. That problem is multifaceted, layered, complex, context dependent, and filled with unknowns. Or what if the difficulty of creating AGI was equal to the difficulty of creating anti-gravity technology. Does it start to seem further away or closer?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Create a Chrome Extension With React, TypeScript, Tailwind CSS, and Vite</title>
       <link>http://localhost:1313/posts/chrome-extensions/create-a-chrome-extension-with-react-typescript-tailwind-and-vite/</link>
       <pubDate>Mon, 18 Nov 2024 12:00:00 -0500</pubDate>
@@ -214,6 +305,20 @@ Test_test
 &lt;p&gt;For the full code, check out the &lt;a href=&#34;https://github.com/jtmuller5/cotr_react_chrome_extension_vite&#34;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;In this tutorial, we&amp;rsquo;ll build a Chrome extension using React, TypeScript, Tailwind CSS, and &lt;a href=&#34;https://vite.dev/&#34;&gt;Vite&lt;/a&gt;. Vite is a modern build tool that offers a fast and lean development experience. By the end of this guide, you&amp;rsquo;ll have a fully functional Chrome extension with a popup and side panel, all powered by React components styled with &lt;a href=&#34;https://tailwindcss.com/&#34;&gt;Tailwind CSS&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rapidly Iterate on a Chrome Extension</title>
+      <link>http://localhost:1313/posts/chrome-extensions/rapidly-iterate-on-a-chrome-extension/</link>
+      <pubDate>Sun, 17 Nov 2024 15:48:25 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/chrome-extensions/rapidly-iterate-on-a-chrome-extension/</guid>
+      <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
+&lt;p&gt;Developing is hard. Developing in an environment that makes it difficult to see your changes in realtime is impossible (or at least it should be made illegal). This article explores a few ways to quickly see your changes while developing a Chrome extension.&lt;/p&gt;
+&lt;h2 id=&#34;use-extensions-reloader&#34;&gt;Use Extensions Reloader&lt;/h2&gt;
+&lt;p&gt;There is a Chrome extension called &lt;a href=&#34;https://chromewebstore.google.com/detail/extensions-reloader/fimgfedafeadlieiabdeeaodndnlbhid&#34;&gt;Extensions Reloader&lt;/a&gt; that allows you to reload all unpacked extensions using the extension&amp;rsquo;s toolbar button.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;image.png&#34; alt=&#34;Extensions Reloader extension&#34;  /&gt;
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -247,6 +352,15 @@ Test_test
     </item>
     
     <item>
+      <title>What Is Webpack</title>
+      <link>http://localhost:1313/posts/what-is-webpack/</link>
+      <pubDate>Fri, 15 Nov 2024 09:18:17 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/what-is-webpack/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Webpack&#34;&gt;Webpack&lt;/a&gt; is a static module bundler built for JavaScript. It&amp;rsquo;s goal is to bundle your JavaScript app into an optimized set of files that can be sent to the browser. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules&#34;&gt;JavaScript modules&lt;/a&gt; allow developers to break large applications into smaller and easier to maintain chunks of code. Prior to Webpack, developers had to manually import modules while considering dependency load order, global scope pollution, and general dependency management between multiple modules.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>11-11-2024</title>
       <link>http://localhost:1313/posts/microblog/microblog-11-11-2024/</link>
       <pubDate>Mon, 11 Nov 2024 08:23:22 -0500</pubDate>
@@ -255,6 +369,32 @@ Test_test
       <description>&lt;h1 id=&#34;november-11-2024&#34;&gt;November 11, 2024&lt;/h1&gt;
 &lt;h2 id=&#34;training-the-ai&#34;&gt;Training the AI&lt;/h2&gt;
 &lt;p&gt;I&amp;rsquo;ve been working on an AI receptionist recently and this must be what its like to build a frankenstein from the pieces lying around your workshop. The final result feels eerily human but noticeably artificial. I understand almost entirely how it works and that&amp;rsquo;s the oddity that demarcates the thing as non-human. I can&amp;rsquo;t predict what a human will do with 80% accuracy, nor will a human follow my script to a T.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Create a Chrome Extension With Vuejs</title>
+      <link>http://localhost:1313/posts/chrome-extensions/create-a-chrome-extension-with-vuejs/</link>
+      <pubDate>Sun, 10 Nov 2024 12:44:58 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/chrome-extensions/create-a-chrome-extension-with-vuejs/</guid>
+      <description>&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
+&lt;p&gt;To start, create a new folder for your project:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mkdir vue-chrome-extension
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Next, create the Vue app:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm create vue@latest .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Vue.js - The Progressive JavaScript Framework
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✔ Package name: … vue-chrome-extension
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✔ Add TypeScript? …Yes
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✔ Add JSX Support? … No
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✔ Add Vue Router &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; Single Page Application development? …Yes
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✔ Add Pinia &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; state management? … No
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✔ Add Vitest &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; Unit Testing? … No
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✔ Add an End-to-End Testing Solution? › No
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✔ Add ESLint &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; code quality? › Yes
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✔ Add Prettier &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; code formatting? … Yes
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;In the &lt;code&gt;public&lt;/code&gt; folder, create a &lt;code&gt;manifest.json&lt;/code&gt; file with your extension&amp;rsquo;s information&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -401,12 +541,77 @@ Test_test
     </item>
     
     <item>
+      <title>Flutter Pwa Setup</title>
+      <link>http://localhost:1313/posts/flutter/flutter-pwa-setup/</link>
+      <pubDate>Wed, 30 Oct 2024 14:32:14 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/flutter/flutter-pwa-setup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flutter Shaders vs Code Setup</title>
+      <link>http://localhost:1313/posts/flutter/flutter-shaders-vs-code-setup/</link>
+      <pubDate>Mon, 28 Oct 2024 10:18:40 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/flutter/flutter-shaders-vs-code-setup/</guid>
+      <description>&lt;p&gt;This blog post will cover how to set up your VS Code environment for Flutter development with shaders.&lt;/p&gt;
+&lt;p&gt;To start, install the glslc command line compiler from this link: &lt;a href=&#34;https://github.com/google/shaderc?tab=readme-ov-file#downloads&#34;&gt;https://github.com/google/shaderc?tab=readme-ov-file#downloads&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Save the glslangValidator executable to a location on your computer and note the path.&lt;/p&gt;
+&lt;p&gt;Next, install the following two VS Code extensions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=slevesque.shader&#34;&gt;Shader languages support for VS Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=majicDave.vscode-shaderc&#34;&gt;Shaderc GLSL Linter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=DrDesten.asi-glsl&#34;&gt;ASI for GLSL&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In the GLSL Lint extension settings, set the path to the glslangValidator executable. My extension settings look like this:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>My AI Has No Hands</title>
+      <link>http://localhost:1313/posts/my-ai-has-no-hands/</link>
+      <pubDate>Fri, 11 Oct 2024 08:17:27 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/my-ai-has-no-hands/</guid>
+      <description>&lt;p&gt;Lying to my AI is the only way to get it to do what I need it to do.&lt;/p&gt;
+&lt;p&gt;Function calls only seem to work with fetching-type functions. Look this up. Get the weather. Find my account.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Understanding Repaint Boundary in Flutter</title>
+      <link>http://localhost:1313/posts/flutter/understanding-repaint-boundary-in-flutter/</link>
+      <pubDate>Sun, 06 Oct 2024 10:27:19 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/flutter/understanding-repaint-boundary-in-flutter/</guid>
+      <description>&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.flutter.dev/resources/architectural-overview#rendering-and-layout&#34;&gt;https://docs.flutter.dev/resources/architectural-overview#rendering-and-layout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=UUfXWzp0-DU&#34;&gt;https://www.youtube.com/watch?v=UUfXWzp0-DU&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@pomis172/understanding-composited-layers-to-improve-the-performance-of-flutter-apps-7b91079b4dd1&#34;&gt;https://medium.com/@pomis172/understanding-composited-layers-to-improve-the-performance-of-flutter-apps-7b91079b4dd1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
       <title>Creating a VS Code Chat Extension With Claude</title>
       <link>http://localhost:1313/posts/creating-a-vs-code-chat-extension-with-claude/</link>
       <pubDate>Sat, 05 Oct 2024 08:04:55 -0400</pubDate>
       
       <guid>http://localhost:1313/posts/creating-a-vs-code-chat-extension-with-claude/</guid>
       <description>&lt;p&gt;Claude Sonnet is undeniably one of the best frontier models for programming and I still reach for it despite having GPT-4o and o1 inside my VS Code editor. To make it even smarter and more effective, I use the Projects feature (available on the pro plan) to manage all of the documentation and general context related to what I&amp;rsquo;m working on. By uploading text and files related to the technology I&amp;rsquo;m using, Claude becomes a genius in exactly what I want him to be a genius in.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Cleaning Up Your Flutter Mac</title>
+      <link>http://localhost:1313/posts/cleaning-up-your-flutter-mac/</link>
+      <pubDate>Fri, 04 Oct 2024 16:03:20 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/cleaning-up-your-flutter-mac/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve owned my Macbook Pro for a little over 2 years. Somewhere along the way, between starting a gazillion side projects, downloading half of pub.dev, and poorly managing my Xcode installation, I nearly maxed out my storage.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;image.png&#34; alt=&#34;alt text&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;This blog will document the multitude of ways I clawed back the gigabytes.&lt;/p&gt;
+&lt;h2 id=&#34;identifying-the-problems&#34;&gt;Identifying the Problems&lt;/h2&gt;
+&lt;p&gt;Without knowing which folders on your machine are taking up the most space, its impossible to get started cleaning things up. Luckily, there&amp;rsquo;s an easy way to find the culprits. In Finder, navigate to View &amp;gt; Show View Options &amp;gt; Calculate all sizes and check that bad boy:&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -478,6 +683,24 @@ Test_test
     </item>
     
     <item>
+      <title>Conversation Cost</title>
+      <link>http://localhost:1313/posts/conversation-cost/</link>
+      <pubDate>Sun, 29 Sep 2024 14:56:36 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/conversation-cost/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eternity</title>
+      <link>http://localhost:1313/posts/eternity/eternity/</link>
+      <pubDate>Sun, 25 Dec 2022 09:54:25 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/eternity/eternity/</guid>
+      <description>&lt;p&gt;The biggest question we can ask is how does the universe work. It isn&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Fly Safe</title>
       <link>http://localhost:1313/posts/fly-safe/fly-safe/</link>
       <pubDate>Sun, 20 Nov 2022 12:30:33 -0500</pubDate>
@@ -485,6 +708,60 @@ Test_test
       <guid>http://localhost:1313/posts/fly-safe/fly-safe/</guid>
       <description>&lt;p&gt;Over the last 3 years I&amp;rsquo;ve spent countless hours learning and using Google&amp;rsquo;s cross-platform UI framework, &lt;a href=&#34;https://flutter.dev/&#34;&gt;Flutter&lt;/a&gt;. I&amp;rsquo;ve built over 20 hobby apps, worked for several small startups, and used Flutter professionally at two large healthcare companies. Flutter is amazing and it&amp;rsquo;s allowed me to build an early career in software development.&lt;/p&gt;
 &lt;p&gt;The longer I use Flutter though, the more often I bump up against one of its major downsides - there&amp;rsquo;s no fast way to update broken code installed through the app stores.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Flutter to React</title>
+      <link>http://localhost:1313/posts/flutter-to-react/flutter-to-react/</link>
+      <pubDate>Sun, 20 Nov 2022 09:46:44 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/flutter-to-react/flutter-to-react/</guid>
+      <description>&lt;p&gt;Over the last 3 years I&amp;rsquo;ve spent countless hours learning and using Google&amp;rsquo;s cross-platform UI framework, &lt;a href=&#34;https://flutter.dev/&#34;&gt;Flutter&lt;/a&gt;. I&amp;rsquo;ve built a handful of hobby apps, worked for several small startups, and used Flutter professionally at two large healthcare companies. Flutter is amazing and it&amp;rsquo;s allowed me to build an early career in software development.&lt;/p&gt;
+&lt;p&gt;The longer I use Flutter though, the more often I bump up against its downsides.&lt;/p&gt;
+&lt;p&gt;When I first started building apps for myself and the 10 or so people that would find my app on the app stores, I didn&amp;rsquo;t think too much about things like hot-fixes or app review times. If something broke in the early days, I chalked it up as a lesson learned the hard way and moved on. After all, the impact of my broken code was almost nothing.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PWA Install</title>
+      <link>http://localhost:1313/posts/flutter/pwa_install/pwa_install/</link>
+      <pubDate>Sat, 05 Nov 2022 09:32:33 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/flutter/pwa_install/pwa_install/</guid>
+      <description>&lt;h1 id=&#34;pwa-is-the-way&#34;&gt;PWA is the Way&lt;/h1&gt;
+&lt;p&gt;Over the past month its become clear that Apple thinks it owns all apps on the App Store:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://techcrunch.com/2022/10/25/apple-cracks-down-on-nft-functionality-social-post-boosts-with-app-store-rules/&#34;&gt;Apple cracks down on NFT functionality, social post boosts with App Store rules&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://loudwire.com/spotify-apple-app-store-audiobook-fees-unfair/&#34;&gt;Why Spotify is Really Mad at Apple Over &amp;lsquo;Unfair&amp;rsquo; Fees relate to Big New Feature&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.theverge.com/2022/10/27/23426993/apple-app-store-rules-guidelines-ads-changes-flexes-control&#34;&gt;Apple flexes its control over the App Store&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Whether your app sells audio books, social post boosts, or basically any other in-app commodity, Apple believes you owe it 30% for the privilege of using its platform.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Careful_releases</title>
+      <link>http://localhost:1313/posts/general/careful_releases/careful_releases/</link>
+      <pubDate>Thu, 29 Sep 2022 09:11:33 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/general/careful_releases/careful_releases/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Impact Fanatics</title>
+      <link>http://localhost:1313/posts/ideas/impact_fanatics/impact_fanatics/</link>
+      <pubDate>Tue, 27 Sep 2022 18:03:38 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/ideas/impact_fanatics/impact_fanatics/</guid>
+      <description>&lt;p&gt;Test meteor&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Flugo</title>
+      <link>http://localhost:1313/posts/flutter/flugo/flugo/</link>
+      <pubDate>Fri, 23 Sep 2022 14:20:47 -0700</pubDate>
+      
+      <guid>http://localhost:1313/posts/flutter/flugo/flugo/</guid>
+      <description>&lt;p&gt;Flutter Web is notoriously &amp;ldquo;not the correct solution&amp;rdquo; for content-heavy web pages. All Flutter content is rendered on an HTML canvas making it impossible for web crawlers to properly index any web page built with Flutter. This limitation is a nightmare for marketing folks whose jobs rely on SEO and similarly, a threat to the future of the Flutter framework. If the framework can only be used for standalone apps disconnected from the world wide web, I can&amp;rsquo;t imagine a future where it beats out a sea of technologies built to coalesce with the internet&amp;rsquo;s native tech stack (eg. HTML, CSS, JavaScript).&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -512,6 +789,15 @@ Test_test
 &lt;li&gt;[NEW] App can be manually published when you&amp;rsquo;re ready&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;It&amp;rsquo;s undeniably an amazing feature offered by our Lord and Savior, Google, but like all things software, it&amp;rsquo;s not perfect. As I discovered earlier today, there are some annoying quirks that aren&amp;rsquo;t documented anywhere but in the deepest abysses of StackOverflow. So, I decided to compile them into one place.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Slower</title>
+      <link>http://localhost:1313/posts/ideas/read_slower/read_slower/</link>
+      <pubDate>Mon, 19 Sep 2022 23:08:45 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/ideas/read_slower/read_slower/</guid>
+      <description></description>
     </item>
     
     <item>

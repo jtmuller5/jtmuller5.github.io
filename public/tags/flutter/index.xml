@@ -58,6 +58,47 @@
     </item>
     
     <item>
+      <title>Flutter Pwa Setup</title>
+      <link>http://localhost:1313/posts/flutter/flutter-pwa-setup/</link>
+      <pubDate>Wed, 30 Oct 2024 14:32:14 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/flutter/flutter-pwa-setup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flutter Shaders vs Code Setup</title>
+      <link>http://localhost:1313/posts/flutter/flutter-shaders-vs-code-setup/</link>
+      <pubDate>Mon, 28 Oct 2024 10:18:40 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/flutter/flutter-shaders-vs-code-setup/</guid>
+      <description>&lt;p&gt;This blog post will cover how to set up your VS Code environment for Flutter development with shaders.&lt;/p&gt;
+&lt;p&gt;To start, install the glslc command line compiler from this link: &lt;a href=&#34;https://github.com/google/shaderc?tab=readme-ov-file#downloads&#34;&gt;https://github.com/google/shaderc?tab=readme-ov-file#downloads&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Save the glslangValidator executable to a location on your computer and note the path.&lt;/p&gt;
+&lt;p&gt;Next, install the following two VS Code extensions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=slevesque.shader&#34;&gt;Shader languages support for VS Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=majicDave.vscode-shaderc&#34;&gt;Shaderc GLSL Linter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=DrDesten.asi-glsl&#34;&gt;ASI for GLSL&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In the GLSL Lint extension settings, set the path to the glslangValidator executable. My extension settings look like this:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Understanding Repaint Boundary in Flutter</title>
+      <link>http://localhost:1313/posts/flutter/understanding-repaint-boundary-in-flutter/</link>
+      <pubDate>Sun, 06 Oct 2024 10:27:19 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/flutter/understanding-repaint-boundary-in-flutter/</guid>
+      <description>&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.flutter.dev/resources/architectural-overview#rendering-and-layout&#34;&gt;https://docs.flutter.dev/resources/architectural-overview#rendering-and-layout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=UUfXWzp0-DU&#34;&gt;https://www.youtube.com/watch?v=UUfXWzp0-DU&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@pomis172/understanding-composited-layers-to-improve-the-performance-of-flutter-apps-7b91079b4dd1&#34;&gt;https://medium.com/@pomis172/understanding-composited-layers-to-improve-the-performance-of-flutter-apps-7b91079b4dd1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
       <title>Using Supabase in Typescript</title>
       <link>http://localhost:1313/posts/using-supabase-in-typescript/</link>
       <pubDate>Sun, 29 Sep 2024 15:29:05 -0400</pubDate>
@@ -86,6 +127,15 @@
       
       <guid>http://localhost:1313/posts/generating-images-with-dalle/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve recently been working on an app with my wife called &amp;ldquo;Abi&amp;rsquo;s Recipes&amp;rdquo;. The app, designed for mobile and TV, aims to be the Netflix of recipes, with a focus on beautiful images and a simple interface. We wanted to generate images for the recipes that we don&amp;rsquo;t have photos for, and we wanted to do it in a way that was fun and creative. That&amp;rsquo;s where DALL-E comes in.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Conversation Cost</title>
+      <link>http://localhost:1313/posts/conversation-cost/</link>
+      <pubDate>Sun, 29 Sep 2024 14:56:36 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/conversation-cost/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -119,6 +169,22 @@
       <guid>http://localhost:1313/posts/fly-safe/fly-safe/</guid>
       <description>&lt;p&gt;Over the last 3 years I&amp;rsquo;ve spent countless hours learning and using Google&amp;rsquo;s cross-platform UI framework, &lt;a href=&#34;https://flutter.dev/&#34;&gt;Flutter&lt;/a&gt;. I&amp;rsquo;ve built over 20 hobby apps, worked for several small startups, and used Flutter professionally at two large healthcare companies. Flutter is amazing and it&amp;rsquo;s allowed me to build an early career in software development.&lt;/p&gt;
 &lt;p&gt;The longer I use Flutter though, the more often I bump up against one of its major downsides - there&amp;rsquo;s no fast way to update broken code installed through the app stores.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PWA Install</title>
+      <link>http://localhost:1313/posts/flutter/pwa_install/pwa_install/</link>
+      <pubDate>Sat, 05 Nov 2022 09:32:33 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/flutter/pwa_install/pwa_install/</guid>
+      <description>&lt;h1 id=&#34;pwa-is-the-way&#34;&gt;PWA is the Way&lt;/h1&gt;
+&lt;p&gt;Over the past month its become clear that Apple thinks it owns all apps on the App Store:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://techcrunch.com/2022/10/25/apple-cracks-down-on-nft-functionality-social-post-boosts-with-app-store-rules/&#34;&gt;Apple cracks down on NFT functionality, social post boosts with App Store rules&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://loudwire.com/spotify-apple-app-store-audiobook-fees-unfair/&#34;&gt;Why Spotify is Really Mad at Apple Over &amp;lsquo;Unfair&amp;rsquo; Fees relate to Big New Feature&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.theverge.com/2022/10/27/23426993/apple-app-store-rules-guidelines-ads-changes-flexes-control&#34;&gt;Apple flexes its control over the App Store&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Whether your app sells audio books, social post boosts, or basically any other in-app commodity, Apple believes you owe it 30% for the privilege of using its platform.&lt;/p&gt;</description>
     </item>
     
     <item>

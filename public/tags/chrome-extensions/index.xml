@@ -21,6 +21,20 @@
     </item>
     
     <item>
+      <title>Rapidly Iterate on a Chrome Extension</title>
+      <link>http://localhost:1313/posts/chrome-extensions/rapidly-iterate-on-a-chrome-extension/</link>
+      <pubDate>Sun, 17 Nov 2024 15:48:25 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/chrome-extensions/rapidly-iterate-on-a-chrome-extension/</guid>
+      <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
+&lt;p&gt;Developing is hard. Developing in an environment that makes it difficult to see your changes in realtime is impossible (or at least it should be made illegal). This article explores a few ways to quickly see your changes while developing a Chrome extension.&lt;/p&gt;
+&lt;h2 id=&#34;use-extensions-reloader&#34;&gt;Use Extensions Reloader&lt;/h2&gt;
+&lt;p&gt;There is a Chrome extension called &lt;a href=&#34;https://chromewebstore.google.com/detail/extensions-reloader/fimgfedafeadlieiabdeeaodndnlbhid&#34;&gt;Extensions Reloader&lt;/a&gt; that allows you to reload all unpacked extensions using the extension&amp;rsquo;s toolbar button.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;image.png&#34; alt=&#34;Extensions Reloader extension&#34;  /&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Create a Chrome Extension With React, Typescript, and Tailwindcss</title>
       <link>http://localhost:1313/posts/chrome-extensions/create-a-chrome-extension-with-react-typescript-and-tailwindcss/</link>
       <pubDate>Sat, 16 Nov 2024 21:08:12 -0500</pubDate>
@@ -48,6 +62,32 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;default&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;App&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Update &lt;code&gt;index.tsx&lt;/code&gt;:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Create a Chrome Extension With Vuejs</title>
+      <link>http://localhost:1313/posts/chrome-extensions/create-a-chrome-extension-with-vuejs/</link>
+      <pubDate>Sun, 10 Nov 2024 12:44:58 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/chrome-extensions/create-a-chrome-extension-with-vuejs/</guid>
+      <description>&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
+&lt;p&gt;To start, create a new folder for your project:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mkdir vue-chrome-extension
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Next, create the Vue app:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm create vue@latest .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Vue.js - The Progressive JavaScript Framework
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✔ Package name: … vue-chrome-extension
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✔ Add TypeScript? …Yes
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✔ Add JSX Support? … No
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✔ Add Vue Router &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; Single Page Application development? …Yes
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✔ Add Pinia &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; state management? … No
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✔ Add Vitest &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; Unit Testing? … No
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✔ Add an End-to-End Testing Solution? › No
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✔ Add ESLint &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; code quality? › Yes
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✔ Add Prettier &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; code formatting? … Yes
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;In the &lt;code&gt;public&lt;/code&gt; folder, create a &lt;code&gt;manifest.json&lt;/code&gt; file with your extension&amp;rsquo;s information&lt;/p&gt;</description>
     </item>
     
   </channel>

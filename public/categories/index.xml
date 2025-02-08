@@ -17,6 +17,15 @@
     </item>
     
     <item>
+      <title>Tutorials</title>
+      <link>http://localhost:1313/categories/tutorials/</link>
+      <pubDate>Sat, 08 Feb 2025 08:12:21 -0500</pubDate>
+      
+      <guid>http://localhost:1313/categories/tutorials/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Projects</title>
       <link>http://localhost:1313/categories/projects/</link>
       <pubDate>Mon, 20 Jan 2025 15:13:36 -0400</pubDate>
@@ -26,11 +35,11 @@
     </item>
     
     <item>
-      <title>Tutorials</title>
-      <link>http://localhost:1313/categories/tutorials/</link>
-      <pubDate>Fri, 17 Jan 2025 06:07:24 -0500</pubDate>
+      <title>Essays</title>
+      <link>http://localhost:1313/categories/essays/</link>
+      <pubDate>Mon, 23 Dec 2024 15:09:25 -0500</pubDate>
       
-      <guid>http://localhost:1313/categories/tutorials/</guid>
+      <guid>http://localhost:1313/categories/essays/</guid>
       <description></description>
     </item>
     
@@ -44,20 +53,20 @@
     </item>
     
     <item>
+      <title>Exploration</title>
+      <link>http://localhost:1313/categories/exploration/</link>
+      <pubDate>Fri, 15 Nov 2024 09:18:17 -0500</pubDate>
+      
+      <guid>http://localhost:1313/categories/exploration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Cheat-Sheets</title>
       <link>http://localhost:1313/categories/cheat-sheets/</link>
       <pubDate>Tue, 01 Oct 2024 08:44:33 -0400</pubDate>
       
       <guid>http://localhost:1313/categories/cheat-sheets/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Essays</title>
-      <link>http://localhost:1313/categories/essays/</link>
-      <pubDate>Sun, 20 Nov 2022 12:30:33 -0500</pubDate>
-      
-      <guid>http://localhost:1313/categories/essays/</guid>
       <description></description>
     </item>
     

@@ -25,7 +25,7 @@
     {
       "label": "Run Site",
       "type": "shell",
-      "command": "hugo server",
+      "command": "hugo server -D --baseURL http://localhost:1313/",
       "group": {
         "kind": "build",
         "isDefault": true
