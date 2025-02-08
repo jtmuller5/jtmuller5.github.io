@@ -9,10 +9,10 @@
     <lastBuildDate>Sun, 29 Sep 2024 15:20:26 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/cicd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Flutter to Firebase Hosting Github Workflow</title>
-      <link>http://localhost:1313/posts/flutter/flutter-to-firebase-hosting-github-workflow/</link>
+      <link>http://localhost:1313/posts/tutorials/flutter/flutter-to-firebase-hosting-github-workflow/</link>
       <pubDate>Sun, 29 Sep 2024 15:20:26 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/flutter/flutter-to-firebase-hosting-github-workflow/</guid>
+      <guid>http://localhost:1313/posts/tutorials/flutter/flutter-to-firebase-hosting-github-workflow/</guid>
       <description>&lt;p&gt;As soon as a Flutter project gains traction (or I&amp;rsquo;ve convinced myself that it will eventually gain traction), I like to set up a CI/CD pipeline so I can focus more on app development and less on manually deploying all of my changes to prod. This article in particular will provide an overview of the Github workflow I typically use for my Flutter projects that use &lt;a href=&#34;https://firebase.google.com/docs/hosting&#34;&gt;Firebase Hosting&lt;/a&gt;.&lt;/p&gt;
 &lt;h1 id=&#34;the-basics&#34;&gt;The Basics&lt;/h1&gt;
 &lt;p&gt;For the simplest projects that don&amp;rsquo;t require environments, variables, or Slack notifications, the workflow is straightforward. Below is an outline of what it does:&lt;/p&gt;</description>

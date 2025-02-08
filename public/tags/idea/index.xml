@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Idea on Joe Muller&#39;s Blog</title>
+    <link>http://localhost:1313/tags/idea/</link>
+    <description>Recent content in Idea on Joe Muller&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 08 Feb 2025 15:38:54 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/idea/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vs Code Note Taker</title>
+      <link>http://localhost:1313/posts/microblog/vs-code-note-taker/</link>
+      <pubDate>Sat, 08 Feb 2025 15:38:54 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/microblog/vs-code-note-taker/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

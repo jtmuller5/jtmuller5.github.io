@@ -9,10 +9,10 @@
     <lastBuildDate>Fri, 17 Jan 2025 06:07:24 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/firebase/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Track Firebase Remote Config Version</title>
-      <link>http://localhost:1313/posts/2025/track-firebase-remote-config-version/</link>
+      <link>http://localhost:1313/posts/tutorials/track-firebase-remote-config-version/</link>
       <pubDate>Fri, 17 Jan 2025 06:07:24 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/2025/track-firebase-remote-config-version/</guid>
+      <guid>http://localhost:1313/posts/tutorials/track-firebase-remote-config-version/</guid>
       <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
 &lt;p&gt;I use Firebase &lt;a href=&#34;https://firebase.google.com/docs/remote-config/&#34;&gt;Remote Config&lt;/a&gt; to manage AB tests in most of my software projects.&lt;/p&gt;
 &lt;h2 id=&#34;boolean-ab-testing&#34;&gt;Boolean AB Testing&lt;/h2&gt;
@@ -23,10 +23,10 @@
     
     <item>
       <title>Resize Firebase Images Like a Pro</title>
-      <link>http://localhost:1313/posts/2025/resize-firebase-images-like-a-pro/</link>
+      <link>http://localhost:1313/posts/tutorials/resize-firebase-images-like-a-pro/</link>
       <pubDate>Sat, 04 Jan 2025 22:45:29 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/2025/resize-firebase-images-like-a-pro/</guid>
+      <guid>http://localhost:1313/posts/tutorials/resize-firebase-images-like-a-pro/</guid>
       <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
 &lt;p&gt;The Firebase documentation leaves much to be desired. If you just want answers, these docs were made just for you. If you want more questions, head over &lt;a href=&#34;https://extensions.dev/extensions/firebase/storage-resize-images&#34;&gt;here&lt;/a&gt; and start reading.&lt;/p&gt;
 &lt;p&gt;In this blog, I&amp;rsquo;m going to walk you through setting up the &lt;a href=&#34;https://extensions.dev/extensions/firebase/storage-resize-images&#34;&gt;Resize Images Firebase Extension&lt;/a&gt; and listening to a custom event so you can add the resized images to documents in your Firestore database.&lt;/p&gt;
@@ -36,10 +36,10 @@
     
     <item>
       <title>Flutter to Firebase Hosting Github Workflow</title>
-      <link>http://localhost:1313/posts/flutter/flutter-to-firebase-hosting-github-workflow/</link>
+      <link>http://localhost:1313/posts/tutorials/flutter/flutter-to-firebase-hosting-github-workflow/</link>
       <pubDate>Sun, 29 Sep 2024 15:20:26 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/flutter/flutter-to-firebase-hosting-github-workflow/</guid>
+      <guid>http://localhost:1313/posts/tutorials/flutter/flutter-to-firebase-hosting-github-workflow/</guid>
       <description>&lt;p&gt;As soon as a Flutter project gains traction (or I&amp;rsquo;ve convinced myself that it will eventually gain traction), I like to set up a CI/CD pipeline so I can focus more on app development and less on manually deploying all of my changes to prod. This article in particular will provide an overview of the Github workflow I typically use for my Flutter projects that use &lt;a href=&#34;https://firebase.google.com/docs/hosting&#34;&gt;Firebase Hosting&lt;/a&gt;.&lt;/p&gt;
 &lt;h1 id=&#34;the-basics&#34;&gt;The Basics&lt;/h1&gt;
 &lt;p&gt;For the simplest projects that don&amp;rsquo;t require environments, variables, or Slack notifications, the workflow is straightforward. Below is an outline of what it does:&lt;/p&gt;</description>
@@ -47,29 +47,29 @@
     
     <item>
       <title>Conversation Cost</title>
-      <link>http://localhost:1313/posts/conversation-cost/</link>
+      <link>http://localhost:1313/posts/essays/conversation-cost/</link>
       <pubDate>Sun, 29 Sep 2024 14:56:36 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/conversation-cost/</guid>
+      <guid>http://localhost:1313/posts/essays/conversation-cost/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fly Safe</title>
-      <link>http://localhost:1313/posts/fly-safe/fly-safe/</link>
+      <link>http://localhost:1313/posts/essays/fly-safe/fly-safe/</link>
       <pubDate>Sun, 20 Nov 2022 12:30:33 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/fly-safe/fly-safe/</guid>
+      <guid>http://localhost:1313/posts/essays/fly-safe/fly-safe/</guid>
       <description>&lt;p&gt;Over the last 3 years I&amp;rsquo;ve spent countless hours learning and using Google&amp;rsquo;s cross-platform UI framework, &lt;a href=&#34;https://flutter.dev/&#34;&gt;Flutter&lt;/a&gt;. I&amp;rsquo;ve built over 20 hobby apps, worked for several small startups, and used Flutter professionally at two large healthcare companies. Flutter is amazing and it&amp;rsquo;s allowed me to build an early career in software development.&lt;/p&gt;
 &lt;p&gt;The longer I use Flutter though, the more often I bump up against one of its major downsides - there&amp;rsquo;s no fast way to update broken code installed through the app stores.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Displaying Videos in Flutter from a URL</title>
-      <link>http://localhost:1313/posts/flutter/displaying_videos/displaying_videos/</link>
+      <link>http://localhost:1313/posts/tutorials/flutter/displaying_videos/displaying_videos/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/flutter/displaying_videos/displaying_videos/</guid>
+      <guid>http://localhost:1313/posts/tutorials/flutter/displaying_videos/displaying_videos/</guid>
       <description>&lt;h1 id=&#34;displaying-videos-in-flutter-from-a-url&#34;&gt;Displaying Videos in Flutter from a URL&lt;/h1&gt;
 &lt;h2 id=&#34;with-the-stacked-architecture&#34;&gt;With the Stacked architecture&lt;/h2&gt;
 &lt;p&gt;In this article, I will be explaining how to display a video directly from a URL in Flutter (although any video URL will work). If you’re interested in saving videos to Cloud Storage, check out my previous article on that exact subject.&lt;/p&gt;
@@ -79,20 +79,20 @@
     
     <item>
       <title>Handling Nested Objects in Firestore With Flutter</title>
-      <link>http://localhost:1313/posts/flutter/nested_firestore_objects/nested_firestore_objects/</link>
+      <link>http://localhost:1313/posts/tutorials/flutter/nested_firestore_objects/nested_firestore_objects/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/flutter/nested_firestore_objects/nested_firestore_objects/</guid>
+      <guid>http://localhost:1313/posts/tutorials/flutter/nested_firestore_objects/nested_firestore_objects/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://firebase.google.com/docs/firestore&#34;&gt;Google’s Cloud Firestore&lt;/a&gt; is a tool that should be in every mobile app developer’s tool belt. The flexible and scalable database that it provides is unlike anything a coder could create alone and if your app is designed for a global audience, there aren’t many solutions like it. Plus, there’s a Flutter package ( &lt;a href=&#34;https://pub.dev/packages/cloud_firestore&#34;&gt;cloud_firestore&lt;/a&gt;) that’s designed to make Flutter and Flame play nicely together.&lt;/p&gt;
 &lt;p&gt;Unfortunately, there is one downside. The tool isn’t free to use and every read/write transaction your app makes with the Firestore database is counted against your &lt;a href=&#34;https://firebase.google.com/docs/firestore/quotas&#34;&gt;daily quota&lt;/a&gt; (50,000 daily reads and 20,000 daily writes for the free tier plan). Therefore, it’s essential you design your database with these usage limits in mind…otherwise, your dreams of creating a profitable mobile app will be stamped out like a flame.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>The @platform: A Firebase Alternative?</title>
-      <link>http://localhost:1313/posts/flutter/firebase_alternative/firebase_alternative/</link>
+      <link>http://localhost:1313/posts/tutorials/flutter/firebase_alternative/firebase_alternative/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/flutter/firebase_alternative/firebase_alternative/</guid>
+      <guid>http://localhost:1313/posts/tutorials/flutter/firebase_alternative/firebase_alternative/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://firebase.google.com/&#34;&gt;Firebase&lt;/a&gt; is awesome and I’ve used it in more apps than I can count (assuming I can only count to about 20). It has authentication, data storage, an intuitive querying SDK, and plenty of other features that most mobile app developers find themselves wanting at one point or another.&lt;/p&gt;
 &lt;p&gt;So why replace it?&lt;/p&gt;
 &lt;p&gt;I asked myself the same question many times and more than once my answer was “Don’t”. It had just about everything I needed…and then I was asked to implement End-to-End Encryption (E2EE) in a social media app. I managed to do it based on this &lt;a href=&#34;https://stackoverflow.com/a/41553180/12806961&#34;&gt;Stack Overflow answer&lt;/a&gt; but the solution was complicated and if a user ever wanted to change devices they needed to encrypt their old private key, save it to Firestore, change devices, download the encrypted private key, and then decrypt it. There were a few other difficulties (some that I’m still working through) and I finally began to rethink my devotion to the god named Google.&lt;/p&gt;</description>
@@ -100,10 +100,10 @@
     
     <item>
       <title>Uploading Images to Cloud Storage Using Flutter</title>
-      <link>http://localhost:1313/posts/flutter/cloud_storage_flutter/cloud_storage_flutter/</link>
+      <link>http://localhost:1313/posts/tutorials/flutter/cloud_storage_flutter/cloud_storage_flutter/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/flutter/cloud_storage_flutter/cloud_storage_flutter/</guid>
+      <guid>http://localhost:1313/posts/tutorials/flutter/cloud_storage_flutter/cloud_storage_flutter/</guid>
       <description>&lt;p&gt;I’ve used Google’s &lt;a href=&#34;https://firebase.google.com/&#34;&gt;Firebase/Firestore&lt;/a&gt; database solution for nearly 6 months and had come to believe that it was an unstoppable force. If you’re only dealing with numbers, strings, and other simple data forms, this is true. The NoSQL database gives you immense control over how you store information a provides querying tools that can be used to find items meeting very specific criteria in a snap.&lt;/p&gt;
 &lt;p&gt;But if you’re interested in storing and retrieving larger files like images and audio clips, Firestore is not the solution you need.&lt;/p&gt;</description>
     </item>

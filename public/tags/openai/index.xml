@@ -9,10 +9,10 @@
     <lastBuildDate>Fri, 01 Nov 2024 00:08:49 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/openai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Make SearchGPT Default Search Engine on Microsoft Edge</title>
-      <link>http://localhost:1313/posts/make-chat-gpt-default-search-engine-on-microsoft-edge/</link>
+      <link>http://localhost:1313/posts/microblog/make-chat-gpt-default-search-engine-on-microsoft-edge/</link>
       <pubDate>Fri, 01 Nov 2024 00:08:49 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/make-chat-gpt-default-search-engine-on-microsoft-edge/</guid>
+      <guid>http://localhost:1313/posts/microblog/make-chat-gpt-default-search-engine-on-microsoft-edge/</guid>
       <description>&lt;h1 id=&#34;just-the-steps&#34;&gt;Just the Steps&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;Open settings&lt;/li&gt;
@@ -36,10 +36,10 @@
     
     <item>
       <title>Generating Images With Dalle</title>
-      <link>http://localhost:1313/posts/generating-images-with-dalle/</link>
+      <link>http://localhost:1313/posts/tutorials/generating-images-with-dalle/</link>
       <pubDate>Sun, 29 Sep 2024 15:13:36 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/generating-images-with-dalle/</guid>
+      <guid>http://localhost:1313/posts/tutorials/generating-images-with-dalle/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve recently been working on an app with my wife called &amp;ldquo;Abi&amp;rsquo;s Recipes&amp;rdquo;. The app, designed for mobile and TV, aims to be the Netflix of recipes, with a focus on beautiful images and a simple interface. We wanted to generate images for the recipes that we don&amp;rsquo;t have photos for, and we wanted to do it in a way that was fun and creative. That&amp;rsquo;s where DALL-E comes in.&lt;/p&gt;</description>
     </item>
     

@@ -6,37 +6,13 @@
     <description>Recent content in Vs-Code on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Jan 2025 05:52:31 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/vs-code/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>2025 Week 5</title>
-      <link>http://localhost:1313/posts/2025/weekly/2025-week-5/week-5/</link>
-      <pubDate>Mon, 27 Jan 2025 05:52:31 -0500</pubDate>
-      
-      <guid>http://localhost:1313/posts/2025/weekly/2025-week-5/week-5/</guid>
-      <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
-&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.astral.sh/uv/&#34;&gt;https://docs.astral.sh/uv/&lt;/a&gt;: Extremely fast Python package and project manager&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/animotionjs/animotion&#34;&gt;https://github.com/animotionjs/animotion&lt;/a&gt;: Presentational framework for creating slides and visualizing ideas with code&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/slidevjs/slidev&#34;&gt;https://github.com/slidevjs/slidev&lt;/a&gt;: Presentation Slides for Developers (with support for &lt;a href=&#34;https://github.com/shikijs/shiki-magic-move&#34;&gt;Shiki Magic Move&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://block.github.io/goose/&#34;&gt;https://block.github.io/goose/&lt;/a&gt;: On device AI-agent&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;quotes&#34;&gt;Quotes&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;God exists since mathematics is consistent, and the Devil exists since we cannot prove it.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;André Weil&lt;/p&gt;
-&lt;h2 id=&#34;tips&#34;&gt;Tips&lt;/h2&gt;
-&lt;h3 id=&#34;open-vs-code-in-same-window-from-command-line&#34;&gt;Open VS Code in Same Window from Command Line&lt;/h3&gt;
-&lt;p&gt;In the past, I would always open new projects in VS code by navigating to them and running the simple and famous command:&lt;/p&gt;</description>
-    </item>
-    
+    <lastBuildDate>Sat, 11 Jan 2025 12:40:39 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/vs-code/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>VS Code Snippet Variables</title>
-      <link>http://localhost:1313/posts/2025/vs-code-snippet-variables/</link>
+      <link>http://localhost:1313/posts/tutorials/vs-code-snippet-variables/</link>
       <pubDate>Sat, 11 Jan 2025 12:40:39 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/2025/vs-code-snippet-variables/</guid>
+      <guid>http://localhost:1313/posts/tutorials/vs-code-snippet-variables/</guid>
       <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
 &lt;p&gt;You should use VS Code snippets more than you do and that&amp;rsquo;s not just an opinion.&lt;/p&gt;
 &lt;p&gt;The &lt;a href=&#34;https://code.visualstudio.com/docs/editor/userdefinedsnippets#_snippet-syntax&#34;&gt;Snippet Syntax section&lt;/a&gt; of the VS Code snippet docs is a minefield of knowledge bombs.&lt;/p&gt;
@@ -84,10 +60,10 @@ Test_test
     
     <item>
       <title>Creating a VS Code Chat Extension With Claude</title>
-      <link>http://localhost:1313/posts/creating-a-vs-code-chat-extension-with-claude/</link>
+      <link>http://localhost:1313/posts/tutorials/creating-a-vs-code-chat-extension-with-claude/</link>
       <pubDate>Sat, 05 Oct 2024 08:04:55 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/creating-a-vs-code-chat-extension-with-claude/</guid>
+      <guid>http://localhost:1313/posts/tutorials/creating-a-vs-code-chat-extension-with-claude/</guid>
       <description>&lt;p&gt;Claude Sonnet is undeniably one of the best frontier models for programming and I still reach for it despite having GPT-4o and o1 inside my VS Code editor. To make it even smarter and more effective, I use the Projects feature (available on the pro plan) to manage all of the documentation and general context related to what I&amp;rsquo;m working on. By uploading text and files related to the technology I&amp;rsquo;m using, Claude becomes a genius in exactly what I want him to be a genius in.&lt;/p&gt;</description>
     </item>
     

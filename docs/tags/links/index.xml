@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Links on Joe Muller&#39;s Blog</title>
+    <link>https://jtmuller5.github.io/tags/links/</link>
+    <description>Recent content in Links on Joe Muller&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 08 Feb 2025 15:20:58 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/links/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 3 Links</title>
+      <link>https://jtmuller5.github.io/posts/microblog/week-3-links/</link>
+      <pubDate>Sat, 08 Feb 2025 15:20:58 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/microblog/week-3-links/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mynoise.net/&#34;&gt;https://mynoise.net/&lt;/a&gt;: Ad-free background noise generator&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lobste.rs/&#34;&gt;https://lobste.rs/&lt;/a&gt;: Lobsters is a computing-focused community centered around link aggregation and discussion&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://netnewswire.com/&#34;&gt;https://netnewswire.com/&lt;/a&gt;: Free RSS feed reader&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/KKKZOZ/hugo-admonitions&#34;&gt;https://github.com/KKKZOZ/hugo-admonitions&lt;/a&gt;: GitHub style callouts for Hugo blogs&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sfpc.study/&#34;&gt;https://sfpc.study/&lt;/a&gt;: The School for Poetic Computation (a cool website design)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://exa.ai&#34;&gt;https://exa.ai&lt;/a&gt;: AI search how it should be done&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://og.new/&#34;&gt;https://og.new/&lt;/a&gt;: No-code app for creating slick OG images&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gradio.app/&#34;&gt;https://gradio.app/&lt;/a&gt;: Build ML models in minutes&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

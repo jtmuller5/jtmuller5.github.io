@@ -15,5 +15,9 @@
       "name": "Run Site",
       "snippet": "hugo server"
     }
-  ]
+  ],
+  "search.exclude": {
+    "**/docs": true,
+    "**/public": true
+  }
 }

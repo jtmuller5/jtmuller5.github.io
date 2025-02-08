@@ -9,10 +9,10 @@
     <lastBuildDate>Thu, 05 Dec 2024 09:18:17 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Converting a JavaScript Package to TypeScript: A Step-by-Step Guide</title>
-      <link>https://jtmuller5.github.io/posts/typescript/converting-a-javascript-/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/typescript/converting-a-javascript-/</link>
       <pubDate>Thu, 05 Dec 2024 09:18:17 -0500</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/typescript/converting-a-javascript-/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/typescript/converting-a-javascript-/</guid>
       <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
 &lt;p&gt;TypeScript has become increasingly popular due to its ability to bring static typing to JavaScript, enhancing code quality and developer productivity. Converting your existing JavaScript package to TypeScript can make it more robust and easier to maintain. In this guide, we’ll walk through the essential steps to transform your JavaScript package into a TypeScript package.&lt;/p&gt;
 &lt;h2 id=&#34;1-install-typescript-and-necessary-dependencies&#34;&gt;1. Install TypeScript and Necessary Dependencies&lt;/h2&gt;

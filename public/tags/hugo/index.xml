@@ -9,10 +9,10 @@
     <lastBuildDate>Mon, 13 Jan 2025 17:57:48 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Workspace Specific Markdown Snippets</title>
-      <link>http://localhost:1313/posts/2025/workspace-specific-markdown-snippets/</link>
+      <link>http://localhost:1313/posts/microblog/workspace-specific-markdown-snippets/</link>
       <pubDate>Mon, 13 Jan 2025 17:57:48 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/2025/workspace-specific-markdown-snippets/</guid>
+      <guid>http://localhost:1313/posts/microblog/workspace-specific-markdown-snippets/</guid>
       <description>&lt;p&gt;I write a lot of tech focused content for my personal Hugo blog and my side project&amp;rsquo;s Astro website. Both of these documentation frameworks require you to add Frontmatter to the top of each article that outlines specific metadata. For example, the article&amp;rsquo;s title, description, and draft status would go here:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;---
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;title: &amp;#34;Workspace Specific Markdown Snippets&amp;#34;

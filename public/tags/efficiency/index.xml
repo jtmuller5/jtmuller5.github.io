@@ -9,10 +9,10 @@
     <lastBuildDate>Sat, 11 Jan 2025 12:40:39 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/efficiency/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>VS Code Snippet Variables</title>
-      <link>http://localhost:1313/posts/2025/vs-code-snippet-variables/</link>
+      <link>http://localhost:1313/posts/tutorials/vs-code-snippet-variables/</link>
       <pubDate>Sat, 11 Jan 2025 12:40:39 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/2025/vs-code-snippet-variables/</guid>
+      <guid>http://localhost:1313/posts/tutorials/vs-code-snippet-variables/</guid>
       <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
 &lt;p&gt;You should use VS Code snippets more than you do and that&amp;rsquo;s not just an opinion.&lt;/p&gt;
 &lt;p&gt;The &lt;a href=&#34;https://code.visualstudio.com/docs/editor/userdefinedsnippets#_snippet-syntax&#34;&gt;Snippet Syntax section&lt;/a&gt; of the VS Code snippet docs is a minefield of knowledge bombs.&lt;/p&gt;
@@ -42,10 +42,10 @@ Test_test
     
     <item>
       <title>Make SearchGPT Default Search Engine on Microsoft Edge</title>
-      <link>http://localhost:1313/posts/make-chat-gpt-default-search-engine-on-microsoft-edge/</link>
+      <link>http://localhost:1313/posts/microblog/make-chat-gpt-default-search-engine-on-microsoft-edge/</link>
       <pubDate>Fri, 01 Nov 2024 00:08:49 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/make-chat-gpt-default-search-engine-on-microsoft-edge/</guid>
+      <guid>http://localhost:1313/posts/microblog/make-chat-gpt-default-search-engine-on-microsoft-edge/</guid>
       <description>&lt;h1 id=&#34;just-the-steps&#34;&gt;Just the Steps&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;Open settings&lt;/li&gt;
@@ -69,10 +69,10 @@ Test_test
     
     <item>
       <title>Make Perplexity Default Search Engine on Microsoft Edge</title>
-      <link>http://localhost:1313/posts/make-perplexity-default-search-engine-on-microsoft-edge/</link>
+      <link>http://localhost:1313/posts/microblog/make-perplexity-default-search-engine-on-microsoft-edge/</link>
       <pubDate>Thu, 31 Oct 2024 23:42:39 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/make-perplexity-default-search-engine-on-microsoft-edge/</guid>
+      <guid>http://localhost:1313/posts/microblog/make-perplexity-default-search-engine-on-microsoft-edge/</guid>
       <description>&lt;h1 id=&#34;just-the-steps&#34;&gt;Just the Steps&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;Open settings&lt;/li&gt;
@@ -96,10 +96,10 @@ Test_test
     
     <item>
       <title>Flutter Efficiently</title>
-      <link>http://localhost:1313/posts/flutter/flutter_efficiently/flutter_efficiently/</link>
+      <link>http://localhost:1313/posts/tutorials/flutter/flutter_efficiently/flutter_efficiently/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/flutter/flutter_efficiently/flutter_efficiently/</guid>
+      <guid>http://localhost:1313/posts/tutorials/flutter/flutter_efficiently/flutter_efficiently/</guid>
       <description>&lt;h2 id=&#34;flutter-newbies-start-here&#34;&gt;Flutter Newbies Start Here&lt;/h2&gt;
 &lt;p&gt;If you’re new to Flutter development, I’d recommend starting with something a little less involved.&lt;/p&gt;
 &lt;p&gt;I used this book to learn the Flutter language:&lt;/p&gt;

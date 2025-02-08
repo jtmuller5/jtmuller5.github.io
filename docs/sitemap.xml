@@ -3,34 +3,88 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://jtmuller5.github.io/categories/</loc>
-    <lastmod>2025-02-08T08:40:01-05:00</lastmod>
+    <lastmod>2025-02-08T15:38:54-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/tags/idea/</loc>
+    <lastmod>2025-02-08T15:38:54-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/</loc>
-    <lastmod>2025-02-08T08:40:01-05:00</lastmod>
+    <lastmod>2025-02-08T15:38:54-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/categories/microblog/</loc>
-    <lastmod>2025-02-08T08:40:01-05:00</lastmod>
+    <lastmod>2025-02-08T15:38:54-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/posts/</loc>
-    <lastmod>2025-02-08T08:40:01-05:00</lastmod>
-  </url><url>
-    <loc>https://jtmuller5.github.io/posts/2025/weekly/2025-week-6/search-specific-vs-code-folder/</loc>
-    <lastmod>2025-02-08T08:40:01-05:00</lastmod>
-  </url><url>
-    <loc>https://jtmuller5.github.io/posts/2025/weekly/2025-week-6/week-6/</loc>
-    <lastmod>2025-02-03T06:27:01-05:00</lastmod>
-  </url><url>
-    <loc>https://jtmuller5.github.io/posts/2025/weekly/2025-week-5/week-5/</loc>
-    <lastmod>2025-01-27T05:52:31-05:00</lastmod>
-  </url><url>
-    <loc>https://jtmuller5.github.io/tags/microsoft-edge/</loc>
-    <lastmod>2025-01-27T05:52:31-05:00</lastmod>
+    <lastmod>2025-02-08T15:38:54-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/</loc>
-    <lastmod>2025-01-27T05:52:31-05:00</lastmod>
+    <lastmod>2025-02-08T15:38:54-05:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/tags/vs-code/</loc>
-    <lastmod>2025-01-27T05:52:31-05:00</lastmod>
+    <loc>https://jtmuller5.github.io/posts/microblog/vs-code-note-taker/</loc>
+    <lastmod>2025-02-08T15:38:54-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/microblog/search-specific-vs-code-folder/</loc>
+    <lastmod>2025-02-08T15:22:34-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/microblog/week-5-links/</loc>
+    <lastmod>2025-02-08T15:21:55-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/microblog/week-4-links/</loc>
+    <lastmod>2025-02-08T15:21:30-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/tags/links/</loc>
+    <lastmod>2025-02-08T15:20:58-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/microblog/week-3-links/</loc>
+    <lastmod>2025-02-08T15:20:58-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/microblog/undo-latest-git-commit/</loc>
+    <lastmod>2025-02-08T15:17:48-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/microblog/websocket-basics/</loc>
+    <lastmod>2025-02-08T15:17:13-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/microblog/make-git-recognize-file-name-changes/</loc>
+    <lastmod>2025-02-08T15:16:54-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/microblog/preview-images-vs-code/</loc>
+    <lastmod>2025-02-08T15:16:11-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/microblog/dots-per-inch/</loc>
+    <lastmod>2025-02-08T15:15:16-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/microblog/promise-race-typescript/</loc>
+    <lastmod>2025-02-08T15:14:51-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/microblog/fast-swap-vs-code-themes/</loc>
+    <lastmod>2025-02-08T15:14:10-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/microblog/quote-william-shakespeare-the-fool/</loc>
+    <lastmod>2025-02-08T15:13:38-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/microblog/exa-ai-search-in-edge/</loc>
+    <lastmod>2025-02-08T15:11:55-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/microblog/open-vs-code-in-same-window/</loc>
+    <lastmod>2025-02-08T15:11:25-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/microblog/quote-andre-weil-god-exists/</loc>
+    <lastmod>2025-02-08T15:10:54-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/microblog/use-as-const-typescript/</loc>
+    <lastmod>2025-02-08T15:10:07-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/microblog/pass-args-to-npm-script/</loc>
+    <lastmod>2025-02-08T15:09:32-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/microblog/pop-is-permanent/</loc>
+    <lastmod>2025-02-08T15:07:42-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/microblog/quote-george-patton-good-plan/</loc>
+    <lastmod>2025-02-08T15:06:59-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/microblog/quote-epicurus-nothing-is-enough/</loc>
+    <lastmod>2025-02-08T15:05:13-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/projects/</loc>
     <lastmod>2025-01-20T15:13:36-04:00</lastmod>
@@ -56,22 +110,13 @@
     <loc>https://jtmuller5.github.io/categories/projects/</loc>
     <lastmod>2025-01-20T15:13:36-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/2025/weekly/2025-week-4/week-4/</loc>
-    <lastmod>2025-01-20T07:01:54-05:00</lastmod>
-  </url><url>
-    <loc>https://jtmuller5.github.io/tags/llamaindex/</loc>
-    <lastmod>2025-01-20T07:01:54-05:00</lastmod>
-  </url><url>
-    <loc>https://jtmuller5.github.io/tags/pareto-principle/</loc>
-    <lastmod>2025-01-20T07:01:54-05:00</lastmod>
-  </url><url>
     <loc>https://jtmuller5.github.io/tags/firebase/</loc>
     <lastmod>2025-01-17T06:07:24-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/remote-config/</loc>
     <lastmod>2025-01-17T06:07:24-05:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/2025/track-firebase-remote-config-version/</loc>
+    <loc>https://jtmuller5.github.io/posts/tutorials/track-firebase-remote-config-version/</loc>
     <lastmod>2025-01-17T06:07:24-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/categories/tutorials/</loc>
@@ -86,11 +131,8 @@
     <loc>https://jtmuller5.github.io/tags/vscode/</loc>
     <lastmod>2025-01-13T17:57:48-05:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/2025/workspace-specific-markdown-snippets/</loc>
+    <loc>https://jtmuller5.github.io/posts/microblog/workspace-specific-markdown-snippets/</loc>
     <lastmod>2025-01-13T17:57:48-05:00</lastmod>
-  </url><url>
-    <loc>https://jtmuller5.github.io/posts/2025/weekly/2025-week-3/week-3/</loc>
-    <lastmod>2025-01-13T13:53:00-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/efficiency/</loc>
     <lastmod>2025-01-11T12:40:39-05:00</lastmod>
@@ -101,19 +143,22 @@
     <loc>https://jtmuller5.github.io/tags/snippets/</loc>
     <lastmod>2025-01-11T12:40:39-05:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/2025/vs-code-snippet-variables/</loc>
+    <loc>https://jtmuller5.github.io/posts/tutorials/vs-code-snippet-variables/</loc>
+    <lastmod>2025-01-11T12:40:39-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/tags/vs-code/</loc>
     <lastmod>2025-01-11T12:40:39-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/firebase-cloud-functions/</loc>
     <lastmod>2025-01-04T22:45:29-05:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/2025/resize-firebase-images-like-a-pro/</loc>
+    <loc>https://jtmuller5.github.io/posts/tutorials/resize-firebase-images-like-a-pro/</loc>
     <lastmod>2025-01-04T22:45:29-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/typescript/</loc>
     <lastmod>2025-01-04T22:45:29-05:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/typescript/converting-a-javascript-/</loc>
+    <loc>https://jtmuller5.github.io/posts/tutorials/typescript/converting-a-javascript-/</loc>
     <lastmod>2024-12-05T09:18:17-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/javascript/</loc>
@@ -143,7 +188,7 @@
     <loc>https://jtmuller5.github.io/tags/chrome-extensions/</loc>
     <lastmod>2024-11-18T12:00:00-05:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/chrome-extensions/create-a-chrome-extension-with-react-typescript-tailwind-and-vite/</loc>
+    <loc>https://jtmuller5.github.io/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-react-typescript-tailwind-and-vite/</loc>
     <lastmod>2024-11-18T12:00:00-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/react/</loc>
@@ -152,7 +197,7 @@
     <loc>https://jtmuller5.github.io/tags/vite/</loc>
     <lastmod>2024-11-18T12:00:00-05:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/chrome-extensions/create-a-chrome-extension-with-react-typescript-and-tailwindcss/</loc>
+    <loc>https://jtmuller5.github.io/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-react-typescript-and-tailwindcss/</loc>
     <lastmod>2024-11-16T21:08:12-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/posts/microblog/microblog-11-11-2024/</loc>
@@ -188,7 +233,7 @@
     <loc>https://jtmuller5.github.io/tags/philosophy/</loc>
     <lastmod>2024-11-04T08:23:22-05:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/flutter/how-to-create-and-publish-a-flutter-package/</loc>
+    <loc>https://jtmuller5.github.io/posts/tutorials/flutter/how-to-create-and-publish-a-flutter-package/</loc>
     <lastmod>2024-11-03T15:33:39-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/jts/</loc>
@@ -197,13 +242,16 @@
     <loc>https://jtmuller5.github.io/tags/chatgpt/</loc>
     <lastmod>2024-11-01T00:08:49-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/make-chat-gpt-default-search-engine-on-microsoft-edge/</loc>
+    <loc>https://jtmuller5.github.io/posts/microblog/make-chat-gpt-default-search-engine-on-microsoft-edge/</loc>
     <lastmod>2024-11-01T00:08:49-04:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/openai/</loc>
     <lastmod>2024-11-01T00:08:49-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/make-perplexity-default-search-engine-on-microsoft-edge/</loc>
+    <loc>https://jtmuller5.github.io/posts/microblog/make-perplexity-default-search-engine-on-microsoft-edge/</loc>
+    <lastmod>2024-10-31T23:42:39-04:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/tags/microsoft-edge/</loc>
     <lastmod>2024-10-31T23:42:39-04:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/perplexity/</loc>
@@ -212,7 +260,7 @@
     <loc>https://jtmuller5.github.io/tags/claude/</loc>
     <lastmod>2024-10-05T08:04:55-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/creating-a-vs-code-chat-extension-with-claude/</loc>
+    <loc>https://jtmuller5.github.io/posts/tutorials/creating-a-vs-code-chat-extension-with-claude/</loc>
     <lastmod>2024-10-05T08:04:55-04:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/vs-code-extensions/</loc>
@@ -257,7 +305,7 @@
     <loc>https://jtmuller5.github.io/tags/express/</loc>
     <lastmod>2024-09-29T15:41:15-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/express-api-vercel/</loc>
+    <loc>https://jtmuller5.github.io/posts/tutorials/express-api-vercel/</loc>
     <lastmod>2024-09-29T15:41:15-04:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/slack/</loc>
@@ -266,22 +314,22 @@
     <loc>https://jtmuller5.github.io/tags/supabase/</loc>
     <lastmod>2024-09-29T15:36:18-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/supabase-slack-notifications/</loc>
+    <loc>https://jtmuller5.github.io/posts/tutorials/supabase-slack-notifications/</loc>
     <lastmod>2024-09-29T15:36:18-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/using-supabase-in-typescript/</loc>
+    <loc>https://jtmuller5.github.io/posts/tutorials/using-supabase-in-typescript/</loc>
     <lastmod>2024-09-29T15:29:05-04:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/cicd/</loc>
     <lastmod>2024-09-29T15:20:26-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/flutter/flutter-to-firebase-hosting-github-workflow/</loc>
+    <loc>https://jtmuller5.github.io/posts/tutorials/flutter/flutter-to-firebase-hosting-github-workflow/</loc>
     <lastmod>2024-09-29T15:20:26-04:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/github/</loc>
     <lastmod>2024-09-29T15:20:26-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/generating-images-with-dalle/</loc>
+    <loc>https://jtmuller5.github.io/posts/tutorials/generating-images-with-dalle/</loc>
     <lastmod>2024-09-29T15:13:36-04:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/projects/crashify/</loc>
@@ -308,7 +356,7 @@
     <loc>https://jtmuller5.github.io/categories/essays/</loc>
     <lastmod>2022-11-20T12:30:33-05:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/fly-safe/fly-safe/</loc>
+    <loc>https://jtmuller5.github.io/posts/essays/fly-safe/fly-safe/</loc>
     <lastmod>2022-11-20T12:30:33-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/mobile/</loc>
@@ -320,10 +368,10 @@
     <loc>https://jtmuller5.github.io/tags/google-play/</loc>
     <lastmod>2022-09-20T10:57:17-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/general/gripes_with_managed_publishing/gripes_with_managed_publishing/</loc>
+    <loc>https://jtmuller5.github.io/posts/essays/gripes_with_managed_publishing/gripes_with_managed_publishing/</loc>
     <lastmod>2022-09-20T10:57:17-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/ai/tensorflow_and_keras/tensorflow_and_keras/</loc>
+    <loc>https://jtmuller5.github.io/posts/essays/tensorflow_and_keras/tensorflow_and_keras/</loc>
     <lastmod>2022-09-19T21:21:28-04:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/categories/explorations/</loc>
@@ -335,69 +383,69 @@
     <loc>https://jtmuller5.github.io/tags/tensorflow/</loc>
     <lastmod>2022-09-19T21:21:28-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/flutter/route_guards/route_guards/</loc>
+    <loc>https://jtmuller5.github.io/posts/tutorials/flutter/route_guards/route_guards/</loc>
     <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/at-protocol/</loc>
     <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/flutter/at_protocol_authentication/at_protocol_authentication/</loc>
+    <loc>https://jtmuller5.github.io/posts/tutorials/flutter/at_protocol_authentication/at_protocol_authentication/</loc>
     <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/blogging/</loc>
     <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/general/build_this_blog/build_this_blog/</loc>
+    <loc>https://jtmuller5.github.io/posts/tutorials/build_this_blog/build_this_blog/</loc>
     <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/flutter/continuous_animations/continuous_animations/</loc>
+    <loc>https://jtmuller5.github.io/posts/tutorials/flutter/continuous_animations/continuous_animations/</loc>
     <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/flutter/displaying_videos/displaying_videos/</loc>
+    <loc>https://jtmuller5.github.io/posts/tutorials/flutter/displaying_videos/displaying_videos/</loc>
     <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/flutter/enhanced_enums/enhanced_enums/</loc>
+    <loc>https://jtmuller5.github.io/posts/tutorials/flutter/enhanced_enums/enhanced_enums/</loc>
     <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/flutter/flutter_efficiently/flutter_efficiently/</loc>
+    <loc>https://jtmuller5.github.io/posts/tutorials/flutter/flutter_efficiently/flutter_efficiently/</loc>
     <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/flutter/build_ipa/build_ipa/</loc>
+    <loc>https://jtmuller5.github.io/posts/tutorials/flutter/build_ipa/build_ipa/</loc>
     <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/flutter/nested_firestore_objects/nested_firestore_objects/</loc>
+    <loc>https://jtmuller5.github.io/posts/tutorials/flutter/nested_firestore_objects/nested_firestore_objects/</loc>
     <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/flutter/multi_colored_tab_bar/multi_colored_tab_bar/</loc>
+    <loc>https://jtmuller5.github.io/posts/tutorials/flutter/multi_colored_tab_bar/multi_colored_tab_bar/</loc>
     <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/self-hosted/</loc>
     <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/flutter/firebase_alternative/firebase_alternative/</loc>
+    <loc>https://jtmuller5.github.io/posts/tutorials/flutter/firebase_alternative/firebase_alternative/</loc>
     <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/flutter/cloud_storage_flutter/cloud_storage_flutter/</loc>
+    <loc>https://jtmuller5.github.io/posts/tutorials/flutter/cloud_storage_flutter/cloud_storage_flutter/</loc>
     <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/philosophy/sanguine-me/</loc>
+    <loc>https://jtmuller5.github.io/posts/essays/sanguine-me/</loc>
     <lastmod>2019-09-30T08:37:43-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/philosophy/inifinite-horror/</loc>
+    <loc>https://jtmuller5.github.io/posts/essays/inifinite-horror/</loc>
     <lastmod>2019-09-26T08:40:17-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/philosophy/its-been-done/</loc>
+    <loc>https://jtmuller5.github.io/posts/essays/its-been-done/</loc>
     <lastmod>2019-09-26T08:37:43-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/philosophy/purpose-is-my-purpose/</loc>
+    <loc>https://jtmuller5.github.io/posts/essays/purpose-is-my-purpose/</loc>
     <lastmod>2019-09-25T08:41:39-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/philosophy/thinking-thought/</loc>
+    <loc>https://jtmuller5.github.io/posts/essays/thinking-thought/</loc>
     <lastmod>2019-09-20T08:34:41-04:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/crash-courses/cheat-sheets/template/</loc>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/flutter/image_compression/image_compression/</loc>
+    <loc>https://jtmuller5.github.io/posts/tutorials/flutter/image_compression/image_compression/</loc>
   </url><url>
     <loc>https://jtmuller5.github.io/search/</loc>
   </url>

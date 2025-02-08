@@ -98,6 +98,8 @@ params:
       url: "https://ko-fi.com/joemuller"
     - name: mastodon
       url: "https://fosstodon.org/@Muller"
+    - name: rss
+      url: "/index.xml"
   # analytics:
   #   google:
   #     SiteVerificationTag: "XYZabc"

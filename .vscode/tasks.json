@@ -9,9 +9,9 @@
       "problemMatcher": []
     },
     {
-      "label": "Create Weekly Post",
+      "label": "Create Microblog Post",
       "type": "shell",
-      "command": "hugo new content/posts/2025/weekly/2025-week-${input:week}/${input:name}.md --kind=micro",
+      "command": "hugo new content/posts/microblog/${input:name}/index.md --kind=${input:type}",
       "group": "none",
       "problemMatcher": []
     },
@@ -50,6 +50,12 @@
       "id": "week",
       "type": "promptString",
       "description": "Enter the week number"
+    },
+    {
+      "id": "type",
+      "type": "pickString",
+      "description": "Select the type of post",
+      "options": ["quote", "tip", "idea", "link"]
     }
   ]
 }
