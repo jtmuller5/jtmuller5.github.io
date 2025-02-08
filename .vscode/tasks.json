@@ -11,14 +11,14 @@
     {
       "label": "Create Weekly Post",
       "type": "shell",
-      "command": "hugo new content/posts/2025/weekly/2025-week-${input:week}/index.md",
+      "command": "hugo new content/posts/2025/weekly/2025-week-${input:week}/${input:name}.md --kind=micro",
       "group": "none",
       "problemMatcher": []
     },
     {
       "label": "Build Hugo Site",
       "type": "shell",
-      "command": "hugo -D -d docs",
+      "command": "hugo -D",
       "group": "none",
       "problemMatcher": []
     },

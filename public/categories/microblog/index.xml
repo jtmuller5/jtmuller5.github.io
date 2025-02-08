@@ -6,13 +6,99 @@
     <description>Recent content in Microblog on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Jan 2025 13:53:00 -0500</lastBuildDate><atom:link href="http://localhost:1313/categories/microblog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Feb 2025 08:40:01 -0500</lastBuildDate><atom:link href="http://localhost:1313/categories/microblog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Search Specific vs Code Folder</title>
+      <link>http://localhost:1313/posts/2025/weekly/2025-week-6/search-specific-vs-code-folder/</link>
+      <pubDate>Sat, 08 Feb 2025 08:40:01 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/2025/weekly/2025-week-6/search-specific-vs-code-folder/</guid>
+      <description>&lt;h2 id=&#34;search-specific-vs-code-folder&#34;&gt;Search Specific VS Code Folder&lt;/h2&gt;
+&lt;p&gt;I am committed to turning my &amp;ldquo;blog&amp;rdquo; project into a personal note taking repository. In doing so, I started researching better ways to use VS Code to search for files. &lt;a href=&#34;https://stackoverflow.com/a/43651677/12806961&#34;&gt;I found&lt;/a&gt; that you can search a specific folder by right clicking it in the explorer and selecting &amp;ldquo;Find in Folder&amp;rdquo;. This will auto-populate the &lt;code&gt;files to include&lt;/code&gt; field with the folder you selected.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>2025 Week 6</title>
+      <link>http://localhost:1313/posts/2025/weekly/2025-week-6/week-6/</link>
+      <pubDate>Mon, 03 Feb 2025 06:27:01 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/2025/weekly/2025-week-6/week-6/</guid>
+      <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://objectbox.io/on-device-vector-database-for-dart-flutter/&#34;&gt;https://objectbox.io/on-device-vector-database-for-dart-flutter/&lt;/a&gt;: On-device vector database for Flutter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;quotes&#34;&gt;Quotes&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Nothing is enough for the man to whom enough is too little&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Epicurus&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A good plan violently executed now is better than a perfect plan next week.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;George Patton&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;tips&#34;&gt;Tips&lt;/h2&gt;
+&lt;h3 id=&#34;pop-is-permanent&#34;&gt;pop() is Permanent&lt;/h3&gt;
+&lt;p&gt;After a 15 minute, AI-assisted troubleshooting session, I squashed a bug after realizing I was calling &lt;code&gt;.pop()&lt;/code&gt; on a TypeScript list a few turns before I was attempting to print out that list. The result? A list that was missing the very last entry.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>2025 Week 5</title>
+      <link>http://localhost:1313/posts/2025/weekly/2025-week-5/week-5/</link>
+      <pubDate>Mon, 27 Jan 2025 05:52:31 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/2025/weekly/2025-week-5/week-5/</guid>
+      <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.astral.sh/uv/&#34;&gt;https://docs.astral.sh/uv/&lt;/a&gt;: Extremely fast Python package and project manager&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/animotionjs/animotion&#34;&gt;https://github.com/animotionjs/animotion&lt;/a&gt;: Presentational framework for creating slides and visualizing ideas with code&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/slidevjs/slidev&#34;&gt;https://github.com/slidevjs/slidev&lt;/a&gt;: Presentation Slides for Developers (with support for &lt;a href=&#34;https://github.com/shikijs/shiki-magic-move&#34;&gt;Shiki Magic Move&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://block.github.io/goose/&#34;&gt;https://block.github.io/goose/&lt;/a&gt;: On device AI-agent&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;quotes&#34;&gt;Quotes&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;God exists since mathematics is consistent, and the Devil exists since we cannot prove it.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;André Weil&lt;/p&gt;
+&lt;h2 id=&#34;tips&#34;&gt;Tips&lt;/h2&gt;
+&lt;h3 id=&#34;open-vs-code-in-same-window-from-command-line&#34;&gt;Open VS Code in Same Window from Command Line&lt;/h3&gt;
+&lt;p&gt;In the past, I would always open new projects in VS code by navigating to them and running the simple and famous command:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>2025 Week 4</title>
+      <link>http://localhost:1313/posts/2025/weekly/2025-week-4/week-4/</link>
+      <pubDate>Mon, 20 Jan 2025 07:01:54 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/2025/weekly/2025-week-4/week-4/</guid>
+      <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://jamesclear.com/the-1-percent-rule&#34;&gt;https://jamesclear.com/the-1-percent-rule&lt;/a&gt;: Pareto Principle, Winner-takes-all, Matthew Effect, the 1 Percent Rule&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pub.dev/packages/is_even_ai&#34;&gt;https://pub.dev/packages/is_even_ai&lt;/a&gt;: For when you want to use AI but don&amp;rsquo;t know how.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ts.llamaindex.ai/&#34;&gt;https://ts.llamaindex.ai/&lt;/a&gt;: TypeScript support for LlamaIndex&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;quotes&#34;&gt;Quotes&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The fool doth think he is wise, but the wise man knows himself to be a fool.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;William Shakespeare&lt;/p&gt;
+&lt;h2 id=&#34;thoughts&#34;&gt;Thoughts&lt;/h2&gt;
+&lt;h3 id=&#34;selling-knowledge&#34;&gt;Selling Knowledge&lt;/h3&gt;
+&lt;p&gt;It&amp;rsquo;s obvious to anyone in an economy that people do not want to spend money if they don&amp;rsquo;t have to. People expect many things to be free, whether because of tradition or personal opinions or ignorance, and as some of those things are put up for sale, the response is bitter. Not only does the seller of the object expect money for something that was free in the buyer&amp;rsquo;s mind, but there is now a rift between the two parties based on their misunderstanding.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>2025 Week 3</title>
-      <link>http://localhost:1313/posts/2025/weekly/2025-week-3/</link>
+      <link>http://localhost:1313/posts/2025/weekly/2025-week-3/week-3/</link>
       <pubDate>Mon, 13 Jan 2025 13:53:00 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/2025/weekly/2025-week-3/</guid>
+      <guid>http://localhost:1313/posts/2025/weekly/2025-week-3/week-3/</guid>
       <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
 &lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
 &lt;ul&gt;
@@ -23,6 +109,7 @@
 &lt;li&gt;&lt;a href=&#34;https://sfpc.study/&#34;&gt;https://sfpc.study/&lt;/a&gt;: The School for Poetic Computation (a cool website design)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://exa.ai&#34;&gt;https://exa.ai&lt;/a&gt;: AI search how it should be done&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://og.new/&#34;&gt;https://og.new/&lt;/a&gt;: No-code app for creating slick OG images&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gradio.app/&#34;&gt;https://gradio.app/&lt;/a&gt;: Build ML models in minutes&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;tips&#34;&gt;Tips&lt;/h2&gt;
 &lt;h3 id=&#34;use-typac-to-install-types&#34;&gt;Use TYPAC to Install Types&lt;/h3&gt;

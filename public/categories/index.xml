@@ -6,7 +6,25 @@
     <description>Recent content in Categories on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jan 2025 06:07:24 -0500</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Feb 2025 08:40:01 -0500</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Microblog</title>
+      <link>http://localhost:1313/categories/microblog/</link>
+      <pubDate>Sat, 08 Feb 2025 08:40:01 -0500</pubDate>
+      
+      <guid>http://localhost:1313/categories/microblog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/categories/projects/</link>
+      <pubDate>Mon, 20 Jan 2025 15:13:36 -0400</pubDate>
+      
+      <guid>http://localhost:1313/categories/projects/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Tutorials</title>
       <link>http://localhost:1313/categories/tutorials/</link>
@@ -17,29 +35,11 @@
     </item>
     
     <item>
-      <title>Microblog</title>
-      <link>http://localhost:1313/categories/microblog/</link>
-      <pubDate>Mon, 13 Jan 2025 13:53:00 -0500</pubDate>
-      
-      <guid>http://localhost:1313/categories/microblog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Tutorial</title>
       <link>http://localhost:1313/categories/tutorial/</link>
       <pubDate>Thu, 05 Dec 2024 09:18:17 -0500</pubDate>
       
       <guid>http://localhost:1313/categories/tutorial/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>http://localhost:1313/categories/projects/</link>
-      <pubDate>Wed, 20 Nov 2024 15:13:36 -0400</pubDate>
-      
-      <guid>http://localhost:1313/categories/projects/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Quotes on Joe Muller&#39;s Blog</title>
+    <link>http://localhost:1313/tags/quotes/</link>
+    <description>Recent content in Quotes on Joe Muller&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Feb 2025 06:27:01 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/quotes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025 Week 6</title>
+      <link>http://localhost:1313/posts/2025/weekly/2025-week-6/week-6/</link>
+      <pubDate>Mon, 03 Feb 2025 06:27:01 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/2025/weekly/2025-week-6/week-6/</guid>
+      <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://objectbox.io/on-device-vector-database-for-dart-flutter/&#34;&gt;https://objectbox.io/on-device-vector-database-for-dart-flutter/&lt;/a&gt;: On-device vector database for Flutter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;quotes&#34;&gt;Quotes&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Nothing is enough for the man to whom enough is too little&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Epicurus&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A good plan violently executed now is better than a perfect plan next week.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;George Patton&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;tips&#34;&gt;Tips&lt;/h2&gt;
+&lt;h3 id=&#34;pop-is-permanent&#34;&gt;pop() is Permanent&lt;/h3&gt;
+&lt;p&gt;After a 15 minute, AI-assisted troubleshooting session, I squashed a bug after realizing I was calling &lt;code&gt;.pop()&lt;/code&gt; on a TypeScript list a few turns before I was attempting to print out that list. The result? A list that was missing the very last entry.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,13 +6,52 @@
     <description>Recent content in Microblog on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Jan 2025 05:52:31 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/categories/microblog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Feb 2025 08:40:01 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/categories/microblog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Search Specific vs Code Folder</title>
+      <link>https://jtmuller5.github.io/posts/2025/weekly/2025-week-6/search-specific-vs-code-folder/</link>
+      <pubDate>Sat, 08 Feb 2025 08:40:01 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/2025/weekly/2025-week-6/search-specific-vs-code-folder/</guid>
+      <description>&lt;h2 id=&#34;search-specific-vs-code-folder&#34;&gt;Search Specific VS Code Folder&lt;/h2&gt;
+&lt;p&gt;I am committed to turning my &amp;ldquo;blog&amp;rdquo; project into a personal note taking repository. In doing so, I started researching better ways to use VS Code to search for files. &lt;a href=&#34;https://stackoverflow.com/a/43651677/12806961&#34;&gt;I found&lt;/a&gt; that you can search a specific folder by right clicking it in the explorer and selecting &amp;ldquo;Find in Folder&amp;rdquo;. This will auto-populate the &lt;code&gt;files to include&lt;/code&gt; field with the folder you selected.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>2025 Week 6</title>
+      <link>https://jtmuller5.github.io/posts/2025/weekly/2025-week-6/week-6/</link>
+      <pubDate>Mon, 03 Feb 2025 06:27:01 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/2025/weekly/2025-week-6/week-6/</guid>
+      <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://objectbox.io/on-device-vector-database-for-dart-flutter/&#34;&gt;https://objectbox.io/on-device-vector-database-for-dart-flutter/&lt;/a&gt;: On-device vector database for Flutter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;quotes&#34;&gt;Quotes&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Nothing is enough for the man to whom enough is too little&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Epicurus&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A good plan violently executed now is better than a perfect plan next week.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;George Patton&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;tips&#34;&gt;Tips&lt;/h2&gt;
+&lt;h3 id=&#34;pop-is-permanent&#34;&gt;pop() is Permanent&lt;/h3&gt;
+&lt;p&gt;After a 15 minute, AI-assisted troubleshooting session, I squashed a bug after realizing I was calling &lt;code&gt;.pop()&lt;/code&gt; on a TypeScript list a few turns before I was attempting to print out that list. The result? A list that was missing the very last entry.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>2025 Week 5</title>
-      <link>https://jtmuller5.github.io/posts/2025/weekly/2025-week-5/</link>
+      <link>https://jtmuller5.github.io/posts/2025/weekly/2025-week-5/week-5/</link>
       <pubDate>Mon, 27 Jan 2025 05:52:31 -0500</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/2025/weekly/2025-week-5/</guid>
+      <guid>https://jtmuller5.github.io/posts/2025/weekly/2025-week-5/week-5/</guid>
       <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
 &lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
 &lt;ul&gt;
@@ -33,10 +72,10 @@
     
     <item>
       <title>2025 Week 4</title>
-      <link>https://jtmuller5.github.io/posts/2025/weekly/2025-week-4/</link>
+      <link>https://jtmuller5.github.io/posts/2025/weekly/2025-week-4/week-4/</link>
       <pubDate>Mon, 20 Jan 2025 07:01:54 -0500</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/2025/weekly/2025-week-4/</guid>
+      <guid>https://jtmuller5.github.io/posts/2025/weekly/2025-week-4/week-4/</guid>
       <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
 &lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
 &lt;ul&gt;
@@ -56,10 +95,10 @@
     
     <item>
       <title>2025 Week 3</title>
-      <link>https://jtmuller5.github.io/posts/2025/weekly/2025-week-3/</link>
+      <link>https://jtmuller5.github.io/posts/2025/weekly/2025-week-3/week-3/</link>
       <pubDate>Mon, 13 Jan 2025 13:53:00 -0500</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/2025/weekly/2025-week-3/</guid>
+      <guid>https://jtmuller5.github.io/posts/2025/weekly/2025-week-3/week-3/</guid>
       <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
 &lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
 &lt;ul&gt;

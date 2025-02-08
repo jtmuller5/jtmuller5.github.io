@@ -6,7 +6,88 @@
     <description>Recent content in Tags on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jan 2025 06:07:24 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Jan 2025 05:52:31 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Microsoft-Edge</title>
+      <link>http://localhost:1313/tags/microsoft-edge/</link>
+      <pubDate>Mon, 27 Jan 2025 05:52:31 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/microsoft-edge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vs-Code</title>
+      <link>http://localhost:1313/tags/vs-code/</link>
+      <pubDate>Mon, 27 Jan 2025 05:52:31 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/vs-code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Android</title>
+      <link>http://localhost:1313/tags/android/</link>
+      <pubDate>Mon, 20 Jan 2025 15:13:36 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fastlane</title>
+      <link>http://localhost:1313/tags/fastlane/</link>
+      <pubDate>Mon, 20 Jan 2025 15:13:36 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/fastlane/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flutter</title>
+      <link>http://localhost:1313/tags/flutter/</link>
+      <pubDate>Mon, 20 Jan 2025 15:13:36 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/flutter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ios</title>
+      <link>http://localhost:1313/tags/ios/</link>
+      <pubDate>Mon, 20 Jan 2025 15:13:36 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/ios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Longevity</title>
+      <link>http://localhost:1313/tags/longevity/</link>
+      <pubDate>Mon, 20 Jan 2025 15:13:36 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/longevity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Llamaindex</title>
+      <link>http://localhost:1313/tags/llamaindex/</link>
+      <pubDate>Mon, 20 Jan 2025 07:01:54 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/llamaindex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pareto-Principle</title>
+      <link>http://localhost:1313/tags/pareto-principle/</link>
+      <pubDate>Mon, 20 Jan 2025 07:01:54 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/pareto-principle/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Firebase</title>
       <link>http://localhost:1313/tags/firebase/</link>
@@ -76,15 +157,6 @@
       <pubDate>Sat, 11 Jan 2025 12:40:39 -0500</pubDate>
       
       <guid>http://localhost:1313/tags/snippets/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vs-Code</title>
-      <link>http://localhost:1313/tags/vs-code/</link>
-      <pubDate>Sat, 11 Jan 2025 12:40:39 -0500</pubDate>
-      
-      <guid>http://localhost:1313/tags/vs-code/</guid>
       <description></description>
     </item>
     
@@ -224,15 +296,6 @@
     </item>
     
     <item>
-      <title>Flutter</title>
-      <link>http://localhost:1313/tags/flutter/</link>
-      <pubDate>Sun, 03 Nov 2024 15:33:39 -0500</pubDate>
-      
-      <guid>http://localhost:1313/tags/flutter/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Jts</title>
       <link>http://localhost:1313/tags/jts/</link>
       <pubDate>Sun, 03 Nov 2024 15:33:39 -0500</pubDate>
@@ -256,15 +319,6 @@
       <pubDate>Fri, 01 Nov 2024 00:08:49 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/openai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Microsoft-Edge</title>
-      <link>http://localhost:1313/tags/microsoft-edge/</link>
-      <pubDate>Thu, 31 Oct 2024 23:42:39 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/microsoft-edge/</guid>
       <description></description>
     </item>
     
@@ -422,38 +476,11 @@
     </item>
     
     <item>
-      <title>Android</title>
-      <link>http://localhost:1313/tags/android/</link>
-      <pubDate>Sat, 15 Jul 2023 15:13:36 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/android/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Baking</title>
       <link>http://localhost:1313/tags/baking/</link>
       <pubDate>Sat, 15 Jul 2023 15:13:36 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/baking/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fastlane</title>
-      <link>http://localhost:1313/tags/fastlane/</link>
-      <pubDate>Sat, 15 Jul 2023 15:13:36 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/fastlane/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ios</title>
-      <link>http://localhost:1313/tags/ios/</link>
-      <pubDate>Sat, 15 Jul 2023 15:13:36 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/ios/</guid>
       <description></description>
     </item>
     

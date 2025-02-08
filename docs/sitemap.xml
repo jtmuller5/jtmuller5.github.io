@@ -2,19 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jtmuller5.github.io/</loc>
-    <lastmod>2025-02-03T06:27:01-05:00</lastmod>
-  </url><url>
-    <loc>https://jtmuller5.github.io/posts/</loc>
-    <lastmod>2025-02-03T06:27:01-05:00</lastmod>
-  </url><url>
-    <loc>https://jtmuller5.github.io/posts/2025/weekly/2025-week-5/</loc>
-    <lastmod>2025-01-27T05:52:31-05:00</lastmod>
-  </url><url>
     <loc>https://jtmuller5.github.io/categories/</loc>
-    <lastmod>2025-01-27T05:52:31-05:00</lastmod>
+    <lastmod>2025-02-08T08:40:01-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/</loc>
+    <lastmod>2025-02-08T08:40:01-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/categories/microblog/</loc>
+    <lastmod>2025-02-08T08:40:01-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/</loc>
+    <lastmod>2025-02-08T08:40:01-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/2025/weekly/2025-week-6/search-specific-vs-code-folder/</loc>
+    <lastmod>2025-02-08T08:40:01-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/2025/weekly/2025-week-6/week-6/</loc>
+    <lastmod>2025-02-03T06:27:01-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/2025/weekly/2025-week-5/week-5/</loc>
     <lastmod>2025-01-27T05:52:31-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/microsoft-edge/</loc>
@@ -50,7 +56,7 @@
     <loc>https://jtmuller5.github.io/categories/projects/</loc>
     <lastmod>2025-01-20T15:13:36-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/2025/weekly/2025-week-4/</loc>
+    <loc>https://jtmuller5.github.io/posts/2025/weekly/2025-week-4/week-4/</loc>
     <lastmod>2025-01-20T07:01:54-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/llamaindex/</loc>
@@ -83,7 +89,7 @@
     <loc>https://jtmuller5.github.io/posts/2025/workspace-specific-markdown-snippets/</loc>
     <lastmod>2025-01-13T17:57:48-05:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/2025/weekly/2025-week-3/</loc>
+    <loc>https://jtmuller5.github.io/posts/2025/weekly/2025-week-3/week-3/</loc>
     <lastmod>2025-01-13T13:53:00-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/efficiency/</loc>

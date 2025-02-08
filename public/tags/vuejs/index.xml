@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Vuejs on Joe Muller&#39;s Blog</title>
+    <link>https://jtmuller5.github.io/tags/vuejs/</link>
+    <description>Recent content in Vuejs on Joe Muller&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Nov 2024 12:44:58 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/vuejs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create a Chrome Extension With Vuejs</title>
+      <link>https://jtmuller5.github.io/posts/chrome-extensions/create-a-chrome-extension-with-vuejs/</link>
+      <pubDate>Sun, 10 Nov 2024 12:44:58 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/chrome-extensions/create-a-chrome-extension-with-vuejs/</guid>
+      <description>&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
+&lt;p&gt;To start, create a new folder for your project:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mkdir vue-chrome-extension
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Next, create the Vue app:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm create vue@latest .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Vue.js - The Progressive JavaScript Framework
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✔ Package name: … vue-chrome-extension
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✔ Add TypeScript? …Yes
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✔ Add JSX Support? … No
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✔ Add Vue Router &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; Single Page Application development? …Yes
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✔ Add Pinia &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; state management? … No
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✔ Add Vitest &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; Unit Testing? … No
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✔ Add an End-to-End Testing Solution? › No
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✔ Add ESLint &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; code quality? › Yes
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✔ Add Prettier &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; code formatting? … Yes
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;In the &lt;code&gt;public&lt;/code&gt; folder, create a &lt;code&gt;manifest.json&lt;/code&gt; file with your extension&amp;rsquo;s information&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
