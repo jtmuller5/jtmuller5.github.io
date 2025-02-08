@@ -2,602 +2,620 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Joe Muller&#39;s Blog</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://jtmuller5.github.io/tags/</link>
     <description>Recent content in Tags on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Feb 2025 15:20:58 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Feb 2025 18:21:16 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tip</title>
+      <link>https://jtmuller5.github.io/tags/tip/</link>
+      <pubDate>Sat, 08 Feb 2025 18:21:16 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/tags/tip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Idea</title>
+      <link>https://jtmuller5.github.io/tags/idea/</link>
+      <pubDate>Sat, 08 Feb 2025 15:38:54 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/tags/idea/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Links</title>
-      <link>http://localhost:1313/tags/links/</link>
+      <link>https://jtmuller5.github.io/tags/links/</link>
       <pubDate>Sat, 08 Feb 2025 15:20:58 -0500</pubDate>
       
-      <guid>http://localhost:1313/tags/links/</guid>
+      <guid>https://jtmuller5.github.io/tags/links/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Android</title>
-      <link>http://localhost:1313/tags/android/</link>
+      <link>https://jtmuller5.github.io/tags/android/</link>
       <pubDate>Mon, 20 Jan 2025 15:13:36 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/android/</guid>
+      <guid>https://jtmuller5.github.io/tags/android/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fastlane</title>
-      <link>http://localhost:1313/tags/fastlane/</link>
+      <link>https://jtmuller5.github.io/tags/fastlane/</link>
       <pubDate>Mon, 20 Jan 2025 15:13:36 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/fastlane/</guid>
+      <guid>https://jtmuller5.github.io/tags/fastlane/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Flutter</title>
-      <link>http://localhost:1313/tags/flutter/</link>
+      <link>https://jtmuller5.github.io/tags/flutter/</link>
       <pubDate>Mon, 20 Jan 2025 15:13:36 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/flutter/</guid>
+      <guid>https://jtmuller5.github.io/tags/flutter/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ios</title>
-      <link>http://localhost:1313/tags/ios/</link>
+      <link>https://jtmuller5.github.io/tags/ios/</link>
       <pubDate>Mon, 20 Jan 2025 15:13:36 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/ios/</guid>
+      <guid>https://jtmuller5.github.io/tags/ios/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Longevity</title>
-      <link>http://localhost:1313/tags/longevity/</link>
+      <link>https://jtmuller5.github.io/tags/longevity/</link>
       <pubDate>Mon, 20 Jan 2025 15:13:36 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/longevity/</guid>
+      <guid>https://jtmuller5.github.io/tags/longevity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Firebase</title>
-      <link>http://localhost:1313/tags/firebase/</link>
+      <link>https://jtmuller5.github.io/tags/firebase/</link>
       <pubDate>Fri, 17 Jan 2025 06:07:24 -0500</pubDate>
       
-      <guid>http://localhost:1313/tags/firebase/</guid>
+      <guid>https://jtmuller5.github.io/tags/firebase/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Remote-Config</title>
-      <link>http://localhost:1313/tags/remote-config/</link>
+      <link>https://jtmuller5.github.io/tags/remote-config/</link>
       <pubDate>Fri, 17 Jan 2025 06:07:24 -0500</pubDate>
       
-      <guid>http://localhost:1313/tags/remote-config/</guid>
+      <guid>https://jtmuller5.github.io/tags/remote-config/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>http://localhost:1313/tags/hugo/</link>
+      <link>https://jtmuller5.github.io/tags/hugo/</link>
       <pubDate>Mon, 13 Jan 2025 17:57:48 -0500</pubDate>
       
-      <guid>http://localhost:1313/tags/hugo/</guid>
+      <guid>https://jtmuller5.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vs-Code-Snippets</title>
-      <link>http://localhost:1313/tags/vs-code-snippets/</link>
+      <link>https://jtmuller5.github.io/tags/vs-code-snippets/</link>
       <pubDate>Mon, 13 Jan 2025 17:57:48 -0500</pubDate>
       
-      <guid>http://localhost:1313/tags/vs-code-snippets/</guid>
+      <guid>https://jtmuller5.github.io/tags/vs-code-snippets/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vscode</title>
-      <link>http://localhost:1313/tags/vscode/</link>
+      <link>https://jtmuller5.github.io/tags/vscode/</link>
       <pubDate>Mon, 13 Jan 2025 17:57:48 -0500</pubDate>
       
-      <guid>http://localhost:1313/tags/vscode/</guid>
+      <guid>https://jtmuller5.github.io/tags/vscode/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Efficiency</title>
-      <link>http://localhost:1313/tags/efficiency/</link>
+      <link>https://jtmuller5.github.io/tags/efficiency/</link>
       <pubDate>Sat, 11 Jan 2025 12:40:39 -0500</pubDate>
       
-      <guid>http://localhost:1313/tags/efficiency/</guid>
+      <guid>https://jtmuller5.github.io/tags/efficiency/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Regex</title>
-      <link>http://localhost:1313/tags/regex/</link>
+      <link>https://jtmuller5.github.io/tags/regex/</link>
       <pubDate>Sat, 11 Jan 2025 12:40:39 -0500</pubDate>
       
-      <guid>http://localhost:1313/tags/regex/</guid>
+      <guid>https://jtmuller5.github.io/tags/regex/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Snippets</title>
-      <link>http://localhost:1313/tags/snippets/</link>
+      <link>https://jtmuller5.github.io/tags/snippets/</link>
       <pubDate>Sat, 11 Jan 2025 12:40:39 -0500</pubDate>
       
-      <guid>http://localhost:1313/tags/snippets/</guid>
+      <guid>https://jtmuller5.github.io/tags/snippets/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vs-Code</title>
-      <link>http://localhost:1313/tags/vs-code/</link>
+      <link>https://jtmuller5.github.io/tags/vs-code/</link>
       <pubDate>Sat, 11 Jan 2025 12:40:39 -0500</pubDate>
       
-      <guid>http://localhost:1313/tags/vs-code/</guid>
+      <guid>https://jtmuller5.github.io/tags/vs-code/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Preact</title>
-      <link>http://localhost:1313/tags/preact/</link>
+      <link>https://jtmuller5.github.io/tags/preact/</link>
       <pubDate>Thu, 09 Jan 2025 09:02:21 -0500</pubDate>
       
-      <guid>http://localhost:1313/tags/preact/</guid>
+      <guid>https://jtmuller5.github.io/tags/preact/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tailwind</title>
-      <link>http://localhost:1313/tags/tailwind/</link>
+      <link>https://jtmuller5.github.io/tags/tailwind/</link>
       <pubDate>Thu, 09 Jan 2025 09:02:21 -0500</pubDate>
       
-      <guid>http://localhost:1313/tags/tailwind/</guid>
+      <guid>https://jtmuller5.github.io/tags/tailwind/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vite</title>
-      <link>http://localhost:1313/tags/vite/</link>
+      <link>https://jtmuller5.github.io/tags/vite/</link>
       <pubDate>Thu, 09 Jan 2025 09:02:21 -0500</pubDate>
       
-      <guid>http://localhost:1313/tags/vite/</guid>
+      <guid>https://jtmuller5.github.io/tags/vite/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Firebase-Cloud-Functions</title>
-      <link>http://localhost:1313/tags/firebase-cloud-functions/</link>
+      <link>https://jtmuller5.github.io/tags/firebase-cloud-functions/</link>
       <pubDate>Sat, 04 Jan 2025 22:45:29 -0500</pubDate>
       
-      <guid>http://localhost:1313/tags/firebase-cloud-functions/</guid>
+      <guid>https://jtmuller5.github.io/tags/firebase-cloud-functions/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Typescript</title>
-      <link>http://localhost:1313/tags/typescript/</link>
+      <link>https://jtmuller5.github.io/tags/typescript/</link>
       <pubDate>Sat, 04 Jan 2025 22:45:29 -0500</pubDate>
       
-      <guid>http://localhost:1313/tags/typescript/</guid>
+      <guid>https://jtmuller5.github.io/tags/typescript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ai</title>
-      <link>http://localhost:1313/tags/ai/</link>
+      <link>https://jtmuller5.github.io/tags/ai/</link>
       <pubDate>Mon, 23 Dec 2024 15:09:25 -0500</pubDate>
       
-      <guid>http://localhost:1313/tags/ai/</guid>
+      <guid>https://jtmuller5.github.io/tags/ai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Javascript</title>
-      <link>http://localhost:1313/tags/javascript/</link>
+      <link>https://jtmuller5.github.io/tags/javascript/</link>
       <pubDate>Thu, 05 Dec 2024 09:18:17 -0500</pubDate>
       
-      <guid>http://localhost:1313/tags/javascript/</guid>
+      <guid>https://jtmuller5.github.io/tags/javascript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Npm</title>
-      <link>http://localhost:1313/tags/npm/</link>
+      <link>https://jtmuller5.github.io/tags/npm/</link>
       <pubDate>Thu, 05 Dec 2024 09:18:17 -0500</pubDate>
       
-      <guid>http://localhost:1313/tags/npm/</guid>
+      <guid>https://jtmuller5.github.io/tags/npm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Astro</title>
-      <link>http://localhost:1313/tags/astro/</link>
+      <link>https://jtmuller5.github.io/tags/astro/</link>
       <pubDate>Wed, 20 Nov 2024 15:13:36 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/astro/</guid>
+      <guid>https://jtmuller5.github.io/tags/astro/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Llm</title>
-      <link>http://localhost:1313/tags/llm/</link>
+      <link>https://jtmuller5.github.io/tags/llm/</link>
       <pubDate>Wed, 20 Nov 2024 15:13:36 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/llm/</guid>
+      <guid>https://jtmuller5.github.io/tags/llm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Chrome-Extensions</title>
-      <link>http://localhost:1313/tags/chrome-extensions/</link>
+      <link>https://jtmuller5.github.io/tags/chrome-extensions/</link>
       <pubDate>Mon, 18 Nov 2024 12:00:00 -0500</pubDate>
       
-      <guid>http://localhost:1313/tags/chrome-extensions/</guid>
+      <guid>https://jtmuller5.github.io/tags/chrome-extensions/</guid>
       <description></description>
     </item>
     
     <item>
       <title>React</title>
-      <link>http://localhost:1313/tags/react/</link>
+      <link>https://jtmuller5.github.io/tags/react/</link>
       <pubDate>Mon, 18 Nov 2024 12:00:00 -0500</pubDate>
       
-      <guid>http://localhost:1313/tags/react/</guid>
+      <guid>https://jtmuller5.github.io/tags/react/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Webpack</title>
-      <link>http://localhost:1313/tags/webpack/</link>
+      <link>https://jtmuller5.github.io/tags/webpack/</link>
       <pubDate>Fri, 15 Nov 2024 09:18:17 -0500</pubDate>
       
-      <guid>http://localhost:1313/tags/webpack/</guid>
+      <guid>https://jtmuller5.github.io/tags/webpack/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vuejs</title>
-      <link>http://localhost:1313/tags/vuejs/</link>
+      <link>https://jtmuller5.github.io/tags/vuejs/</link>
       <pubDate>Sun, 10 Nov 2024 12:44:58 -0500</pubDate>
       
-      <guid>http://localhost:1313/tags/vuejs/</guid>
+      <guid>https://jtmuller5.github.io/tags/vuejs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Deepgram</title>
-      <link>http://localhost:1313/tags/deepgram/</link>
+      <link>https://jtmuller5.github.io/tags/deepgram/</link>
       <pubDate>Sat, 09 Nov 2024 08:23:22 -0500</pubDate>
       
-      <guid>http://localhost:1313/tags/deepgram/</guid>
+      <guid>https://jtmuller5.github.io/tags/deepgram/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Elevenlabs</title>
-      <link>http://localhost:1313/tags/elevenlabs/</link>
+      <link>https://jtmuller5.github.io/tags/elevenlabs/</link>
       <pubDate>Sat, 09 Nov 2024 08:23:22 -0500</pubDate>
       
-      <guid>http://localhost:1313/tags/elevenlabs/</guid>
+      <guid>https://jtmuller5.github.io/tags/elevenlabs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vercel</title>
-      <link>http://localhost:1313/tags/vercel/</link>
+      <link>https://jtmuller5.github.io/tags/vercel/</link>
       <pubDate>Wed, 06 Nov 2024 08:23:22 -0500</pubDate>
       
-      <guid>http://localhost:1313/tags/vercel/</guid>
+      <guid>https://jtmuller5.github.io/tags/vercel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Xai</title>
-      <link>http://localhost:1313/tags/xai/</link>
+      <link>https://jtmuller5.github.io/tags/xai/</link>
       <pubDate>Tue, 05 Nov 2024 08:23:22 -0500</pubDate>
       
-      <guid>http://localhost:1313/tags/xai/</guid>
+      <guid>https://jtmuller5.github.io/tags/xai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Philosophy</title>
-      <link>http://localhost:1313/tags/philosophy/</link>
+      <link>https://jtmuller5.github.io/tags/philosophy/</link>
       <pubDate>Mon, 04 Nov 2024 08:23:22 -0500</pubDate>
       
-      <guid>http://localhost:1313/tags/philosophy/</guid>
+      <guid>https://jtmuller5.github.io/tags/philosophy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jts</title>
-      <link>http://localhost:1313/tags/jts/</link>
+      <link>https://jtmuller5.github.io/tags/jts/</link>
       <pubDate>Sun, 03 Nov 2024 15:33:39 -0500</pubDate>
       
-      <guid>http://localhost:1313/tags/jts/</guid>
+      <guid>https://jtmuller5.github.io/tags/jts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Chatgpt</title>
-      <link>http://localhost:1313/tags/chatgpt/</link>
+      <link>https://jtmuller5.github.io/tags/chatgpt/</link>
       <pubDate>Fri, 01 Nov 2024 00:08:49 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/chatgpt/</guid>
+      <guid>https://jtmuller5.github.io/tags/chatgpt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Openai</title>
-      <link>http://localhost:1313/tags/openai/</link>
+      <link>https://jtmuller5.github.io/tags/openai/</link>
       <pubDate>Fri, 01 Nov 2024 00:08:49 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/openai/</guid>
+      <guid>https://jtmuller5.github.io/tags/openai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Microsoft-Edge</title>
-      <link>http://localhost:1313/tags/microsoft-edge/</link>
+      <link>https://jtmuller5.github.io/tags/microsoft-edge/</link>
       <pubDate>Thu, 31 Oct 2024 23:42:39 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/microsoft-edge/</guid>
+      <guid>https://jtmuller5.github.io/tags/microsoft-edge/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Perplexity</title>
-      <link>http://localhost:1313/tags/perplexity/</link>
+      <link>https://jtmuller5.github.io/tags/perplexity/</link>
       <pubDate>Thu, 31 Oct 2024 23:42:39 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/perplexity/</guid>
+      <guid>https://jtmuller5.github.io/tags/perplexity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Flutter-Web</title>
-      <link>http://localhost:1313/tags/flutter-web/</link>
+      <link>https://jtmuller5.github.io/tags/flutter-web/</link>
       <pubDate>Wed, 30 Oct 2024 14:32:14 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/flutter-web/</guid>
+      <guid>https://jtmuller5.github.io/tags/flutter-web/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pwa</title>
-      <link>http://localhost:1313/tags/pwa/</link>
+      <link>https://jtmuller5.github.io/tags/pwa/</link>
       <pubDate>Wed, 30 Oct 2024 14:32:14 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/pwa/</guid>
+      <guid>https://jtmuller5.github.io/tags/pwa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shaders</title>
-      <link>http://localhost:1313/tags/shaders/</link>
+      <link>https://jtmuller5.github.io/tags/shaders/</link>
       <pubDate>Mon, 28 Oct 2024 10:18:40 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/shaders/</guid>
+      <guid>https://jtmuller5.github.io/tags/shaders/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Claude</title>
-      <link>http://localhost:1313/tags/claude/</link>
+      <link>https://jtmuller5.github.io/tags/claude/</link>
       <pubDate>Sat, 05 Oct 2024 08:04:55 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/claude/</guid>
+      <guid>https://jtmuller5.github.io/tags/claude/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vs-Code-Extensions</title>
-      <link>http://localhost:1313/tags/vs-code-extensions/</link>
+      <link>https://jtmuller5.github.io/tags/vs-code-extensions/</link>
       <pubDate>Sat, 05 Oct 2024 08:04:55 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/vs-code-extensions/</guid>
+      <guid>https://jtmuller5.github.io/tags/vs-code-extensions/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cheat-Sheet</title>
-      <link>http://localhost:1313/tags/cheat-sheet/</link>
+      <link>https://jtmuller5.github.io/tags/cheat-sheet/</link>
       <pubDate>Tue, 01 Oct 2024 08:44:33 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/cheat-sheet/</guid>
+      <guid>https://jtmuller5.github.io/tags/cheat-sheet/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dart</title>
-      <link>http://localhost:1313/tags/dart/</link>
+      <link>https://jtmuller5.github.io/tags/dart/</link>
       <pubDate>Tue, 01 Oct 2024 08:44:33 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/dart/</guid>
+      <guid>https://jtmuller5.github.io/tags/dart/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Go</title>
-      <link>http://localhost:1313/tags/go/</link>
+      <link>https://jtmuller5.github.io/tags/go/</link>
       <pubDate>Tue, 01 Oct 2024 08:43:45 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/go/</guid>
+      <guid>https://jtmuller5.github.io/tags/go/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Golang</title>
-      <link>http://localhost:1313/tags/golang/</link>
+      <link>https://jtmuller5.github.io/tags/golang/</link>
       <pubDate>Tue, 01 Oct 2024 08:43:45 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/golang/</guid>
+      <guid>https://jtmuller5.github.io/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>http://localhost:1313/tags/python/</link>
+      <link>https://jtmuller5.github.io/tags/python/</link>
       <pubDate>Tue, 01 Oct 2024 08:43:45 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/python/</guid>
+      <guid>https://jtmuller5.github.io/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Api</title>
-      <link>http://localhost:1313/tags/api/</link>
+      <link>https://jtmuller5.github.io/tags/api/</link>
       <pubDate>Sun, 29 Sep 2024 15:41:15 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/api/</guid>
+      <guid>https://jtmuller5.github.io/tags/api/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Express</title>
-      <link>http://localhost:1313/tags/express/</link>
+      <link>https://jtmuller5.github.io/tags/express/</link>
       <pubDate>Sun, 29 Sep 2024 15:41:15 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/express/</guid>
+      <guid>https://jtmuller5.github.io/tags/express/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Slack</title>
-      <link>http://localhost:1313/tags/slack/</link>
+      <link>https://jtmuller5.github.io/tags/slack/</link>
       <pubDate>Sun, 29 Sep 2024 15:36:18 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/slack/</guid>
+      <guid>https://jtmuller5.github.io/tags/slack/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Supabase</title>
-      <link>http://localhost:1313/tags/supabase/</link>
+      <link>https://jtmuller5.github.io/tags/supabase/</link>
       <pubDate>Sun, 29 Sep 2024 15:36:18 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/supabase/</guid>
+      <guid>https://jtmuller5.github.io/tags/supabase/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cicd</title>
-      <link>http://localhost:1313/tags/cicd/</link>
+      <link>https://jtmuller5.github.io/tags/cicd/</link>
       <pubDate>Sun, 29 Sep 2024 15:20:26 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/cicd/</guid>
+      <guid>https://jtmuller5.github.io/tags/cicd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Github</title>
-      <link>http://localhost:1313/tags/github/</link>
+      <link>https://jtmuller5.github.io/tags/github/</link>
       <pubDate>Sun, 29 Sep 2024 15:20:26 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/github/</guid>
+      <guid>https://jtmuller5.github.io/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mobile</title>
-      <link>http://localhost:1313/tags/mobile/</link>
+      <link>https://jtmuller5.github.io/tags/mobile/</link>
       <pubDate>Sun, 29 Sep 2024 14:56:36 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/mobile/</guid>
+      <guid>https://jtmuller5.github.io/tags/mobile/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Project</title>
-      <link>http://localhost:1313/tags/project/</link>
+      <link>https://jtmuller5.github.io/tags/project/</link>
       <pubDate>Fri, 20 Sep 2024 15:13:36 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/project/</guid>
+      <guid>https://jtmuller5.github.io/tags/project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Render</title>
-      <link>http://localhost:1313/tags/render/</link>
+      <link>https://jtmuller5.github.io/tags/render/</link>
       <pubDate>Fri, 20 Sep 2024 15:13:36 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/render/</guid>
+      <guid>https://jtmuller5.github.io/tags/render/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tailwindcss</title>
-      <link>http://localhost:1313/tags/tailwindcss/</link>
+      <link>https://jtmuller5.github.io/tags/tailwindcss/</link>
       <pubDate>Fri, 20 Sep 2024 15:13:36 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/tailwindcss/</guid>
+      <guid>https://jtmuller5.github.io/tags/tailwindcss/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Baking</title>
-      <link>http://localhost:1313/tags/baking/</link>
+      <link>https://jtmuller5.github.io/tags/baking/</link>
       <pubDate>Sat, 15 Jul 2023 15:13:36 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/baking/</guid>
+      <guid>https://jtmuller5.github.io/tags/baking/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Google Play</title>
-      <link>http://localhost:1313/tags/google-play/</link>
+      <link>https://jtmuller5.github.io/tags/google-play/</link>
       <pubDate>Tue, 20 Sep 2022 10:57:17 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/google-play/</guid>
+      <guid>https://jtmuller5.github.io/tags/google-play/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Keras</title>
-      <link>http://localhost:1313/tags/keras/</link>
+      <link>https://jtmuller5.github.io/tags/keras/</link>
       <pubDate>Mon, 19 Sep 2022 21:21:28 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/keras/</guid>
+      <guid>https://jtmuller5.github.io/tags/keras/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tensorflow</title>
-      <link>http://localhost:1313/tags/tensorflow/</link>
+      <link>https://jtmuller5.github.io/tags/tensorflow/</link>
       <pubDate>Mon, 19 Sep 2022 21:21:28 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/tensorflow/</guid>
+      <guid>https://jtmuller5.github.io/tags/tensorflow/</guid>
       <description></description>
     </item>
     
     <item>
       <title>At-Protocol</title>
-      <link>http://localhost:1313/tags/at-protocol/</link>
+      <link>https://jtmuller5.github.io/tags/at-protocol/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/at-protocol/</guid>
+      <guid>https://jtmuller5.github.io/tags/at-protocol/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Blogging</title>
-      <link>http://localhost:1313/tags/blogging/</link>
+      <link>https://jtmuller5.github.io/tags/blogging/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/blogging/</guid>
+      <guid>https://jtmuller5.github.io/tags/blogging/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Self-Hosted</title>
-      <link>http://localhost:1313/tags/self-hosted/</link>
+      <link>https://jtmuller5.github.io/tags/self-hosted/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/self-hosted/</guid>
+      <guid>https://jtmuller5.github.io/tags/self-hosted/</guid>
       <description></description>
     </item>
     

@@ -6,6 +6,7 @@ categories: ["microblog"]
 tags: []
 # hiddenInHomeList: true
 ---
+
 > A good plan violently executed now is better than a perfect plan next week.
 
 - George Patton

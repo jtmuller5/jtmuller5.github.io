@@ -2,26 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Joe Muller&#39;s Blog</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://jtmuller5.github.io/posts/</link>
     <description>Recent content in Posts on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Feb 2025 15:22:34 -0500</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Feb 2025 18:21:16 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fuzzy Search vs Code</title>
+      <link>https://jtmuller5.github.io/posts/microblog/fuzzy-search-vs-code/</link>
+      <pubDate>Sat, 08 Feb 2025 18:21:16 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/microblog/fuzzy-search-vs-code/</guid>
+      <description>&lt;p&gt;There is a &lt;a href=&#34;https://code.visualstudio.com/docs/copilot/copilot-settings#_general-settings&#34;&gt;new experimental setting&lt;/a&gt; for VS Code&amp;rsquo;s copilot that lets you enable semantic search in the search window.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;github.copilot.chat.search.semanticTextResults
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;image.png&#34; alt=&#34;Enable semantic search in VS Code&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;Once you enable the semantic search setting, you&amp;rsquo;ll see a new dropdown under the search results in the search panel. Expanding the dropdown will show you the semantic search results (after a few seconds of processing).&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;image-1.png&#34; alt=&#34;Semantic search in search panel&#34;  /&gt;
+&lt;/p&gt;
+
+          &lt;link rel=&#34;stylesheet&#34; href=&#34;https://jtmuller5.github.io/css/vendors/admonitions.5c73bad2903e7d2d44ad118370ebd8c2cf5f239d4d93c283e55c00f2f8d30746.css&#34; integrity=&#34;sha256-XHO60pA&amp;#43;fS1ErRGDcOvYws9fI51Nk8KD5VwA8vjTB0Y=&#34; crossorigin=&#34;anonymous&#34;&gt;
+  &lt;div class=&#34;admonition caution&#34;&gt;
+    &lt;div class=&#34;admonition-header&#34;&gt;
+      &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 32c14.2 0 27.3 7.5 34.5 19.8l216 368c7.3 12.4 7.3 27.7 .2 40.1S486.3 480 472 480L40 480c-14.3 0-27.6-7.7-34.7-20.1s-7-27.8 .2-40.1l216-368C228.7 39.5 241.8 32 256 32zm0 128c-13.3 0-24 10.7-24 24l0 112c0 13.3 10.7 24 24 24s24-10.7 24-24l0-112c0-13.3-10.7-24-24-24zm32 224a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z&#34;/&gt;&lt;/svg&gt;
+      &lt;span&gt;Caution&lt;/span&gt;
+    &lt;/div&gt;
+      &lt;div class=&#34;admonition-content&#34;&gt;
+        &lt;p&gt;I&amp;rsquo;ve noticed that this works better in non-blog projects. In my Hugo blog (this website), the search results miss things that seem obvious.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>VS Code Note Taker</title>
+      <link>https://jtmuller5.github.io/posts/microblog/vs-code-note-taker/</link>
+      <pubDate>Sat, 08 Feb 2025 15:38:54 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/microblog/vs-code-note-taker/</guid>
+      <description>&lt;p&gt;Since VS Code is built for rapidly searching and navigating files, it seems like the ideal tool to turn into a note-taking app. The integration of copilot directly into VS code makes it even better since you could hypothetically ask the AI model of your choice questions about your content by tagging it in the chat panel (that is, if the models allows non-coding questions, which they didn&amp;rsquo;t at one point).&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Search Specific VS Code Folder</title>
-      <link>http://localhost:1313/posts/microblog/search-specific-vs-code-folder/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/search-specific-vs-code-folder/</link>
       <pubDate>Sat, 08 Feb 2025 15:22:34 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/microblog/search-specific-vs-code-folder/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/search-specific-vs-code-folder/</guid>
       <description>&lt;p&gt;I am committed to turning my &amp;ldquo;blog&amp;rdquo; project into a personal note taking repository. In doing so, I started researching better ways to use VS Code to search for files. &lt;a href=&#34;https://stackoverflow.com/a/43651677/12806961&#34;&gt;I found&lt;/a&gt; that you can search a specific folder by right clicking it in the explorer and selecting &amp;ldquo;Find in Folder&amp;rdquo;. This will auto-populate the &lt;code&gt;files to include&lt;/code&gt; field with the folder you selected.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Week 5 Links</title>
-      <link>http://localhost:1313/posts/microblog/week-5-links/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/week-5-links/</link>
       <pubDate>Sat, 08 Feb 2025 15:21:55 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/microblog/week-5-links/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/week-5-links/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://docs.astral.sh/uv/&#34;&gt;https://docs.astral.sh/uv/&lt;/a&gt;: Extremely fast Python package and project manager&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/animotionjs/animotion&#34;&gt;https://github.com/animotionjs/animotion&lt;/a&gt;: Presentational framework for creating slides and visualizing ideas with code&lt;/li&gt;
@@ -32,10 +65,10 @@
     
     <item>
       <title>Week 4 Links</title>
-      <link>http://localhost:1313/posts/microblog/week-4-links/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/week-4-links/</link>
       <pubDate>Sat, 08 Feb 2025 15:21:30 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/microblog/week-4-links/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/week-4-links/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://jamesclear.com/the-1-percent-rule&#34;&gt;https://jamesclear.com/the-1-percent-rule&lt;/a&gt;: Pareto Principle, Winner-takes-all, Matthew Effect, the 1 Percent Rule&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://pub.dev/packages/is_even_ai&#34;&gt;https://pub.dev/packages/is_even_ai&lt;/a&gt;: For when you want to use AI but don&amp;rsquo;t know how.&lt;/li&gt;
@@ -45,10 +78,10 @@
     
     <item>
       <title>Week 3 Links</title>
-      <link>http://localhost:1313/posts/microblog/week-3-links/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/week-3-links/</link>
       <pubDate>Sat, 08 Feb 2025 15:20:58 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/microblog/week-3-links/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/week-3-links/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://mynoise.net/&#34;&gt;https://mynoise.net/&lt;/a&gt;: Ad-free background noise generator&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://lobste.rs/&#34;&gt;https://lobste.rs/&lt;/a&gt;: Lobsters is a computing-focused community centered around link aggregation and discussion&lt;/li&gt;
@@ -63,10 +96,10 @@
     
     <item>
       <title>Undo Latest Git Commit</title>
-      <link>http://localhost:1313/posts/microblog/undo-latest-git-commit/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/undo-latest-git-commit/</link>
       <pubDate>Sat, 08 Feb 2025 15:17:48 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/microblog/undo-latest-git-commit/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/undo-latest-git-commit/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://stackoverflow.com/a/927386/12806961&#34;&gt;A simple one&lt;/a&gt;:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git reset HEAD~
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
@@ -74,19 +107,19 @@
     
     <item>
       <title>Websocket Basics</title>
-      <link>http://localhost:1313/posts/microblog/websocket-basics/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/websocket-basics/</link>
       <pubDate>Sat, 08 Feb 2025 15:17:13 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/microblog/websocket-basics/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/websocket-basics/</guid>
       <description>&lt;p&gt;All websockets begin as normal HTTP servers. On the &lt;code&gt;upgrade&lt;/code&gt; event, the server can upgrade to a websocket, allowing bidirectional communication. This &lt;a href=&#34;https://www.youtube.com/watch?v=2Nt-ZrNP22A&#34;&gt;video&lt;/a&gt; gives a pretty good overview of the process.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Make Git Recognize File Name Changes</title>
-      <link>http://localhost:1313/posts/microblog/make-git-recognize-file-name-changes/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/make-git-recognize-file-name-changes/</link>
       <pubDate>Sat, 08 Feb 2025 15:16:54 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/microblog/make-git-recognize-file-name-changes/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/make-git-recognize-file-name-changes/</guid>
       <description>&lt;p&gt;Apparently, changing a character in a file name from uppercase to lowercase is &lt;a href=&#34;https://stackoverflow.com/a/71231672/12806961&#34;&gt;not detected by git&lt;/a&gt;. For example, changing &lt;code&gt;NoteTaker.ts&lt;/code&gt; to &lt;code&gt;noteTaker.ts&lt;/code&gt; is not registered as a change.&lt;/p&gt;
 &lt;p&gt;To fix this (obviously bad default), you can run this in your terminal:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config core.ignorecase &lt;span class=&#34;nb&#34;&gt;false&lt;/span&gt;
@@ -95,10 +128,10 @@
     
     <item>
       <title>Preview Images vs Code</title>
-      <link>http://localhost:1313/posts/microblog/preview-images-vs-code/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/preview-images-vs-code/</link>
       <pubDate>Sat, 08 Feb 2025 15:16:11 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/microblog/preview-images-vs-code/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/preview-images-vs-code/</guid>
       <description>&lt;p&gt;I accidentally discovered that if you hover over the image link in VS Code you can preview the image. Ctrl + clicking takes you to the image:&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;image.png&#34; alt=&#34;alt text&#34;  /&gt;
 &lt;/p&gt;</description>
@@ -106,19 +139,19 @@
     
     <item>
       <title>Dots per Inch</title>
-      <link>http://localhost:1313/posts/microblog/dots-per-inch/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/dots-per-inch/</link>
       <pubDate>Sat, 08 Feb 2025 15:15:16 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/microblog/dots-per-inch/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/dots-per-inch/</guid>
       <description>&lt;p&gt;My &lt;a href=&#34;https://www.corsair.com/us/en/p/gaming-mouse/ch-9304211-na/scimitar-rgb-elite-optical-moba-mmo-gaming-mouse-ch-9304211-na&#34;&gt;Corsair Scimitar&lt;/a&gt; mouse started acting up this week so I had to completely deconstruct it to clean out two small cats worth of fur from around the scroll wheel. During my internet travels related to this procedure, I came across the acronym DPI, or &lt;a href=&#34;https://www.ign.com/articles/mouse-dpi-meaning-guide&#34;&gt;dots per inch&lt;/a&gt;, that many mouses use to quantify their sensitivity. A low dots per inch value (ex. 800) results in slower, more precise cursor movements when the mouse moves in the physical world. A higher value obviously means the opposite - your cursor zings across the screen when the mouse is nudged one way or another. You can typically adjust this value using your mouse&amp;rsquo;s software provider and/or by using the mouse settings on your computer.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Promise Race Typescript</title>
-      <link>http://localhost:1313/posts/microblog/promise-race-typescript/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/promise-race-typescript/</link>
       <pubDate>Sat, 08 Feb 2025 15:14:51 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/microblog/promise-race-typescript/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/promise-race-typescript/</guid>
       <description>&lt;p&gt;There is a static method in JavaScript called &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/race&#34;&gt;Promise.race()&lt;/a&gt; which &amp;ldquo;takes an iterable of promises as input and returns a single Promise that resolves with the first promise that settles&amp;rdquo;. This provides an easy way to set maximum timeouts on your functions:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-typescript&#34; data-lang=&#34;typescript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;timeoutPromise&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Promise&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;boolean&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;((&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;resolve&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;setTimeout&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
@@ -137,10 +170,10 @@
     
     <item>
       <title>Fast Swap vs Code Themes</title>
-      <link>http://localhost:1313/posts/microblog/fast-swap-vs-code-themes/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/fast-swap-vs-code-themes/</link>
       <pubDate>Sat, 08 Feb 2025 15:14:10 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/microblog/fast-swap-vs-code-themes/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/fast-swap-vs-code-themes/</guid>
       <description>&lt;p&gt;In VS Code, you can use the &lt;code&gt;Browse Color Themes in Marketplace&lt;/code&gt; command to quickly peruse through hundreds of popular VS Code themes. Just use the up and down arrow keys to preview each theme in the list. Hit enter to download and apply it:&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;image.png&#34; alt=&#34;VS Code Themes selector&#34;  /&gt;
 &lt;/p&gt;</description>
@@ -148,10 +181,10 @@
     
     <item>
       <title>Quote: William Shakespeare the Fool</title>
-      <link>http://localhost:1313/posts/microblog/quote-william-shakespeare-the-fool/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/quote-william-shakespeare-the-fool/</link>
       <pubDate>Sat, 08 Feb 2025 15:13:38 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/microblog/quote-william-shakespeare-the-fool/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/quote-william-shakespeare-the-fool/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;The fool doth think he is wise, but the wise man knows himself to be a fool.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -160,13 +193,13 @@
     
     <item>
       <title>Exa AI Search in Edge</title>
-      <link>http://localhost:1313/posts/microblog/exa-ai-search-in-edge/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/exa-ai-search-in-edge/</link>
       <pubDate>Sat, 08 Feb 2025 15:11:55 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/microblog/exa-ai-search-in-edge/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/exa-ai-search-in-edge/</guid>
       <description>&lt;p&gt;As I&amp;rsquo;ve discussed in the past, Microsoft Edge is a superior browser and in supporting that title, it allows you to add multiple search engines to your address bar. This week, I added &lt;a href=&#34;https://exa.ai/search&#34;&gt;Exa.ai&lt;/a&gt; as an option with the prefix &lt;code&gt;exa&lt;/code&gt;.&lt;/p&gt;
 
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/vendors/admonitions.css&#34;&gt;
+          &lt;link rel=&#34;stylesheet&#34; href=&#34;https://jtmuller5.github.io/css/vendors/admonitions.5c73bad2903e7d2d44ad118370ebd8c2cf5f239d4d93c283e55c00f2f8d30746.css&#34; integrity=&#34;sha256-XHO60pA&amp;#43;fS1ErRGDcOvYws9fI51Nk8KD5VwA8vjTB0Y=&#34; crossorigin=&#34;anonymous&#34;&gt;
   &lt;div class=&#34;admonition note&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;
       &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path d=&#34;M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z&#34;/&gt;&lt;/svg&gt;
@@ -178,10 +211,10 @@
     
     <item>
       <title>Open VS Code in Same Window</title>
-      <link>http://localhost:1313/posts/microblog/open-vs-code-in-same-window/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/open-vs-code-in-same-window/</link>
       <pubDate>Sat, 08 Feb 2025 15:11:25 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/microblog/open-vs-code-in-same-window/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/open-vs-code-in-same-window/</guid>
       <description>&lt;p&gt;In the past, I would always open new projects in VS code by navigating to them and running the simple and famous command:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;code .
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This command opens a new window with your project, leaving everything else untouched except for your system&amp;rsquo;s memory usage. This week, I finally decided to see what else was possible and it turns out you can replace the current window with the new one by appending the &lt;code&gt;-r&lt;/code&gt; flag to the command:&lt;/p&gt;</description>
@@ -189,10 +222,10 @@
     
     <item>
       <title>Quote Andre Weil God Exists</title>
-      <link>http://localhost:1313/posts/microblog/quote-andre-weil-god-exists/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/quote-andre-weil-god-exists/</link>
       <pubDate>Sat, 08 Feb 2025 15:10:54 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/microblog/quote-andre-weil-god-exists/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/quote-andre-weil-god-exists/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;God exists since mathematics is consistent, and the Devil exists since we cannot prove it.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -201,10 +234,10 @@
     
     <item>
       <title>Use as Const Typescript</title>
-      <link>http://localhost:1313/posts/microblog/use-as-const-typescript/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/use-as-const-typescript/</link>
       <pubDate>Sat, 08 Feb 2025 15:10:07 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/microblog/use-as-const-typescript/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/use-as-const-typescript/</guid>
       <description>&lt;p&gt;You can tell TypeScript to treat a string value as a literal type using the &lt;code&gt;as const&lt;/code&gt; phrase.&lt;/p&gt;
 &lt;p&gt;For example, if you have an interface like this:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-typescript&#34; data-lang=&#34;typescript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;interface&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Message&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
@@ -227,10 +260,10 @@
     
     <item>
       <title>Pass Args to Npm Script</title>
-      <link>http://localhost:1313/posts/microblog/pass-args-to-npm-script/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/pass-args-to-npm-script/</link>
       <pubDate>Sat, 08 Feb 2025 15:09:32 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/microblog/pass-args-to-npm-script/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/pass-args-to-npm-script/</guid>
       <description>&lt;p&gt;Adding scripts to your &lt;code&gt;package.json&lt;/code&gt; file is an efficiency necessity, but what makes these scripts even more effective is the ability to &lt;a href=&#34;https://github.com/npm/npm/pull/5518&#34;&gt;pass arguments&lt;/a&gt; to them while still using the abbreviated &lt;code&gt;npm run {command}&lt;/code&gt; format. To do it, simply append &lt;code&gt;--&lt;/code&gt; after the npm script and then add your arguments as you would if you were running the script with node:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm run start -- --foo&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
@@ -238,20 +271,20 @@
     
     <item>
       <title>Pop() Is Permanent</title>
-      <link>http://localhost:1313/posts/microblog/pop-is-permanent/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/pop-is-permanent/</link>
       <pubDate>Sat, 08 Feb 2025 15:07:42 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/microblog/pop-is-permanent/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/pop-is-permanent/</guid>
       <description>&lt;p&gt;After a 15 minute, AI-assisted troubleshooting session, I squashed a bug after realizing I was calling &lt;code&gt;.pop()&lt;/code&gt; on a TypeScript list a few turns before I was attempting to print out that list. The result? A list that was missing the very last entry.&lt;/p&gt;
 &lt;p&gt;The &lt;a href=&#34;https://www.geeksforgeeks.org/typescript-array-pop-method/&#34;&gt;.pop()&lt;/a&gt; method is mutating or destructive because it directly modifies the array it operates on.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Quote: George Patton Good Plan</title>
-      <link>http://localhost:1313/posts/microblog/quote-george-patton-good-plan/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/quote-george-patton-good-plan/</link>
       <pubDate>Sat, 08 Feb 2025 15:06:59 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/microblog/quote-george-patton-good-plan/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/quote-george-patton-good-plan/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;A good plan violently executed now is better than a perfect plan next week.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -262,10 +295,10 @@
     
     <item>
       <title>Quote: Epicurus Nothing Is Enough</title>
-      <link>http://localhost:1313/posts/microblog/quote-epicurus-nothing-is-enough/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/quote-epicurus-nothing-is-enough/</link>
       <pubDate>Sat, 08 Feb 2025 15:05:13 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/microblog/quote-epicurus-nothing-is-enough/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/quote-epicurus-nothing-is-enough/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Nothing is enough for the man to whom enough is too little&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -276,10 +309,10 @@
     
     <item>
       <title>Going Local</title>
-      <link>http://localhost:1313/posts/essays/going-local/</link>
+      <link>https://jtmuller5.github.io/posts/essays/going-local/</link>
       <pubDate>Fri, 31 Jan 2025 16:50:19 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/essays/going-local/</guid>
+      <guid>https://jtmuller5.github.io/posts/essays/going-local/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/karpathy/nanoGPT&#34;&gt;https://github.com/karpathy/nanoGPT&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://pcpartpicker.com/&#34;&gt;https://pcpartpicker.com/&lt;/a&gt;&lt;/li&gt;
@@ -290,10 +323,10 @@
     
     <item>
       <title>Track Firebase Remote Config Version</title>
-      <link>http://localhost:1313/posts/tutorials/track-firebase-remote-config-version/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/track-firebase-remote-config-version/</link>
       <pubDate>Fri, 17 Jan 2025 06:07:24 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/track-firebase-remote-config-version/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/track-firebase-remote-config-version/</guid>
       <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
 &lt;p&gt;I use Firebase &lt;a href=&#34;https://firebase.google.com/docs/remote-config/&#34;&gt;Remote Config&lt;/a&gt; to manage AB tests in most of my software projects.&lt;/p&gt;
 &lt;h2 id=&#34;boolean-ab-testing&#34;&gt;Boolean AB Testing&lt;/h2&gt;
@@ -304,10 +337,10 @@
     
     <item>
       <title>Workspace Specific Markdown Snippets</title>
-      <link>http://localhost:1313/posts/microblog/workspace-specific-markdown-snippets/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/workspace-specific-markdown-snippets/</link>
       <pubDate>Mon, 13 Jan 2025 17:57:48 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/microblog/workspace-specific-markdown-snippets/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/workspace-specific-markdown-snippets/</guid>
       <description>&lt;p&gt;I write a lot of tech focused content for my personal Hugo blog and my side project&amp;rsquo;s Astro website. Both of these documentation frameworks require you to add Frontmatter to the top of each article that outlines specific metadata. For example, the article&amp;rsquo;s title, description, and draft status would go here:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;---
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;title: &amp;#34;Workspace Specific Markdown Snippets&amp;#34;
@@ -319,10 +352,10 @@
     
     <item>
       <title>VS Code Snippet Variables</title>
-      <link>http://localhost:1313/posts/tutorials/vs-code-snippet-variables/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/vs-code-snippet-variables/</link>
       <pubDate>Sat, 11 Jan 2025 12:40:39 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/vs-code-snippet-variables/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/vs-code-snippet-variables/</guid>
       <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
 &lt;p&gt;You should use VS Code snippets more than you do and that&amp;rsquo;s not just an opinion.&lt;/p&gt;
 &lt;p&gt;The &lt;a href=&#34;https://code.visualstudio.com/docs/editor/userdefinedsnippets#_snippet-syntax&#34;&gt;Snippet Syntax section&lt;/a&gt; of the VS Code snippet docs is a minefield of knowledge bombs.&lt;/p&gt;
@@ -352,10 +385,10 @@ Test_test
     
     <item>
       <title>Create a Preact App</title>
-      <link>http://localhost:1313/posts/tutorials/create-a-preact-app/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/create-a-preact-app/</link>
       <pubDate>Thu, 09 Jan 2025 09:02:21 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/create-a-preact-app/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/create-a-preact-app/</guid>
       <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
 &lt;h2 id=&#34;get-started&#34;&gt;Get Started&lt;/h2&gt;
 &lt;p&gt;This article provides just the steps for creating a Preact app with Vite and TailwindCSS. To start, &lt;a href=&#34;https://preactjs.com/guide/v10/getting-started/#create-a-vite-powered-preact-app&#34;&gt;create a new Preact app&lt;/a&gt; using the following command:&lt;/p&gt;
@@ -381,10 +414,10 @@ Test_test
     
     <item>
       <title>Resize Firebase Images Like a Pro</title>
-      <link>http://localhost:1313/posts/tutorials/resize-firebase-images-like-a-pro/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/resize-firebase-images-like-a-pro/</link>
       <pubDate>Sat, 04 Jan 2025 22:45:29 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/resize-firebase-images-like-a-pro/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/resize-firebase-images-like-a-pro/</guid>
       <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
 &lt;p&gt;The Firebase documentation leaves much to be desired. If you just want answers, these docs were made just for you. If you want more questions, head over &lt;a href=&#34;https://extensions.dev/extensions/firebase/storage-resize-images&#34;&gt;here&lt;/a&gt; and start reading.&lt;/p&gt;
 &lt;p&gt;In this blog, I&amp;rsquo;m going to walk you through setting up the &lt;a href=&#34;https://extensions.dev/extensions/firebase/storage-resize-images&#34;&gt;Resize Images Firebase Extension&lt;/a&gt; and listening to a custom event so you can add the resized images to documents in your Firestore database.&lt;/p&gt;
@@ -394,28 +427,28 @@ Test_test
     
     <item>
       <title>Super Developer</title>
-      <link>http://localhost:1313/posts/essays/super-developer/</link>
+      <link>https://jtmuller5.github.io/posts/essays/super-developer/</link>
       <pubDate>Mon, 23 Dec 2024 15:09:25 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/essays/super-developer/</guid>
+      <guid>https://jtmuller5.github.io/posts/essays/super-developer/</guid>
       <description>&lt;p&gt;You won&amp;rsquo;t lose your&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>PDFJS in Vite</title>
-      <link>http://localhost:1313/posts/tutorials/pdfjs-in-vite/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/pdfjs-in-vite/</link>
       <pubDate>Wed, 11 Dec 2024 17:30:15 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/pdfjs-in-vite/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/pdfjs-in-vite/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Converting a JavaScript Package to TypeScript: A Step-by-Step Guide</title>
-      <link>http://localhost:1313/posts/tutorials/typescript/converting-a-javascript-/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/typescript/converting-a-javascript-/</link>
       <pubDate>Thu, 05 Dec 2024 09:18:17 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/typescript/converting-a-javascript-/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/typescript/converting-a-javascript-/</guid>
       <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
 &lt;p&gt;TypeScript has become increasingly popular due to its ability to bring static typing to JavaScript, enhancing code quality and developer productivity. Converting your existing JavaScript package to TypeScript can make it more robust and easier to maintain. In this guide, we’ll walk through the essential steps to transform your JavaScript package into a TypeScript package.&lt;/p&gt;
 &lt;h2 id=&#34;1-install-typescript-and-necessary-dependencies&#34;&gt;1. Install TypeScript and Necessary Dependencies&lt;/h2&gt;
@@ -424,10 +457,10 @@ Test_test
     
     <item>
       <title>11-19-2024</title>
-      <link>http://localhost:1313/posts/microblog/microblog-11-19-2024/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/microblog-11-19-2024/</link>
       <pubDate>Tue, 19 Nov 2024 08:23:22 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/microblog/microblog-11-19-2024/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/microblog-11-19-2024/</guid>
       <description>&lt;h1 id=&#34;november-19-2024&#34;&gt;November 19, 2024&lt;/h1&gt;
 &lt;h2 id=&#34;a-hard-problem&#34;&gt;A Hard Problem&lt;/h2&gt;
 &lt;p&gt;It&amp;rsquo;s easy to fool yourself into thinking superintelligenc is only a good training run away. Maybe if we scale something up enough we&amp;rsquo;ll meet god. More data, more training time, more inference. Who knows.&lt;/p&gt;
@@ -436,10 +469,10 @@ Test_test
     
     <item>
       <title>Create a Chrome Extension With React, TypeScript, Tailwind CSS, and Vite</title>
-      <link>http://localhost:1313/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-react-typescript-tailwind-and-vite/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-react-typescript-tailwind-and-vite/</link>
       <pubDate>Mon, 18 Nov 2024 12:00:00 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-react-typescript-tailwind-and-vite/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-react-typescript-tailwind-and-vite/</guid>
       <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
 &lt;p&gt;After publishing my first article on &lt;a href=&#34;https://joemuller.com/posts/create-a-chrome-extension-with-react-typescript-and-tailwindcss/&#34;&gt;building a Chrome Extension using React, TypeScript, TailWind, and Webpack&lt;/a&gt;, a handful of people commented that Webpack was an antique best left on the shelf. In this article, I will walk you through creating the a Chrome Extension that uses the same tech stack but with Vite as the build tool.&lt;/p&gt;
 &lt;p&gt;For the full code, check out the &lt;a href=&#34;https://github.com/jtmuller5/cotr_react_chrome_extension_vite&#34;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;
@@ -449,10 +482,10 @@ Test_test
     
     <item>
       <title>Rapidly Iterate on a Chrome Extension</title>
-      <link>http://localhost:1313/posts/tutorials/chrome-extensions/rapidly-iterate-on-a-chrome-extension/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/chrome-extensions/rapidly-iterate-on-a-chrome-extension/</link>
       <pubDate>Sun, 17 Nov 2024 15:48:25 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/chrome-extensions/rapidly-iterate-on-a-chrome-extension/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/chrome-extensions/rapidly-iterate-on-a-chrome-extension/</guid>
       <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
 &lt;p&gt;Developing is hard. Developing in an environment that makes it difficult to see your changes in realtime is impossible (or at least it should be made illegal). This article explores a few ways to quickly see your changes while developing a Chrome extension.&lt;/p&gt;
 &lt;h2 id=&#34;use-extensions-reloader&#34;&gt;Use Extensions Reloader&lt;/h2&gt;
@@ -463,10 +496,10 @@ Test_test
     
     <item>
       <title>Create a Chrome Extension With React, Typescript, and Tailwindcss</title>
-      <link>http://localhost:1313/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-react-typescript-and-tailwindcss/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-react-typescript-and-tailwindcss/</link>
       <pubDate>Sat, 16 Nov 2024 21:08:12 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-react-typescript-and-tailwindcss/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-react-typescript-and-tailwindcss/</guid>
       <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;This article was inspired by &lt;a href=&#34;https://medium.com/@tharshita13/creating-a-chrome-extension-with-react-a-step-by-step-guide-47fe9bab24a1&#34;&gt;Creating a Chrome Extension with React a Step by Step Guide&lt;/a&gt;.&lt;/p&gt;
@@ -493,19 +526,19 @@ Test_test
     
     <item>
       <title>What Is Webpack</title>
-      <link>http://localhost:1313/posts/tutorials/what-is-webpack/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/what-is-webpack/</link>
       <pubDate>Fri, 15 Nov 2024 09:18:17 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/what-is-webpack/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/what-is-webpack/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Webpack&#34;&gt;Webpack&lt;/a&gt; is a static module bundler built for JavaScript. It&amp;rsquo;s goal is to bundle your JavaScript app into an optimized set of files that can be sent to the browser. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules&#34;&gt;JavaScript modules&lt;/a&gt; allow developers to break large applications into smaller and easier to maintain chunks of code. Prior to Webpack, developers had to manually import modules while considering dependency load order, global scope pollution, and general dependency management between multiple modules.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>11-11-2024</title>
-      <link>http://localhost:1313/posts/microblog/microblog-11-11-2024/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/microblog-11-11-2024/</link>
       <pubDate>Mon, 11 Nov 2024 08:23:22 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/microblog/microblog-11-11-2024/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/microblog-11-11-2024/</guid>
       <description>&lt;h1 id=&#34;november-11-2024&#34;&gt;November 11, 2024&lt;/h1&gt;
 &lt;h2 id=&#34;training-the-ai&#34;&gt;Training the AI&lt;/h2&gt;
 &lt;p&gt;I&amp;rsquo;ve been working on an AI receptionist recently and this must be what its like to build a frankenstein from the pieces lying around your workshop. The final result feels eerily human but noticeably artificial. I understand almost entirely how it works and that&amp;rsquo;s the oddity that demarcates the thing as non-human. I can&amp;rsquo;t predict what a human will do with 80% accuracy, nor will a human follow my script to a T.&lt;/p&gt;</description>
@@ -513,10 +546,10 @@ Test_test
     
     <item>
       <title>Create a Chrome Extension With Vuejs</title>
-      <link>http://localhost:1313/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-vuejs/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-vuejs/</link>
       <pubDate>Sun, 10 Nov 2024 12:44:58 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-vuejs/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-vuejs/</guid>
       <description>&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
 &lt;p&gt;To start, create a new folder for your project:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mkdir vue-chrome-extension
@@ -539,10 +572,10 @@ Test_test
     
     <item>
       <title>11-07-2024</title>
-      <link>http://localhost:1313/posts/microblog/microblog-11-07-2024/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/microblog-11-07-2024/</link>
       <pubDate>Sat, 09 Nov 2024 08:23:22 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/microblog/microblog-11-07-2024/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/microblog-11-07-2024/</guid>
       <description>&lt;h1 id=&#34;november-7-2024&#34;&gt;November 7, 2024&lt;/h1&gt;
 &lt;h2 id=&#34;a-new-language&#34;&gt;A New Language&lt;/h2&gt;
 &lt;p&gt;Working with AI is like blending your brain on high. You can work on multiple projects back-to-back-to-back with moderate efficiency and that&amp;rsquo;s amazing and tiresome at the same time. AI has made me want to build more and so I start a new project every time the opportunity presents itself. My creative mind has become increasingly fractal, spiraling outward in every direction, and to keep up with my plans my brain needs to stay focused for longer.&lt;/p&gt;</description>
@@ -550,10 +583,10 @@ Test_test
     
     <item>
       <title>11-09-2024</title>
-      <link>http://localhost:1313/posts/microblog/microblog-11-09-2024/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/microblog-11-09-2024/</link>
       <pubDate>Sat, 09 Nov 2024 08:23:22 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/microblog/microblog-11-09-2024/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/microblog-11-09-2024/</guid>
       <description>&lt;h1 id=&#34;november-9-2024&#34;&gt;November 9, 2024&lt;/h1&gt;
 &lt;h2 id=&#34;microblogging-made-easy&#34;&gt;Microblogging Made Easy&lt;/h2&gt;
 &lt;p&gt;Microblogging is easy, especially compared to macroblogging, but sometimes easy isn&amp;rsquo;t enough. We want effortless. I had an idea today to create an application that you could send thoughts and links to throughout the day and it would create a daily microblog post based on the content. With LLMs, I imagine this would be hardly more difficult than forming a juicy prompt and piping messages into it.&lt;/p&gt;</description>
@@ -561,10 +594,10 @@ Test_test
     
     <item>
       <title>11-06-2024</title>
-      <link>http://localhost:1313/posts/microblog/microblog-11-06-2024/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/microblog-11-06-2024/</link>
       <pubDate>Wed, 06 Nov 2024 08:23:22 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/microblog/microblog-11-06-2024/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/microblog-11-06-2024/</guid>
       <description>&lt;h1 id=&#34;november-6-2024&#34;&gt;November 6, 2024&lt;/h1&gt;
 &lt;h2 id=&#34;towards-something&#34;&gt;Towards Something&lt;/h2&gt;
 &lt;p&gt;The more I work as a developer, the more it becomes clear that I could spend my entire life struggling with the details. Every day there are new tools, frameworks, and patterns to learn. Tools you mastered change. The language syntaxes you burned into your connectome aren&amp;rsquo;t resilient to the turn of the clock hand. If I were an electrician, I could spend a lifetime pinching at the wires with solder-coated fingers.&lt;/p&gt;</description>
@@ -572,10 +605,10 @@ Test_test
     
     <item>
       <title>11-05-2024</title>
-      <link>http://localhost:1313/posts/microblog/microblog-11-05-2024/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/microblog-11-05-2024/</link>
       <pubDate>Tue, 05 Nov 2024 08:23:22 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/microblog/microblog-11-05-2024/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/microblog-11-05-2024/</guid>
       <description>&lt;h1 id=&#34;november-5-2024&#34;&gt;November 5, 2024&lt;/h1&gt;
 &lt;h2 id=&#34;building-an-ai-chatbot-with-xai&#34;&gt;Building an AI Chatbot with xAI&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://x.com/xai/status/1853505214181232828&#34;&gt;xAI just released their API&lt;/a&gt; and through the end of the year you can get $25 in credits each month. I took it for a quick spin and set up a chatbot using NextJS and Deepgram.&lt;/p&gt;
@@ -587,10 +620,10 @@ Test_test
     
     <item>
       <title>11-04-2024</title>
-      <link>http://localhost:1313/posts/microblog/microblog-11-04-2024/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/microblog-11-04-2024/</link>
       <pubDate>Mon, 04 Nov 2024 08:23:22 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/microblog/microblog-11-04-2024/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/microblog-11-04-2024/</guid>
       <description>&lt;h1 id=&#34;november-4-2024&#34;&gt;November 4, 2024&lt;/h1&gt;
 &lt;h2 id=&#34;the-conversation-cost&#34;&gt;The Conversation Cost&lt;/h2&gt;
 &lt;p&gt;AI copilots make you fast until they don&amp;rsquo;t. There is a very real &amp;ldquo;conversation cost&amp;rdquo; that materializes as you use AI tools and it&amp;rsquo;s best illustrated with an example.&lt;/p&gt;
@@ -599,10 +632,10 @@ Test_test
     
     <item>
       <title>How to Create and Publish a Flutter Package</title>
-      <link>http://localhost:1313/posts/tutorials/flutter/how-to-create-and-publish-a-flutter-package/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/flutter/how-to-create-and-publish-a-flutter-package/</link>
       <pubDate>Sun, 03 Nov 2024 15:33:39 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/flutter/how-to-create-and-publish-a-flutter-package/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/how-to-create-and-publish-a-flutter-package/</guid>
       <description>&lt;h2 id=&#34;just-the-steps&#34;&gt;Just The Steps&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;In the terminal, run the following command&lt;/li&gt;
@@ -628,10 +661,10 @@ Test_test
     
     <item>
       <title>Make SearchGPT Default Search Engine on Microsoft Edge</title>
-      <link>http://localhost:1313/posts/microblog/make-chat-gpt-default-search-engine-on-microsoft-edge/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/make-chat-gpt-default-search-engine-on-microsoft-edge/</link>
       <pubDate>Fri, 01 Nov 2024 00:08:49 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/microblog/make-chat-gpt-default-search-engine-on-microsoft-edge/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/make-chat-gpt-default-search-engine-on-microsoft-edge/</guid>
       <description>&lt;h1 id=&#34;just-the-steps&#34;&gt;Just the Steps&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;Open settings&lt;/li&gt;
@@ -655,10 +688,10 @@ Test_test
     
     <item>
       <title>Make Perplexity Default Search Engine on Microsoft Edge</title>
-      <link>http://localhost:1313/posts/microblog/make-perplexity-default-search-engine-on-microsoft-edge/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/make-perplexity-default-search-engine-on-microsoft-edge/</link>
       <pubDate>Thu, 31 Oct 2024 23:42:39 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/microblog/make-perplexity-default-search-engine-on-microsoft-edge/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/make-perplexity-default-search-engine-on-microsoft-edge/</guid>
       <description>&lt;h1 id=&#34;just-the-steps&#34;&gt;Just the Steps&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;Open settings&lt;/li&gt;
@@ -682,19 +715,19 @@ Test_test
     
     <item>
       <title>Flutter Pwa Setup</title>
-      <link>http://localhost:1313/posts/tutorials/flutter/flutter-pwa-setup/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/flutter/flutter-pwa-setup/</link>
       <pubDate>Wed, 30 Oct 2024 14:32:14 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/flutter/flutter-pwa-setup/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/flutter-pwa-setup/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Flutter Shaders vs Code Setup</title>
-      <link>http://localhost:1313/posts/tutorials/flutter/flutter-shaders-vs-code-setup/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/flutter/flutter-shaders-vs-code-setup/</link>
       <pubDate>Mon, 28 Oct 2024 10:18:40 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/flutter/flutter-shaders-vs-code-setup/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/flutter-shaders-vs-code-setup/</guid>
       <description>&lt;p&gt;This blog post will cover how to set up your VS Code environment for Flutter development with shaders.&lt;/p&gt;
 &lt;p&gt;To start, install the glslc command line compiler from this link: &lt;a href=&#34;https://github.com/google/shaderc?tab=readme-ov-file#downloads&#34;&gt;https://github.com/google/shaderc?tab=readme-ov-file#downloads&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Save the glslangValidator executable to a location on your computer and note the path.&lt;/p&gt;
@@ -709,20 +742,20 @@ Test_test
     
     <item>
       <title>My AI Has No Hands</title>
-      <link>http://localhost:1313/posts/essays/my-ai-has-no-hands/</link>
+      <link>https://jtmuller5.github.io/posts/essays/my-ai-has-no-hands/</link>
       <pubDate>Fri, 11 Oct 2024 08:17:27 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/essays/my-ai-has-no-hands/</guid>
+      <guid>https://jtmuller5.github.io/posts/essays/my-ai-has-no-hands/</guid>
       <description>&lt;p&gt;Lying to my AI is the only way to get it to do what I need it to do.&lt;/p&gt;
 &lt;p&gt;Function calls only seem to work with fetching-type functions. Look this up. Get the weather. Find my account.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Understanding Repaint Boundary in Flutter</title>
-      <link>http://localhost:1313/posts/tutorials/flutter/understanding-repaint-boundary-in-flutter/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/flutter/understanding-repaint-boundary-in-flutter/</link>
       <pubDate>Sun, 06 Oct 2024 10:27:19 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/flutter/understanding-repaint-boundary-in-flutter/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/understanding-repaint-boundary-in-flutter/</guid>
       <description>&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://docs.flutter.dev/resources/architectural-overview#rendering-and-layout&#34;&gt;https://docs.flutter.dev/resources/architectural-overview#rendering-and-layout&lt;/a&gt;&lt;/li&gt;
@@ -733,19 +766,19 @@ Test_test
     
     <item>
       <title>Creating a VS Code Chat Extension With Claude</title>
-      <link>http://localhost:1313/posts/tutorials/creating-a-vs-code-chat-extension-with-claude/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/creating-a-vs-code-chat-extension-with-claude/</link>
       <pubDate>Sat, 05 Oct 2024 08:04:55 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/creating-a-vs-code-chat-extension-with-claude/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/creating-a-vs-code-chat-extension-with-claude/</guid>
       <description>&lt;p&gt;Claude Sonnet is undeniably one of the best frontier models for programming and I still reach for it despite having GPT-4o and o1 inside my VS Code editor. To make it even smarter and more effective, I use the Projects feature (available on the pro plan) to manage all of the documentation and general context related to what I&amp;rsquo;m working on. By uploading text and files related to the technology I&amp;rsquo;m using, Claude becomes a genius in exactly what I want him to be a genius in.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Cleaning Up Your Flutter Mac</title>
-      <link>http://localhost:1313/posts/tutorials/cleaning-up-your-flutter-mac/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/cleaning-up-your-flutter-mac/</link>
       <pubDate>Fri, 04 Oct 2024 16:03:20 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/cleaning-up-your-flutter-mac/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/cleaning-up-your-flutter-mac/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve owned my Macbook Pro for a little over 2 years. Somewhere along the way, between starting a gazillion side projects, downloading half of pub.dev, and poorly managing my Xcode installation, I nearly maxed out my storage.&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;image.png&#34; alt=&#34;alt text&#34;  /&gt;
 &lt;/p&gt;
@@ -756,10 +789,10 @@ Test_test
     
     <item>
       <title>Express API Vercel</title>
-      <link>http://localhost:1313/posts/tutorials/express-api-vercel/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/express-api-vercel/</link>
       <pubDate>Sun, 29 Sep 2024 15:41:15 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/express-api-vercel/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/express-api-vercel/</guid>
       <description>&lt;p&gt;Welcome to this tutorial where we will create a simple API using TypeScript and deploy it using Vercel. This guide is suitable for beginners and assumes basic familiarity with Node.js. Let&amp;rsquo;s dive in!&lt;/p&gt;
 &lt;h2 id=&#34;setting-up-your-project&#34;&gt;Setting Up Your Project&lt;/h2&gt;
 &lt;ol&gt;
@@ -774,10 +807,10 @@ Test_test
     
     <item>
       <title>Supabase Slack Notifications</title>
-      <link>http://localhost:1313/posts/tutorials/supabase-slack-notifications/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/supabase-slack-notifications/</link>
       <pubDate>Sun, 29 Sep 2024 15:36:18 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/supabase-slack-notifications/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/supabase-slack-notifications/</guid>
       <description>&lt;h1 id=&#34;slack&#34;&gt;Slack&lt;/h1&gt;
 &lt;h2 id=&#34;1-create-a-new-slack-channel&#34;&gt;1. Create a new Slack channel&lt;/h2&gt;
 &lt;p&gt;Create a slack channel in your workspace where the notifications will be displayed (ex. &amp;ldquo;notifications&amp;rdquo;)&lt;/p&gt;
@@ -793,10 +826,10 @@ Test_test
     
     <item>
       <title>Using Supabase in Typescript</title>
-      <link>http://localhost:1313/posts/tutorials/using-supabase-in-typescript/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/using-supabase-in-typescript/</link>
       <pubDate>Sun, 29 Sep 2024 15:29:05 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/using-supabase-in-typescript/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/using-supabase-in-typescript/</guid>
       <description>&lt;p&gt;Instead of hardcoding Supabase interfaces or types in your TypeScript projects, you can use the Supabase CLI to generate types directly from your database tables. Make sure to add the output inside your src folder so the rest of your application can access it:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;supabase gen types typescript --project-id abcdefghijklmnopqrst &amp;gt; src/types/database.types.ts
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This command will generate a .types.ts file that contains a single Database interface containing all of your tables and their columns. The output looks something like this (I pulled this from the official docs):&lt;/p&gt;</description>
@@ -804,10 +837,10 @@ Test_test
     
     <item>
       <title>Flutter to Firebase Hosting Github Workflow</title>
-      <link>http://localhost:1313/posts/tutorials/flutter/flutter-to-firebase-hosting-github-workflow/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/flutter/flutter-to-firebase-hosting-github-workflow/</link>
       <pubDate>Sun, 29 Sep 2024 15:20:26 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/flutter/flutter-to-firebase-hosting-github-workflow/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/flutter-to-firebase-hosting-github-workflow/</guid>
       <description>&lt;p&gt;As soon as a Flutter project gains traction (or I&amp;rsquo;ve convinced myself that it will eventually gain traction), I like to set up a CI/CD pipeline so I can focus more on app development and less on manually deploying all of my changes to prod. This article in particular will provide an overview of the Github workflow I typically use for my Flutter projects that use &lt;a href=&#34;https://firebase.google.com/docs/hosting&#34;&gt;Firebase Hosting&lt;/a&gt;.&lt;/p&gt;
 &lt;h1 id=&#34;the-basics&#34;&gt;The Basics&lt;/h1&gt;
 &lt;p&gt;For the simplest projects that don&amp;rsquo;t require environments, variables, or Slack notifications, the workflow is straightforward. Below is an outline of what it does:&lt;/p&gt;</description>
@@ -815,47 +848,47 @@ Test_test
     
     <item>
       <title>Generating Images With Dalle</title>
-      <link>http://localhost:1313/posts/tutorials/generating-images-with-dalle/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/generating-images-with-dalle/</link>
       <pubDate>Sun, 29 Sep 2024 15:13:36 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/generating-images-with-dalle/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/generating-images-with-dalle/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve recently been working on an app with my wife called &amp;ldquo;Abi&amp;rsquo;s Recipes&amp;rdquo;. The app, designed for mobile and TV, aims to be the Netflix of recipes, with a focus on beautiful images and a simple interface. We wanted to generate images for the recipes that we don&amp;rsquo;t have photos for, and we wanted to do it in a way that was fun and creative. That&amp;rsquo;s where DALL-E comes in.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Conversation Cost</title>
-      <link>http://localhost:1313/posts/essays/conversation-cost/</link>
+      <link>https://jtmuller5.github.io/posts/essays/conversation-cost/</link>
       <pubDate>Sun, 29 Sep 2024 14:56:36 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/essays/conversation-cost/</guid>
+      <guid>https://jtmuller5.github.io/posts/essays/conversation-cost/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Eternity</title>
-      <link>http://localhost:1313/posts/essays/eternity/eternity/</link>
+      <link>https://jtmuller5.github.io/posts/essays/eternity/eternity/</link>
       <pubDate>Sun, 25 Dec 2022 09:54:25 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/essays/eternity/eternity/</guid>
+      <guid>https://jtmuller5.github.io/posts/essays/eternity/eternity/</guid>
       <description>&lt;p&gt;The biggest question we can ask is how does the universe work. It isn&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Fly Safe</title>
-      <link>http://localhost:1313/posts/essays/fly-safe/fly-safe/</link>
+      <link>https://jtmuller5.github.io/posts/essays/fly-safe/fly-safe/</link>
       <pubDate>Sun, 20 Nov 2022 12:30:33 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/essays/fly-safe/fly-safe/</guid>
+      <guid>https://jtmuller5.github.io/posts/essays/fly-safe/fly-safe/</guid>
       <description>&lt;p&gt;Over the last 3 years I&amp;rsquo;ve spent countless hours learning and using Google&amp;rsquo;s cross-platform UI framework, &lt;a href=&#34;https://flutter.dev/&#34;&gt;Flutter&lt;/a&gt;. I&amp;rsquo;ve built over 20 hobby apps, worked for several small startups, and used Flutter professionally at two large healthcare companies. Flutter is amazing and it&amp;rsquo;s allowed me to build an early career in software development.&lt;/p&gt;
 &lt;p&gt;The longer I use Flutter though, the more often I bump up against one of its major downsides - there&amp;rsquo;s no fast way to update broken code installed through the app stores.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Flutter to React</title>
-      <link>http://localhost:1313/posts/essays/flutter-to-react/flutter-to-react/</link>
+      <link>https://jtmuller5.github.io/posts/essays/flutter-to-react/flutter-to-react/</link>
       <pubDate>Sun, 20 Nov 2022 09:46:44 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/essays/flutter-to-react/flutter-to-react/</guid>
+      <guid>https://jtmuller5.github.io/posts/essays/flutter-to-react/flutter-to-react/</guid>
       <description>&lt;p&gt;Over the last 3 years I&amp;rsquo;ve spent countless hours learning and using Google&amp;rsquo;s cross-platform UI framework, &lt;a href=&#34;https://flutter.dev/&#34;&gt;Flutter&lt;/a&gt;. I&amp;rsquo;ve built a handful of hobby apps, worked for several small startups, and used Flutter professionally at two large healthcare companies. Flutter is amazing and it&amp;rsquo;s allowed me to build an early career in software development.&lt;/p&gt;
 &lt;p&gt;The longer I use Flutter though, the more often I bump up against its downsides.&lt;/p&gt;
 &lt;p&gt;When I first started building apps for myself and the 10 or so people that would find my app on the app stores, I didn&amp;rsquo;t think too much about things like hot-fixes or app review times. If something broke in the early days, I chalked it up as a lesson learned the hard way and moved on. After all, the impact of my broken code was almost nothing.&lt;/p&gt;</description>
@@ -863,10 +896,10 @@ Test_test
     
     <item>
       <title>PWA Install</title>
-      <link>http://localhost:1313/posts/tutorials/flutter/pwa_install/pwa_install/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/flutter/pwa_install/pwa_install/</link>
       <pubDate>Sat, 05 Nov 2022 09:32:33 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/flutter/pwa_install/pwa_install/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/pwa_install/pwa_install/</guid>
       <description>&lt;h1 id=&#34;pwa-is-the-way&#34;&gt;PWA is the Way&lt;/h1&gt;
 &lt;p&gt;Over the past month its become clear that Apple thinks it owns all apps on the App Store:&lt;/p&gt;
 &lt;ul&gt;
@@ -879,19 +912,19 @@ Test_test
     
     <item>
       <title>Flugo</title>
-      <link>http://localhost:1313/posts/tutorials/flutter/flugo/flugo/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/flutter/flugo/flugo/</link>
       <pubDate>Fri, 23 Sep 2022 14:20:47 -0700</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/flutter/flugo/flugo/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/flugo/flugo/</guid>
       <description>&lt;p&gt;Flutter Web is notoriously &amp;ldquo;not the correct solution&amp;rdquo; for content-heavy web pages. All Flutter content is rendered on an HTML canvas making it impossible for web crawlers to properly index any web page built with Flutter. This limitation is a nightmare for marketing folks whose jobs rely on SEO and similarly, a threat to the future of the Flutter framework. If the framework can only be used for standalone apps disconnected from the world wide web, I can&amp;rsquo;t imagine a future where it beats out a sea of technologies built to coalesce with the internet&amp;rsquo;s native tech stack (eg. HTML, CSS, JavaScript).&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Gripes with Managed Publishing</title>
-      <link>http://localhost:1313/posts/essays/gripes_with_managed_publishing/gripes_with_managed_publishing/</link>
+      <link>https://jtmuller5.github.io/posts/essays/gripes_with_managed_publishing/gripes_with_managed_publishing/</link>
       <pubDate>Tue, 20 Sep 2022 10:57:17 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/essays/gripes_with_managed_publishing/gripes_with_managed_publishing/</guid>
+      <guid>https://jtmuller5.github.io/posts/essays/gripes_with_managed_publishing/gripes_with_managed_publishing/</guid>
       <description>&lt;p&gt;Google Play&amp;rsquo;s Developer Console offers a pretty neat &amp;ldquo;&lt;a href=&#34;https://support.google.com/googleplay/android-developer/answer/9859654?hl=en&#34;&gt;Managed Publishing&lt;/a&gt;&amp;rdquo; feature that lets you decide when approved builds and app updates are published.&lt;/p&gt;
 &lt;p&gt;Without Managed Publishing:&lt;/p&gt;
 &lt;ol&gt;
@@ -915,10 +948,10 @@ Test_test
     
     <item>
       <title>A Brief Intro to Tensorflow and Keras</title>
-      <link>http://localhost:1313/posts/essays/tensorflow_and_keras/tensorflow_and_keras/</link>
+      <link>https://jtmuller5.github.io/posts/essays/tensorflow_and_keras/tensorflow_and_keras/</link>
       <pubDate>Mon, 19 Sep 2022 21:21:28 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/essays/tensorflow_and_keras/tensorflow_and_keras/</guid>
+      <guid>https://jtmuller5.github.io/posts/essays/tensorflow_and_keras/tensorflow_and_keras/</guid>
       <description>&lt;p&gt;The future seems to be full of complexities the human mind will not fully comprehend. We don&amp;rsquo;t know everything and we won&amp;rsquo;t know everything and so it seems appropriate to operate under the
 assumption that we will always be pushing up against new knowledge.&lt;/p&gt;
 &lt;p&gt;With that said, becoming familiar with machine learning and artificial intelligence early will put you in the best position to conquer the complex world of the future. For one, you&amp;rsquo;ll understand
@@ -929,10 +962,10 @@ understand.&lt;/p&gt;</description>
     
     <item>
       <title>An Intro to Route Guards in Flutter</title>
-      <link>http://localhost:1313/posts/tutorials/flutter/route_guards/route_guards/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/flutter/route_guards/route_guards/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/flutter/route_guards/route_guards/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/route_guards/route_guards/</guid>
       <description>&lt;p&gt;Hey! Don’t go there!&lt;/p&gt;
 &lt;p&gt;Navigation in a mobile app is a bit more involved than pushing a route here and popping a route there. Some routes should only be viewed by a user who is authenticated while others are available to the public. Some routes will only behave and display properly if the user has an active internet connection while others show static assets that never change.&lt;/p&gt;
 &lt;p&gt;Is it possible to verify these requirements are met before loading each new route? With Route Guards, anything is possible.&lt;/p&gt;</description>
@@ -940,10 +973,10 @@ understand.&lt;/p&gt;</description>
     
     <item>
       <title>Authentication in Flutter Apps using the @Protocol</title>
-      <link>http://localhost:1313/posts/tutorials/flutter/at_protocol_authentication/at_protocol_authentication/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/flutter/at_protocol_authentication/at_protocol_authentication/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/flutter/at_protocol_authentication/at_protocol_authentication/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/at_protocol_authentication/at_protocol_authentication/</guid>
       <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://miro.medium.com/max/1278/0*Sp4LW8w2irIasJTP.png&#34; alt=&#34;&#34;  /&gt;
 &lt;/p&gt;
 &lt;p&gt;If you’ve spent any amount of time developing mobile apps, you’re probably well aware of how public “private” data really is. Cloud databases like , , and protect their front gates with robust security measures like authentication keys, security rules, user roles, and field-specific restrictions. From the outside, these databases are fortresses with more than enough artillery to prevent people from seeing &lt;em&gt;each other’s&lt;/em&gt; data.&lt;/p&gt;
@@ -952,10 +985,10 @@ understand.&lt;/p&gt;</description>
     
     <item>
       <title>Build this blog</title>
-      <link>http://localhost:1313/posts/tutorials/build_this_blog/build_this_blog/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/build_this_blog/build_this_blog/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/build_this_blog/build_this_blog/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/build_this_blog/build_this_blog/</guid>
       <description>&lt;h1 id=&#34;build-this-blog&#34;&gt;Build this Blog&lt;/h1&gt;
 &lt;p&gt;Medium. Hashnode. Wordpress. Ghost. Log Rocket.&lt;/p&gt;
 &lt;p&gt;There are a thousand blogging platforms that want your content, knowledge, and time. I say nay! In this article I&amp;rsquo;ll lay out all the steps you need to build this exact website and host your
@@ -975,20 +1008,20 @@ GitHub pages.&lt;/p&gt;
     
     <item>
       <title>Continuous Animations in Flutter</title>
-      <link>http://localhost:1313/posts/tutorials/flutter/continuous_animations/continuous_animations/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/flutter/continuous_animations/continuous_animations/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/flutter/continuous_animations/continuous_animations/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/continuous_animations/continuous_animations/</guid>
       <description>&lt;p&gt;If your app ain’t animating, users ain’t engaging.&lt;/p&gt;
 &lt;p&gt;It’s a simple law of mobile app development that gets less attention than it deserves. Users want the impression that your app is alive — a living, breathing creation that does more than respond to taps and scrolls. Dynamically changing gradients, bouncing dots, and widgets that push at their boundaries like animals in a cage all give your app a personality that users will be thinking about long after they lock their screens.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Displaying Videos in Flutter from a URL</title>
-      <link>http://localhost:1313/posts/tutorials/flutter/displaying_videos/displaying_videos/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/flutter/displaying_videos/displaying_videos/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/flutter/displaying_videos/displaying_videos/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/displaying_videos/displaying_videos/</guid>
       <description>&lt;h1 id=&#34;displaying-videos-in-flutter-from-a-url&#34;&gt;Displaying Videos in Flutter from a URL&lt;/h1&gt;
 &lt;h2 id=&#34;with-the-stacked-architecture&#34;&gt;With the Stacked architecture&lt;/h2&gt;
 &lt;p&gt;In this article, I will be explaining how to display a video directly from a URL in Flutter (although any video URL will work). If you’re interested in saving videos to Cloud Storage, check out my previous article on that exact subject.&lt;/p&gt;
@@ -998,10 +1031,10 @@ GitHub pages.&lt;/p&gt;
     
     <item>
       <title>Enhanced Enums in Flutter 3</title>
-      <link>http://localhost:1313/posts/tutorials/flutter/enhanced_enums/enhanced_enums/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/flutter/enhanced_enums/enhanced_enums/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/flutter/enhanced_enums/enhanced_enums/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/enhanced_enums/enhanced_enums/</guid>
       <description>&lt;h2 id=&#34;enums-were-good-now-theyre-great&#34;&gt;Enums were good. Now they’re great.&lt;/h2&gt;
 &lt;h2 id=&#34;flutter-3&#34;&gt;Flutter 3&lt;/h2&gt;
 &lt;p&gt;Flutter 3.0 was announced at Google IO yesterday and as can be expected from a major version jump, there were a lot of new features to dig through. A few of the big ones:&lt;/p&gt;
@@ -1019,10 +1052,10 @@ GitHub pages.&lt;/p&gt;
     
     <item>
       <title>Flutter Efficiently</title>
-      <link>http://localhost:1313/posts/tutorials/flutter/flutter_efficiently/flutter_efficiently/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/flutter/flutter_efficiently/flutter_efficiently/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/flutter/flutter_efficiently/flutter_efficiently/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/flutter_efficiently/flutter_efficiently/</guid>
       <description>&lt;h2 id=&#34;flutter-newbies-start-here&#34;&gt;Flutter Newbies Start Here&lt;/h2&gt;
 &lt;p&gt;If you’re new to Flutter development, I’d recommend starting with something a little less involved.&lt;/p&gt;
 &lt;p&gt;I used this book to learn the Flutter language:&lt;/p&gt;
@@ -1035,10 +1068,10 @@ GitHub pages.&lt;/p&gt;
     
     <item>
       <title>Flutter: Build an IPA</title>
-      <link>http://localhost:1313/posts/tutorials/flutter/build_ipa/build_ipa/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/flutter/build_ipa/build_ipa/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/flutter/build_ipa/build_ipa/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/build_ipa/build_ipa/</guid>
       <description>&lt;p&gt;If you’d like to distribute your Flutter app to iOS-using testers via &lt;a href=&#34;https://firebase.google.com/docs/app-distribution&#34;&gt;Firebase Distribution&lt;/a&gt;, you’ll need to build IPA files. IPA files are simply iOS Application files that behave like APK or app bundles on Android.&lt;/p&gt;
 &lt;p&gt;Unlike APK or app bundles however, you can’t just run a flutter build command and create an IPA.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://flutter.dev/docs/deployment/android&#34;&gt;&lt;strong&gt;Build App Bundle&lt;/strong&gt;&lt;/a&gt;:&lt;/p&gt;
@@ -1050,20 +1083,20 @@ GitHub pages.&lt;/p&gt;
     
     <item>
       <title>Handling Nested Objects in Firestore With Flutter</title>
-      <link>http://localhost:1313/posts/tutorials/flutter/nested_firestore_objects/nested_firestore_objects/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/flutter/nested_firestore_objects/nested_firestore_objects/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/flutter/nested_firestore_objects/nested_firestore_objects/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/nested_firestore_objects/nested_firestore_objects/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://firebase.google.com/docs/firestore&#34;&gt;Google’s Cloud Firestore&lt;/a&gt; is a tool that should be in every mobile app developer’s tool belt. The flexible and scalable database that it provides is unlike anything a coder could create alone and if your app is designed for a global audience, there aren’t many solutions like it. Plus, there’s a Flutter package ( &lt;a href=&#34;https://pub.dev/packages/cloud_firestore&#34;&gt;cloud_firestore&lt;/a&gt;) that’s designed to make Flutter and Flame play nicely together.&lt;/p&gt;
 &lt;p&gt;Unfortunately, there is one downside. The tool isn’t free to use and every read/write transaction your app makes with the Firestore database is counted against your &lt;a href=&#34;https://firebase.google.com/docs/firestore/quotas&#34;&gt;daily quota&lt;/a&gt; (50,000 daily reads and 20,000 daily writes for the free tier plan). Therefore, it’s essential you design your database with these usage limits in mind…otherwise, your dreams of creating a profitable mobile app will be stamped out like a flame.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Implementing a Multi-Colored TabBar in Flutter</title>
-      <link>http://localhost:1313/posts/tutorials/flutter/multi_colored_tab_bar/multi_colored_tab_bar/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/flutter/multi_colored_tab_bar/multi_colored_tab_bar/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/flutter/multi_colored_tab_bar/multi_colored_tab_bar/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/multi_colored_tab_bar/multi_colored_tab_bar/</guid>
       <description>&lt;p&gt;The Legend of the Multi-Colored TabBar&lt;/p&gt;
 &lt;p&gt;A majority of popular mobile apps on the app store use a tried and true navigation scheme: the &lt;a href=&#34;https://www.smashingmagazine.com/2016/11/the-golden-rules-of-mobile-navigation-design/&#34;&gt;Bottom Navigation Bar&lt;/a&gt;. The idea is to have all 4 or 5 of the app’s main activities visible and within thumb’s reach. If you do a quick browse through the apps on your phone, you’ll find this pattern is far and away the most used.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Bottom Navigation Bar Apps&lt;/strong&gt;:&lt;/p&gt;</description>
@@ -1071,10 +1104,10 @@ GitHub pages.&lt;/p&gt;
     
     <item>
       <title>The @platform: A Firebase Alternative?</title>
-      <link>http://localhost:1313/posts/tutorials/flutter/firebase_alternative/firebase_alternative/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/flutter/firebase_alternative/firebase_alternative/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/flutter/firebase_alternative/firebase_alternative/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/firebase_alternative/firebase_alternative/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://firebase.google.com/&#34;&gt;Firebase&lt;/a&gt; is awesome and I’ve used it in more apps than I can count (assuming I can only count to about 20). It has authentication, data storage, an intuitive querying SDK, and plenty of other features that most mobile app developers find themselves wanting at one point or another.&lt;/p&gt;
 &lt;p&gt;So why replace it?&lt;/p&gt;
 &lt;p&gt;I asked myself the same question many times and more than once my answer was “Don’t”. It had just about everything I needed…and then I was asked to implement End-to-End Encryption (E2EE) in a social media app. I managed to do it based on this &lt;a href=&#34;https://stackoverflow.com/a/41553180/12806961&#34;&gt;Stack Overflow answer&lt;/a&gt; but the solution was complicated and if a user ever wanted to change devices they needed to encrypt their old private key, save it to Firestore, change devices, download the encrypted private key, and then decrypt it. There were a few other difficulties (some that I’m still working through) and I finally began to rethink my devotion to the god named Google.&lt;/p&gt;</description>
@@ -1082,65 +1115,65 @@ GitHub pages.&lt;/p&gt;
     
     <item>
       <title>Uploading Images to Cloud Storage Using Flutter</title>
-      <link>http://localhost:1313/posts/tutorials/flutter/cloud_storage_flutter/cloud_storage_flutter/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/flutter/cloud_storage_flutter/cloud_storage_flutter/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/flutter/cloud_storage_flutter/cloud_storage_flutter/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/cloud_storage_flutter/cloud_storage_flutter/</guid>
       <description>&lt;p&gt;I’ve used Google’s &lt;a href=&#34;https://firebase.google.com/&#34;&gt;Firebase/Firestore&lt;/a&gt; database solution for nearly 6 months and had come to believe that it was an unstoppable force. If you’re only dealing with numbers, strings, and other simple data forms, this is true. The NoSQL database gives you immense control over how you store information a provides querying tools that can be used to find items meeting very specific criteria in a snap.&lt;/p&gt;
 &lt;p&gt;But if you’re interested in storing and retrieving larger files like images and audio clips, Firestore is not the solution you need.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Sanguine Me</title>
-      <link>http://localhost:1313/posts/essays/sanguine-me/</link>
+      <link>https://jtmuller5.github.io/posts/essays/sanguine-me/</link>
       <pubDate>Mon, 30 Sep 2019 08:37:43 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/essays/sanguine-me/</guid>
+      <guid>https://jtmuller5.github.io/posts/essays/sanguine-me/</guid>
       <description>&lt;p&gt;Pontificating life&amp;rsquo;s purpose, or the lack thereof, can be a demoralizing practice. No worldly endeavor appears to have eternal ramifications and no eternal endgame seems rewarding enough to offset the suffering required to get there. If you aren&amp;rsquo;t careful, it&amp;rsquo;s dangerously easy to fall prey to the pernicious idea that nothing is worth doing. It&amp;rsquo;s an idea that feeds itself, validating its core concepts in realtime and offering an escape hatch that justifies the damages it has inflicted. You become so overwhelmed by the pointless work you&amp;rsquo;re doing day in and day out that you put in less and less effort because in the long run, you don&amp;rsquo;t believe it will matter one way or another. Your performance deteriorates. Life gets worse as society peers at you with an unforgiving gaze. Knowing you should be more deliberate with your efforts, you try to pay more attention to the things that will benefit your career and help you earn money but you&amp;rsquo;re constantly reminded that even money and a successful career won&amp;rsquo;t solve the philosophical problem that caused you to relinquish in the first place. So you relinquish again and life gets harder, the looming force of a single idea powering you downward in a straight line (forget the spiral). How sad.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Inifinite Horror</title>
-      <link>http://localhost:1313/posts/essays/inifinite-horror/</link>
+      <link>https://jtmuller5.github.io/posts/essays/inifinite-horror/</link>
       <pubDate>Thu, 26 Sep 2019 08:40:17 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/essays/inifinite-horror/</guid>
+      <guid>https://jtmuller5.github.io/posts/essays/inifinite-horror/</guid>
       <description>&lt;p&gt;Religions all over the globe imagine an eternal, peaceful existence that follows the one we inhabit now. In Christianity, this eternal resting place devoid of pain and loss is called heaven and millions of the Christian faith mold their everyday behavior to meet the entry qualifications to this domain. They refrain from lying, cheating, stealing, murdering, lusting, and coveting all because these activities are sinful and would cause them to stumble in their walk with Jesus. All of these things should be avoided if you want to live an easy life, but avoiding them in order to gain access to an eternal world is bizarre in my opinion and not because this place may not exist. I think it&amp;rsquo;s bizarre because if this place did exist, going there would inevitably be torture for the perfect human mind (I say &amp;ldquo;perfect&amp;rdquo; because one could argue that an imperfect mind, ridden with a faulty and transient memory would play and enjoy this realm forever without ever being totally satisfied or saturated. I&amp;rsquo;ll discuss this later since this argument relies on several assumptions about how the biology of the human mind is preserved in an ethereal world).&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Its Been Done</title>
-      <link>http://localhost:1313/posts/essays/its-been-done/</link>
+      <link>https://jtmuller5.github.io/posts/essays/its-been-done/</link>
       <pubDate>Thu, 26 Sep 2019 08:37:43 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/essays/its-been-done/</guid>
+      <guid>https://jtmuller5.github.io/posts/essays/its-been-done/</guid>
       <description>&lt;p&gt;When I was a kid I loved role playing video games, especially the open world kind where rare items littered the landscape and achievements were unlocked by doing just about anything. The sprawling checklists of things to do and buy and find kept me occupied for hundreds of hours and I would make up ridiculous goals for myself, such as to collect every item in Fallout 3 or find all 100-something stars in Super Mario 64 (I&amp;rsquo;ll admit the Fallout goal was a tad more extreme). I think my addiction was rooted in the idea that finding every rare item or reaching the max level was an impressive accomplishment that somehow bolstered my real world ability to be successful. After all, these things weren&amp;rsquo;t necessarily easy.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Purpose Is My Purpose</title>
-      <link>http://localhost:1313/posts/essays/purpose-is-my-purpose/</link>
+      <link>https://jtmuller5.github.io/posts/essays/purpose-is-my-purpose/</link>
       <pubDate>Wed, 25 Sep 2019 08:41:39 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/essays/purpose-is-my-purpose/</guid>
+      <guid>https://jtmuller5.github.io/posts/essays/purpose-is-my-purpose/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve spent a lot of time thinking about what the purpose of life is and whether or not existence is supported by some underlying reasoning. It&amp;rsquo;s a thought stream with a current that cannot be escaped. Once the mind starts to ponder &amp;ldquo;why&amp;rdquo; something must be done, it doesn&amp;rsquo;t stop pondering. Everything that get&amp;rsquo;s you excited or arouses fear or builds anticipation is now engulfed in a single thought cloud that fogs the emotional impact. I find each surge of dopamine in my mind being countered with an equal surge of pessimistic logic, specifically the idea that, &amp;ldquo;in 100 years, I&amp;rsquo;ll be dead anyways&amp;rdquo;. It&amp;rsquo;s a depressing plague in some instances and a reassuring sedative in others. The good things in life are temporary and so are the bad, each one inevitably being stamped out by the boot of father time. These ideas have made me rethink everything I&amp;rsquo;ve wanted to do in life, and more importantly, they&amp;rsquo;ve made me reevaluate the concept of wanting altogether.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Thinking Thought</title>
-      <link>http://localhost:1313/posts/essays/thinking-thought/</link>
+      <link>https://jtmuller5.github.io/posts/essays/thinking-thought/</link>
       <pubDate>Fri, 20 Sep 2019 08:34:41 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/essays/thinking-thought/</guid>
+      <guid>https://jtmuller5.github.io/posts/essays/thinking-thought/</guid>
       <description>&lt;p&gt;Purpose is a logic driven concept, one that can only be grasped by an entity with the potential to understand nebulous abstractions like reason and meaning. In simple terms, purpose is the &amp;ldquo;why&amp;rdquo; behind the &amp;ldquo;what&amp;rdquo; and it deals with questions that exist outside the plane of physical material. Objects in and of themselves are not concerned with the &amp;ldquo;why&amp;rdquo;. A rock in the middle of the desert does not care, nor have the capacity to care, about why it is destined to bake in a spotlight of solar radiation until the sun burns out. This goes for all things that have no means of deliberately responding to their environments - rocks, water droplets, the metal carcass of an old car. No, these things exist in a realm that is indifferent to any underlying, supernatural force&amp;hellip;or so it seems.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://localhost:1313/posts/tutorials/flutter/image_compression/image_compression/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/flutter/image_compression/image_compression/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/flutter/image_compression/image_compression/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/image_compression/image_compression/</guid>
       <description>&lt;h2 id=&#34;tags-fluttermobile&#34;&gt;image&amp;mdash;-
 title: &amp;ldquo;Image Compression in Flutter&amp;rdquo;
 date: 2022-09-17T16:26:21-04:00

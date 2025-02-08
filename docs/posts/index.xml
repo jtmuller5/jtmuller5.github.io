@@ -6,14 +6,38 @@
     <description>Recent content in Posts on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Feb 2025 15:38:54 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Feb 2025 18:21:16 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fuzzy Search vs Code</title>
+      <link>https://jtmuller5.github.io/posts/microblog/fuzzy-search-vs-code/</link>
+      <pubDate>Sat, 08 Feb 2025 18:21:16 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/microblog/fuzzy-search-vs-code/</guid>
+      <description>&lt;p&gt;There is a &lt;a href=&#34;https://code.visualstudio.com/docs/copilot/copilot-settings#_general-settings&#34;&gt;new experimental setting&lt;/a&gt; for VS Code&amp;rsquo;s copilot that lets you enable semantic search in the search window.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;github.copilot.chat.search.semanticTextResults
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;image.png&#34; alt=&#34;Enable semantic search in VS Code&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;Once you enable the semantic search setting, you&amp;rsquo;ll see a new dropdown under the search results in the search panel. Expanding the dropdown will show you the semantic search results (after a few seconds of processing).&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;image-1.png&#34; alt=&#34;Semantic search in search panel&#34;  /&gt;
+&lt;/p&gt;
+
+          &lt;link rel=&#34;stylesheet&#34; href=&#34;https://jtmuller5.github.io/css/vendors/admonitions.5c73bad2903e7d2d44ad118370ebd8c2cf5f239d4d93c283e55c00f2f8d30746.css&#34; integrity=&#34;sha256-XHO60pA&amp;#43;fS1ErRGDcOvYws9fI51Nk8KD5VwA8vjTB0Y=&#34; crossorigin=&#34;anonymous&#34;&gt;
+  &lt;div class=&#34;admonition caution&#34;&gt;
+    &lt;div class=&#34;admonition-header&#34;&gt;
+      &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 32c14.2 0 27.3 7.5 34.5 19.8l216 368c7.3 12.4 7.3 27.7 .2 40.1S486.3 480 472 480L40 480c-14.3 0-27.6-7.7-34.7-20.1s-7-27.8 .2-40.1l216-368C228.7 39.5 241.8 32 256 32zm0 128c-13.3 0-24 10.7-24 24l0 112c0 13.3 10.7 24 24 24s24-10.7 24-24l0-112c0-13.3-10.7-24-24-24zm32 224a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z&#34;/&gt;&lt;/svg&gt;
+      &lt;span&gt;Caution&lt;/span&gt;
+    &lt;/div&gt;
+      &lt;div class=&#34;admonition-content&#34;&gt;
+        &lt;p&gt;I&amp;rsquo;ve noticed that this works better in non-blog projects. In my Hugo blog (this website), the search results miss things that seem obvious.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>VS Code Note Taker</title>
       <link>https://jtmuller5.github.io/posts/microblog/vs-code-note-taker/</link>
       <pubDate>Sat, 08 Feb 2025 15:38:54 -0500</pubDate>
       
       <guid>https://jtmuller5.github.io/posts/microblog/vs-code-note-taker/</guid>
-      <description>&lt;p&gt;Since VS Code is built for rapidly searching and navigating files, it seems like the ideal tool to turn into a note-taking app. Even better, the integration of copilot directly into VS code makes it even better since you could hypothetically ask the AI model of your choice questions about your content by tagging it in the chat panel (that is, if the models allows non-coding questions, which they didn&amp;rsquo;t at one point).&lt;/p&gt;</description>
+      <description>&lt;p&gt;Since VS Code is built for rapidly searching and navigating files, it seems like the ideal tool to turn into a note-taking app. The integration of copilot directly into VS code makes it even better since you could hypothetically ask the AI model of your choice questions about your content by tagging it in the chat panel (that is, if the models allows non-coding questions, which they didn&amp;rsquo;t at one point).&lt;/p&gt;</description>
     </item>
     
     <item>

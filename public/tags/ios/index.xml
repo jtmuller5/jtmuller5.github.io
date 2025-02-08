@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Ios on Joe Muller&#39;s Blog</title>
-    <link>http://localhost:1313/tags/ios/</link>
+    <link>https://jtmuller5.github.io/tags/ios/</link>
     <description>Recent content in Ios on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Jan 2025 15:13:36 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/ios/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Jan 2025 15:13:36 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/ios/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blueprint Protocol</title>
-      <link>http://localhost:1313/projects/blueprint-protocol/</link>
+      <link>https://jtmuller5.github.io/projects/blueprint-protocol/</link>
       <pubDate>Mon, 20 Jan 2025 15:13:36 -0400</pubDate>
       
-      <guid>http://localhost:1313/projects/blueprint-protocol/</guid>
+      <guid>https://jtmuller5.github.io/projects/blueprint-protocol/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Website&lt;/strong&gt;: &lt;a href=&#34;https://bento.me/blueprint&#34;&gt;https://bento.me/blueprint&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;App Store&lt;/strong&gt;: &lt;a href=&#34;https://apps.apple.com/us/app/blueprint-protocol/id6467042093&#34;&gt;https://apps.apple.com/us/app/blueprint-protocol/id6467042093&lt;/a&gt;&lt;/li&gt;
@@ -30,10 +30,10 @@
     
     <item>
       <title>Bakedown</title>
-      <link>http://localhost:1313/projects/bakedown/</link>
+      <link>https://jtmuller5.github.io/projects/bakedown/</link>
       <pubDate>Sat, 15 Jul 2023 15:13:36 -0400</pubDate>
       
-      <guid>http://localhost:1313/projects/bakedown/</guid>
+      <guid>https://jtmuller5.github.io/projects/bakedown/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Website&lt;/strong&gt;: &lt;a href=&#34;https://bakedown.app&#34;&gt;https://bakedown.app&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;App Store&lt;/strong&gt;: &lt;a href=&#34;https://apps.apple.com/us/app/bakedown/id6445965871&#34;&gt;https://apps.apple.com/us/app/bakedown/id6445965871&lt;/a&gt;&lt;/li&gt;
@@ -53,10 +53,10 @@
     
     <item>
       <title>Flutter: Build an IPA</title>
-      <link>http://localhost:1313/posts/tutorials/flutter/build_ipa/build_ipa/</link>
+      <link>https://jtmuller5.github.io/posts/tutorials/flutter/build_ipa/build_ipa/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/tutorials/flutter/build_ipa/build_ipa/</guid>
+      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/build_ipa/build_ipa/</guid>
       <description>&lt;p&gt;If you’d like to distribute your Flutter app to iOS-using testers via &lt;a href=&#34;https://firebase.google.com/docs/app-distribution&#34;&gt;Firebase Distribution&lt;/a&gt;, you’ll need to build IPA files. IPA files are simply iOS Application files that behave like APK or app bundles on Android.&lt;/p&gt;
 &lt;p&gt;Unlike APK or app bundles however, you can’t just run a flutter build command and create an IPA.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://flutter.dev/docs/deployment/android&#34;&gt;&lt;strong&gt;Build App Bundle&lt;/strong&gt;&lt;/a&gt;:&lt;/p&gt;
