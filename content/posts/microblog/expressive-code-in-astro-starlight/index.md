@@ -8,10 +8,18 @@ tags: ["link"]
 ---
 There are a lot of cool things you can do to code blocks using [Expressive Code in Astro's Starlight](https://starlight.astro.build/guides/authoring-content/#expressive-code-features).
 
-## Add Titles to Code Blocks
+## Add File Names to Code Blocks
 
 ```js
 // my-title.js
+export default function MyTitle() {
+  return <h1>My Title</h1>
+}
+```
+
+## Add Titles to Code Blocks
+
+```js title="my-title.js"
 export default function MyTitle() {
   return <h1>My Title</h1>
 }
