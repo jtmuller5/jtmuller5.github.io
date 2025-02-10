@@ -6,7 +6,58 @@
     <description>Recent content in Microblog on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Feb 2025 18:21:16 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/categories/microblog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Feb 2025 06:04:29 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/categories/microblog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Four Backticks for Code</title>
+      <link>https://jtmuller5.github.io/posts/microblog/four-backticks-for-code/</link>
+      <pubDate>Mon, 10 Feb 2025 06:04:29 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/microblog/four-backticks-for-code/</guid>
+      <description>&lt;p&gt;I recently realized there is no upper limit on the number of backticks you can put in front of your markdown code blocks.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;This uses 4 backticks.
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;This uses 5 backticks.
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;This uses 6 backticks.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;And so on. The use cases for this are rare but they exist. For example, I recently &lt;a href=&#34;../expressive-code-in-astro-starlight/&#34;&gt;posted&lt;/a&gt; about using expressive code features in Astro. Since Hugo (what this blog is built on doesn&amp;rsquo;t support expressive code), expressive code features either break the build or don&amp;rsquo;t render correctly. But by using 4 backticks, I was able to show the code block as it would appear in Astro.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Expressive Code in Astro Starlight</title>
+      <link>https://jtmuller5.github.io/posts/microblog/expressive-code-in-astro-starlight/</link>
+      <pubDate>Sat, 08 Feb 2025 20:38:06 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/microblog/expressive-code-in-astro-starlight/</guid>
+      <description>&lt;p&gt;There are a lot of cool things you can do to code blocks using &lt;a href=&#34;https://starlight.astro.build/guides/authoring-content/#expressive-code-features&#34;&gt;Expressive Code in Astro&amp;rsquo;s Starlight&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;add-file-names-to-code-blocks&#34;&gt;Add File Names to Code Blocks&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;```js
+// my-title.js
+export default function MyTitle() {
+  return &amp;lt;h1&amp;gt;My Title&amp;lt;/h1&amp;gt;
+}
+```
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;add-titles-to-code-blocks&#34;&gt;Add Titles to Code Blocks&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;```js title=&amp;#34;my-title.js&amp;#34;
+export default function MyTitle() {
+  return &amp;lt;h1&amp;gt;My Title&amp;lt;/h1&amp;gt;
+}
+```
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;add-line-numbers-to-code-blocks&#34;&gt;Add Line Numbers to Code Blocks&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;```javascript {1}
+export default function MyTitle() {
+  return &amp;lt;h1&amp;gt;My Title&amp;lt;/h1&amp;gt;
+}
+```
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;combine-diffing-with-syntax-highlighting&#34;&gt;Combine diffing with Syntax Highlighting&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;```diff lang=&amp;#34;js&amp;#34;
+  function thisIsJavaScript() {
+    // This entire block gets highlighted as JavaScript,
+    // and we can still add diff markers to it!
+-   console.log(&amp;#39;Old code to be removed&amp;#39;)
++   console.log(&amp;#39;New and shiny code!&amp;#39;)
+}
+```
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
     <item>
       <title>Fuzzy Search vs Code</title>
       <link>https://jtmuller5.github.io/posts/microblog/fuzzy-search-vs-code/</link>

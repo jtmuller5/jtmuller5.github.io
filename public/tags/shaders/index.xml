@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Shaders on Joe Muller&#39;s Blog</title>
-    <link>https://jtmuller5.github.io/tags/shaders/</link>
+    <link>http://localhost:1313/tags/shaders/</link>
     <description>Recent content in Shaders on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Oct 2024 10:18:40 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/shaders/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Oct 2024 10:18:40 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/shaders/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Flutter Shaders vs Code Setup</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/flutter/flutter-shaders-vs-code-setup/</link>
+      <link>http://localhost:1313/posts/tutorials/flutter/flutter-shaders-vs-code-setup/</link>
       <pubDate>Mon, 28 Oct 2024 10:18:40 -0400</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/flutter-shaders-vs-code-setup/</guid>
+      <guid>http://localhost:1313/posts/tutorials/flutter/flutter-shaders-vs-code-setup/</guid>
       <description>&lt;p&gt;This blog post will cover how to set up your VS Code environment for Flutter development with shaders.&lt;/p&gt;
 &lt;p&gt;To start, install the glslc command line compiler from this link: &lt;a href=&#34;https://github.com/google/shaderc?tab=readme-ov-file#downloads&#34;&gt;https://github.com/google/shaderc?tab=readme-ov-file#downloads&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Save the glslangValidator executable to a location on your computer and note the path.&lt;/p&gt;

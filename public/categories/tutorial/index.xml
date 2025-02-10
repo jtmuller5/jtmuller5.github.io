@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tutorial on Joe Muller&#39;s Blog</title>
-    <link>https://jtmuller5.github.io/categories/tutorial/</link>
+    <link>http://localhost:1313/categories/tutorial/</link>
     <description>Recent content in Tutorial on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Dec 2024 09:18:17 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/categories/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Dec 2024 09:18:17 -0500</lastBuildDate><atom:link href="http://localhost:1313/categories/tutorial/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Converting a JavaScript Package to TypeScript: A Step-by-Step Guide</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/typescript/converting-a-javascript-/</link>
+      <link>http://localhost:1313/posts/tutorials/typescript/converting-a-javascript-/</link>
       <pubDate>Thu, 05 Dec 2024 09:18:17 -0500</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/tutorials/typescript/converting-a-javascript-/</guid>
+      <guid>http://localhost:1313/posts/tutorials/typescript/converting-a-javascript-/</guid>
       <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
 &lt;p&gt;TypeScript has become increasingly popular due to its ability to bring static typing to JavaScript, enhancing code quality and developer productivity. Converting your existing JavaScript package to TypeScript can make it more robust and easier to maintain. In this guide, we’ll walk through the essential steps to transform your JavaScript package into a TypeScript package.&lt;/p&gt;
 &lt;h2 id=&#34;1-install-typescript-and-necessary-dependencies&#34;&gt;1. Install TypeScript and Necessary Dependencies&lt;/h2&gt;

@@ -6,35 +6,43 @@ categories: ["microblog"]
 tags: ["link"]
 # hiddenInHomeList: true
 ---
+
 There are a lot of cool things you can do to code blocks using [Expressive Code in Astro's Starlight](https://starlight.astro.build/guides/authoring-content/#expressive-code-features).
 
 ## Add File Names to Code Blocks
 
+````
 ```js
 // my-title.js
 export default function MyTitle() {
   return <h1>My Title</h1>
 }
 ```
+````
 
 ## Add Titles to Code Blocks
 
+````
 ```js title="my-title.js"
 export default function MyTitle() {
   return <h1>My Title</h1>
 }
 ```
+````
 
 ## Add Line Numbers to Code Blocks
 
-```js {1}
+````
+```javascript {1}
 export default function MyTitle() {
   return <h1>My Title</h1>
 }
 ```
+````
 
 ## Combine diffing with Syntax Highlighting
 
+````
 ```diff lang="js"
   function thisIsJavaScript() {
     // This entire block gets highlighted as JavaScript,
@@ -43,3 +51,4 @@ export default function MyTitle() {
 +   console.log('New and shiny code!')
 }
 ```
+````

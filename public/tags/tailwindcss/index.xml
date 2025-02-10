@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tailwindcss on Joe Muller&#39;s Blog</title>
-    <link>https://jtmuller5.github.io/tags/tailwindcss/</link>
+    <link>http://localhost:1313/tags/tailwindcss/</link>
     <description>Recent content in Tailwindcss on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Sep 2024 15:13:36 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/tailwindcss/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Sep 2024 15:13:36 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/tailwindcss/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Crashify AI</title>
-      <link>https://jtmuller5.github.io/projects/crashify/</link>
+      <link>http://localhost:1313/projects/crashify/</link>
       <pubDate>Fri, 20 Sep 2024 15:13:36 -0400</pubDate>
       
-      <guid>https://jtmuller5.github.io/projects/crashify/</guid>
+      <guid>http://localhost:1313/projects/crashify/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Website&lt;/strong&gt;: &lt;a href=&#34;https://crashify.ai&#34;&gt;https://crashify.ai&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Status&lt;/strong&gt;: On hold&lt;/li&gt;
@@ -29,10 +29,10 @@
     
     <item>
       <title>AI Co-Founded</title>
-      <link>https://jtmuller5.github.io/projects/ai-cofounded/</link>
+      <link>http://localhost:1313/projects/ai-cofounded/</link>
       <pubDate>Tue, 27 Aug 2024 15:13:36 -0400</pubDate>
       
-      <guid>https://jtmuller5.github.io/projects/ai-cofounded/</guid>
+      <guid>http://localhost:1313/projects/ai-cofounded/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Website&lt;/strong&gt;: &lt;a href=&#34;https://aicofounded.com&#34;&gt;https://aicofounded.com&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Status&lt;/strong&gt;: On hold&lt;/li&gt;

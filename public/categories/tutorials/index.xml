@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tutorials on Joe Muller&#39;s Blog</title>
-    <link>https://jtmuller5.github.io/categories/tutorials/</link>
+    <link>http://localhost:1313/categories/tutorials/</link>
     <description>Recent content in Tutorials on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jan 2025 06:07:24 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/categories/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Jan 2025 06:07:24 -0500</lastBuildDate><atom:link href="http://localhost:1313/categories/tutorials/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Track Firebase Remote Config Version</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/track-firebase-remote-config-version/</link>
+      <link>http://localhost:1313/posts/tutorials/track-firebase-remote-config-version/</link>
       <pubDate>Fri, 17 Jan 2025 06:07:24 -0500</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/tutorials/track-firebase-remote-config-version/</guid>
+      <guid>http://localhost:1313/posts/tutorials/track-firebase-remote-config-version/</guid>
       <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
 &lt;p&gt;I use Firebase &lt;a href=&#34;https://firebase.google.com/docs/remote-config/&#34;&gt;Remote Config&lt;/a&gt; to manage AB tests in most of my software projects.&lt;/p&gt;
 &lt;h2 id=&#34;boolean-ab-testing&#34;&gt;Boolean AB Testing&lt;/h2&gt;
@@ -23,10 +23,10 @@
     
     <item>
       <title>VS Code Snippet Variables</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/vs-code-snippet-variables/</link>
+      <link>http://localhost:1313/posts/tutorials/vs-code-snippet-variables/</link>
       <pubDate>Sat, 11 Jan 2025 12:40:39 -0500</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/tutorials/vs-code-snippet-variables/</guid>
+      <guid>http://localhost:1313/posts/tutorials/vs-code-snippet-variables/</guid>
       <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
 &lt;p&gt;You should use VS Code snippets more than you do and that&amp;rsquo;s not just an opinion.&lt;/p&gt;
 &lt;p&gt;The &lt;a href=&#34;https://code.visualstudio.com/docs/editor/userdefinedsnippets#_snippet-syntax&#34;&gt;Snippet Syntax section&lt;/a&gt; of the VS Code snippet docs is a minefield of knowledge bombs.&lt;/p&gt;
@@ -56,10 +56,10 @@ Test_test
     
     <item>
       <title>Create a Preact App</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/create-a-preact-app/</link>
+      <link>http://localhost:1313/posts/tutorials/create-a-preact-app/</link>
       <pubDate>Thu, 09 Jan 2025 09:02:21 -0500</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/tutorials/create-a-preact-app/</guid>
+      <guid>http://localhost:1313/posts/tutorials/create-a-preact-app/</guid>
       <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
 &lt;h2 id=&#34;get-started&#34;&gt;Get Started&lt;/h2&gt;
 &lt;p&gt;This article provides just the steps for creating a Preact app with Vite and TailwindCSS. To start, &lt;a href=&#34;https://preactjs.com/guide/v10/getting-started/#create-a-vite-powered-preact-app&#34;&gt;create a new Preact app&lt;/a&gt; using the following command:&lt;/p&gt;
@@ -85,10 +85,10 @@ Test_test
     
     <item>
       <title>Resize Firebase Images Like a Pro</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/resize-firebase-images-like-a-pro/</link>
+      <link>http://localhost:1313/posts/tutorials/resize-firebase-images-like-a-pro/</link>
       <pubDate>Sat, 04 Jan 2025 22:45:29 -0500</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/tutorials/resize-firebase-images-like-a-pro/</guid>
+      <guid>http://localhost:1313/posts/tutorials/resize-firebase-images-like-a-pro/</guid>
       <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
 &lt;p&gt;The Firebase documentation leaves much to be desired. If you just want answers, these docs were made just for you. If you want more questions, head over &lt;a href=&#34;https://extensions.dev/extensions/firebase/storage-resize-images&#34;&gt;here&lt;/a&gt; and start reading.&lt;/p&gt;
 &lt;p&gt;In this blog, I&amp;rsquo;m going to walk you through setting up the &lt;a href=&#34;https://extensions.dev/extensions/firebase/storage-resize-images&#34;&gt;Resize Images Firebase Extension&lt;/a&gt; and listening to a custom event so you can add the resized images to documents in your Firestore database.&lt;/p&gt;
@@ -98,10 +98,10 @@ Test_test
     
     <item>
       <title>Create a Chrome Extension With React, TypeScript, Tailwind CSS, and Vite</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-react-typescript-tailwind-and-vite/</link>
+      <link>http://localhost:1313/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-react-typescript-tailwind-and-vite/</link>
       <pubDate>Mon, 18 Nov 2024 12:00:00 -0500</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-react-typescript-tailwind-and-vite/</guid>
+      <guid>http://localhost:1313/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-react-typescript-tailwind-and-vite/</guid>
       <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
 &lt;p&gt;After publishing my first article on &lt;a href=&#34;https://joemuller.com/posts/create-a-chrome-extension-with-react-typescript-and-tailwindcss/&#34;&gt;building a Chrome Extension using React, TypeScript, TailWind, and Webpack&lt;/a&gt;, a handful of people commented that Webpack was an antique best left on the shelf. In this article, I will walk you through creating the a Chrome Extension that uses the same tech stack but with Vite as the build tool.&lt;/p&gt;
 &lt;p&gt;For the full code, check out the &lt;a href=&#34;https://github.com/jtmuller5/cotr_react_chrome_extension_vite&#34;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;
@@ -111,10 +111,10 @@ Test_test
     
     <item>
       <title>Rapidly Iterate on a Chrome Extension</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/chrome-extensions/rapidly-iterate-on-a-chrome-extension/</link>
+      <link>http://localhost:1313/posts/tutorials/chrome-extensions/rapidly-iterate-on-a-chrome-extension/</link>
       <pubDate>Sun, 17 Nov 2024 15:48:25 -0500</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/tutorials/chrome-extensions/rapidly-iterate-on-a-chrome-extension/</guid>
+      <guid>http://localhost:1313/posts/tutorials/chrome-extensions/rapidly-iterate-on-a-chrome-extension/</guid>
       <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
 &lt;p&gt;Developing is hard. Developing in an environment that makes it difficult to see your changes in realtime is impossible (or at least it should be made illegal). This article explores a few ways to quickly see your changes while developing a Chrome extension.&lt;/p&gt;
 &lt;h2 id=&#34;use-extensions-reloader&#34;&gt;Use Extensions Reloader&lt;/h2&gt;
@@ -125,10 +125,10 @@ Test_test
     
     <item>
       <title>Create a Chrome Extension With React, Typescript, and Tailwindcss</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-react-typescript-and-tailwindcss/</link>
+      <link>http://localhost:1313/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-react-typescript-and-tailwindcss/</link>
       <pubDate>Sat, 16 Nov 2024 21:08:12 -0500</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-react-typescript-and-tailwindcss/</guid>
+      <guid>http://localhost:1313/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-react-typescript-and-tailwindcss/</guid>
       <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;This article was inspired by &lt;a href=&#34;https://medium.com/@tharshita13/creating-a-chrome-extension-with-react-a-step-by-step-guide-47fe9bab24a1&#34;&gt;Creating a Chrome Extension with React a Step by Step Guide&lt;/a&gt;.&lt;/p&gt;
@@ -155,10 +155,10 @@ Test_test
     
     <item>
       <title>Create a Chrome Extension With Vuejs</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-vuejs/</link>
+      <link>http://localhost:1313/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-vuejs/</link>
       <pubDate>Sun, 10 Nov 2024 12:44:58 -0500</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-vuejs/</guid>
+      <guid>http://localhost:1313/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-vuejs/</guid>
       <description>&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
 &lt;p&gt;To start, create a new folder for your project:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mkdir vue-chrome-extension
@@ -181,10 +181,10 @@ Test_test
     
     <item>
       <title>How to Create and Publish a Flutter Package</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/flutter/how-to-create-and-publish-a-flutter-package/</link>
+      <link>http://localhost:1313/posts/tutorials/flutter/how-to-create-and-publish-a-flutter-package/</link>
       <pubDate>Sun, 03 Nov 2024 15:33:39 -0500</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/how-to-create-and-publish-a-flutter-package/</guid>
+      <guid>http://localhost:1313/posts/tutorials/flutter/how-to-create-and-publish-a-flutter-package/</guid>
       <description>&lt;h2 id=&#34;just-the-steps&#34;&gt;Just The Steps&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;In the terminal, run the following command&lt;/li&gt;
@@ -210,19 +210,19 @@ Test_test
     
     <item>
       <title>Flutter Pwa Setup</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/flutter/flutter-pwa-setup/</link>
+      <link>http://localhost:1313/posts/tutorials/flutter/flutter-pwa-setup/</link>
       <pubDate>Wed, 30 Oct 2024 14:32:14 -0400</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/flutter-pwa-setup/</guid>
+      <guid>http://localhost:1313/posts/tutorials/flutter/flutter-pwa-setup/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Flutter Shaders vs Code Setup</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/flutter/flutter-shaders-vs-code-setup/</link>
+      <link>http://localhost:1313/posts/tutorials/flutter/flutter-shaders-vs-code-setup/</link>
       <pubDate>Mon, 28 Oct 2024 10:18:40 -0400</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/flutter-shaders-vs-code-setup/</guid>
+      <guid>http://localhost:1313/posts/tutorials/flutter/flutter-shaders-vs-code-setup/</guid>
       <description>&lt;p&gt;This blog post will cover how to set up your VS Code environment for Flutter development with shaders.&lt;/p&gt;
 &lt;p&gt;To start, install the glslc command line compiler from this link: &lt;a href=&#34;https://github.com/google/shaderc?tab=readme-ov-file#downloads&#34;&gt;https://github.com/google/shaderc?tab=readme-ov-file#downloads&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Save the glslangValidator executable to a location on your computer and note the path.&lt;/p&gt;
@@ -237,10 +237,10 @@ Test_test
     
     <item>
       <title>Understanding Repaint Boundary in Flutter</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/flutter/understanding-repaint-boundary-in-flutter/</link>
+      <link>http://localhost:1313/posts/tutorials/flutter/understanding-repaint-boundary-in-flutter/</link>
       <pubDate>Sun, 06 Oct 2024 10:27:19 -0400</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/understanding-repaint-boundary-in-flutter/</guid>
+      <guid>http://localhost:1313/posts/tutorials/flutter/understanding-repaint-boundary-in-flutter/</guid>
       <description>&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://docs.flutter.dev/resources/architectural-overview#rendering-and-layout&#34;&gt;https://docs.flutter.dev/resources/architectural-overview#rendering-and-layout&lt;/a&gt;&lt;/li&gt;
@@ -251,19 +251,19 @@ Test_test
     
     <item>
       <title>Creating a VS Code Chat Extension With Claude</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/creating-a-vs-code-chat-extension-with-claude/</link>
+      <link>http://localhost:1313/posts/tutorials/creating-a-vs-code-chat-extension-with-claude/</link>
       <pubDate>Sat, 05 Oct 2024 08:04:55 -0400</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/tutorials/creating-a-vs-code-chat-extension-with-claude/</guid>
+      <guid>http://localhost:1313/posts/tutorials/creating-a-vs-code-chat-extension-with-claude/</guid>
       <description>&lt;p&gt;Claude Sonnet is undeniably one of the best frontier models for programming and I still reach for it despite having GPT-4o and o1 inside my VS Code editor. To make it even smarter and more effective, I use the Projects feature (available on the pro plan) to manage all of the documentation and general context related to what I&amp;rsquo;m working on. By uploading text and files related to the technology I&amp;rsquo;m using, Claude becomes a genius in exactly what I want him to be a genius in.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Express API Vercel</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/express-api-vercel/</link>
+      <link>http://localhost:1313/posts/tutorials/express-api-vercel/</link>
       <pubDate>Sun, 29 Sep 2024 15:41:15 -0400</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/tutorials/express-api-vercel/</guid>
+      <guid>http://localhost:1313/posts/tutorials/express-api-vercel/</guid>
       <description>&lt;p&gt;Welcome to this tutorial where we will create a simple API using TypeScript and deploy it using Vercel. This guide is suitable for beginners and assumes basic familiarity with Node.js. Let&amp;rsquo;s dive in!&lt;/p&gt;
 &lt;h2 id=&#34;setting-up-your-project&#34;&gt;Setting Up Your Project&lt;/h2&gt;
 &lt;ol&gt;
@@ -278,10 +278,10 @@ Test_test
     
     <item>
       <title>Supabase Slack Notifications</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/supabase-slack-notifications/</link>
+      <link>http://localhost:1313/posts/tutorials/supabase-slack-notifications/</link>
       <pubDate>Sun, 29 Sep 2024 15:36:18 -0400</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/tutorials/supabase-slack-notifications/</guid>
+      <guid>http://localhost:1313/posts/tutorials/supabase-slack-notifications/</guid>
       <description>&lt;h1 id=&#34;slack&#34;&gt;Slack&lt;/h1&gt;
 &lt;h2 id=&#34;1-create-a-new-slack-channel&#34;&gt;1. Create a new Slack channel&lt;/h2&gt;
 &lt;p&gt;Create a slack channel in your workspace where the notifications will be displayed (ex. &amp;ldquo;notifications&amp;rdquo;)&lt;/p&gt;
@@ -297,10 +297,10 @@ Test_test
     
     <item>
       <title>Using Supabase in Typescript</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/using-supabase-in-typescript/</link>
+      <link>http://localhost:1313/posts/tutorials/using-supabase-in-typescript/</link>
       <pubDate>Sun, 29 Sep 2024 15:29:05 -0400</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/tutorials/using-supabase-in-typescript/</guid>
+      <guid>http://localhost:1313/posts/tutorials/using-supabase-in-typescript/</guid>
       <description>&lt;p&gt;Instead of hardcoding Supabase interfaces or types in your TypeScript projects, you can use the Supabase CLI to generate types directly from your database tables. Make sure to add the output inside your src folder so the rest of your application can access it:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;supabase gen types typescript --project-id abcdefghijklmnopqrst &amp;gt; src/types/database.types.ts
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This command will generate a .types.ts file that contains a single Database interface containing all of your tables and their columns. The output looks something like this (I pulled this from the official docs):&lt;/p&gt;</description>
@@ -308,10 +308,10 @@ Test_test
     
     <item>
       <title>Flutter to Firebase Hosting Github Workflow</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/flutter/flutter-to-firebase-hosting-github-workflow/</link>
+      <link>http://localhost:1313/posts/tutorials/flutter/flutter-to-firebase-hosting-github-workflow/</link>
       <pubDate>Sun, 29 Sep 2024 15:20:26 -0400</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/flutter-to-firebase-hosting-github-workflow/</guid>
+      <guid>http://localhost:1313/posts/tutorials/flutter/flutter-to-firebase-hosting-github-workflow/</guid>
       <description>&lt;p&gt;As soon as a Flutter project gains traction (or I&amp;rsquo;ve convinced myself that it will eventually gain traction), I like to set up a CI/CD pipeline so I can focus more on app development and less on manually deploying all of my changes to prod. This article in particular will provide an overview of the Github workflow I typically use for my Flutter projects that use &lt;a href=&#34;https://firebase.google.com/docs/hosting&#34;&gt;Firebase Hosting&lt;/a&gt;.&lt;/p&gt;
 &lt;h1 id=&#34;the-basics&#34;&gt;The Basics&lt;/h1&gt;
 &lt;p&gt;For the simplest projects that don&amp;rsquo;t require environments, variables, or Slack notifications, the workflow is straightforward. Below is an outline of what it does:&lt;/p&gt;</description>
@@ -319,19 +319,19 @@ Test_test
     
     <item>
       <title>Generating Images With Dalle</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/generating-images-with-dalle/</link>
+      <link>http://localhost:1313/posts/tutorials/generating-images-with-dalle/</link>
       <pubDate>Sun, 29 Sep 2024 15:13:36 -0400</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/tutorials/generating-images-with-dalle/</guid>
+      <guid>http://localhost:1313/posts/tutorials/generating-images-with-dalle/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve recently been working on an app with my wife called &amp;ldquo;Abi&amp;rsquo;s Recipes&amp;rdquo;. The app, designed for mobile and TV, aims to be the Netflix of recipes, with a focus on beautiful images and a simple interface. We wanted to generate images for the recipes that we don&amp;rsquo;t have photos for, and we wanted to do it in a way that was fun and creative. That&amp;rsquo;s where DALL-E comes in.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>PWA Install</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/flutter/pwa_install/pwa_install/</link>
+      <link>http://localhost:1313/posts/tutorials/flutter/pwa_install/pwa_install/</link>
       <pubDate>Sat, 05 Nov 2022 09:32:33 -0400</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/pwa_install/pwa_install/</guid>
+      <guid>http://localhost:1313/posts/tutorials/flutter/pwa_install/pwa_install/</guid>
       <description>&lt;h1 id=&#34;pwa-is-the-way&#34;&gt;PWA is the Way&lt;/h1&gt;
 &lt;p&gt;Over the past month its become clear that Apple thinks it owns all apps on the App Store:&lt;/p&gt;
 &lt;ul&gt;
@@ -344,10 +344,10 @@ Test_test
     
     <item>
       <title>An Intro to Route Guards in Flutter</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/flutter/route_guards/route_guards/</link>
+      <link>http://localhost:1313/posts/tutorials/flutter/route_guards/route_guards/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/route_guards/route_guards/</guid>
+      <guid>http://localhost:1313/posts/tutorials/flutter/route_guards/route_guards/</guid>
       <description>&lt;p&gt;Hey! Don’t go there!&lt;/p&gt;
 &lt;p&gt;Navigation in a mobile app is a bit more involved than pushing a route here and popping a route there. Some routes should only be viewed by a user who is authenticated while others are available to the public. Some routes will only behave and display properly if the user has an active internet connection while others show static assets that never change.&lt;/p&gt;
 &lt;p&gt;Is it possible to verify these requirements are met before loading each new route? With Route Guards, anything is possible.&lt;/p&gt;</description>
@@ -355,10 +355,10 @@ Test_test
     
     <item>
       <title>Authentication in Flutter Apps using the @Protocol</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/flutter/at_protocol_authentication/at_protocol_authentication/</link>
+      <link>http://localhost:1313/posts/tutorials/flutter/at_protocol_authentication/at_protocol_authentication/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/at_protocol_authentication/at_protocol_authentication/</guid>
+      <guid>http://localhost:1313/posts/tutorials/flutter/at_protocol_authentication/at_protocol_authentication/</guid>
       <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://miro.medium.com/max/1278/0*Sp4LW8w2irIasJTP.png&#34; alt=&#34;&#34;  /&gt;
 &lt;/p&gt;
 &lt;p&gt;If you’ve spent any amount of time developing mobile apps, you’re probably well aware of how public “private” data really is. Cloud databases like , , and protect their front gates with robust security measures like authentication keys, security rules, user roles, and field-specific restrictions. From the outside, these databases are fortresses with more than enough artillery to prevent people from seeing &lt;em&gt;each other’s&lt;/em&gt; data.&lt;/p&gt;
@@ -367,10 +367,10 @@ Test_test
     
     <item>
       <title>Build this blog</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/build_this_blog/build_this_blog/</link>
+      <link>http://localhost:1313/posts/tutorials/build_this_blog/build_this_blog/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/tutorials/build_this_blog/build_this_blog/</guid>
+      <guid>http://localhost:1313/posts/tutorials/build_this_blog/build_this_blog/</guid>
       <description>&lt;h1 id=&#34;build-this-blog&#34;&gt;Build this Blog&lt;/h1&gt;
 &lt;p&gt;Medium. Hashnode. Wordpress. Ghost. Log Rocket.&lt;/p&gt;
 &lt;p&gt;There are a thousand blogging platforms that want your content, knowledge, and time. I say nay! In this article I&amp;rsquo;ll lay out all the steps you need to build this exact website and host your
@@ -390,20 +390,20 @@ GitHub pages.&lt;/p&gt;
     
     <item>
       <title>Continuous Animations in Flutter</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/flutter/continuous_animations/continuous_animations/</link>
+      <link>http://localhost:1313/posts/tutorials/flutter/continuous_animations/continuous_animations/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/continuous_animations/continuous_animations/</guid>
+      <guid>http://localhost:1313/posts/tutorials/flutter/continuous_animations/continuous_animations/</guid>
       <description>&lt;p&gt;If your app ain’t animating, users ain’t engaging.&lt;/p&gt;
 &lt;p&gt;It’s a simple law of mobile app development that gets less attention than it deserves. Users want the impression that your app is alive — a living, breathing creation that does more than respond to taps and scrolls. Dynamically changing gradients, bouncing dots, and widgets that push at their boundaries like animals in a cage all give your app a personality that users will be thinking about long after they lock their screens.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Displaying Videos in Flutter from a URL</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/flutter/displaying_videos/displaying_videos/</link>
+      <link>http://localhost:1313/posts/tutorials/flutter/displaying_videos/displaying_videos/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/displaying_videos/displaying_videos/</guid>
+      <guid>http://localhost:1313/posts/tutorials/flutter/displaying_videos/displaying_videos/</guid>
       <description>&lt;h1 id=&#34;displaying-videos-in-flutter-from-a-url&#34;&gt;Displaying Videos in Flutter from a URL&lt;/h1&gt;
 &lt;h2 id=&#34;with-the-stacked-architecture&#34;&gt;With the Stacked architecture&lt;/h2&gt;
 &lt;p&gt;In this article, I will be explaining how to display a video directly from a URL in Flutter (although any video URL will work). If you’re interested in saving videos to Cloud Storage, check out my previous article on that exact subject.&lt;/p&gt;
@@ -413,10 +413,10 @@ GitHub pages.&lt;/p&gt;
     
     <item>
       <title>Enhanced Enums in Flutter 3</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/flutter/enhanced_enums/enhanced_enums/</link>
+      <link>http://localhost:1313/posts/tutorials/flutter/enhanced_enums/enhanced_enums/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/enhanced_enums/enhanced_enums/</guid>
+      <guid>http://localhost:1313/posts/tutorials/flutter/enhanced_enums/enhanced_enums/</guid>
       <description>&lt;h2 id=&#34;enums-were-good-now-theyre-great&#34;&gt;Enums were good. Now they’re great.&lt;/h2&gt;
 &lt;h2 id=&#34;flutter-3&#34;&gt;Flutter 3&lt;/h2&gt;
 &lt;p&gt;Flutter 3.0 was announced at Google IO yesterday and as can be expected from a major version jump, there were a lot of new features to dig through. A few of the big ones:&lt;/p&gt;
@@ -434,10 +434,10 @@ GitHub pages.&lt;/p&gt;
     
     <item>
       <title>Flutter Efficiently</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/flutter/flutter_efficiently/flutter_efficiently/</link>
+      <link>http://localhost:1313/posts/tutorials/flutter/flutter_efficiently/flutter_efficiently/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/flutter_efficiently/flutter_efficiently/</guid>
+      <guid>http://localhost:1313/posts/tutorials/flutter/flutter_efficiently/flutter_efficiently/</guid>
       <description>&lt;h2 id=&#34;flutter-newbies-start-here&#34;&gt;Flutter Newbies Start Here&lt;/h2&gt;
 &lt;p&gt;If you’re new to Flutter development, I’d recommend starting with something a little less involved.&lt;/p&gt;
 &lt;p&gt;I used this book to learn the Flutter language:&lt;/p&gt;
@@ -450,10 +450,10 @@ GitHub pages.&lt;/p&gt;
     
     <item>
       <title>Flutter: Build an IPA</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/flutter/build_ipa/build_ipa/</link>
+      <link>http://localhost:1313/posts/tutorials/flutter/build_ipa/build_ipa/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/build_ipa/build_ipa/</guid>
+      <guid>http://localhost:1313/posts/tutorials/flutter/build_ipa/build_ipa/</guid>
       <description>&lt;p&gt;If you’d like to distribute your Flutter app to iOS-using testers via &lt;a href=&#34;https://firebase.google.com/docs/app-distribution&#34;&gt;Firebase Distribution&lt;/a&gt;, you’ll need to build IPA files. IPA files are simply iOS Application files that behave like APK or app bundles on Android.&lt;/p&gt;
 &lt;p&gt;Unlike APK or app bundles however, you can’t just run a flutter build command and create an IPA.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://flutter.dev/docs/deployment/android&#34;&gt;&lt;strong&gt;Build App Bundle&lt;/strong&gt;&lt;/a&gt;:&lt;/p&gt;
@@ -465,20 +465,20 @@ GitHub pages.&lt;/p&gt;
     
     <item>
       <title>Handling Nested Objects in Firestore With Flutter</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/flutter/nested_firestore_objects/nested_firestore_objects/</link>
+      <link>http://localhost:1313/posts/tutorials/flutter/nested_firestore_objects/nested_firestore_objects/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/nested_firestore_objects/nested_firestore_objects/</guid>
+      <guid>http://localhost:1313/posts/tutorials/flutter/nested_firestore_objects/nested_firestore_objects/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://firebase.google.com/docs/firestore&#34;&gt;Google’s Cloud Firestore&lt;/a&gt; is a tool that should be in every mobile app developer’s tool belt. The flexible and scalable database that it provides is unlike anything a coder could create alone and if your app is designed for a global audience, there aren’t many solutions like it. Plus, there’s a Flutter package ( &lt;a href=&#34;https://pub.dev/packages/cloud_firestore&#34;&gt;cloud_firestore&lt;/a&gt;) that’s designed to make Flutter and Flame play nicely together.&lt;/p&gt;
 &lt;p&gt;Unfortunately, there is one downside. The tool isn’t free to use and every read/write transaction your app makes with the Firestore database is counted against your &lt;a href=&#34;https://firebase.google.com/docs/firestore/quotas&#34;&gt;daily quota&lt;/a&gt; (50,000 daily reads and 20,000 daily writes for the free tier plan). Therefore, it’s essential you design your database with these usage limits in mind…otherwise, your dreams of creating a profitable mobile app will be stamped out like a flame.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Implementing a Multi-Colored TabBar in Flutter</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/flutter/multi_colored_tab_bar/multi_colored_tab_bar/</link>
+      <link>http://localhost:1313/posts/tutorials/flutter/multi_colored_tab_bar/multi_colored_tab_bar/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/multi_colored_tab_bar/multi_colored_tab_bar/</guid>
+      <guid>http://localhost:1313/posts/tutorials/flutter/multi_colored_tab_bar/multi_colored_tab_bar/</guid>
       <description>&lt;p&gt;The Legend of the Multi-Colored TabBar&lt;/p&gt;
 &lt;p&gt;A majority of popular mobile apps on the app store use a tried and true navigation scheme: the &lt;a href=&#34;https://www.smashingmagazine.com/2016/11/the-golden-rules-of-mobile-navigation-design/&#34;&gt;Bottom Navigation Bar&lt;/a&gt;. The idea is to have all 4 or 5 of the app’s main activities visible and within thumb’s reach. If you do a quick browse through the apps on your phone, you’ll find this pattern is far and away the most used.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Bottom Navigation Bar Apps&lt;/strong&gt;:&lt;/p&gt;</description>
@@ -486,10 +486,10 @@ GitHub pages.&lt;/p&gt;
     
     <item>
       <title>The @platform: A Firebase Alternative?</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/flutter/firebase_alternative/firebase_alternative/</link>
+      <link>http://localhost:1313/posts/tutorials/flutter/firebase_alternative/firebase_alternative/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/firebase_alternative/firebase_alternative/</guid>
+      <guid>http://localhost:1313/posts/tutorials/flutter/firebase_alternative/firebase_alternative/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://firebase.google.com/&#34;&gt;Firebase&lt;/a&gt; is awesome and I’ve used it in more apps than I can count (assuming I can only count to about 20). It has authentication, data storage, an intuitive querying SDK, and plenty of other features that most mobile app developers find themselves wanting at one point or another.&lt;/p&gt;
 &lt;p&gt;So why replace it?&lt;/p&gt;
 &lt;p&gt;I asked myself the same question many times and more than once my answer was “Don’t”. It had just about everything I needed…and then I was asked to implement End-to-End Encryption (E2EE) in a social media app. I managed to do it based on this &lt;a href=&#34;https://stackoverflow.com/a/41553180/12806961&#34;&gt;Stack Overflow answer&lt;/a&gt; but the solution was complicated and if a user ever wanted to change devices they needed to encrypt their old private key, save it to Firestore, change devices, download the encrypted private key, and then decrypt it. There were a few other difficulties (some that I’m still working through) and I finally began to rethink my devotion to the god named Google.&lt;/p&gt;</description>
@@ -497,10 +497,10 @@ GitHub pages.&lt;/p&gt;
     
     <item>
       <title>Uploading Images to Cloud Storage Using Flutter</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/flutter/cloud_storage_flutter/cloud_storage_flutter/</link>
+      <link>http://localhost:1313/posts/tutorials/flutter/cloud_storage_flutter/cloud_storage_flutter/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
       
-      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/cloud_storage_flutter/cloud_storage_flutter/</guid>
+      <guid>http://localhost:1313/posts/tutorials/flutter/cloud_storage_flutter/cloud_storage_flutter/</guid>
       <description>&lt;p&gt;I’ve used Google’s &lt;a href=&#34;https://firebase.google.com/&#34;&gt;Firebase/Firestore&lt;/a&gt; database solution for nearly 6 months and had come to believe that it was an unstoppable force. If you’re only dealing with numbers, strings, and other simple data forms, this is true. The NoSQL database gives you immense control over how you store information a provides querying tools that can be used to find items meeting very specific criteria in a snap.&lt;/p&gt;
 &lt;p&gt;But if you’re interested in storing and retrieving larger files like images and audio clips, Firestore is not the solution you need.&lt;/p&gt;</description>
     </item>
