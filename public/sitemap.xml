@@ -3,22 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-02-10T06:01:13-05:00</lastmod>
+    <lastmod>2025-02-10T16:20:57-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/microblog/hugo-code-highlight/</loc>
+    <lastmod>2025-02-10T16:20:57-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-02-10T06:01:13-05:00</lastmod>
+    <lastmod>2025-02-10T16:20:57-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/microblog/</loc>
-    <lastmod>2025-02-10T06:01:13-05:00</lastmod>
+    <lastmod>2025-02-10T16:20:57-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-02-10T06:01:13-05:00</lastmod>
+    <lastmod>2025-02-10T16:20:57-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-02-10T06:01:13-05:00</lastmod>
+    <lastmod>2025-02-10T16:20:57-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/tip/</loc>
-    <lastmod>2025-02-10T06:01:13-05:00</lastmod>
+    <lastmod>2025-02-10T16:20:57-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/microblog/four-backticks-for-code/</loc>
+    <lastmod>2025-02-10T06:04:29-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/microblog/understanding-svgs/</loc>
     <lastmod>2025-02-10T06:01:13-05:00</lastmod>

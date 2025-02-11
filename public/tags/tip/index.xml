@@ -6,14 +6,38 @@
     <description>Recent content in Tip on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Feb 2025 06:01:13 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/tip/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Feb 2025 16:20:57 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/tip/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo Code Highlight</title>
+      <link>http://localhost:1313/posts/microblog/hugo-code-highlight/</link>
+      <pubDate>Mon, 10 Feb 2025 16:20:57 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/microblog/hugo-code-highlight/</guid>
+      <description>&lt;p&gt;After reading about Expressive code highlighting in Astro, I was curious if it was possible to achieve the same in Hugo. This post is proof that it is, but it wasn&amp;rsquo;t as straightforward as I had hoped.&lt;/p&gt;
+&lt;p&gt;Since I&amp;rsquo;m using the PaperMod theme, highlighting doesn&amp;rsquo;t work the same as it does in generic Hugo themes (PaperMod is doing some opininated things with the syntax highlighting). Nonetheless, all I had to do was add this CSS to the &lt;code&gt;themes/papermod/assets/css/post-single.css&lt;/code&gt; file:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Four Backticks for Code</title>
+      <link>http://localhost:1313/posts/microblog/four-backticks-for-code/</link>
+      <pubDate>Mon, 10 Feb 2025 06:04:29 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/microblog/four-backticks-for-code/</guid>
+      <description>&lt;p&gt;I recently realized there is no upper limit on the number of backticks you can put in front of your markdown code blocks.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;This uses 4 backticks.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;This uses 5 backticks.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;This uses 6 backticks.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And so on. The use cases for this are rare but they exist. For example, I recently &lt;a href=&#34;../expressive-code-in-astro-starlight/&#34;&gt;posted&lt;/a&gt; about using expressive code features in Astro. Since Hugo (what this blog is built on doesn&amp;rsquo;t support expressive code), expressive code features either break the build or don&amp;rsquo;t render correctly. But by using 4 backticks, I was able to show the code block as it would appear in Astro.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Understanding Svgs</title>
       <link>http://localhost:1313/posts/microblog/understanding-svgs/</link>
       <pubDate>Mon, 10 Feb 2025 06:01:13 -0500</pubDate>
       
       <guid>http://localhost:1313/posts/microblog/understanding-svgs/</guid>
-      <description></description>
+      <description>&lt;p&gt;The first official version of Scalable Vector Graphics (SVG 1.0) was released in 2001.&lt;/p&gt;
+&lt;p&gt;Before this (and even after), a majority of the images on the internet were raster images. Raster images are made up of pixels, which means they don&amp;rsquo;t scale well. If you try to scale a raster image up, it will become pixelated. If you try to scale it down, it will lose detail.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -23,8 +47,8 @@
       
       <guid>http://localhost:1313/posts/microblog/fuzzy-search-vs-code/</guid>
       <description>&lt;p&gt;There is a &lt;a href=&#34;https://code.visualstudio.com/docs/copilot/copilot-settings#_general-settings&#34;&gt;new experimental setting&lt;/a&gt; for VS Code&amp;rsquo;s copilot that lets you enable semantic search in the search window.&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;github.copilot.chat.search.semanticTextResults
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;image.png&#34; alt=&#34;Enable semantic search in VS Code&#34;  /&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;github.copilot.chat.search.semanticTextResults
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;image.png&#34; alt=&#34;Enable semantic search in VS Code&#34;  /&gt;
 &lt;/p&gt;
 &lt;p&gt;Once you enable the semantic search setting, you&amp;rsquo;ll see a new dropdown under the search results in the search panel. Expanding the dropdown will show you the semantic search results (after a few seconds of processing).&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;image-1.png&#34; alt=&#34;Semantic search in search panel&#34;  /&gt;
