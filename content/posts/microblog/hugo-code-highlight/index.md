@@ -61,7 +61,7 @@ function MySubtitle() {
 
 > { linenos=true, linenostart=5}
 
-```javascript { linenos=true, linenostart=5, anchorlinenos=true, lineanchors="prefix"}
+```javascript { linenos=true, linenostart=5 }
 export default function MyTitle() {
   return <h1>My Title</h1>
 }

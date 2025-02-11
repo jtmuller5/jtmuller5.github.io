@@ -6,7 +6,18 @@
     <description>Recent content on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Feb 2025 16:20:57 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Feb 2025 09:50:31 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vs Code Svg Extension</title>
+      <link>https://jtmuller5.github.io/posts/microblog/vs-code-svg-extension/</link>
+      <pubDate>Tue, 11 Feb 2025 09:50:31 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/microblog/vs-code-svg-extension/</guid>
+      <description>&lt;p&gt;I spent 3-4 hours creating a Flutter app to edit and export SVGs only to find a VS Code extension that does both of these things in a few clicks.&lt;/p&gt;
+&lt;p&gt;The extension is simply called &lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=jock.svg&#34;&gt;SVG&lt;/a&gt; and it has almost 2 million downloads. The best part is that it allows you to edit SVGs directly in the editor and export them as PNGs.&lt;/p&gt;
+&lt;p&gt;After installing the extension, right-click on one of your PNGs and select &amp;ldquo;Preview SVG&amp;rdquo; to start editing. This will open a new tab with the SVG preview and a toolbar at the top. In the toolbar, select the &amp;ldquo;Code interactive&amp;rdquo; button and click on any element in the SVG to start editing it. This will open a panel on the left with the SVG code.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Hugo Code Highlight</title>
       <link>https://jtmuller5.github.io/posts/microblog/hugo-code-highlight/</link>
