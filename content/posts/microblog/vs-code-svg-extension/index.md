@@ -1,5 +1,5 @@
 ---
-title: "Vs Code Svg Extension"
+title: "VS Code SVG Extension"
 date: 2025-02-11T09:50:31-05:00
 draft: false
 categories: ["microblog"]
@@ -16,3 +16,6 @@ After installing the extension, right-click on one of your PNGs and select "Prev
 ![Live SVG editing](image.png)
 
 To export, just click the "Export PNG" icon all the way to the right.
+
+> [!DANGER]
+> This experience was a good reminder that the app layer is where the value is. VS Code is not just an IDE; it's a platform that can be extended to do almost anything.
