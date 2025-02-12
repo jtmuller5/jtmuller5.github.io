@@ -55,7 +55,7 @@
       "id": "type",
       "type": "pickString",
       "description": "Select the type of post",
-      "options": ["quote", "tip", "idea", "link"]
+      "options": ["quote", "tip", "idea", "link", "daily"]
     }
   ]
 }
