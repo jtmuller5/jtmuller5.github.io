@@ -6,7 +6,21 @@
     <description>Recent content in Link on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Feb 2025 09:50:31 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/link/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Feb 2025 14:31:57 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/link/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Naming Things Better</title>
+      <link>https://jtmuller5.github.io/posts/microblog/naming-things-better/</link>
+      <pubDate>Sun, 16 Feb 2025 14:31:57 -0500</pubDate>
+      
+      <guid>https://jtmuller5.github.io/posts/microblog/naming-things-better/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s a section in the &lt;a href=&#34;https://www.electronjs.org/docs/latest/development/coding-style#naming-things&#34;&gt;Electron docs on naming things&lt;/a&gt; that I thought  was worth saving.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If a module is a class or can be instantiated as one, name it using &lt;code&gt;PascalCase&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;If a module is a set of APIs or utils, name it using &lt;code&gt;camelCase&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;AirBnB also has a section on &lt;a href=&#34;https://github.com/airbnb/javascript?tab=readme-ov-file#naming-conventions&#34;&gt;naming conventions&lt;/a&gt; which generally offers the same guidance. They go one step further and note that file names should exactly match the main export of that file:&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>VS Code SVG Extension</title>
       <link>https://jtmuller5.github.io/posts/microblog/vs-code-svg-extension/</link>

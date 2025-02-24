@@ -2,31 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jtmuller5.github.io/</loc>
-    <lastmod>2025-02-12T06:39:31-05:00</lastmod>
-  </url><url>
-    <loc>https://jtmuller5.github.io/posts/</loc>
-    <lastmod>2025-02-12T06:39:31-05:00</lastmod>
-  </url><url>
     <loc>https://jtmuller5.github.io/categories/</loc>
-    <lastmod>2025-02-11T09:50:31-05:00</lastmod>
+    <lastmod>2025-02-23T17:24:10-05:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/tags/link/</loc>
-    <lastmod>2025-02-11T09:50:31-05:00</lastmod>
+    <loc>https://jtmuller5.github.io/posts/microblog/getting-file-stats-in-electron/</loc>
+    <lastmod>2025-02-23T17:24:10-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/</loc>
+    <lastmod>2025-02-23T17:24:10-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/categories/microblog/</loc>
-    <lastmod>2025-02-11T09:50:31-05:00</lastmod>
+    <lastmod>2025-02-23T17:24:10-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/</loc>
+    <lastmod>2025-02-23T17:24:10-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/</loc>
-    <lastmod>2025-02-11T09:50:31-05:00</lastmod>
+    <lastmod>2025-02-23T17:24:10-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/tags/tip/</loc>
+    <lastmod>2025-02-23T17:24:10-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/tags/idea/</loc>
+    <lastmod>2025-02-17T07:02:00-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/microblog/valuable-social-rewards/</loc>
+    <lastmod>2025-02-17T07:02:00-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/tags/link/</loc>
+    <lastmod>2025-02-16T14:31:57-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/microblog/naming-things-better/</loc>
+    <lastmod>2025-02-16T14:31:57-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/tags/quote/</loc>
+    <lastmod>2025-02-14T16:44:10-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/microblog/quote-steve-jobs-death/</loc>
+    <lastmod>2025-02-14T16:44:10-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/posts/microblog/vs-code-svg-extension/</loc>
     <lastmod>2025-02-11T09:50:31-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/posts/microblog/hugo-code-highlight/</loc>
-    <lastmod>2025-02-10T16:20:57-05:00</lastmod>
-  </url><url>
-    <loc>https://jtmuller5.github.io/tags/tip/</loc>
     <lastmod>2025-02-10T16:20:57-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/posts/microblog/four-backticks-for-code/</loc>
@@ -37,9 +55,6 @@
   </url><url>
     <loc>https://jtmuller5.github.io/posts/microblog/fuzzy-search-vs-code/</loc>
     <lastmod>2025-02-08T18:21:16-05:00</lastmod>
-  </url><url>
-    <loc>https://jtmuller5.github.io/tags/idea/</loc>
-    <lastmod>2025-02-08T15:38:54-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/posts/microblog/vs-code-note-taker/</loc>
     <lastmod>2025-02-08T15:38:54-05:00</lastmod>
