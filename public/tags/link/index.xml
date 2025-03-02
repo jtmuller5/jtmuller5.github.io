@@ -6,7 +6,32 @@
     <description>Recent content in Link on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Feb 2025 20:38:06 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/link/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Feb 2025 14:31:57 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/link/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Naming Things Better</title>
+      <link>http://localhost:1313/posts/microblog/naming-things-better/</link>
+      <pubDate>Sun, 16 Feb 2025 14:31:57 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/microblog/naming-things-better/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s a section in the &lt;a href=&#34;https://www.electronjs.org/docs/latest/development/coding-style#naming-things&#34;&gt;Electron docs on naming things&lt;/a&gt; that I thought  was worth saving.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If a module is a class or can be instantiated as one, name it using &lt;code&gt;PascalCase&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;If a module is a set of APIs or utils, name it using &lt;code&gt;camelCase&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;AirBnB also has a section on &lt;a href=&#34;https://github.com/airbnb/javascript?tab=readme-ov-file#naming-conventions&#34;&gt;naming conventions&lt;/a&gt; which generally offers the same guidance. They go one step further and note that file names should exactly match the main export of that file:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>VS Code SVG Extension</title>
+      <link>http://localhost:1313/posts/microblog/vs-code-svg-extension/</link>
+      <pubDate>Tue, 11 Feb 2025 09:50:31 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/microblog/vs-code-svg-extension/</guid>
+      <description>&lt;p&gt;I spent 3-4 hours creating a Flutter app to edit and export SVGs only to find a VS Code extension that does both of these things in a few clicks.&lt;/p&gt;
+&lt;p&gt;The extension is simply called &lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=jock.svg&#34;&gt;SVG&lt;/a&gt; and it has almost 2 million downloads. The best part is that it allows you to edit SVGs directly in the editor and export them as PNGs.&lt;/p&gt;
+&lt;p&gt;After installing the extension, right-click on one of your PNGs and select &amp;ldquo;Preview SVG&amp;rdquo; to start editing. This will open a new tab with the SVG preview and a toolbar at the top. In the toolbar, select the &amp;ldquo;Code interactive&amp;rdquo; button and click on any element in the SVG to start editing it. This will open a panel on the left with the SVG code.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Expressive Code in Astro Starlight</title>
       <link>http://localhost:1313/posts/microblog/expressive-code-in-astro-starlight/</link>

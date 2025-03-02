@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Quote on Joe Muller&#39;s Blog</title>
+    <link>http://localhost:1313/tags/quote/</link>
+    <description>Recent content in Quote on Joe Muller&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Feb 2025 16:44:10 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/quote/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quote Steve Jobs Death</title>
+      <link>http://localhost:1313/posts/microblog/quote-steve-jobs-death/</link>
+      <pubDate>Fri, 14 Feb 2025 16:44:10 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/microblog/quote-steve-jobs-death/</guid>
+      <description>&lt;p&gt;I watched the &lt;a href=&#34;https://en.wikipedia.org/wiki/Jobs_(film)&#34;&gt;Steve Jobs biographical drama&lt;/a&gt; this weekend and was surprised for the fifth time that Jobs was not really a technical person. Compared to the layman, sure, but his entire career and the rise of Apple was due mostly to his obsession with craftsmanship.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose. You are already naked. There is no reason not to follow your heart&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

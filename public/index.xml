@@ -6,7 +6,193 @@
     <description>Recent content on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Feb 2025 16:20:57 -0500</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Feb 2025 17:18:25 -0500</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Happy Path</title>
+      <link>http://localhost:1313/posts/happy-path/</link>
+      <pubDate>Fri, 28 Feb 2025 17:18:25 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/happy-path/</guid>
+      <description>&lt;p&gt;In the future, there won&amp;rsquo;t be SMS and the web and native apps. They will all be combined into an experience that aims to be seamless. When you call an AI agent, you&amp;rsquo;ll be able to interact with the conversation, see it transcribed in realtime, respond with your voice or your phone, and see what the agent thought you said. Your conversations and chat history will follow you from device to device without you needing to do anything. And everywhere you go, you&amp;rsquo;ll be able to use your input of choice to command the AIs of the new world.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Getting File Stats in Electron</title>
+      <link>http://localhost:1313/posts/microblog/getting-file-stats-in-electron/</link>
+      <pubDate>Sun, 23 Feb 2025 17:24:10 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/microblog/getting-file-stats-in-electron/</guid>
+      <description>&lt;p&gt;You can get basic information about a file using the &lt;a href=&#34;https://nodejs.org/api/fs.html#fsstatpath-options-callback&#34;&gt;fs.stat&lt;/a&gt; method. This asynchronous function accepts a file path and returns an object that looks like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;#34;dev&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;16777234&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;#34;mode&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;33188&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;#34;nlink&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;#34;uid&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;501&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;#34;gid&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;#34;rdev&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;#34;blksize&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;4096&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;#34;ino&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;806397637&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;#34;size&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;311339&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;#34;blocks&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;616&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;#34;atimeMs&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;1740349370637.4573&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;#34;mtimeMs&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;1740349369783.987&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;#34;ctimeMs&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;1740349369783.987&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;#34;birthtimeMs&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;1740349369783.5325&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;#34;atime&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;2025-02-23T22:22:50.637Z&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;#34;mtime&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;2025-02-23T22:22:49.784Z&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;#34;ctime&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;2025-02-23T22:22:49.784Z&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;#34;birthtime&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;2025-02-23T22:22:49.784Z&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Here&amp;rsquo;s how you could use it to check if the file is empty:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-typescript&#34; data-lang=&#34;typescript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;stats&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;await&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;fs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;stat&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;filePath&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;stats&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;size&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;===&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;){&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;// Do something
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>02 22 2025</title>
+      <link>http://localhost:1313/posts/microblog/02-22-2025/</link>
+      <pubDate>Sat, 22 Feb 2025 14:37:59 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/microblog/02-22-2025/</guid>
+      <description>&lt;h2 id=&#34;vibe-learning&#34;&gt;Vibe Learning&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Excalidraw&lt;/li&gt;
+&lt;li&gt;ChatGPT 4.0&lt;/li&gt;
+&lt;li&gt;Topic of interest&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Spend 30-60 minutes diagraming a new topic with the help of ChatGPT&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>02 21 2025</title>
+      <link>http://localhost:1313/posts/microblog/02-21-2025/</link>
+      <pubDate>Fri, 21 Feb 2025 14:38:15 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/microblog/02-21-2025/</guid>
+      <description>&lt;p&gt;Intent classifier with BERT&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.tensorflow.org/text/tutorials/classify_text_with_bert#about_bert&#34;&gt;https://www.tensorflow.org/text/tutorials/classify_text_with_bert#about_bert&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=toUgBQv1BT8&#34;&gt;https://www.youtube.com/watch?v=toUgBQv1BT8&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.kaggle.com/code/jhoward/getting-started-with-nlp-for-absolute-beginners/&#34;&gt;https://www.kaggle.com/code/jhoward/getting-started-with-nlp-for-absolute-beginners/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;questions&#34;&gt;Questions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Is &amp;ldquo;classifier&amp;rdquo; the correct term for this system?&lt;/li&gt;
+&lt;li&gt;Can you classify into multiple categories for each input?&lt;/li&gt;
+&lt;li&gt;How do you deploy this to production?&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>02 19 2025</title>
+      <link>http://localhost:1313/posts/microblog/02-19-2025/</link>
+      <pubDate>Wed, 19 Feb 2025 06:37:11 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/microblog/02-19-2025/</guid>
+      <description>&lt;p&gt;I get my septoplasty splints out in less than 3 hours, thank god. 6 days ago I had a septoplasty and turbinate reduction and for the most part, the after effects were mild. I suffered very little pain, no post-anesthesia nausea, the expected amount of bleeding. The worst part was just having to live with stents blocking each nostril. Every night was restless and uncomfortable. The brain fog that arose from mouth breathing all day and night was thick. It &lt;em&gt;feels&lt;/em&gt; like there are two giant, plastic stents sandwiching my septum because there is.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>02 18 2025</title>
+      <link>http://localhost:1313/posts/microblog/02-18-2025/</link>
+      <pubDate>Tue, 18 Feb 2025 06:58:10 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/microblog/02-18-2025/</guid>
+      <description>&lt;p&gt;I want to build something that promises to change the world. It should save lives, bring joy to the depressed, fill the future with an optimistic hue, and make everyone want to stick around for eternity. The conflict in my life is that I am not working on anything that will do any of this. I am building dashboards for a call agent and trying to recreate an irritating human interaction. My life will amount to nothing if I do not change my trajectory.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Valuable Social Rewards</title>
+      <link>http://localhost:1313/posts/microblog/valuable-social-rewards/</link>
+      <pubDate>Mon, 17 Feb 2025 07:02:00 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/microblog/valuable-social-rewards/</guid>
+      <description>&lt;p&gt;There are not many social media websites that reward you for objectively useful behavior. Twitter rewards yapping, Instagram rewards deceptive perspective, LinkedIn rewards slop.&lt;/p&gt;
+&lt;p&gt;Stack Overflow, on the other hand, rewards knowledge that leads to problem solving. Despite the green badge impacting my life just as much as a red or blue badge, the green badge on the SO trophy raises my dopamine levels just a little higher.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;image.png&#34; alt=&#34;A good day on Stack Overflow&#34;  /&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Naming Things Better</title>
+      <link>http://localhost:1313/posts/microblog/naming-things-better/</link>
+      <pubDate>Sun, 16 Feb 2025 14:31:57 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/microblog/naming-things-better/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s a section in the &lt;a href=&#34;https://www.electronjs.org/docs/latest/development/coding-style#naming-things&#34;&gt;Electron docs on naming things&lt;/a&gt; that I thought  was worth saving.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If a module is a class or can be instantiated as one, name it using &lt;code&gt;PascalCase&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;If a module is a set of APIs or utils, name it using &lt;code&gt;camelCase&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;AirBnB also has a section on &lt;a href=&#34;https://github.com/airbnb/javascript?tab=readme-ov-file#naming-conventions&#34;&gt;naming conventions&lt;/a&gt; which generally offers the same guidance. They go one step further and note that file names should exactly match the main export of that file:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Creating an Electron App With Vite React and Typescript</title>
+      <link>http://localhost:1313/posts/creating-an-electron-app-with-vite-react-and-typescript/</link>
+      <pubDate>Sun, 16 Feb 2025 07:12:28 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/creating-an-electron-app-with-vite-react-and-typescript/</guid>
+      <description>&lt;p&gt;Despite the fact that CRA was just deprecated and TypeScript is objectively superior to JavaScript, there is surprisingly no easy way to &amp;ldquo;just get started&amp;rdquo; with Vite, React, and TypeScript in Electron. The closest thing to a beginner-friendly template that exists is the &lt;a href=&#34;https://www.electronforge.io/templates/vite-+-typescript&#34;&gt;Vite + TypeScript Electron Forge template&lt;/a&gt;, but even that is experimental and riddled with incomplete code.&lt;/p&gt;
+&lt;p&gt;This article will show you how to get started using an Electron stack that should be more popular.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>02 15 2025</title>
+      <link>http://localhost:1313/posts/microblog/02-15-2025/</link>
+      <pubDate>Sat, 15 Feb 2025 06:44:20 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/microblog/02-15-2025/</guid>
+      <description>&lt;p&gt;Its day 2 of recovery from my septoplasty and I&amp;rsquo;m ready for it to be over. The swelling has decreased but not enough to keep me from mouth breathing all night. I woke up with a sore throat, chapped lips, and an achy tongue.&lt;/p&gt;
+&lt;p&gt;The future will reward the platforms that become AI native now. Perplexity seems to be the one that&amp;rsquo;s running away with the title of posterchild, especially given their recent hijacking of the &amp;ldquo;Deep Research&amp;rdquo; feature.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Quote Steve Jobs Death</title>
+      <link>http://localhost:1313/posts/microblog/quote-steve-jobs-death/</link>
+      <pubDate>Fri, 14 Feb 2025 16:44:10 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/microblog/quote-steve-jobs-death/</guid>
+      <description>&lt;p&gt;I watched the &lt;a href=&#34;https://en.wikipedia.org/wiki/Jobs_(film)&#34;&gt;Steve Jobs biographical drama&lt;/a&gt; this weekend and was surprised for the fifth time that Jobs was not really a technical person. Compared to the layman, sure, but his entire career and the rise of Apple was due mostly to his obsession with craftsmanship.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose. You are already naked. There is no reason not to follow your heart&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>02 14 2025</title>
+      <link>http://localhost:1313/posts/microblog/02-14-2025/</link>
+      <pubDate>Fri, 14 Feb 2025 10:00:54 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/microblog/02-14-2025/</guid>
+      <description>&lt;p&gt;I had my septoplasty and turbinate reduction surgery yesterday and am in full recovery mode for the weekend. Overall, I feel pretty good. The first 5-6 hours after surgery were the worst but even that wasn&amp;rsquo;t terrible. My nose took about 8 hours to fully swell up and stop the bleeding and now i just feel like my nostrils are gone.&lt;/p&gt;
+&lt;p&gt;The surgeon talked to Abi and said everything went well. He said I had a lot of scar tissue in my nose although I don&amp;rsquo;t know where exactly. I don&amp;rsquo;t even know if he removed it but I&amp;rsquo;m sure that will be revealed to me within a week.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>02 12 2025</title>
+      <link>http://localhost:1313/posts/microblog/02-12-2025/</link>
+      <pubDate>Wed, 12 Feb 2025 06:39:31 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/microblog/02-12-2025/</guid>
+      <description>&lt;p&gt;What is the app-layer I care about? Creating software is fun, the feeling of creation is rewarding, but somehow it feels less than important in the grand scope of things. Its more so the case when the software is for software developers. We create minds to replace our minds and squeeze the joy of creation into dollops of loops and if statements.&lt;/p&gt;
+&lt;p&gt;What is the app-layer for idea storming or riffing or creation? What can I log into each morning to plan my day with uber effectiveness and mod to feel better or think faster or think differently?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>VS Code SVG Extension</title>
+      <link>http://localhost:1313/posts/microblog/vs-code-svg-extension/</link>
+      <pubDate>Tue, 11 Feb 2025 09:50:31 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/microblog/vs-code-svg-extension/</guid>
+      <description>&lt;p&gt;I spent 3-4 hours creating a Flutter app to edit and export SVGs only to find a VS Code extension that does both of these things in a few clicks.&lt;/p&gt;
+&lt;p&gt;The extension is simply called &lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=jock.svg&#34;&gt;SVG&lt;/a&gt; and it has almost 2 million downloads. The best part is that it allows you to edit SVGs directly in the editor and export them as PNGs.&lt;/p&gt;
+&lt;p&gt;After installing the extension, right-click on one of your PNGs and select &amp;ldquo;Preview SVG&amp;rdquo; to start editing. This will open a new tab with the SVG preview and a toolbar at the top. In the toolbar, select the &amp;ldquo;Code interactive&amp;rdquo; button and click on any element in the SVG to start editing it. This will open a panel on the left with the SVG code.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Hugo Code Highlight</title>
       <link>http://localhost:1313/posts/microblog/hugo-code-highlight/</link>
