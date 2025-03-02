@@ -273,6 +273,7 @@ exercise = Exercise.fromMap(docSnapshot.data), exercise.sets.add(newSet), Firest
 }
 ```
 
+
 Does it work? NOPE. If you run this function as is, you’ll probably get an error like this:
 
 > _\[ERROR:flutter/lib/ui/ui\_dart\_state.cc(157)\] Unhandled Exception: Invalid argument: Instance of ‘Set’_
