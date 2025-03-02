@@ -4,71 +4,58 @@
     <title>Categories on Joe Muller&#39;s Blog</title>
     <link>https://jtmuller5.github.io/categories/</link>
     <description>Recent content in Categories on Joe Muller&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Feb 2025 17:24:10 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Feb 2025 17:24:10 -0500</lastBuildDate>
+    <atom:link href="https://jtmuller5.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Microblog</title>
       <link>https://jtmuller5.github.io/categories/microblog/</link>
       <pubDate>Sun, 23 Feb 2025 17:24:10 -0500</pubDate>
-      
       <guid>https://jtmuller5.github.io/categories/microblog/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Projects</title>
       <link>https://jtmuller5.github.io/categories/projects/</link>
       <pubDate>Mon, 20 Jan 2025 15:13:36 -0400</pubDate>
-      
       <guid>https://jtmuller5.github.io/categories/projects/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Tutorials</title>
       <link>https://jtmuller5.github.io/categories/tutorials/</link>
       <pubDate>Fri, 17 Jan 2025 06:07:24 -0500</pubDate>
-      
       <guid>https://jtmuller5.github.io/categories/tutorials/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Tutorial</title>
       <link>https://jtmuller5.github.io/categories/tutorial/</link>
       <pubDate>Thu, 05 Dec 2024 09:18:17 -0500</pubDate>
-      
       <guid>https://jtmuller5.github.io/categories/tutorial/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Cheat-Sheets</title>
       <link>https://jtmuller5.github.io/categories/cheat-sheets/</link>
       <pubDate>Tue, 01 Oct 2024 08:44:33 -0400</pubDate>
-      
       <guid>https://jtmuller5.github.io/categories/cheat-sheets/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Essays</title>
       <link>https://jtmuller5.github.io/categories/essays/</link>
       <pubDate>Sun, 20 Nov 2022 12:30:33 -0500</pubDate>
-      
       <guid>https://jtmuller5.github.io/categories/essays/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Explorations</title>
       <link>https://jtmuller5.github.io/categories/explorations/</link>
       <pubDate>Mon, 19 Sep 2022 21:21:28 -0400</pubDate>
-      
       <guid>https://jtmuller5.github.io/categories/explorations/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

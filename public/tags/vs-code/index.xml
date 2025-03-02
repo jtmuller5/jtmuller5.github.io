@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Vs-Code on Joe Muller&#39;s Blog</title>
-    <link>https://jtmuller5.github.io/tags/vs-code/</link>
+    <link>http://localhost:1313/tags/vs-code/</link>
     <description>Recent content in Vs-Code on Joe Muller&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Jan 2025 12:40:39 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/vs-code/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Jan 2025 12:40:39 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/vs-code/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>VS Code Snippet Variables</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/vs-code-snippet-variables/</link>
+      <link>http://localhost:1313/posts/tutorials/vs-code-snippet-variables/</link>
       <pubDate>Sat, 11 Jan 2025 12:40:39 -0500</pubDate>
-      
-      <guid>https://jtmuller5.github.io/posts/tutorials/vs-code-snippet-variables/</guid>
+      <guid>http://localhost:1313/posts/tutorials/vs-code-snippet-variables/</guid>
       <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
 &lt;p&gt;You should use VS Code snippets more than you do and that&amp;rsquo;s not just an opinion.&lt;/p&gt;
 &lt;p&gt;The &lt;a href=&#34;https://code.visualstudio.com/docs/editor/userdefinedsnippets#_snippet-syntax&#34;&gt;Snippet Syntax section&lt;/a&gt; of the VS Code snippet docs is a minefield of knowledge bombs.&lt;/p&gt;
@@ -39,13 +39,11 @@
 &lt;h3 id=&#34;placeholders&#34;&gt;Placeholders&lt;/h3&gt;
 &lt;p&gt;A &lt;a href=&#34;https://code.visualstudio.com/docs/editor/userdefinedsnippets#_placeholders&#34;&gt;placeholder&lt;/a&gt; in VS Code is a &amp;ldquo;tabstop&amp;rdquo; that appears in the rendered snippet. A tabstop is simply a cursor position within a snippet body.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Clibbits</title>
-      <link>https://jtmuller5.github.io/projects/clibbits/</link>
+      <link>http://localhost:1313/projects/clibbits/</link>
       <pubDate>Wed, 20 Nov 2024 15:13:36 -0400</pubDate>
-      
-      <guid>https://jtmuller5.github.io/projects/clibbits/</guid>
+      <guid>http://localhost:1313/projects/clibbits/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Website&lt;/strong&gt;: &lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=CodeontheRocks.clibbits&#34;&gt;https://marketplace.visualstudio.com/items?itemName=CodeontheRocks.clibbits&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Status&lt;/strong&gt;: Live&lt;/li&gt;
@@ -57,15 +55,12 @@
 &lt;/ul&gt;
 &lt;p&gt;Clibbits is a Visual Studio Code extension that simplifies copying file contents to your clipboard. It is designed to make working with LLMs outside of your IDE more efficient by letting you quickly copy open files and folders in a format that is easily understood by AI models.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Creating a VS Code Chat Extension With Claude</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/creating-a-vs-code-chat-extension-with-claude/</link>
+      <link>http://localhost:1313/posts/tutorials/creating-a-vs-code-chat-extension-with-claude/</link>
       <pubDate>Sat, 05 Oct 2024 08:04:55 -0400</pubDate>
-      
-      <guid>https://jtmuller5.github.io/posts/tutorials/creating-a-vs-code-chat-extension-with-claude/</guid>
+      <guid>http://localhost:1313/posts/tutorials/creating-a-vs-code-chat-extension-with-claude/</guid>
       <description>&lt;p&gt;Claude Sonnet is undeniably one of the best frontier models for programming and I still reach for it despite having GPT-4o and o1 inside my VS Code editor. To make it even smarter and more effective, I use the Projects feature (available on the pro plan) to manage all of the documentation and general context related to what I&amp;rsquo;m working on. By uploading text and files related to the technology I&amp;rsquo;m using, Claude becomes a genius in exactly what I want him to be a genius in.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

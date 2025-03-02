@@ -4,14 +4,14 @@
     <title>Express on Joe Muller&#39;s Blog</title>
     <link>https://jtmuller5.github.io/tags/express/</link>
     <description>Recent content in Express on Joe Muller&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Sep 2024 15:41:15 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/express/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Sep 2024 15:41:15 -0400</lastBuildDate>
+    <atom:link href="https://jtmuller5.github.io/tags/express/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Express API Vercel</title>
       <link>https://jtmuller5.github.io/posts/tutorials/express-api-vercel/</link>
       <pubDate>Sun, 29 Sep 2024 15:41:15 -0400</pubDate>
-      
       <guid>https://jtmuller5.github.io/posts/tutorials/express-api-vercel/</guid>
       <description>&lt;p&gt;Welcome to this tutorial where we will create a simple API using TypeScript and deploy it using Vercel. This guide is suitable for beginners and assumes basic familiarity with Node.js. Let&amp;rsquo;s dive in!&lt;/p&gt;
 &lt;h2 id=&#34;setting-up-your-project&#34;&gt;Setting Up Your Project&lt;/h2&gt;
@@ -24,6 +24,5 @@
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Initialize Your Node.js Project:&lt;/strong&gt; Navigate into your new directory and initialize a Node.js project:&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

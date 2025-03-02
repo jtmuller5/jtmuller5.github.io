@@ -2,82 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Joe Muller&#39;s Blog</title>
-    <link>https://jtmuller5.github.io/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Joe Muller&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Feb 2025 17:18:25 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Feb 2025 17:18:25 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tutorial</title>
-      <link>https://jtmuller5.github.io/categories/tutorial/</link>
+      <link>http://localhost:1313/categories/tutorial/</link>
       <pubDate>Fri, 28 Feb 2025 17:18:25 -0500</pubDate>
-      
-      <guid>https://jtmuller5.github.io/categories/tutorial/</guid>
+      <guid>http://localhost:1313/categories/tutorial/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Microblog</title>
-      <link>https://jtmuller5.github.io/categories/microblog/</link>
+      <link>http://localhost:1313/categories/microblog/</link>
       <pubDate>Sun, 23 Feb 2025 17:24:10 -0500</pubDate>
-      
-      <guid>https://jtmuller5.github.io/categories/microblog/</guid>
+      <guid>http://localhost:1313/categories/microblog/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Projects</title>
-      <link>https://jtmuller5.github.io/categories/projects/</link>
+      <link>http://localhost:1313/categories/projects/</link>
       <pubDate>Mon, 20 Jan 2025 15:13:36 -0400</pubDate>
-      
-      <guid>https://jtmuller5.github.io/categories/projects/</guid>
+      <guid>http://localhost:1313/categories/projects/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Tutorials</title>
-      <link>https://jtmuller5.github.io/categories/tutorials/</link>
+      <link>http://localhost:1313/categories/tutorials/</link>
       <pubDate>Fri, 17 Jan 2025 06:07:24 -0500</pubDate>
-      
-      <guid>https://jtmuller5.github.io/categories/tutorials/</guid>
+      <guid>http://localhost:1313/categories/tutorials/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Essays</title>
-      <link>https://jtmuller5.github.io/categories/essays/</link>
+      <link>http://localhost:1313/categories/essays/</link>
       <pubDate>Mon, 23 Dec 2024 15:09:25 -0500</pubDate>
-      
-      <guid>https://jtmuller5.github.io/categories/essays/</guid>
+      <guid>http://localhost:1313/categories/essays/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Exploration</title>
-      <link>https://jtmuller5.github.io/categories/exploration/</link>
+      <link>http://localhost:1313/categories/exploration/</link>
       <pubDate>Fri, 15 Nov 2024 09:18:17 -0500</pubDate>
-      
-      <guid>https://jtmuller5.github.io/categories/exploration/</guid>
+      <guid>http://localhost:1313/categories/exploration/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Cheat-Sheets</title>
-      <link>https://jtmuller5.github.io/categories/cheat-sheets/</link>
+      <link>http://localhost:1313/categories/cheat-sheets/</link>
       <pubDate>Tue, 01 Oct 2024 08:44:33 -0400</pubDate>
-      
-      <guid>https://jtmuller5.github.io/categories/cheat-sheets/</guid>
+      <guid>http://localhost:1313/categories/cheat-sheets/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Explorations</title>
-      <link>https://jtmuller5.github.io/categories/explorations/</link>
+      <link>http://localhost:1313/categories/explorations/</link>
       <pubDate>Mon, 19 Sep 2022 21:21:28 -0400</pubDate>
-      
-      <guid>https://jtmuller5.github.io/categories/explorations/</guid>
+      <guid>http://localhost:1313/categories/explorations/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Dart on Joe Muller&#39;s Blog</title>
-    <link>https://jtmuller5.github.io/tags/dart/</link>
+    <link>http://localhost:1313/tags/dart/</link>
     <description>Recent content in Dart on Joe Muller&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Oct 2024 08:44:33 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/dart/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Oct 2024 08:44:33 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/dart/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dart Cheat Sheet</title>
-      <link>https://jtmuller5.github.io/crash-courses/cheat-sheets/dart/</link>
+      <link>http://localhost:1313/crash-courses/cheat-sheets/dart/</link>
       <pubDate>Tue, 01 Oct 2024 08:44:33 -0400</pubDate>
-      
-      <guid>https://jtmuller5.github.io/crash-courses/cheat-sheets/dart/</guid>
+      <guid>http://localhost:1313/crash-courses/cheat-sheets/dart/</guid>
       <description>&lt;h1 id=&#34;dart-cheat-sheet&#34;&gt;Dart Cheat Sheet&lt;/h1&gt;
 &lt;h2 id=&#34;1-basic-syntax&#34;&gt;1. Basic Syntax&lt;/h2&gt;
 &lt;h3 id=&#34;comments&#34;&gt;Comments&lt;/h3&gt;
@@ -235,13 +235,11 @@
 &lt;li&gt;Flutter (UI framework using Dart): &lt;a href=&#34;https://flutter.dev/&#34;&gt;https://flutter.dev/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>Enhanced Enums in Flutter 3</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/flutter/enhanced_enums/enhanced_enums/</link>
+      <link>http://localhost:1313/posts/tutorials/flutter/enhanced_enums/enhanced_enums/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
-      
-      <guid>https://jtmuller5.github.io/posts/tutorials/flutter/enhanced_enums/enhanced_enums/</guid>
+      <guid>http://localhost:1313/posts/tutorials/flutter/enhanced_enums/enhanced_enums/</guid>
       <description>&lt;h2 id=&#34;enums-were-good-now-theyre-great&#34;&gt;Enums were good. Now they’re great.&lt;/h2&gt;
 &lt;h2 id=&#34;flutter-3&#34;&gt;Flutter 3&lt;/h2&gt;
 &lt;p&gt;Flutter 3.0 was announced at Google IO yesterday and as can be expected from a major version jump, there were a lot of new features to dig through. A few of the big ones:&lt;/p&gt;
@@ -256,6 +254,5 @@
 &lt;/ul&gt;
 &lt;p&gt;You can read more about the full release in the announcement &lt;a href=&#34;https://medium.com/flutter/whats-new-in-flutter-3-8c74a5bc32d0&#34;&gt;here&lt;/a&gt; and if you’re someone that wants to see &lt;em&gt;everything&lt;/em&gt; that was added, check out the &lt;a href=&#34;https://docs.flutter.dev/development/tools/sdk/release-notes/release-notes-3.0.0&#34;&gt;release notes&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

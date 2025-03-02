@@ -4,14 +4,14 @@
     <title>Links on Joe Muller&#39;s Blog</title>
     <link>https://jtmuller5.github.io/tags/links/</link>
     <description>Recent content in Links on Joe Muller&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Feb 2025 15:20:58 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/links/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Feb 2025 15:20:58 -0500</lastBuildDate>
+    <atom:link href="https://jtmuller5.github.io/tags/links/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Week 3 Links</title>
       <link>https://jtmuller5.github.io/posts/microblog/week-3-links/</link>
       <pubDate>Sat, 08 Feb 2025 15:20:58 -0500</pubDate>
-      
       <guid>https://jtmuller5.github.io/posts/microblog/week-3-links/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://mynoise.net/&#34;&gt;https://mynoise.net/&lt;/a&gt;: Ad-free background noise generator&lt;/li&gt;
@@ -24,6 +24,5 @@
 &lt;li&gt;&lt;a href=&#34;https://gradio.app/&#34;&gt;https://gradio.app/&lt;/a&gt;: Build ML models in minutes&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>

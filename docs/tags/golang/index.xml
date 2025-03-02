@@ -4,14 +4,14 @@
     <title>Golang on Joe Muller&#39;s Blog</title>
     <link>https://jtmuller5.github.io/tags/golang/</link>
     <description>Recent content in Golang on Joe Muller&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Oct 2024 08:43:45 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Oct 2024 08:43:45 -0400</lastBuildDate>
+    <atom:link href="https://jtmuller5.github.io/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Golang Cheat Sheet</title>
       <link>https://jtmuller5.github.io/crash-courses/cheat-sheets/golang/</link>
       <pubDate>Tue, 01 Oct 2024 08:43:45 -0400</pubDate>
-      
       <guid>https://jtmuller5.github.io/crash-courses/cheat-sheets/golang/</guid>
       <description>&lt;h1 id=&#34;golang-cheat-sheet&#34;&gt;Golang Cheat Sheet&lt;/h1&gt;
 &lt;h2 id=&#34;1-basic-syntax&#34;&gt;1. Basic Syntax&lt;/h2&gt;
@@ -231,6 +231,5 @@
 &lt;li&gt;Popular packages: gin-gonic/gin, spf13/cobra, gorm.io/gorm&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>

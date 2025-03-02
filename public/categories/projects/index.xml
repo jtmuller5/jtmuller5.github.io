@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Projects on Joe Muller&#39;s Blog</title>
-    <link>https://jtmuller5.github.io/categories/projects/</link>
+    <link>http://localhost:1313/categories/projects/</link>
     <description>Recent content in Projects on Joe Muller&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Jan 2025 15:13:36 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/categories/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Jan 2025 15:13:36 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blueprint Protocol</title>
-      <link>https://jtmuller5.github.io/projects/blueprint-protocol/</link>
+      <link>http://localhost:1313/projects/blueprint-protocol/</link>
       <pubDate>Mon, 20 Jan 2025 15:13:36 -0400</pubDate>
-      
-      <guid>https://jtmuller5.github.io/projects/blueprint-protocol/</guid>
+      <guid>http://localhost:1313/projects/blueprint-protocol/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Website&lt;/strong&gt;: &lt;a href=&#34;https://bento.me/blueprint&#34;&gt;https://bento.me/blueprint&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;App Store&lt;/strong&gt;: &lt;a href=&#34;https://apps.apple.com/us/app/blueprint-protocol/id6467042093&#34;&gt;https://apps.apple.com/us/app/blueprint-protocol/id6467042093&lt;/a&gt;&lt;/li&gt;
@@ -27,13 +27,11 @@
 &lt;/ul&gt;
 &lt;p&gt;Bryan Johnson&amp;rsquo;s longevity protocol is quickly becoming popular among the health-conscious. Blueprint Protocol is a Flutter app that presents the entire protocol (supplements, recipes, exercises, products, and routine) in a simple interface. It is completely offline and free of ads.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Clibbits</title>
-      <link>https://jtmuller5.github.io/projects/clibbits/</link>
+      <link>http://localhost:1313/projects/clibbits/</link>
       <pubDate>Wed, 20 Nov 2024 15:13:36 -0400</pubDate>
-      
-      <guid>https://jtmuller5.github.io/projects/clibbits/</guid>
+      <guid>http://localhost:1313/projects/clibbits/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Website&lt;/strong&gt;: &lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=CodeontheRocks.clibbits&#34;&gt;https://marketplace.visualstudio.com/items?itemName=CodeontheRocks.clibbits&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Status&lt;/strong&gt;: Live&lt;/li&gt;
@@ -45,13 +43,11 @@
 &lt;/ul&gt;
 &lt;p&gt;Clibbits is a Visual Studio Code extension that simplifies copying file contents to your clipboard. It is designed to make working with LLMs outside of your IDE more efficient by letting you quickly copy open files and folders in a format that is easily understood by AI models.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Launch Thrifty</title>
-      <link>https://jtmuller5.github.io/projects/launch-thrifty/</link>
+      <link>http://localhost:1313/projects/launch-thrifty/</link>
       <pubDate>Wed, 20 Nov 2024 15:13:36 -0400</pubDate>
-      
-      <guid>https://jtmuller5.github.io/projects/launch-thrifty/</guid>
+      <guid>http://localhost:1313/projects/launch-thrifty/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Website&lt;/strong&gt;: &lt;a href=&#34;https://www.launchthrifty.com/&#34;&gt;https://www.launchthrifty.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Status&lt;/strong&gt;: In Progress&lt;/li&gt;
@@ -64,13 +60,11 @@
 &lt;/ul&gt;
 &lt;p&gt;Launch Thrifty is a directory of developer challenges that encourage creativity through constraints and limitations.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Crashify AI</title>
-      <link>https://jtmuller5.github.io/projects/crashify/</link>
+      <link>http://localhost:1313/projects/crashify/</link>
       <pubDate>Fri, 20 Sep 2024 15:13:36 -0400</pubDate>
-      
-      <guid>https://jtmuller5.github.io/projects/crashify/</guid>
+      <guid>http://localhost:1313/projects/crashify/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Website&lt;/strong&gt;: &lt;a href=&#34;https://crashify.ai&#34;&gt;https://crashify.ai&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Status&lt;/strong&gt;: On hold&lt;/li&gt;
@@ -84,13 +78,11 @@
 &lt;/ul&gt;
 &lt;p&gt;Crashify AI is a website that lets you generate 10-part &amp;ldquo;../../posts/projects/crashify&amp;quot;crash courses.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>AI Co-Founded</title>
-      <link>https://jtmuller5.github.io/projects/ai-cofounded/</link>
+      <link>http://localhost:1313/projects/ai-cofounded/</link>
       <pubDate>Tue, 27 Aug 2024 15:13:36 -0400</pubDate>
-      
-      <guid>https://jtmuller5.github.io/projects/ai-cofounded/</guid>
+      <guid>http://localhost:1313/projects/ai-cofounded/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Website&lt;/strong&gt;: &lt;a href=&#34;https://aicofounded.com&#34;&gt;https://aicofounded.com&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Status&lt;/strong&gt;: On hold&lt;/li&gt;
@@ -104,13 +96,11 @@
 &lt;/ul&gt;
 &lt;p&gt;AI Co-Founded is a website that helps you generate business plans.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Bakedown</title>
-      <link>https://jtmuller5.github.io/projects/bakedown/</link>
+      <link>http://localhost:1313/projects/bakedown/</link>
       <pubDate>Sat, 15 Jul 2023 15:13:36 -0400</pubDate>
-      
-      <guid>https://jtmuller5.github.io/projects/bakedown/</guid>
+      <guid>http://localhost:1313/projects/bakedown/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Website&lt;/strong&gt;: &lt;a href=&#34;https://bakedown.app&#34;&gt;https://bakedown.app&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;App Store&lt;/strong&gt;: &lt;a href=&#34;https://apps.apple.com/us/app/bakedown/id6445965871&#34;&gt;https://apps.apple.com/us/app/bakedown/id6445965871&lt;/a&gt;&lt;/li&gt;
@@ -127,6 +117,5 @@
 &lt;/ul&gt;
 &lt;p&gt;Streamline your baking experience with Bakedown! Import, organize, and customize your favorite pastry recipes—whether from the web or a photo—so you can focus on the joy of baking, not scrolling through ads.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

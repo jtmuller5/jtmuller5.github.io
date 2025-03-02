@@ -4,14 +4,14 @@
     <title>Firebase-Cloud-Functions on Joe Muller&#39;s Blog</title>
     <link>https://jtmuller5.github.io/tags/firebase-cloud-functions/</link>
     <description>Recent content in Firebase-Cloud-Functions on Joe Muller&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Jan 2025 22:45:29 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/firebase-cloud-functions/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Jan 2025 22:45:29 -0500</lastBuildDate>
+    <atom:link href="https://jtmuller5.github.io/tags/firebase-cloud-functions/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Resize Firebase Images Like a Pro</title>
       <link>https://jtmuller5.github.io/posts/tutorials/resize-firebase-images-like-a-pro/</link>
       <pubDate>Sat, 04 Jan 2025 22:45:29 -0500</pubDate>
-      
       <guid>https://jtmuller5.github.io/posts/tutorials/resize-firebase-images-like-a-pro/</guid>
       <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
 &lt;p&gt;The Firebase documentation leaves much to be desired. If you just want answers, these docs were made just for you. If you want more questions, head over &lt;a href=&#34;https://extensions.dev/extensions/firebase/storage-resize-images&#34;&gt;here&lt;/a&gt; and start reading.&lt;/p&gt;
@@ -19,6 +19,5 @@
 &lt;h2 id=&#34;setting-up-the-extension&#34;&gt;Setting Up the Extension&lt;/h2&gt;
 &lt;p&gt;Navigate to your Firebase project and select the Extensions item from the &amp;ldquo;Build&amp;rdquo; side menu. Select the &amp;ldquo;Explore all Extensions&amp;rdquo; button and then search for &amp;ldquo;resize images&amp;rdquo;. Press the &amp;ldquo;Install&amp;rdquo; button. Good job, buddy.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

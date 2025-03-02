@@ -128,7 +128,6 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title"]
-    
 
 menu:
   main:

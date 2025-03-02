@@ -4,31 +4,27 @@
     <title>At-Protocol on Joe Muller&#39;s Blog</title>
     <link>https://jtmuller5.github.io/tags/at-protocol/</link>
     <description>Recent content in At-Protocol on Joe Muller&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Sep 2022 16:26:21 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/at-protocol/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Sep 2022 16:26:21 -0400</lastBuildDate>
+    <atom:link href="https://jtmuller5.github.io/tags/at-protocol/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Authentication in Flutter Apps using the @Protocol</title>
       <link>https://jtmuller5.github.io/posts/tutorials/flutter/at_protocol_authentication/at_protocol_authentication/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
-      
       <guid>https://jtmuller5.github.io/posts/tutorials/flutter/at_protocol_authentication/at_protocol_authentication/</guid>
-      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://miro.medium.com/max/1278/0*Sp4LW8w2irIasJTP.png&#34; alt=&#34;&#34;  /&gt;
-&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://miro.medium.com/max/1278/0*Sp4LW8w2irIasJTP.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;If you’ve spent any amount of time developing mobile apps, you’re probably well aware of how public “private” data really is. Cloud databases like , , and protect their front gates with robust security measures like authentication keys, security rules, user roles, and field-specific restrictions. From the outside, these databases are fortresses with more than enough artillery to prevent people from seeing &lt;em&gt;each other’s&lt;/em&gt; data.&lt;/p&gt;
 &lt;p&gt;The issue however, is that the castle-keepers can see everything that gets brought into the castle. Your name. Your contact info. Your personal information. It all exists on a database that is not absolutely private and that should give you pause. Below is a screenshot from a test app I made using Google’s Firestore as a database and yeah…as the owner of the database I can peruse the user records at my leisure.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The @platform: A Firebase Alternative?</title>
       <link>https://jtmuller5.github.io/posts/tutorials/flutter/firebase_alternative/firebase_alternative/</link>
       <pubDate>Sat, 17 Sep 2022 16:26:21 -0400</pubDate>
-      
       <guid>https://jtmuller5.github.io/posts/tutorials/flutter/firebase_alternative/firebase_alternative/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://firebase.google.com/&#34;&gt;Firebase&lt;/a&gt; is awesome and I’ve used it in more apps than I can count (assuming I can only count to about 20). It has authentication, data storage, an intuitive querying SDK, and plenty of other features that most mobile app developers find themselves wanting at one point or another.&lt;/p&gt;
 &lt;p&gt;So why replace it?&lt;/p&gt;
 &lt;p&gt;I asked myself the same question many times and more than once my answer was “Don’t”. It had just about everything I needed…and then I was asked to implement End-to-End Encryption (E2EE) in a social media app. I managed to do it based on this &lt;a href=&#34;https://stackoverflow.com/a/41553180/12806961&#34;&gt;Stack Overflow answer&lt;/a&gt; but the solution was complicated and if a user ever wanted to change devices they needed to encrypt their old private key, save it to Firestore, change devices, download the encrypted private key, and then decrypt it. There were a few other difficulties (some that I’m still working through) and I finally began to rethink my devotion to the god named Google.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

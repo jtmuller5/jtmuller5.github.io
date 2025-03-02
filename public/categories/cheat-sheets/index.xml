@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Cheat-Sheets on Joe Muller&#39;s Blog</title>
-    <link>https://jtmuller5.github.io/categories/cheat-sheets/</link>
+    <link>http://localhost:1313/categories/cheat-sheets/</link>
     <description>Recent content in Cheat-Sheets on Joe Muller&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Oct 2024 08:44:33 -0400</lastBuildDate><atom:link href="https://jtmuller5.github.io/categories/cheat-sheets/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Oct 2024 08:44:33 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/cheat-sheets/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dart Cheat Sheet</title>
-      <link>https://jtmuller5.github.io/crash-courses/cheat-sheets/dart/</link>
+      <link>http://localhost:1313/crash-courses/cheat-sheets/dart/</link>
       <pubDate>Tue, 01 Oct 2024 08:44:33 -0400</pubDate>
-      
-      <guid>https://jtmuller5.github.io/crash-courses/cheat-sheets/dart/</guid>
+      <guid>http://localhost:1313/crash-courses/cheat-sheets/dart/</guid>
       <description>&lt;h1 id=&#34;dart-cheat-sheet&#34;&gt;Dart Cheat Sheet&lt;/h1&gt;
 &lt;h2 id=&#34;1-basic-syntax&#34;&gt;1. Basic Syntax&lt;/h2&gt;
 &lt;h3 id=&#34;comments&#34;&gt;Comments&lt;/h3&gt;
@@ -235,13 +235,11 @@
 &lt;li&gt;Flutter (UI framework using Dart): &lt;a href=&#34;https://flutter.dev/&#34;&gt;https://flutter.dev/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>Golang Cheat Sheet</title>
-      <link>https://jtmuller5.github.io/crash-courses/cheat-sheets/golang/</link>
+      <link>http://localhost:1313/crash-courses/cheat-sheets/golang/</link>
       <pubDate>Tue, 01 Oct 2024 08:43:45 -0400</pubDate>
-      
-      <guid>https://jtmuller5.github.io/crash-courses/cheat-sheets/golang/</guid>
+      <guid>http://localhost:1313/crash-courses/cheat-sheets/golang/</guid>
       <description>&lt;h1 id=&#34;golang-cheat-sheet&#34;&gt;Golang Cheat Sheet&lt;/h1&gt;
 &lt;h2 id=&#34;1-basic-syntax&#34;&gt;1. Basic Syntax&lt;/h2&gt;
 &lt;h3 id=&#34;comments&#34;&gt;Comments&lt;/h3&gt;
@@ -460,13 +458,11 @@
 &lt;li&gt;Popular packages: gin-gonic/gin, spf13/cobra, gorm.io/gorm&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>Python Cheat Sheet</title>
-      <link>https://jtmuller5.github.io/crash-courses/cheat-sheets/python/</link>
+      <link>http://localhost:1313/crash-courses/cheat-sheets/python/</link>
       <pubDate>Tue, 01 Oct 2024 08:43:45 -0400</pubDate>
-      
-      <guid>https://jtmuller5.github.io/crash-courses/cheat-sheets/python/</guid>
+      <guid>http://localhost:1313/crash-courses/cheat-sheets/python/</guid>
       <description>&lt;h1 id=&#34;python-cheat-sheet&#34;&gt;Python Cheat Sheet&lt;/h1&gt;
 &lt;h2 id=&#34;1-basic-syntax&#34;&gt;1. Basic Syntax&lt;/h2&gt;
 &lt;h3 id=&#34;comments&#34;&gt;Comments&lt;/h3&gt;
@@ -705,13 +701,11 @@
 &lt;li&gt;PEP 8 Style Guide: &lt;a href=&#34;https://pep8.org/&#34;&gt;https://pep8.org/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>TypeScript Cheat Sheet</title>
-      <link>https://jtmuller5.github.io/crash-courses/cheat-sheets/typescript/</link>
+      <link>http://localhost:1313/crash-courses/cheat-sheets/typescript/</link>
       <pubDate>Tue, 01 Oct 2024 08:43:45 -0400</pubDate>
-      
-      <guid>https://jtmuller5.github.io/crash-courses/cheat-sheets/typescript/</guid>
+      <guid>http://localhost:1313/crash-courses/cheat-sheets/typescript/</guid>
       <description>&lt;h1 id=&#34;typescript-cheat-sheet&#34;&gt;TypeScript Cheat Sheet&lt;/h1&gt;
 &lt;h2 id=&#34;1-basic-syntax&#34;&gt;1. Basic Syntax&lt;/h2&gt;
 &lt;h3 id=&#34;comments&#34;&gt;Comments&lt;/h3&gt;
@@ -968,6 +962,5 @@
 &lt;li&gt;TSConfig Reference: &lt;a href=&#34;https://www.typescriptlang.org/tsconfig&#34;&gt;https://www.typescriptlang.org/tsconfig&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>

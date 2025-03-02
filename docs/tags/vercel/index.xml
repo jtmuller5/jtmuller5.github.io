@@ -4,25 +4,23 @@
     <title>Vercel on Joe Muller&#39;s Blog</title>
     <link>https://jtmuller5.github.io/tags/vercel/</link>
     <description>Recent content in Vercel on Joe Muller&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Nov 2024 08:23:22 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/vercel/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Nov 2024 08:23:22 -0500</lastBuildDate>
+    <atom:link href="https://jtmuller5.github.io/tags/vercel/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>11-06-2024</title>
       <link>https://jtmuller5.github.io/posts/microblog/microblog-11-06-2024/</link>
       <pubDate>Wed, 06 Nov 2024 08:23:22 -0500</pubDate>
-      
       <guid>https://jtmuller5.github.io/posts/microblog/microblog-11-06-2024/</guid>
       <description>&lt;h1 id=&#34;november-6-2024&#34;&gt;November 6, 2024&lt;/h1&gt;
 &lt;h2 id=&#34;towards-something&#34;&gt;Towards Something&lt;/h2&gt;
 &lt;p&gt;The more I work as a developer, the more it becomes clear that I could spend my entire life struggling with the details. Every day there are new tools, frameworks, and patterns to learn. Tools you mastered change. The language syntaxes you burned into your connectome aren&amp;rsquo;t resilient to the turn of the clock hand. If I were an electrician, I could spend a lifetime pinching at the wires with solder-coated fingers.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Express API Vercel</title>
       <link>https://jtmuller5.github.io/posts/tutorials/express-api-vercel/</link>
       <pubDate>Sun, 29 Sep 2024 15:41:15 -0400</pubDate>
-      
       <guid>https://jtmuller5.github.io/posts/tutorials/express-api-vercel/</guid>
       <description>&lt;p&gt;Welcome to this tutorial where we will create a simple API using TypeScript and deploy it using Vercel. This guide is suitable for beginners and assumes basic familiarity with Node.js. Let&amp;rsquo;s dive in!&lt;/p&gt;
 &lt;h2 id=&#34;setting-up-your-project&#34;&gt;Setting Up Your Project&lt;/h2&gt;
@@ -35,12 +33,10 @@
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Initialize Your Node.js Project:&lt;/strong&gt; Navigate into your new directory and initialize a Node.js project:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>AI Co-Founded</title>
       <link>https://jtmuller5.github.io/projects/ai-cofounded/</link>
       <pubDate>Tue, 27 Aug 2024 15:13:36 -0400</pubDate>
-      
       <guid>https://jtmuller5.github.io/projects/ai-cofounded/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Website&lt;/strong&gt;: &lt;a href=&#34;https://aicofounded.com&#34;&gt;https://aicofounded.com&lt;/a&gt;&lt;/li&gt;
@@ -55,6 +51,5 @@
 &lt;/ul&gt;
 &lt;p&gt;AI Co-Founded is a website that helps you generate business plans.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

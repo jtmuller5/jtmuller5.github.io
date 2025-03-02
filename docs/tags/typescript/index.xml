@@ -4,14 +4,14 @@
     <title>Typescript on Joe Muller&#39;s Blog</title>
     <link>https://jtmuller5.github.io/tags/typescript/</link>
     <description>Recent content in Typescript on Joe Muller&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Jan 2025 22:45:29 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Jan 2025 22:45:29 -0500</lastBuildDate>
+    <atom:link href="https://jtmuller5.github.io/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Resize Firebase Images Like a Pro</title>
       <link>https://jtmuller5.github.io/posts/tutorials/resize-firebase-images-like-a-pro/</link>
       <pubDate>Sat, 04 Jan 2025 22:45:29 -0500</pubDate>
-      
       <guid>https://jtmuller5.github.io/posts/tutorials/resize-firebase-images-like-a-pro/</guid>
       <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
 &lt;p&gt;The Firebase documentation leaves much to be desired. If you just want answers, these docs were made just for you. If you want more questions, head over &lt;a href=&#34;https://extensions.dev/extensions/firebase/storage-resize-images&#34;&gt;here&lt;/a&gt; and start reading.&lt;/p&gt;
@@ -19,24 +19,20 @@
 &lt;h2 id=&#34;setting-up-the-extension&#34;&gt;Setting Up the Extension&lt;/h2&gt;
 &lt;p&gt;Navigate to your Firebase project and select the Extensions item from the &amp;ldquo;Build&amp;rdquo; side menu. Select the &amp;ldquo;Explore all Extensions&amp;rdquo; button and then search for &amp;ldquo;resize images&amp;rdquo;. Press the &amp;ldquo;Install&amp;rdquo; button. Good job, buddy.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Converting a JavaScript Package to TypeScript: A Step-by-Step Guide</title>
       <link>https://jtmuller5.github.io/posts/tutorials/typescript/converting-a-javascript-/</link>
       <pubDate>Thu, 05 Dec 2024 09:18:17 -0500</pubDate>
-      
       <guid>https://jtmuller5.github.io/posts/tutorials/typescript/converting-a-javascript-/</guid>
       <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
 &lt;p&gt;TypeScript has become increasingly popular due to its ability to bring static typing to JavaScript, enhancing code quality and developer productivity. Converting your existing JavaScript package to TypeScript can make it more robust and easier to maintain. In this guide, we’ll walk through the essential steps to transform your JavaScript package into a TypeScript package.&lt;/p&gt;
 &lt;h2 id=&#34;1-install-typescript-and-necessary-dependencies&#34;&gt;1. Install TypeScript and Necessary Dependencies&lt;/h2&gt;
 &lt;p&gt;Begin by adding TypeScript and type definitions for Node.js to your development dependencies.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>TypeScript Cheat Sheet</title>
       <link>https://jtmuller5.github.io/crash-courses/cheat-sheets/typescript/</link>
       <pubDate>Tue, 01 Oct 2024 08:43:45 -0400</pubDate>
-      
       <guid>https://jtmuller5.github.io/crash-courses/cheat-sheets/typescript/</guid>
       <description>&lt;h1 id=&#34;typescript-cheat-sheet&#34;&gt;TypeScript Cheat Sheet&lt;/h1&gt;
 &lt;h2 id=&#34;1-basic-syntax&#34;&gt;1. Basic Syntax&lt;/h2&gt;
@@ -294,12 +290,10 @@
 &lt;li&gt;TSConfig Reference: &lt;a href=&#34;https://www.typescriptlang.org/tsconfig&#34;&gt;https://www.typescriptlang.org/tsconfig&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>Express API Vercel</title>
       <link>https://jtmuller5.github.io/posts/tutorials/express-api-vercel/</link>
       <pubDate>Sun, 29 Sep 2024 15:41:15 -0400</pubDate>
-      
       <guid>https://jtmuller5.github.io/posts/tutorials/express-api-vercel/</guid>
       <description>&lt;p&gt;Welcome to this tutorial where we will create a simple API using TypeScript and deploy it using Vercel. This guide is suitable for beginners and assumes basic familiarity with Node.js. Let&amp;rsquo;s dive in!&lt;/p&gt;
 &lt;h2 id=&#34;setting-up-your-project&#34;&gt;Setting Up Your Project&lt;/h2&gt;
@@ -312,12 +306,10 @@
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Initialize Your Node.js Project:&lt;/strong&gt; Navigate into your new directory and initialize a Node.js project:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Supabase Slack Notifications</title>
       <link>https://jtmuller5.github.io/posts/tutorials/supabase-slack-notifications/</link>
       <pubDate>Sun, 29 Sep 2024 15:36:18 -0400</pubDate>
-      
       <guid>https://jtmuller5.github.io/posts/tutorials/supabase-slack-notifications/</guid>
       <description>&lt;h1 id=&#34;slack&#34;&gt;Slack&lt;/h1&gt;
 &lt;h2 id=&#34;1-create-a-new-slack-channel&#34;&gt;1. Create a new Slack channel&lt;/h2&gt;
@@ -326,22 +318,18 @@
 &lt;p&gt;Visit the &lt;a href=&#34;https://api.slack.com/apps&#34;&gt;Slack API&lt;/a&gt; webpage and &amp;ldquo;Create New App&amp;rdquo;. Give the app a name and select the Slack workspace you&amp;rsquo;re working with.&lt;/p&gt;
 &lt;h2 id=&#34;3-configure-the-slack-app&#34;&gt;3. Configure the Slack app&lt;/h2&gt;
 &lt;p&gt;Select &amp;ldquo;Incoming Webhooks&amp;rdquo; and flip the &amp;ldquo;Active Incoming Webhooks&amp;rdquo; switch on.
-&lt;img loading=&#34;lazy&#34; src=&#34;./webhook-type.png&#34; alt=&#34;Slack Webhook Configuration&#34;  /&gt;
-&lt;/p&gt;
+&lt;img alt=&#34;Slack Webhook Configuration&#34; loading=&#34;lazy&#34; src=&#34;https://jtmuller5.github.io/posts/tutorials/supabase-slack-notifications/webhook-type.png&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;4-create-the-webhook&#34;&gt;4. Create the webhook&lt;/h2&gt;
 &lt;p&gt;Add New Webhook to Workspace and select the &amp;ldquo;notifications&amp;rdquo; channel you created before.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Using Supabase in Typescript</title>
       <link>https://jtmuller5.github.io/posts/tutorials/using-supabase-in-typescript/</link>
       <pubDate>Sun, 29 Sep 2024 15:29:05 -0400</pubDate>
-      
       <guid>https://jtmuller5.github.io/posts/tutorials/using-supabase-in-typescript/</guid>
       <description>&lt;p&gt;Instead of hardcoding Supabase interfaces or types in your TypeScript projects, you can use the Supabase CLI to generate types directly from your database tables. Make sure to add the output inside your src folder so the rest of your application can access it:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;supabase gen types typescript --project-id abcdefghijklmnopqrst &amp;gt; src/types/database.types.ts
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This command will generate a .types.ts file that contains a single Database interface containing all of your tables and their columns. The output looks something like this (I pulled this from the official docs):&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
