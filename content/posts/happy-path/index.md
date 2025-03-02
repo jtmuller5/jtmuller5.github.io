@@ -19,4 +19,4 @@ And finally, our preferences across interactions should be preserved so we never
 
 Where do we talk to AIs the most? Is it only during a scheduling call? And if it is, will it be that way in 5 years? Or will we do more of everything we do through the lens of AI?
 
-The issue is making this new filtered communication better and faster, not the opposite. What is a small project I can work on to test this?
+The issue is making this new filtered communication better and faster, not the opposite. What is a small project I can work on to test this? 
