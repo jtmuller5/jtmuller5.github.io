@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Xai on Joe Muller&#39;s Blog</title>
-    <link>http://localhost:1313/tags/xai/</link>
+    <link>https://jtmuller5.github.io/tags/xai/</link>
     <description>Recent content in Xai on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 05 Nov 2024 08:23:22 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/xai/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jtmuller5.github.io/tags/xai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>11-05-2024</title>
-      <link>http://localhost:1313/posts/microblog/microblog-11-05-2024/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/microblog-11-05-2024/</link>
       <pubDate>Tue, 05 Nov 2024 08:23:22 -0500</pubDate>
-      <guid>http://localhost:1313/posts/microblog/microblog-11-05-2024/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/microblog-11-05-2024/</guid>
       <description>&lt;h1 id=&#34;november-5-2024&#34;&gt;November 5, 2024&lt;/h1&gt;
 &lt;h2 id=&#34;building-an-ai-chatbot-with-xai&#34;&gt;Building an AI Chatbot with xAI&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://x.com/xai/status/1853505214181232828&#34;&gt;xAI just released their API&lt;/a&gt; and through the end of the year you can get $25 in credits each month. I took it for a quick spin and set up a chatbot using NextJS and Deepgram.&lt;/p&gt;
 &lt;p&gt;The first step was to create an xAI account and generate an API key:
-&lt;img alt=&#34;xAI API Console&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/microblog/microblog-11-05-2024/image.png&#34;&gt;&lt;/p&gt;
+&lt;img alt=&#34;xAI API Console&#34; loading=&#34;lazy&#34; src=&#34;https://jtmuller5.github.io/posts/microblog/microblog-11-05-2024/image.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Then, spin up a quick NextJS web page that uses the &lt;a href=&#34;https://sdk.vercel.ai/&#34;&gt;AI SDK&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>

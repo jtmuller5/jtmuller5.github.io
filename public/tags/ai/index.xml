@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Ai on Joe Muller&#39;s Blog</title>
-    <link>http://localhost:1313/tags/ai/</link>
+    <link>https://jtmuller5.github.io/tags/ai/</link>
     <description>Recent content in Ai on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 23 Dec 2024 15:09:25 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jtmuller5.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Super Developer</title>
-      <link>http://localhost:1313/posts/essays/super-developer/</link>
+      <link>https://jtmuller5.github.io/posts/essays/super-developer/</link>
       <pubDate>Mon, 23 Dec 2024 15:09:25 -0500</pubDate>
-      <guid>http://localhost:1313/posts/essays/super-developer/</guid>
+      <guid>https://jtmuller5.github.io/posts/essays/super-developer/</guid>
       <description>&lt;p&gt;You won&amp;rsquo;t lose your&lt;/p&gt;</description>
     </item>
     <item>
       <title>Clibbits</title>
-      <link>http://localhost:1313/projects/clibbits/</link>
+      <link>https://jtmuller5.github.io/projects/clibbits/</link>
       <pubDate>Wed, 20 Nov 2024 15:13:36 -0400</pubDate>
-      <guid>http://localhost:1313/projects/clibbits/</guid>
+      <guid>https://jtmuller5.github.io/projects/clibbits/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Website&lt;/strong&gt;: &lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=CodeontheRocks.clibbits&#34;&gt;https://marketplace.visualstudio.com/items?itemName=CodeontheRocks.clibbits&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Status&lt;/strong&gt;: Live&lt;/li&gt;
@@ -33,9 +33,9 @@
     </item>
     <item>
       <title>11-19-2024</title>
-      <link>http://localhost:1313/posts/microblog/microblog-11-19-2024/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/microblog-11-19-2024/</link>
       <pubDate>Tue, 19 Nov 2024 08:23:22 -0500</pubDate>
-      <guid>http://localhost:1313/posts/microblog/microblog-11-19-2024/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/microblog-11-19-2024/</guid>
       <description>&lt;h1 id=&#34;november-19-2024&#34;&gt;November 19, 2024&lt;/h1&gt;
 &lt;h2 id=&#34;a-hard-problem&#34;&gt;A Hard Problem&lt;/h2&gt;
 &lt;p&gt;It&amp;rsquo;s easy to fool yourself into thinking superintelligenc is only a good training run away. Maybe if we scale something up enough we&amp;rsquo;ll meet god. More data, more training time, more inference. Who knows.&lt;/p&gt;
@@ -43,57 +43,57 @@
     </item>
     <item>
       <title>11-11-2024</title>
-      <link>http://localhost:1313/posts/microblog/microblog-11-11-2024/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/microblog-11-11-2024/</link>
       <pubDate>Mon, 11 Nov 2024 08:23:22 -0500</pubDate>
-      <guid>http://localhost:1313/posts/microblog/microblog-11-11-2024/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/microblog-11-11-2024/</guid>
       <description>&lt;h1 id=&#34;november-11-2024&#34;&gt;November 11, 2024&lt;/h1&gt;
 &lt;h2 id=&#34;training-the-ai&#34;&gt;Training the AI&lt;/h2&gt;
 &lt;p&gt;I&amp;rsquo;ve been working on an AI receptionist recently and this must be what its like to build a frankenstein from the pieces lying around your workshop. The final result feels eerily human but noticeably artificial. I understand almost entirely how it works and that&amp;rsquo;s the oddity that demarcates the thing as non-human. I can&amp;rsquo;t predict what a human will do with 80% accuracy, nor will a human follow my script to a T.&lt;/p&gt;</description>
     </item>
     <item>
       <title>11-07-2024</title>
-      <link>http://localhost:1313/posts/microblog/microblog-11-07-2024/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/microblog-11-07-2024/</link>
       <pubDate>Sat, 09 Nov 2024 08:23:22 -0500</pubDate>
-      <guid>http://localhost:1313/posts/microblog/microblog-11-07-2024/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/microblog-11-07-2024/</guid>
       <description>&lt;h1 id=&#34;november-7-2024&#34;&gt;November 7, 2024&lt;/h1&gt;
 &lt;h2 id=&#34;a-new-language&#34;&gt;A New Language&lt;/h2&gt;
 &lt;p&gt;Working with AI is like blending your brain on high. You can work on multiple projects back-to-back-to-back with moderate efficiency and that&amp;rsquo;s amazing and tiresome at the same time. AI has made me want to build more and so I start a new project every time the opportunity presents itself. My creative mind has become increasingly fractal, spiraling outward in every direction, and to keep up with my plans my brain needs to stay focused for longer.&lt;/p&gt;</description>
     </item>
     <item>
       <title>11-09-2024</title>
-      <link>http://localhost:1313/posts/microblog/microblog-11-09-2024/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/microblog-11-09-2024/</link>
       <pubDate>Sat, 09 Nov 2024 08:23:22 -0500</pubDate>
-      <guid>http://localhost:1313/posts/microblog/microblog-11-09-2024/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/microblog-11-09-2024/</guid>
       <description>&lt;h1 id=&#34;november-9-2024&#34;&gt;November 9, 2024&lt;/h1&gt;
 &lt;h2 id=&#34;microblogging-made-easy&#34;&gt;Microblogging Made Easy&lt;/h2&gt;
 &lt;p&gt;Microblogging is easy, especially compared to macroblogging, but sometimes easy isn&amp;rsquo;t enough. We want effortless. I had an idea today to create an application that you could send thoughts and links to throughout the day and it would create a daily microblog post based on the content. With LLMs, I imagine this would be hardly more difficult than forming a juicy prompt and piping messages into it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>11-06-2024</title>
-      <link>http://localhost:1313/posts/microblog/microblog-11-06-2024/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/microblog-11-06-2024/</link>
       <pubDate>Wed, 06 Nov 2024 08:23:22 -0500</pubDate>
-      <guid>http://localhost:1313/posts/microblog/microblog-11-06-2024/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/microblog-11-06-2024/</guid>
       <description>&lt;h1 id=&#34;november-6-2024&#34;&gt;November 6, 2024&lt;/h1&gt;
 &lt;h2 id=&#34;towards-something&#34;&gt;Towards Something&lt;/h2&gt;
 &lt;p&gt;The more I work as a developer, the more it becomes clear that I could spend my entire life struggling with the details. Every day there are new tools, frameworks, and patterns to learn. Tools you mastered change. The language syntaxes you burned into your connectome aren&amp;rsquo;t resilient to the turn of the clock hand. If I were an electrician, I could spend a lifetime pinching at the wires with solder-coated fingers.&lt;/p&gt;</description>
     </item>
     <item>
       <title>11-05-2024</title>
-      <link>http://localhost:1313/posts/microblog/microblog-11-05-2024/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/microblog-11-05-2024/</link>
       <pubDate>Tue, 05 Nov 2024 08:23:22 -0500</pubDate>
-      <guid>http://localhost:1313/posts/microblog/microblog-11-05-2024/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/microblog-11-05-2024/</guid>
       <description>&lt;h1 id=&#34;november-5-2024&#34;&gt;November 5, 2024&lt;/h1&gt;
 &lt;h2 id=&#34;building-an-ai-chatbot-with-xai&#34;&gt;Building an AI Chatbot with xAI&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://x.com/xai/status/1853505214181232828&#34;&gt;xAI just released their API&lt;/a&gt; and through the end of the year you can get $25 in credits each month. I took it for a quick spin and set up a chatbot using NextJS and Deepgram.&lt;/p&gt;
 &lt;p&gt;The first step was to create an xAI account and generate an API key:
-&lt;img alt=&#34;xAI API Console&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/microblog/microblog-11-05-2024/image.png&#34;&gt;&lt;/p&gt;
+&lt;img alt=&#34;xAI API Console&#34; loading=&#34;lazy&#34; src=&#34;https://jtmuller5.github.io/posts/microblog/microblog-11-05-2024/image.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Then, spin up a quick NextJS web page that uses the &lt;a href=&#34;https://sdk.vercel.ai/&#34;&gt;AI SDK&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>11-04-2024</title>
-      <link>http://localhost:1313/posts/microblog/microblog-11-04-2024/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/microblog-11-04-2024/</link>
       <pubDate>Mon, 04 Nov 2024 08:23:22 -0500</pubDate>
-      <guid>http://localhost:1313/posts/microblog/microblog-11-04-2024/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/microblog-11-04-2024/</guid>
       <description>&lt;h1 id=&#34;november-4-2024&#34;&gt;November 4, 2024&lt;/h1&gt;
 &lt;h2 id=&#34;the-conversation-cost&#34;&gt;The Conversation Cost&lt;/h2&gt;
 &lt;p&gt;AI copilots make you fast until they don&amp;rsquo;t. There is a very real &amp;ldquo;conversation cost&amp;rdquo; that materializes as you use AI tools and it&amp;rsquo;s best illustrated with an example.&lt;/p&gt;
@@ -101,9 +101,9 @@
     </item>
     <item>
       <title>Bakedown</title>
-      <link>http://localhost:1313/projects/bakedown/</link>
+      <link>https://jtmuller5.github.io/projects/bakedown/</link>
       <pubDate>Sat, 15 Jul 2023 15:13:36 -0400</pubDate>
-      <guid>http://localhost:1313/projects/bakedown/</guid>
+      <guid>https://jtmuller5.github.io/projects/bakedown/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Website&lt;/strong&gt;: &lt;a href=&#34;https://bakedown.app&#34;&gt;https://bakedown.app&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;App Store&lt;/strong&gt;: &lt;a href=&#34;https://apps.apple.com/us/app/bakedown/id6445965871&#34;&gt;https://apps.apple.com/us/app/bakedown/id6445965871&lt;/a&gt;&lt;/li&gt;
@@ -122,9 +122,9 @@
     </item>
     <item>
       <title>A Brief Intro to Tensorflow and Keras</title>
-      <link>http://localhost:1313/posts/essays/tensorflow_and_keras/tensorflow_and_keras/</link>
+      <link>https://jtmuller5.github.io/posts/essays/tensorflow_and_keras/tensorflow_and_keras/</link>
       <pubDate>Mon, 19 Sep 2022 21:21:28 -0400</pubDate>
-      <guid>http://localhost:1313/posts/essays/tensorflow_and_keras/tensorflow_and_keras/</guid>
+      <guid>https://jtmuller5.github.io/posts/essays/tensorflow_and_keras/tensorflow_and_keras/</guid>
       <description>&lt;p&gt;The future seems to be full of complexities the human mind will not fully comprehend. We don&amp;rsquo;t know everything and we won&amp;rsquo;t know everything and so it seems appropriate to operate under the
 assumption that we will always be pushing up against new knowledge.&lt;/p&gt;
 &lt;p&gt;With that said, becoming familiar with machine learning and artificial intelligence early will put you in the best position to conquer the complex world of the future. For one, you&amp;rsquo;ll understand

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Daily on Joe Muller&#39;s Blog</title>
-    <link>http://localhost:1313/tags/daily/</link>
+    <link>https://jtmuller5.github.io/tags/daily/</link>
     <description>Recent content in Daily on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 22 Feb 2025 14:37:59 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/daily/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jtmuller5.github.io/tags/daily/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>02 22 2025</title>
-      <link>http://localhost:1313/posts/microblog/02-22-2025/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/02-22-2025/</link>
       <pubDate>Sat, 22 Feb 2025 14:37:59 -0500</pubDate>
-      <guid>http://localhost:1313/posts/microblog/02-22-2025/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/02-22-2025/</guid>
       <description>&lt;h2 id=&#34;vibe-learning&#34;&gt;Vibe Learning&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Excalidraw&lt;/li&gt;
@@ -23,9 +23,9 @@
     </item>
     <item>
       <title>02 21 2025</title>
-      <link>http://localhost:1313/posts/microblog/02-21-2025/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/02-21-2025/</link>
       <pubDate>Fri, 21 Feb 2025 14:38:15 -0500</pubDate>
-      <guid>http://localhost:1313/posts/microblog/02-21-2025/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/02-21-2025/</guid>
       <description>&lt;p&gt;Intent classifier with BERT&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.tensorflow.org/text/tutorials/classify_text_with_bert#about_bert&#34;&gt;https://www.tensorflow.org/text/tutorials/classify_text_with_bert#about_bert&lt;/a&gt;&lt;/li&gt;
@@ -41,39 +41,39 @@
     </item>
     <item>
       <title>02 19 2025</title>
-      <link>http://localhost:1313/posts/microblog/02-19-2025/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/02-19-2025/</link>
       <pubDate>Wed, 19 Feb 2025 06:37:11 -0500</pubDate>
-      <guid>http://localhost:1313/posts/microblog/02-19-2025/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/02-19-2025/</guid>
       <description>&lt;p&gt;I get my septoplasty splints out in less than 3 hours, thank god. 6 days ago I had a septoplasty and turbinate reduction and for the most part, the after effects were mild. I suffered very little pain, no post-anesthesia nausea, the expected amount of bleeding. The worst part was just having to live with stents blocking each nostril. Every night was restless and uncomfortable. The brain fog that arose from mouth breathing all day and night was thick. It &lt;em&gt;feels&lt;/em&gt; like there are two giant, plastic stents sandwiching my septum because there is.&lt;/p&gt;</description>
     </item>
     <item>
       <title>02 18 2025</title>
-      <link>http://localhost:1313/posts/microblog/02-18-2025/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/02-18-2025/</link>
       <pubDate>Tue, 18 Feb 2025 06:58:10 -0500</pubDate>
-      <guid>http://localhost:1313/posts/microblog/02-18-2025/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/02-18-2025/</guid>
       <description>&lt;p&gt;I want to build something that promises to change the world. It should save lives, bring joy to the depressed, fill the future with an optimistic hue, and make everyone want to stick around for eternity. The conflict in my life is that I am not working on anything that will do any of this. I am building dashboards for a call agent and trying to recreate an irritating human interaction. My life will amount to nothing if I do not change my trajectory.&lt;/p&gt;</description>
     </item>
     <item>
       <title>02 15 2025</title>
-      <link>http://localhost:1313/posts/microblog/02-15-2025/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/02-15-2025/</link>
       <pubDate>Sat, 15 Feb 2025 06:44:20 -0500</pubDate>
-      <guid>http://localhost:1313/posts/microblog/02-15-2025/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/02-15-2025/</guid>
       <description>&lt;p&gt;Its day 2 of recovery from my septoplasty and I&amp;rsquo;m ready for it to be over. The swelling has decreased but not enough to keep me from mouth breathing all night. I woke up with a sore throat, chapped lips, and an achy tongue.&lt;/p&gt;
 &lt;p&gt;The future will reward the platforms that become AI native now. Perplexity seems to be the one that&amp;rsquo;s running away with the title of posterchild, especially given their recent hijacking of the &amp;ldquo;Deep Research&amp;rdquo; feature.&lt;/p&gt;</description>
     </item>
     <item>
       <title>02 14 2025</title>
-      <link>http://localhost:1313/posts/microblog/02-14-2025/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/02-14-2025/</link>
       <pubDate>Fri, 14 Feb 2025 10:00:54 -0500</pubDate>
-      <guid>http://localhost:1313/posts/microblog/02-14-2025/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/02-14-2025/</guid>
       <description>&lt;p&gt;I had my septoplasty and turbinate reduction surgery yesterday and am in full recovery mode for the weekend. Overall, I feel pretty good. The first 5-6 hours after surgery were the worst but even that wasn&amp;rsquo;t terrible. My nose took about 8 hours to fully swell up and stop the bleeding and now i just feel like my nostrils are gone.&lt;/p&gt;
 &lt;p&gt;The surgeon talked to Abi and said everything went well. He said I had a lot of scar tissue in my nose although I don&amp;rsquo;t know where exactly. I don&amp;rsquo;t even know if he removed it but I&amp;rsquo;m sure that will be revealed to me within a week.&lt;/p&gt;</description>
     </item>
     <item>
       <title>02 12 2025</title>
-      <link>http://localhost:1313/posts/microblog/02-12-2025/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/02-12-2025/</link>
       <pubDate>Wed, 12 Feb 2025 06:39:31 -0500</pubDate>
-      <guid>http://localhost:1313/posts/microblog/02-12-2025/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/02-12-2025/</guid>
       <description>&lt;p&gt;What is the app-layer I care about? Creating software is fun, the feeling of creation is rewarding, but somehow it feels less than important in the grand scope of things. Its more so the case when the software is for software developers. We create minds to replace our minds and squeeze the joy of creation into dollops of loops and if statements.&lt;/p&gt;
 &lt;p&gt;What is the app-layer for idea storming or riffing or creation? What can I log into each morning to plan my day with uber effectiveness and mod to feel better or think faster or think differently?&lt;/p&gt;</description>
     </item>
