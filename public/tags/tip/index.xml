@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tip on Joe Muller&#39;s Blog</title>
-    <link>http://localhost:1313/tags/tip/</link>
+    <link>https://jtmuller5.github.io/tags/tip/</link>
     <description>Recent content in Tip on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Feb 2025 17:24:10 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/tip/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Feb 2025 17:24:10 -0500</lastBuildDate><atom:link href="https://jtmuller5.github.io/tags/tip/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Getting File Stats in Electron</title>
-      <link>http://localhost:1313/posts/microblog/getting-file-stats-in-electron/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/getting-file-stats-in-electron/</link>
       <pubDate>Sun, 23 Feb 2025 17:24:10 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/microblog/getting-file-stats-in-electron/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/getting-file-stats-in-electron/</guid>
       <description>&lt;p&gt;You can get basic information about a file using the &lt;a href=&#34;https://nodejs.org/api/fs.html#fsstatpath-options-callback&#34;&gt;fs.stat&lt;/a&gt; method. This asynchronous function accepts a file path and returns an object that looks like this:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;#34;dev&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;16777234&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
@@ -45,20 +45,20 @@
     
     <item>
       <title>Hugo Code Highlight</title>
-      <link>http://localhost:1313/posts/microblog/hugo-code-highlight/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/hugo-code-highlight/</link>
       <pubDate>Mon, 10 Feb 2025 16:20:57 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/microblog/hugo-code-highlight/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/hugo-code-highlight/</guid>
       <description>&lt;p&gt;After reading about Expressive code highlighting in Astro, I was curious if it was possible to achieve the same in Hugo. This post is proof that it is, but it wasn&amp;rsquo;t as straightforward as I had hoped.&lt;/p&gt;
 &lt;p&gt;Since I&amp;rsquo;m using the PaperMod theme, highlighting doesn&amp;rsquo;t work the same as it does in generic Hugo themes (PaperMod is doing some opininated things with the syntax highlighting). Nonetheless, all I had to do was add this CSS to the &lt;code&gt;themes/papermod/assets/css/post-single.css&lt;/code&gt; file:&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Four Backticks for Code</title>
-      <link>http://localhost:1313/posts/microblog/four-backticks-for-code/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/four-backticks-for-code/</link>
       <pubDate>Mon, 10 Feb 2025 06:04:29 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/microblog/four-backticks-for-code/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/four-backticks-for-code/</guid>
       <description>&lt;p&gt;I recently realized there is no upper limit on the number of backticks you can put in front of your markdown code blocks.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;This uses 4 backticks.
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;This uses 5 backticks.
@@ -68,20 +68,20 @@
     
     <item>
       <title>Understanding Svgs</title>
-      <link>http://localhost:1313/posts/microblog/understanding-svgs/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/understanding-svgs/</link>
       <pubDate>Mon, 10 Feb 2025 06:01:13 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/microblog/understanding-svgs/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/understanding-svgs/</guid>
       <description>&lt;p&gt;The first official version of Scalable Vector Graphics (SVG 1.0) was released in 2001.&lt;/p&gt;
 &lt;p&gt;Before this (and even after), a majority of the images on the internet were raster images. Raster images are made up of pixels, which means they don&amp;rsquo;t scale well. If you try to scale a raster image up, it will become pixelated. If you try to scale it down, it will lose detail.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Fuzzy Search vs Code</title>
-      <link>http://localhost:1313/posts/microblog/fuzzy-search-vs-code/</link>
+      <link>https://jtmuller5.github.io/posts/microblog/fuzzy-search-vs-code/</link>
       <pubDate>Sat, 08 Feb 2025 18:21:16 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/microblog/fuzzy-search-vs-code/</guid>
+      <guid>https://jtmuller5.github.io/posts/microblog/fuzzy-search-vs-code/</guid>
       <description>&lt;p&gt;There is a &lt;a href=&#34;https://code.visualstudio.com/docs/copilot/copilot-settings#_general-settings&#34;&gt;new experimental setting&lt;/a&gt; for VS Code&amp;rsquo;s copilot that lets you enable semantic search in the search window.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;github.copilot.chat.search.semanticTextResults
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;image.png&#34; alt=&#34;Enable semantic search in VS Code&#34;  /&gt;
@@ -90,7 +90,7 @@
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;image-1.png&#34; alt=&#34;Semantic search in search panel&#34;  /&gt;
 &lt;/p&gt;
 
-        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/vendors/admonitions.css&#34;&gt;
+          &lt;link rel=&#34;stylesheet&#34; href=&#34;https://jtmuller5.github.io/css/vendors/admonitions.5c73bad2903e7d2d44ad118370ebd8c2cf5f239d4d93c283e55c00f2f8d30746.css&#34; integrity=&#34;sha256-XHO60pA&amp;#43;fS1ErRGDcOvYws9fI51Nk8KD5VwA8vjTB0Y=&#34; crossorigin=&#34;anonymous&#34;&gt;
   &lt;div class=&#34;admonition caution&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;
       &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 32c14.2 0 27.3 7.5 34.5 19.8l216 368c7.3 12.4 7.3 27.7 .2 40.1S486.3 480 472 480L40 480c-14.3 0-27.6-7.7-34.7-20.1s-7-27.8 .2-40.1l216-368C228.7 39.5 241.8 32 256 32zm0 128c-13.3 0-24 10.7-24 24l0 112c0 13.3 10.7 24 24 24s24-10.7 24-24l0-112c0-13.3-10.7-24-24-24zm32 224a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z&#34;/&gt;&lt;/svg&gt;
