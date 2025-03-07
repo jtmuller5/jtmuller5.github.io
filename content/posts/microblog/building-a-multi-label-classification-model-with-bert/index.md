@@ -2,7 +2,7 @@
 title: "Building a Multi-Label Classification Model with BERT"
 date: 2025-03-07T10:00:00-05:00
 draft: false
-categories: ["microblog","machine learning", "NLP"]
+categories: ["microblog"]
 tags: ["BERT", "multi-label classification", "transformers"]
 ---
 
