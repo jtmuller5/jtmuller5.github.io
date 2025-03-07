@@ -6,8 +6,38 @@
     <description>Recent content in Tutorial on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Feb 2025 17:18:25 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 04 Mar 2025 06:19:57 -0500</lastBuildDate>
     <atom:link href="https://jtmuller5.github.io/categories/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What Is Hermitian</title>
+      <link>https://jtmuller5.github.io/posts/what-is-hermitian/</link>
+      <pubDate>Tue, 04 Mar 2025 06:19:57 -0500</pubDate>
+      <guid>https://jtmuller5.github.io/posts/what-is-hermitian/</guid>
+      <description>&lt;p&gt;What is Hermitian?&lt;/p&gt;
+&lt;p&gt;A &lt;a href=&#34;https://en.wikipedia.org/wiki/Hermitian_matrix&#34;&gt;Hermitian matrix&lt;/a&gt; is a complex square matrix that is equal to its own conjugate transpose.&lt;/p&gt;
+&lt;p&gt;What is a conjugate transpose?&lt;/p&gt;
+&lt;p&gt;A &lt;a href=&#34;https://en.wikipedia.org/wiki/Conjugate_transpose&#34;&gt;conjugate transpose&lt;/a&gt;, or adjoint matrix, is the matrix obtained by transposing &lt;em&gt;A&lt;/em&gt; and applying complex conjugation on each entry.&lt;/p&gt;
+&lt;p&gt;What is complex conjugation?&lt;/p&gt;
+&lt;p&gt;In mathematics, the &lt;a href=&#34;https://en.wikipedia.org/wiki/Complex_conjugate&#34;&gt;complex conjugate&lt;/a&gt; of a complex number is the number with an equal real part and an imaginary part equal in magnitude but opposite in sign. Complex conjugates can be illustrated via an Argand diagram.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Questions About Quantum Computing</title>
+      <link>https://jtmuller5.github.io/posts/questions-about-quantum-computing/</link>
+      <pubDate>Sun, 02 Mar 2025 16:10:27 -0500</pubDate>
+      <guid>https://jtmuller5.github.io/posts/questions-about-quantum-computing/</guid>
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://jtmuller5.github.io/css/vendors/admonitions.5c73bad2903e7d2d44ad118370ebd8c2cf5f239d4d93c283e55c00f2f8d30746.css&#34; integrity=&#34;sha256-XHO60pA&amp;#43;fS1ErRGDcOvYws9fI51Nk8KD5VwA8vjTB0Y=&#34; crossorigin=&#34;anonymous&#34;&gt;
+  &lt;div class=&#34;admonition info&#34;&gt;
+    &lt;div class=&#34;admonition-header&#34;&gt;
+      &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;
+      &lt;span&gt;Info&lt;/span&gt;
+    &lt;/div&gt;
+      &lt;div class=&#34;admonition-content&#34;&gt;
+        &lt;p&gt;&lt;a href=&#34;https://chatgpt.com/share/e/67c4ef97-94f8-8008-9426-8b69f528c37f&#34;&gt;https://chatgpt.com/share/e/67c4ef97-94f8-8008-9426-8b69f528c37f&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;
+  &lt;/div&gt;
+&lt;h2 id=&#34;what-is-a-qubit&#34;&gt;What is a Qubit?&lt;/h2&gt;
+&lt;p&gt;A quantum bit. A 1, a 0, or a superposition of these two computation basis states. Mathematically, a qubit is represented as:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Happy Path</title>
       <link>https://jtmuller5.github.io/posts/happy-path/</link>

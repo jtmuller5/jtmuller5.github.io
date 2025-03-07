@@ -2,19 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jtmuller5.github.io/categories/</loc>
-    <lastmod>2025-02-28T17:18:25-05:00</lastmod>
-  </url><url>
-    <loc>https://jtmuller5.github.io/posts/happy-path/</loc>
-    <lastmod>2025-02-28T17:18:25-05:00</lastmod>
-  </url><url>
     <loc>https://jtmuller5.github.io/</loc>
-    <lastmod>2025-02-28T17:18:25-05:00</lastmod>
+    <lastmod>2025-03-07T10:00:00-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/posts/</loc>
-    <lastmod>2025-02-28T17:18:25-05:00</lastmod>
+    <lastmod>2025-03-07T10:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/categories/</loc>
+    <lastmod>2025-03-04T06:19:57-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/categories/tutorial/</loc>
+    <lastmod>2025-03-04T06:19:57-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/what-is-hermitian/</loc>
+    <lastmod>2025-03-04T06:19:57-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/questions-about-quantum-computing/</loc>
+    <lastmod>2025-03-02T16:10:27-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/happy-path/</loc>
     <lastmod>2025-02-28T17:18:25-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/posts/microblog/getting-file-stats-in-electron/</loc>
