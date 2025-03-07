@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>React on Joe Muller&#39;s Blog</title>
-    <link>https://jtmuller5.github.io/tags/react/</link>
+    <link>http://localhost:1313/tags/react/</link>
     <description>Recent content in React on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 18 Nov 2024 12:00:00 -0500</lastBuildDate>
-    <atom:link href="https://jtmuller5.github.io/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/react/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Create a Chrome Extension With React, TypeScript, Tailwind CSS, and Vite</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-react-typescript-tailwind-and-vite/</link>
+      <link>http://localhost:1313/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-react-typescript-tailwind-and-vite/</link>
       <pubDate>Mon, 18 Nov 2024 12:00:00 -0500</pubDate>
-      <guid>https://jtmuller5.github.io/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-react-typescript-tailwind-and-vite/</guid>
+      <guid>http://localhost:1313/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-react-typescript-tailwind-and-vite/</guid>
       <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
 &lt;p&gt;After publishing my first article on &lt;a href=&#34;https://joemuller.com/posts/create-a-chrome-extension-with-react-typescript-and-tailwindcss/&#34;&gt;building a Chrome Extension using React, TypeScript, TailWind, and Webpack&lt;/a&gt;, a handful of people commented that Webpack was an antique best left on the shelf. In this article, I will walk you through creating the a Chrome Extension that uses the same tech stack but with Vite as the build tool.&lt;/p&gt;
 &lt;p&gt;For the full code, check out the &lt;a href=&#34;https://github.com/jtmuller5/cotr_react_chrome_extension_vite&#34;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;
@@ -21,9 +21,9 @@
     </item>
     <item>
       <title>Create a Chrome Extension With React, Typescript, and Tailwindcss</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-react-typescript-and-tailwindcss/</link>
+      <link>http://localhost:1313/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-react-typescript-and-tailwindcss/</link>
       <pubDate>Sat, 16 Nov 2024 21:08:12 -0500</pubDate>
-      <guid>https://jtmuller5.github.io/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-react-typescript-and-tailwindcss/</guid>
+      <guid>http://localhost:1313/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-react-typescript-and-tailwindcss/</guid>
       <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;This article was inspired by &lt;a href=&#34;https://medium.com/@tharshita13/creating-a-chrome-extension-with-react-a-step-by-step-guide-47fe9bab24a1&#34;&gt;Creating a Chrome Extension with React a Step by Step Guide&lt;/a&gt;.&lt;/p&gt;
@@ -49,9 +49,9 @@
     </item>
     <item>
       <title>Crashify AI</title>
-      <link>https://jtmuller5.github.io/projects/crashify/</link>
+      <link>http://localhost:1313/projects/crashify/</link>
       <pubDate>Fri, 20 Sep 2024 15:13:36 -0400</pubDate>
-      <guid>https://jtmuller5.github.io/projects/crashify/</guid>
+      <guid>http://localhost:1313/projects/crashify/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Website&lt;/strong&gt;: &lt;a href=&#34;https://crashify.ai&#34;&gt;https://crashify.ai&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Status&lt;/strong&gt;: On hold&lt;/li&gt;
@@ -67,9 +67,9 @@
     </item>
     <item>
       <title>AI Co-Founded</title>
-      <link>https://jtmuller5.github.io/projects/ai-cofounded/</link>
+      <link>http://localhost:1313/projects/ai-cofounded/</link>
       <pubDate>Tue, 27 Aug 2024 15:13:36 -0400</pubDate>
-      <guid>https://jtmuller5.github.io/projects/ai-cofounded/</guid>
+      <guid>http://localhost:1313/projects/ai-cofounded/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Website&lt;/strong&gt;: &lt;a href=&#34;https://aicofounded.com&#34;&gt;https://aicofounded.com&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Status&lt;/strong&gt;: On hold&lt;/li&gt;

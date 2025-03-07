@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Chrome-Extensions on Joe Muller&#39;s Blog</title>
-    <link>https://jtmuller5.github.io/tags/chrome-extensions/</link>
+    <link>http://localhost:1313/tags/chrome-extensions/</link>
     <description>Recent content in Chrome-Extensions on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 18 Nov 2024 12:00:00 -0500</lastBuildDate>
-    <atom:link href="https://jtmuller5.github.io/tags/chrome-extensions/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/chrome-extensions/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Create a Chrome Extension With React, TypeScript, Tailwind CSS, and Vite</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-react-typescript-tailwind-and-vite/</link>
+      <link>http://localhost:1313/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-react-typescript-tailwind-and-vite/</link>
       <pubDate>Mon, 18 Nov 2024 12:00:00 -0500</pubDate>
-      <guid>https://jtmuller5.github.io/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-react-typescript-tailwind-and-vite/</guid>
+      <guid>http://localhost:1313/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-react-typescript-tailwind-and-vite/</guid>
       <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
 &lt;p&gt;After publishing my first article on &lt;a href=&#34;https://joemuller.com/posts/create-a-chrome-extension-with-react-typescript-and-tailwindcss/&#34;&gt;building a Chrome Extension using React, TypeScript, TailWind, and Webpack&lt;/a&gt;, a handful of people commented that Webpack was an antique best left on the shelf. In this article, I will walk you through creating the a Chrome Extension that uses the same tech stack but with Vite as the build tool.&lt;/p&gt;
 &lt;p&gt;For the full code, check out the &lt;a href=&#34;https://github.com/jtmuller5/cotr_react_chrome_extension_vite&#34;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;
@@ -21,20 +21,20 @@
     </item>
     <item>
       <title>Rapidly Iterate on a Chrome Extension</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/chrome-extensions/rapidly-iterate-on-a-chrome-extension/</link>
+      <link>http://localhost:1313/posts/tutorials/chrome-extensions/rapidly-iterate-on-a-chrome-extension/</link>
       <pubDate>Sun, 17 Nov 2024 15:48:25 -0500</pubDate>
-      <guid>https://jtmuller5.github.io/posts/tutorials/chrome-extensions/rapidly-iterate-on-a-chrome-extension/</guid>
+      <guid>http://localhost:1313/posts/tutorials/chrome-extensions/rapidly-iterate-on-a-chrome-extension/</guid>
       <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
 &lt;p&gt;Developing is hard. Developing in an environment that makes it difficult to see your changes in realtime is impossible (or at least it should be made illegal). This article explores a few ways to quickly see your changes while developing a Chrome extension.&lt;/p&gt;
 &lt;h2 id=&#34;use-extensions-reloader&#34;&gt;Use Extensions Reloader&lt;/h2&gt;
 &lt;p&gt;There is a Chrome extension called &lt;a href=&#34;https://chromewebstore.google.com/detail/extensions-reloader/fimgfedafeadlieiabdeeaodndnlbhid&#34;&gt;Extensions Reloader&lt;/a&gt; that allows you to reload all unpacked extensions using the extension&amp;rsquo;s toolbar button.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Extensions Reloader extension&#34; loading=&#34;lazy&#34; src=&#34;https://jtmuller5.github.io/posts/tutorials/chrome-extensions/rapidly-iterate-on-a-chrome-extension/image.png&#34;&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img alt=&#34;Extensions Reloader extension&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/tutorials/chrome-extensions/rapidly-iterate-on-a-chrome-extension/image.png&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Create a Chrome Extension With React, Typescript, and Tailwindcss</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-react-typescript-and-tailwindcss/</link>
+      <link>http://localhost:1313/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-react-typescript-and-tailwindcss/</link>
       <pubDate>Sat, 16 Nov 2024 21:08:12 -0500</pubDate>
-      <guid>https://jtmuller5.github.io/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-react-typescript-and-tailwindcss/</guid>
+      <guid>http://localhost:1313/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-react-typescript-and-tailwindcss/</guid>
       <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;This article was inspired by &lt;a href=&#34;https://medium.com/@tharshita13/creating-a-chrome-extension-with-react-a-step-by-step-guide-47fe9bab24a1&#34;&gt;Creating a Chrome Extension with React a Step by Step Guide&lt;/a&gt;.&lt;/p&gt;
@@ -60,9 +60,9 @@
     </item>
     <item>
       <title>Create a Chrome Extension With Vuejs</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-vuejs/</link>
+      <link>http://localhost:1313/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-vuejs/</link>
       <pubDate>Sun, 10 Nov 2024 12:44:58 -0500</pubDate>
-      <guid>https://jtmuller5.github.io/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-vuejs/</guid>
+      <guid>http://localhost:1313/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-vuejs/</guid>
       <description>&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
 &lt;p&gt;To start, create a new folder for your project:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mkdir vue-chrome-extension

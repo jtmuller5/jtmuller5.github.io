@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Astro on Joe Muller&#39;s Blog</title>
-    <link>https://jtmuller5.github.io/tags/astro/</link>
+    <link>http://localhost:1313/tags/astro/</link>
     <description>Recent content in Astro on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 20 Nov 2024 15:13:36 -0400</lastBuildDate>
-    <atom:link href="https://jtmuller5.github.io/tags/astro/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/astro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Launch Thrifty</title>
-      <link>https://jtmuller5.github.io/projects/launch-thrifty/</link>
+      <link>http://localhost:1313/projects/launch-thrifty/</link>
       <pubDate>Wed, 20 Nov 2024 15:13:36 -0400</pubDate>
-      <guid>https://jtmuller5.github.io/projects/launch-thrifty/</guid>
+      <guid>http://localhost:1313/projects/launch-thrifty/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Website&lt;/strong&gt;: &lt;a href=&#34;https://www.launchthrifty.com/&#34;&gt;https://www.launchthrifty.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Status&lt;/strong&gt;: In Progress&lt;/li&gt;

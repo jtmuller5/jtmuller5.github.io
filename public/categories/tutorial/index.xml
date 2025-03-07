@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tutorial on Joe Muller&#39;s Blog</title>
-    <link>https://jtmuller5.github.io/categories/tutorial/</link>
+    <link>http://localhost:1313/categories/tutorial/</link>
     <description>Recent content in Tutorial on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 04 Mar 2025 06:19:57 -0500</lastBuildDate>
-    <atom:link href="https://jtmuller5.github.io/categories/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/tutorial/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What Is Hermitian</title>
-      <link>https://jtmuller5.github.io/posts/what-is-hermitian/</link>
+      <link>http://localhost:1313/posts/what-is-hermitian/</link>
       <pubDate>Tue, 04 Mar 2025 06:19:57 -0500</pubDate>
-      <guid>https://jtmuller5.github.io/posts/what-is-hermitian/</guid>
+      <guid>http://localhost:1313/posts/what-is-hermitian/</guid>
       <description>&lt;p&gt;What is Hermitian?&lt;/p&gt;
 &lt;p&gt;A &lt;a href=&#34;https://en.wikipedia.org/wiki/Hermitian_matrix&#34;&gt;Hermitian matrix&lt;/a&gt; is a complex square matrix that is equal to its own conjugate transpose.&lt;/p&gt;
 &lt;p&gt;What is a conjugate transpose?&lt;/p&gt;
@@ -22,10 +22,10 @@
     </item>
     <item>
       <title>Questions About Quantum Computing</title>
-      <link>https://jtmuller5.github.io/posts/questions-about-quantum-computing/</link>
+      <link>http://localhost:1313/posts/questions-about-quantum-computing/</link>
       <pubDate>Sun, 02 Mar 2025 16:10:27 -0500</pubDate>
-      <guid>https://jtmuller5.github.io/posts/questions-about-quantum-computing/</guid>
-      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://jtmuller5.github.io/css/vendors/admonitions.5c73bad2903e7d2d44ad118370ebd8c2cf5f239d4d93c283e55c00f2f8d30746.css&#34; integrity=&#34;sha256-XHO60pA&amp;#43;fS1ErRGDcOvYws9fI51Nk8KD5VwA8vjTB0Y=&#34; crossorigin=&#34;anonymous&#34;&gt;
+      <guid>http://localhost:1313/posts/questions-about-quantum-computing/</guid>
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/vendors/admonitions.css&#34;&gt;
   &lt;div class=&#34;admonition info&#34;&gt;
     &lt;div class=&#34;admonition-header&#34;&gt;
       &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;
@@ -40,24 +40,24 @@
     </item>
     <item>
       <title>Happy Path</title>
-      <link>https://jtmuller5.github.io/posts/happy-path/</link>
+      <link>http://localhost:1313/posts/happy-path/</link>
       <pubDate>Fri, 28 Feb 2025 17:18:25 -0500</pubDate>
-      <guid>https://jtmuller5.github.io/posts/happy-path/</guid>
+      <guid>http://localhost:1313/posts/happy-path/</guid>
       <description>&lt;p&gt;In the future, there won&amp;rsquo;t be SMS and the web and native apps. They will all be combined into an experience that aims to be seamless. When you call an AI agent, you&amp;rsquo;ll be able to interact with the conversation, see it transcribed in realtime, respond with your voice or your phone, and see what the agent thought you said. Your conversations and chat history will follow you from device to device without you needing to do anything. And everywhere you go, you&amp;rsquo;ll be able to use your input of choice to command the AIs of the new world.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Creating an Electron App With Vite React and Typescript</title>
-      <link>https://jtmuller5.github.io/posts/creating-an-electron-app-with-vite-react-and-typescript/</link>
+      <link>http://localhost:1313/posts/creating-an-electron-app-with-vite-react-and-typescript/</link>
       <pubDate>Sun, 16 Feb 2025 07:12:28 -0500</pubDate>
-      <guid>https://jtmuller5.github.io/posts/creating-an-electron-app-with-vite-react-and-typescript/</guid>
+      <guid>http://localhost:1313/posts/creating-an-electron-app-with-vite-react-and-typescript/</guid>
       <description>&lt;p&gt;Despite the fact that CRA was just deprecated and TypeScript is objectively superior to JavaScript, there is surprisingly no easy way to &amp;ldquo;just get started&amp;rdquo; with Vite, React, and TypeScript in Electron. The closest thing to a beginner-friendly template that exists is the &lt;a href=&#34;https://www.electronforge.io/templates/vite-+-typescript&#34;&gt;Vite + TypeScript Electron Forge template&lt;/a&gt;, but even that is experimental and riddled with incomplete code.&lt;/p&gt;
 &lt;p&gt;This article will show you how to get started using an Electron stack that should be more popular.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Converting a JavaScript Package to TypeScript: A Step-by-Step Guide</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/typescript/converting-a-javascript-/</link>
+      <link>http://localhost:1313/posts/tutorials/typescript/converting-a-javascript-/</link>
       <pubDate>Thu, 05 Dec 2024 09:18:17 -0500</pubDate>
-      <guid>https://jtmuller5.github.io/posts/tutorials/typescript/converting-a-javascript-/</guid>
+      <guid>http://localhost:1313/posts/tutorials/typescript/converting-a-javascript-/</guid>
       <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
 &lt;p&gt;TypeScript has become increasingly popular due to its ability to bring static typing to JavaScript, enhancing code quality and developer productivity. Converting your existing JavaScript package to TypeScript can make it more robust and easier to maintain. In this guide, we’ll walk through the essential steps to transform your JavaScript package into a TypeScript package.&lt;/p&gt;
 &lt;h2 id=&#34;1-install-typescript-and-necessary-dependencies&#34;&gt;1. Install TypeScript and Necessary Dependencies&lt;/h2&gt;

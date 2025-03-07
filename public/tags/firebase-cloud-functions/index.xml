@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Firebase-Cloud-Functions on Joe Muller&#39;s Blog</title>
-    <link>https://jtmuller5.github.io/tags/firebase-cloud-functions/</link>
+    <link>http://localhost:1313/tags/firebase-cloud-functions/</link>
     <description>Recent content in Firebase-Cloud-Functions on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 04 Jan 2025 22:45:29 -0500</lastBuildDate>
-    <atom:link href="https://jtmuller5.github.io/tags/firebase-cloud-functions/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/firebase-cloud-functions/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Resize Firebase Images Like a Pro</title>
-      <link>https://jtmuller5.github.io/posts/tutorials/resize-firebase-images-like-a-pro/</link>
+      <link>http://localhost:1313/posts/tutorials/resize-firebase-images-like-a-pro/</link>
       <pubDate>Sat, 04 Jan 2025 22:45:29 -0500</pubDate>
-      <guid>https://jtmuller5.github.io/posts/tutorials/resize-firebase-images-like-a-pro/</guid>
+      <guid>http://localhost:1313/posts/tutorials/resize-firebase-images-like-a-pro/</guid>
       <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
 &lt;p&gt;The Firebase documentation leaves much to be desired. If you just want answers, these docs were made just for you. If you want more questions, head over &lt;a href=&#34;https://extensions.dev/extensions/firebase/storage-resize-images&#34;&gt;here&lt;/a&gt; and start reading.&lt;/p&gt;
 &lt;p&gt;In this blog, I&amp;rsquo;m going to walk you through setting up the &lt;a href=&#34;https://extensions.dev/extensions/firebase/storage-resize-images&#34;&gt;Resize Images Firebase Extension&lt;/a&gt; and listening to a custom event so you can add the resized images to documents in your Firestore database.&lt;/p&gt;

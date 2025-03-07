@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Elevenlabs on Joe Muller&#39;s Blog</title>
-    <link>https://jtmuller5.github.io/tags/elevenlabs/</link>
+    <link>http://localhost:1313/tags/elevenlabs/</link>
     <description>Recent content in Elevenlabs on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 09 Nov 2024 08:23:22 -0500</lastBuildDate>
-    <atom:link href="https://jtmuller5.github.io/tags/elevenlabs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/elevenlabs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>11-07-2024</title>
-      <link>https://jtmuller5.github.io/posts/microblog/microblog-11-07-2024/</link>
+      <link>http://localhost:1313/posts/microblog/microblog-11-07-2024/</link>
       <pubDate>Sat, 09 Nov 2024 08:23:22 -0500</pubDate>
-      <guid>https://jtmuller5.github.io/posts/microblog/microblog-11-07-2024/</guid>
+      <guid>http://localhost:1313/posts/microblog/microblog-11-07-2024/</guid>
       <description>&lt;h1 id=&#34;november-7-2024&#34;&gt;November 7, 2024&lt;/h1&gt;
 &lt;h2 id=&#34;a-new-language&#34;&gt;A New Language&lt;/h2&gt;
 &lt;p&gt;Working with AI is like blending your brain on high. You can work on multiple projects back-to-back-to-back with moderate efficiency and that&amp;rsquo;s amazing and tiresome at the same time. AI has made me want to build more and so I start a new project every time the opportunity presents itself. My creative mind has become increasingly fractal, spiraling outward in every direction, and to keep up with my plans my brain needs to stay focused for longer.&lt;/p&gt;</description>

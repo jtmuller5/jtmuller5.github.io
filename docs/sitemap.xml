@@ -2,22 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jtmuller5.github.io/</loc>
-    <lastmod>2025-03-07T10:00:00-05:00</lastmod>
+    <loc>https://jtmuller5.github.io/tags/bert/</loc>
+    <lastmod>2025-03-06T10:00:00-05:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/</loc>
-    <lastmod>2025-03-07T10:00:00-05:00</lastmod>
+    <loc>https://jtmuller5.github.io/posts/microblog/building-a-multi-label-classification-model-with-bert/</loc>
+    <lastmod>2025-03-06T10:00:00-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/categories/</loc>
-    <lastmod>2025-02-23T17:24:10-05:00</lastmod>
+    <lastmod>2025-03-06T10:00:00-05:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/microblog/getting-file-stats-in-electron/</loc>
-    <lastmod>2025-02-23T17:24:10-05:00</lastmod>
+    <loc>https://jtmuller5.github.io/</loc>
+    <lastmod>2025-03-06T10:00:00-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/categories/microblog/</loc>
-    <lastmod>2025-02-23T17:24:10-05:00</lastmod>
+    <lastmod>2025-03-06T10:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/tags/multi-label-classification/</loc>
+    <lastmod>2025-03-06T10:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/</loc>
+    <lastmod>2025-03-06T10:00:00-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/</loc>
+    <lastmod>2025-03-06T10:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/tags/transformers/</loc>
+    <lastmod>2025-03-06T10:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/microblog/getting-file-stats-in-electron/</loc>
     <lastmod>2025-02-23T17:24:10-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/tip/</loc>
