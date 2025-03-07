@@ -11,7 +11,16 @@
     <loc>https://jtmuller5.github.io/categories/</loc>
     <lastmod>2025-03-06T10:00:00-05:00</lastmod>
   </url><url>
+    <loc>https://jtmuller5.github.io/tags/eslint/</loc>
+    <lastmod>2025-03-06T10:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/categories/eslint/</loc>
+    <lastmod>2025-03-06T10:00:00-05:00</lastmod>
+  </url><url>
     <loc>https://jtmuller5.github.io/</loc>
+    <lastmod>2025-03-06T10:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/tags/linting/</loc>
     <lastmod>2025-03-06T10:00:00-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/categories/microblog/</loc>
@@ -23,10 +32,19 @@
     <loc>https://jtmuller5.github.io/posts/</loc>
     <lastmod>2025-03-06T10:00:00-05:00</lastmod>
   </url><url>
+    <loc>https://jtmuller5.github.io/posts/microblog/disabling-eslint-rules/</loc>
+    <lastmod>2025-03-06T10:00:00-05:00</lastmod>
+  </url><url>
     <loc>https://jtmuller5.github.io/tags/</loc>
     <lastmod>2025-03-06T10:00:00-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/transformers/</loc>
+    <lastmod>2025-03-06T10:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/tags/typescript/</loc>
+    <lastmod>2025-03-06T10:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/categories/typescript/</loc>
     <lastmod>2025-03-06T10:00:00-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/posts/microblog/getting-file-stats-in-electron/</loc>
@@ -201,9 +219,6 @@
     <lastmod>2025-01-04T22:45:29-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/posts/tutorials/resize-firebase-images-like-a-pro/</loc>
-    <lastmod>2025-01-04T22:45:29-05:00</lastmod>
-  </url><url>
-    <loc>https://jtmuller5.github.io/tags/typescript/</loc>
     <lastmod>2025-01-04T22:45:29-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/posts/tutorials/typescript/converting-a-javascript-/</loc>
