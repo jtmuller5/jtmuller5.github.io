@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tailwind on Joe Muller&#39;s Blog</title>
-    <link>https://jtmuller5.github.io/tags/tailwind/</link>
-    <description>Recent content in Tailwind on Joe Muller&#39;s Blog</description>
+    <title>Google-Fonts on Joe Muller&#39;s Blog</title>
+    <link>https://jtmuller5.github.io/tags/google-fonts/</link>
+    <description>Recent content in Google-Fonts on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 31 Mar 2025 08:24:24 -0400</lastBuildDate>
-    <atom:link href="https://jtmuller5.github.io/tags/tailwind/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jtmuller5.github.io/tags/google-fonts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using Google Fonts with Tailwind</title>
       <link>https://jtmuller5.github.io/posts/customize-tailwind-font/</link>
