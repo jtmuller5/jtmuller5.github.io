@@ -9,7 +9,13 @@ tags: ["react"]
 
 Below is a minimal approach to generating PDFs in React applications:
 
-## 1. A Hidden PDF Component
+## 1. Install the Dependencies
+
+```bash
+npm install html2canvas jspdf
+```
+
+## 2. A Hidden PDF Component
 
 ```typescript {linenos=true}
 import React from "react";
@@ -52,7 +58,7 @@ export default PDFReport;
 1. We use React.forwardRef so that this component's DOM node is accessible elsewhere.
 2. Position it off-screen (top: -9999px) so it never appears in the rendered UI.
 
-## 2. A Button & Utility to Generate the PDF
+## 3. A Button & Utility to Generate the PDF
 
 ```typescript {linenos=true, hl_lines=["13-15", "18"]}
 import React from "react";
@@ -111,7 +117,7 @@ export const generatePDF = async (
 - PDFGenerator is a simple button that triggers the parent's onGenerate.
 - generatePDF uses html2canvas to capture the off-screen component, then jsPDF to create and download the PDF.
 
-## 3. Using Them in a Generic Parent Component
+## 4. Using Them in a Generic Parent Component
 
 ```typescript {linenos=true, linenostart=1}
 import React, { useRef, useState } from "react";
