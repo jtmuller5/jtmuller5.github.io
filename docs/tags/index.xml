@@ -6,8 +6,15 @@
     <description>Recent content in Tags on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 Mar 2025 08:24:24 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 31 Mar 2025 19:27:05 -0400</lastBuildDate>
     <atom:link href="https://jtmuller5.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>React</title>
+      <link>https://jtmuller5.github.io/tags/react/</link>
+      <pubDate>Mon, 31 Mar 2025 19:27:05 -0400</pubDate>
+      <guid>https://jtmuller5.github.io/tags/react/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Google-Fonts</title>
       <link>https://jtmuller5.github.io/tags/google-fonts/</link>
@@ -244,13 +251,6 @@
       <link>https://jtmuller5.github.io/tags/chrome-extensions/</link>
       <pubDate>Mon, 18 Nov 2024 12:00:00 -0500</pubDate>
       <guid>https://jtmuller5.github.io/tags/chrome-extensions/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>React</title>
-      <link>https://jtmuller5.github.io/tags/react/</link>
-      <pubDate>Mon, 18 Nov 2024 12:00:00 -0500</pubDate>
-      <guid>https://jtmuller5.github.io/tags/react/</guid>
       <description></description>
     </item>
     <item>

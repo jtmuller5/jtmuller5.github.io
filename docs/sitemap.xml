@@ -2,25 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jtmuller5.github.io/categories/</loc>
+    <lastmod>2025-03-31T19:27:05-04:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/posts/generating-a-pdf-in-react/</loc>
+    <lastmod>2025-03-31T19:27:05-04:00</lastmod>
+  </url><url>
     <loc>https://jtmuller5.github.io/</loc>
     <lastmod>2025-03-31T19:27:05-04:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/posts/</loc>
     <lastmod>2025-03-31T19:27:05-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/categories/</loc>
-    <lastmod>2025-03-31T08:24:24-04:00</lastmod>
+    <loc>https://jtmuller5.github.io/tags/react/</loc>
+    <lastmod>2025-03-31T19:27:05-04:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/tags/</loc>
+    <lastmod>2025-03-31T19:27:05-04:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/categories/tutorial/</loc>
+    <lastmod>2025-03-31T19:27:05-04:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/google-fonts/</loc>
     <lastmod>2025-03-31T08:24:24-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/tags/</loc>
-    <lastmod>2025-03-31T08:24:24-04:00</lastmod>
-  </url><url>
     <loc>https://jtmuller5.github.io/tags/tailwind/</loc>
-    <lastmod>2025-03-31T08:24:24-04:00</lastmod>
-  </url><url>
-    <loc>https://jtmuller5.github.io/categories/tutorial/</loc>
     <lastmod>2025-03-31T08:24:24-04:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/posts/customize-tailwind-font/</loc>
@@ -261,9 +267,6 @@
     <lastmod>2024-11-18T12:00:00-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/posts/tutorials/chrome-extensions/create-a-chrome-extension-with-react-typescript-tailwind-and-vite/</loc>
-    <lastmod>2024-11-18T12:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://jtmuller5.github.io/tags/react/</loc>
     <lastmod>2024-11-18T12:00:00-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/vite/</loc>

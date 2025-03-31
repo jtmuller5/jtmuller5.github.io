@@ -1,7 +1,7 @@
 ---
 title: "Generating a PDF in React"
 date: 2025-03-31T19:27:05-04:00
-draft: true
+draft: false
 categories: ["tutorial"]
 tags: ["react"]
 # hiddenInHomeList: true
