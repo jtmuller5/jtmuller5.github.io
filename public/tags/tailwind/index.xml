@@ -6,8 +6,18 @@
     <description>Recent content in Tailwind on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Jan 2025 09:02:21 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 31 Mar 2025 08:24:24 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/tailwind/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Google Fonts with Tailwind</title>
+      <link>http://localhost:1313/posts/customize-tailwind-font/</link>
+      <pubDate>Mon, 31 Mar 2025 08:24:24 -0400</pubDate>
+      <guid>http://localhost:1313/posts/customize-tailwind-font/</guid>
+      <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
+&lt;p&gt;I&amp;rsquo;ve been working on a handful of web apps made stylish by TailwindCSS but was a bit disappointed that I couldn&amp;rsquo;t easily figure out how to use a Google Font in place of the default font. This tutorial fixes that.&lt;/p&gt;
+&lt;h2 id=&#34;find-your-font&#34;&gt;Find your Font&lt;/h2&gt;
+&lt;p&gt;Go to &lt;a href=&#34;https://fonts.google.com/&#34;&gt;Google Fonts&lt;/a&gt; and search for the font that fits your project. Once you&amp;rsquo;ve found it, click the &amp;ldquo;Get Font&amp;rdquo; button at the upper right of the screen:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Create a Preact App</title>
       <link>http://localhost:1313/posts/tutorials/create-a-preact-app/</link>

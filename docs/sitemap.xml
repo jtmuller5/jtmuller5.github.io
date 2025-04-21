@@ -239,6 +239,9 @@
     <loc>https://jtmuller5.github.io/posts/tutorials/resize-firebase-images-like-a-pro/</loc>
     <lastmod>2025-01-04T22:45:29-05:00</lastmod>
   </url><url>
+    <loc>https://jtmuller5.github.io/essays/</loc>
+    <lastmod>2024-12-23T15:09:25-05:00</lastmod>
+  </url><url>
     <loc>https://jtmuller5.github.io/posts/tutorials/typescript/converting-a-javascript-/</loc>
     <lastmod>2024-12-05T09:18:17-05:00</lastmod>
   </url><url>
@@ -428,10 +431,7 @@
     <loc>https://jtmuller5.github.io/tags/baking/</loc>
     <lastmod>2023-07-15T15:13:36-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/categories/essays/</loc>
-    <lastmod>2022-11-20T12:30:33-05:00</lastmod>
-  </url><url>
-    <loc>https://jtmuller5.github.io/posts/essays/fly-safe/fly-safe/</loc>
+    <loc>https://jtmuller5.github.io/posts/fly-safe/fly-safe/</loc>
     <lastmod>2022-11-20T12:30:33-05:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/tags/mobile/</loc>
@@ -443,10 +443,10 @@
     <loc>https://jtmuller5.github.io/tags/google-play/</loc>
     <lastmod>2022-09-20T10:57:17-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/essays/gripes_with_managed_publishing/gripes_with_managed_publishing/</loc>
+    <loc>https://jtmuller5.github.io/posts/gripes_with_managed_publishing/gripes_with_managed_publishing/</loc>
     <lastmod>2022-09-20T10:57:17-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/essays/tensorflow_and_keras/tensorflow_and_keras/</loc>
+    <loc>https://jtmuller5.github.io/posts/tensorflow_and_keras/tensorflow_and_keras/</loc>
     <lastmod>2022-09-19T21:21:28-04:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/categories/explorations/</loc>
@@ -503,19 +503,22 @@
     <loc>https://jtmuller5.github.io/posts/tutorials/flutter/cloud_storage_flutter/cloud_storage_flutter/</loc>
     <lastmod>2022-09-17T16:26:21-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/essays/sanguine-me/</loc>
+    <loc>https://jtmuller5.github.io/categories/essays/</loc>
     <lastmod>2019-09-30T08:37:43-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/essays/inifinite-horror/</loc>
+    <loc>https://jtmuller5.github.io/essays/sanguine-me/</loc>
+    <lastmod>2019-09-30T08:37:43-04:00</lastmod>
+  </url><url>
+    <loc>https://jtmuller5.github.io/essays/inifinite-horror/</loc>
     <lastmod>2019-09-26T08:40:17-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/essays/its-been-done/</loc>
+    <loc>https://jtmuller5.github.io/essays/its-been-done/</loc>
     <lastmod>2019-09-26T08:37:43-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/essays/purpose-is-my-purpose/</loc>
+    <loc>https://jtmuller5.github.io/essays/purpose-is-my-purpose/</loc>
     <lastmod>2019-09-25T08:41:39-04:00</lastmod>
   </url><url>
-    <loc>https://jtmuller5.github.io/posts/essays/thinking-thought/</loc>
+    <loc>https://jtmuller5.github.io/essays/thinking-thought/</loc>
     <lastmod>2019-09-20T08:34:41-04:00</lastmod>
   </url><url>
     <loc>https://jtmuller5.github.io/crash-courses/cheat-sheets/template/</loc>

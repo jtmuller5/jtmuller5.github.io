@@ -6,8 +6,216 @@
     <description>Recent content on Joe Muller&#39;s Blog</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Mar 2025 10:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 31 Mar 2025 19:27:05 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Generating a PDF in React</title>
+      <link>http://localhost:1313/posts/generating-a-pdf-in-react/</link>
+      <pubDate>Mon, 31 Mar 2025 19:27:05 -0400</pubDate>
+      <guid>http://localhost:1313/posts/generating-a-pdf-in-react/</guid>
+      <description>&lt;p&gt;Below is a minimal approach to generating PDFs in React applications:&lt;/p&gt;
+&lt;h2 id=&#34;1-install-the-dependencies&#34;&gt;1. Install the Dependencies&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm install html2canvas jspdf
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;2-a-hidden-pdf-component&#34;&gt;2. A Hidden PDF Component&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;28
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;29
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;30
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;31
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;32
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;33
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;34
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;35
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-typescript&#34; data-lang=&#34;typescript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;React&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;react&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;format&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;date-fns&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;interface&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;PDFReportProps&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;reportDate&lt;/span&gt;: &lt;span class=&#34;kt&#34;&gt;Date&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;totalItems&lt;/span&gt;: &lt;span class=&#34;kt&#34;&gt;number&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;PDFReport&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;React&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;forwardRef&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;HTMLDivElement&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;PDFReportProps&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;props&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;ref&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;reportDate&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;totalItems&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;props&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;na&#34;&gt;ref&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;ref&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;na&#34;&gt;style&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          &lt;span class=&#34;nx&#34;&gt;position&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;absolute&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          &lt;span class=&#34;nx&#34;&gt;top&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;-9999px&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          &lt;span class=&#34;nx&#34;&gt;left&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;-9999px&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          &lt;span class=&#34;nx&#34;&gt;width&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;800px&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;h1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Report&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;format&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;reportDate&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;MMMM yyyy&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)}&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;h1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;totalItems&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;?&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Your&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;main&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;PDF&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;content&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;goes&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;here&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;No&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;data&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;available&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;this&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;month&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;)}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;PDFReport&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;displayName&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;PDFReport&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;default&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;PDFReport&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol&gt;
+&lt;li&gt;We use React.forwardRef so that this component&amp;rsquo;s DOM node is accessible elsewhere.&lt;/li&gt;
+&lt;li&gt;Position it off-screen (top: -9999px) so it never appears in the rendered UI.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;3-a-button--utility-to-generate-the-pdf&#34;&gt;3. A Button &amp;amp; Utility to Generate the PDF&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;hl&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;hl&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;hl&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;hl&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;28
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;29
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;30
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;31
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;32
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;33
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;34
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;35
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;36
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;37
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;38
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;39
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;40
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;41
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;42
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;43
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;44
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;45
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;46
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;47
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;48
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;49
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;50
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-typescript&#34; data-lang=&#34;typescript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;React&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;react&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;html2canvas&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;html2canvas&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;jsPDF&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;jspdf&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;interface&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;PDFGeneratorProps&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;onGenerate&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;void&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;PDFGenerator&lt;/span&gt;: &lt;span class=&#34;kt&#34;&gt;React.FC&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;PDFGeneratorProps&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;({&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;onGenerate&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;})&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;button&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;onClick&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;onGenerate&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&amp;gt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Download&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;PDF&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;button&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line hl&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;default&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;PDFGenerator&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line hl&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line hl&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;generatePDF&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;async&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;reportRef&lt;/span&gt;: &lt;span class=&#34;kt&#34;&gt;React.RefObject&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;HTMLDivElement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;reportTitle&lt;/span&gt;: &lt;span class=&#34;kt&#34;&gt;string&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line hl&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Promise&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;void&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;!&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;reportRef&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;current&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;try&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;canvas&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;await&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;html2canvas&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;reportRef&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;current&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nx&#34;&gt;scale&lt;/span&gt;: &lt;span class=&#34;kt&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nx&#34;&gt;useCORS&lt;/span&gt;: &lt;span class=&#34;kt&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nx&#34;&gt;backgroundColor&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;#ffffff&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;imgData&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;canvas&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;toDataURL&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;image/png&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;pdf&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;jsPDF&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;({&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nx&#34;&gt;orientation&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;portrait&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nx&#34;&gt;unit&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;mm&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nx&#34;&gt;format&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;a4&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;pdfWidth&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;pdf&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;internal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;pageSize&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;getWidth&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;pdfHeight&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;pdf&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;internal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;pageSize&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;getHeight&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;imgWidth&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;canvas&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;width&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;imgHeight&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;canvas&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;height&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;ratio&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;Math&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;min&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;pdfWidth&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;/&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;imgWidth&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;pdfHeight&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;/&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;imgHeight&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;imgPdfWidth&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;imgWidth&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;ratio&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;imgPdfHeight&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;imgHeight&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;ratio&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;xOffset&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;pdfWidth&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;imgPdfWidth&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;/&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;pdf&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;addImage&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;imgData&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;PNG&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;xOffset&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;imgPdfWidth&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;imgPdfHeight&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;pdf&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;save&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;reportTitle&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;sb&#34;&gt;.pdf`&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;catch&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;err&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;console&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;error&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Error generating PDF:&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;err&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;};&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Key Points:&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Using Google Fonts with Tailwind</title>
+      <link>http://localhost:1313/posts/customize-tailwind-font/</link>
+      <pubDate>Mon, 31 Mar 2025 08:24:24 -0400</pubDate>
+      <guid>http://localhost:1313/posts/customize-tailwind-font/</guid>
+      <description>&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
+&lt;p&gt;I&amp;rsquo;ve been working on a handful of web apps made stylish by TailwindCSS but was a bit disappointed that I couldn&amp;rsquo;t easily figure out how to use a Google Font in place of the default font. This tutorial fixes that.&lt;/p&gt;
+&lt;h2 id=&#34;find-your-font&#34;&gt;Find your Font&lt;/h2&gt;
+&lt;p&gt;Go to &lt;a href=&#34;https://fonts.google.com/&#34;&gt;Google Fonts&lt;/a&gt; and search for the font that fits your project. Once you&amp;rsquo;ve found it, click the &amp;ldquo;Get Font&amp;rdquo; button at the upper right of the screen:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Building a Multi-Label Classification Model with BERT</title>
       <link>http://localhost:1313/posts/microblog/building-a-multi-label-classification-model-with-bert/</link>
@@ -628,9 +836,9 @@
     </item>
     <item>
       <title>Going Local</title>
-      <link>http://localhost:1313/posts/essays/going-local/</link>
+      <link>http://localhost:1313/posts/going-local/</link>
       <pubDate>Fri, 31 Jan 2025 16:50:19 -0500</pubDate>
-      <guid>http://localhost:1313/posts/essays/going-local/</guid>
+      <guid>http://localhost:1313/posts/going-local/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/karpathy/nanoGPT&#34;&gt;https://github.com/karpathy/nanoGPT&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://pcpartpicker.com/&#34;&gt;https://pcpartpicker.com/&lt;/a&gt;&lt;/li&gt;
@@ -752,9 +960,9 @@
     </item>
     <item>
       <title>Super Developer</title>
-      <link>http://localhost:1313/posts/essays/super-developer/</link>
+      <link>http://localhost:1313/essays/super-developer/</link>
       <pubDate>Mon, 23 Dec 2024 15:09:25 -0500</pubDate>
-      <guid>http://localhost:1313/posts/essays/super-developer/</guid>
+      <guid>http://localhost:1313/essays/super-developer/</guid>
       <description>&lt;p&gt;You won&amp;rsquo;t lose your&lt;/p&gt;</description>
     </item>
     <item>
@@ -1056,9 +1264,9 @@
     </item>
     <item>
       <title>My AI Has No Hands</title>
-      <link>http://localhost:1313/posts/essays/my-ai-has-no-hands/</link>
+      <link>http://localhost:1313/essays/my-ai-has-no-hands/</link>
       <pubDate>Fri, 11 Oct 2024 08:17:27 -0400</pubDate>
-      <guid>http://localhost:1313/posts/essays/my-ai-has-no-hands/</guid>
+      <guid>http://localhost:1313/essays/my-ai-has-no-hands/</guid>
       <description>&lt;p&gt;Lying to my AI is the only way to get it to do what I need it to do.&lt;/p&gt;
 &lt;p&gt;Function calls only seem to work with fetching-type functions. Look this up. Get the weather. Find my account.&lt;/p&gt;</description>
     </item>
@@ -2105,9 +2313,9 @@
     </item>
     <item>
       <title>Conversation Cost</title>
-      <link>http://localhost:1313/posts/essays/conversation-cost/</link>
+      <link>http://localhost:1313/essays/conversation-cost/</link>
       <pubDate>Sun, 29 Sep 2024 14:56:36 -0400</pubDate>
-      <guid>http://localhost:1313/posts/essays/conversation-cost/</guid>
+      <guid>http://localhost:1313/essays/conversation-cost/</guid>
       <description></description>
     </item>
     <item>
@@ -2169,24 +2377,24 @@
     </item>
     <item>
       <title>Eternity</title>
-      <link>http://localhost:1313/posts/essays/eternity/eternity/</link>
+      <link>http://localhost:1313/essays/eternity/eternity/</link>
       <pubDate>Sun, 25 Dec 2022 09:54:25 -0500</pubDate>
-      <guid>http://localhost:1313/posts/essays/eternity/eternity/</guid>
+      <guid>http://localhost:1313/essays/eternity/eternity/</guid>
       <description>&lt;p&gt;The biggest question we can ask is how does the universe work. It isn&lt;/p&gt;</description>
     </item>
     <item>
       <title>Fly Safe</title>
-      <link>http://localhost:1313/posts/essays/fly-safe/fly-safe/</link>
+      <link>http://localhost:1313/posts/fly-safe/fly-safe/</link>
       <pubDate>Sun, 20 Nov 2022 12:30:33 -0500</pubDate>
-      <guid>http://localhost:1313/posts/essays/fly-safe/fly-safe/</guid>
+      <guid>http://localhost:1313/posts/fly-safe/fly-safe/</guid>
       <description>&lt;p&gt;Over the last 3 years I&amp;rsquo;ve spent countless hours learning and using Google&amp;rsquo;s cross-platform UI framework, &lt;a href=&#34;https://flutter.dev/&#34;&gt;Flutter&lt;/a&gt;. I&amp;rsquo;ve built over 20 hobby apps, worked for several small startups, and used Flutter professionally at two large healthcare companies. Flutter is amazing and it&amp;rsquo;s allowed me to build an early career in software development.&lt;/p&gt;
 &lt;p&gt;The longer I use Flutter though, the more often I bump up against one of its major downsides - there&amp;rsquo;s no fast way to update broken code installed through the app stores.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Flutter to React</title>
-      <link>http://localhost:1313/posts/essays/flutter-to-react/flutter-to-react/</link>
+      <link>http://localhost:1313/posts/flutter-to-react/flutter-to-react/</link>
       <pubDate>Sun, 20 Nov 2022 09:46:44 -0500</pubDate>
-      <guid>http://localhost:1313/posts/essays/flutter-to-react/flutter-to-react/</guid>
+      <guid>http://localhost:1313/posts/flutter-to-react/flutter-to-react/</guid>
       <description>&lt;p&gt;Over the last 3 years I&amp;rsquo;ve spent countless hours learning and using Google&amp;rsquo;s cross-platform UI framework, &lt;a href=&#34;https://flutter.dev/&#34;&gt;Flutter&lt;/a&gt;. I&amp;rsquo;ve built a handful of hobby apps, worked for several small startups, and used Flutter professionally at two large healthcare companies. Flutter is amazing and it&amp;rsquo;s allowed me to build an early career in software development.&lt;/p&gt;
 &lt;p&gt;The longer I use Flutter though, the more often I bump up against its downsides.&lt;/p&gt;
 &lt;p&gt;When I first started building apps for myself and the 10 or so people that would find my app on the app stores, I didn&amp;rsquo;t think too much about things like hot-fixes or app review times. If something broke in the early days, I chalked it up as a lesson learned the hard way and moved on. After all, the impact of my broken code was almost nothing.&lt;/p&gt;</description>
@@ -2214,9 +2422,9 @@
     </item>
     <item>
       <title>Gripes with Managed Publishing</title>
-      <link>http://localhost:1313/posts/essays/gripes_with_managed_publishing/gripes_with_managed_publishing/</link>
+      <link>http://localhost:1313/posts/gripes_with_managed_publishing/gripes_with_managed_publishing/</link>
       <pubDate>Tue, 20 Sep 2022 10:57:17 -0400</pubDate>
-      <guid>http://localhost:1313/posts/essays/gripes_with_managed_publishing/gripes_with_managed_publishing/</guid>
+      <guid>http://localhost:1313/posts/gripes_with_managed_publishing/gripes_with_managed_publishing/</guid>
       <description>&lt;p&gt;Google Play&amp;rsquo;s Developer Console offers a pretty neat &amp;ldquo;&lt;a href=&#34;https://support.google.com/googleplay/android-developer/answer/9859654?hl=en&#34;&gt;Managed Publishing&lt;/a&gt;&amp;rdquo; feature that lets you decide when approved builds and app updates are published.&lt;/p&gt;
 &lt;p&gt;Without Managed Publishing:&lt;/p&gt;
 &lt;ol&gt;
@@ -2239,9 +2447,9 @@
     </item>
     <item>
       <title>A Brief Intro to Tensorflow and Keras</title>
-      <link>http://localhost:1313/posts/essays/tensorflow_and_keras/tensorflow_and_keras/</link>
+      <link>http://localhost:1313/posts/tensorflow_and_keras/tensorflow_and_keras/</link>
       <pubDate>Mon, 19 Sep 2022 21:21:28 -0400</pubDate>
-      <guid>http://localhost:1313/posts/essays/tensorflow_and_keras/tensorflow_and_keras/</guid>
+      <guid>http://localhost:1313/posts/tensorflow_and_keras/tensorflow_and_keras/</guid>
       <description>&lt;p&gt;The future seems to be full of complexities the human mind will not fully comprehend. We don&amp;rsquo;t know everything and we won&amp;rsquo;t know everything and so it seems appropriate to operate under the
 assumption that we will always be pushing up against new knowledge.&lt;/p&gt;
 &lt;p&gt;With that said, becoming familiar with machine learning and artificial intelligence early will put you in the best position to conquer the complex world of the future. For one, you&amp;rsquo;ll understand
@@ -2388,37 +2596,37 @@ GitHub pages.&lt;/p&gt;
     </item>
     <item>
       <title>Sanguine Me</title>
-      <link>http://localhost:1313/posts/essays/sanguine-me/</link>
+      <link>http://localhost:1313/essays/sanguine-me/</link>
       <pubDate>Mon, 30 Sep 2019 08:37:43 -0400</pubDate>
-      <guid>http://localhost:1313/posts/essays/sanguine-me/</guid>
+      <guid>http://localhost:1313/essays/sanguine-me/</guid>
       <description>&lt;p&gt;Pontificating life&amp;rsquo;s purpose, or the lack thereof, can be a demoralizing practice. No worldly endeavor appears to have eternal ramifications and no eternal endgame seems rewarding enough to offset the suffering required to get there. If you aren&amp;rsquo;t careful, it&amp;rsquo;s dangerously easy to fall prey to the pernicious idea that nothing is worth doing. It&amp;rsquo;s an idea that feeds itself, validating its core concepts in realtime and offering an escape hatch that justifies the damages it has inflicted. You become so overwhelmed by the pointless work you&amp;rsquo;re doing day in and day out that you put in less and less effort because in the long run, you don&amp;rsquo;t believe it will matter one way or another. Your performance deteriorates. Life gets worse as society peers at you with an unforgiving gaze. Knowing you should be more deliberate with your efforts, you try to pay more attention to the things that will benefit your career and help you earn money but you&amp;rsquo;re constantly reminded that even money and a successful career won&amp;rsquo;t solve the philosophical problem that caused you to relinquish in the first place. So you relinquish again and life gets harder, the looming force of a single idea powering you downward in a straight line (forget the spiral). How sad.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Inifinite Horror</title>
-      <link>http://localhost:1313/posts/essays/inifinite-horror/</link>
+      <link>http://localhost:1313/essays/inifinite-horror/</link>
       <pubDate>Thu, 26 Sep 2019 08:40:17 -0400</pubDate>
-      <guid>http://localhost:1313/posts/essays/inifinite-horror/</guid>
+      <guid>http://localhost:1313/essays/inifinite-horror/</guid>
       <description>&lt;p&gt;Religions all over the globe imagine an eternal, peaceful existence that follows the one we inhabit now. In Christianity, this eternal resting place devoid of pain and loss is called heaven and millions of the Christian faith mold their everyday behavior to meet the entry qualifications to this domain. They refrain from lying, cheating, stealing, murdering, lusting, and coveting all because these activities are sinful and would cause them to stumble in their walk with Jesus. All of these things should be avoided if you want to live an easy life, but avoiding them in order to gain access to an eternal world is bizarre in my opinion and not because this place may not exist. I think it&amp;rsquo;s bizarre because if this place did exist, going there would inevitably be torture for the perfect human mind (I say &amp;ldquo;perfect&amp;rdquo; because one could argue that an imperfect mind, ridden with a faulty and transient memory would play and enjoy this realm forever without ever being totally satisfied or saturated. I&amp;rsquo;ll discuss this later since this argument relies on several assumptions about how the biology of the human mind is preserved in an ethereal world).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Its Been Done</title>
-      <link>http://localhost:1313/posts/essays/its-been-done/</link>
+      <link>http://localhost:1313/essays/its-been-done/</link>
       <pubDate>Thu, 26 Sep 2019 08:37:43 -0400</pubDate>
-      <guid>http://localhost:1313/posts/essays/its-been-done/</guid>
+      <guid>http://localhost:1313/essays/its-been-done/</guid>
       <description>&lt;p&gt;When I was a kid I loved role playing video games, especially the open world kind where rare items littered the landscape and achievements were unlocked by doing just about anything. The sprawling checklists of things to do and buy and find kept me occupied for hundreds of hours and I would make up ridiculous goals for myself, such as to collect every item in Fallout 3 or find all 100-something stars in Super Mario 64 (I&amp;rsquo;ll admit the Fallout goal was a tad more extreme). I think my addiction was rooted in the idea that finding every rare item or reaching the max level was an impressive accomplishment that somehow bolstered my real world ability to be successful. After all, these things weren&amp;rsquo;t necessarily easy.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Purpose Is My Purpose</title>
-      <link>http://localhost:1313/posts/essays/purpose-is-my-purpose/</link>
+      <link>http://localhost:1313/essays/purpose-is-my-purpose/</link>
       <pubDate>Wed, 25 Sep 2019 08:41:39 -0400</pubDate>
-      <guid>http://localhost:1313/posts/essays/purpose-is-my-purpose/</guid>
+      <guid>http://localhost:1313/essays/purpose-is-my-purpose/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve spent a lot of time thinking about what the purpose of life is and whether or not existence is supported by some underlying reasoning. It&amp;rsquo;s a thought stream with a current that cannot be escaped. Once the mind starts to ponder &amp;ldquo;why&amp;rdquo; something must be done, it doesn&amp;rsquo;t stop pondering. Everything that get&amp;rsquo;s you excited or arouses fear or builds anticipation is now engulfed in a single thought cloud that fogs the emotional impact. I find each surge of dopamine in my mind being countered with an equal surge of pessimistic logic, specifically the idea that, &amp;ldquo;in 100 years, I&amp;rsquo;ll be dead anyways&amp;rdquo;. It&amp;rsquo;s a depressing plague in some instances and a reassuring sedative in others. The good things in life are temporary and so are the bad, each one inevitably being stamped out by the boot of father time. These ideas have made me rethink everything I&amp;rsquo;ve wanted to do in life, and more importantly, they&amp;rsquo;ve made me reevaluate the concept of wanting altogether.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Thinking Thought</title>
-      <link>http://localhost:1313/posts/essays/thinking-thought/</link>
+      <link>http://localhost:1313/essays/thinking-thought/</link>
       <pubDate>Fri, 20 Sep 2019 08:34:41 -0400</pubDate>
-      <guid>http://localhost:1313/posts/essays/thinking-thought/</guid>
+      <guid>http://localhost:1313/essays/thinking-thought/</guid>
       <description>&lt;p&gt;Purpose is a logic driven concept, one that can only be grasped by an entity with the potential to understand nebulous abstractions like reason and meaning. In simple terms, purpose is the &amp;ldquo;why&amp;rdquo; behind the &amp;ldquo;what&amp;rdquo; and it deals with questions that exist outside the plane of physical material. Objects in and of themselves are not concerned with the &amp;ldquo;why&amp;rdquo;. A rock in the middle of the desert does not care, nor have the capacity to care, about why it is destined to bake in a spotlight of solar radiation until the sun burns out. This goes for all things that have no means of deliberately responding to their environments - rocks, water droplets, the metal carcass of an old car. No, these things exist in a realm that is indifferent to any underlying, supernatural force&amp;hellip;or so it seems.&lt;/p&gt;</description>
     </item>
     <item>

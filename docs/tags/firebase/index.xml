@@ -41,9 +41,9 @@
     </item>
     <item>
       <title>Fly Safe</title>
-      <link>https://jtmuller5.github.io/posts/essays/fly-safe/fly-safe/</link>
+      <link>https://jtmuller5.github.io/posts/fly-safe/fly-safe/</link>
       <pubDate>Sun, 20 Nov 2022 12:30:33 -0500</pubDate>
-      <guid>https://jtmuller5.github.io/posts/essays/fly-safe/fly-safe/</guid>
+      <guid>https://jtmuller5.github.io/posts/fly-safe/fly-safe/</guid>
       <description>&lt;p&gt;Over the last 3 years I&amp;rsquo;ve spent countless hours learning and using Google&amp;rsquo;s cross-platform UI framework, &lt;a href=&#34;https://flutter.dev/&#34;&gt;Flutter&lt;/a&gt;. I&amp;rsquo;ve built over 20 hobby apps, worked for several small startups, and used Flutter professionally at two large healthcare companies. Flutter is amazing and it&amp;rsquo;s allowed me to build an early career in software development.&lt;/p&gt;
 &lt;p&gt;The longer I use Flutter though, the more often I bump up against one of its major downsides - there&amp;rsquo;s no fast way to update broken code installed through the app stores.&lt;/p&gt;</description>
     </item>

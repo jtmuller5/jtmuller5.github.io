@@ -2,7 +2,7 @@
 title: "Gripes with Managed Publishing"
 date: 2022-09-20T10:57:17-04:00
 draft: false
-categories: ["essays"]
+categories: []
 tags: ["google play","mobile"]
 ---
 

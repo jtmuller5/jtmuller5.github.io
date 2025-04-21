@@ -32,6 +32,8 @@ params:
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
+  mainSections: ["essays"]
+  
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
@@ -135,18 +137,18 @@ menu:
       name: Search
       url: /search/
       weight: 0
-    - identifier: projects
-      name: Projects
-      url: /projects/
-      weight: 0
-    - identifier: tutorials
-      name: Tutorials
-      url: /categories/tutorials/
-      weight: 10
-    - identifier: microblog
-      name: Microblog
-      url: /categories/microblog/
-      weight: 20
+    # - identifier: projects
+    #  name: Projects
+    #  url: /projects/
+    #  weight: 0
+    # - identifier: tutorials
+    #  name: Tutorials
+    #  url: /categories/tutorials/
+    #  weight: 10
+    # - identifier: microblog
+    #  name: Microblog
+    #  url: /categories/microblog/
+    #  weight: 20
     - identifier: essays
       name: Essays
       url: /categories/essays/

@@ -10,9 +10,9 @@
     <atom:link href="https://jtmuller5.github.io/tags/google-play/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gripes with Managed Publishing</title>
-      <link>https://jtmuller5.github.io/posts/essays/gripes_with_managed_publishing/gripes_with_managed_publishing/</link>
+      <link>https://jtmuller5.github.io/posts/gripes_with_managed_publishing/gripes_with_managed_publishing/</link>
       <pubDate>Tue, 20 Sep 2022 10:57:17 -0400</pubDate>
-      <guid>https://jtmuller5.github.io/posts/essays/gripes_with_managed_publishing/gripes_with_managed_publishing/</guid>
+      <guid>https://jtmuller5.github.io/posts/gripes_with_managed_publishing/gripes_with_managed_publishing/</guid>
       <description>&lt;p&gt;Google Play&amp;rsquo;s Developer Console offers a pretty neat &amp;ldquo;&lt;a href=&#34;https://support.google.com/googleplay/android-developer/answer/9859654?hl=en&#34;&gt;Managed Publishing&lt;/a&gt;&amp;rdquo; feature that lets you decide when approved builds and app updates are published.&lt;/p&gt;
 &lt;p&gt;Without Managed Publishing:&lt;/p&gt;
 &lt;ol&gt;
