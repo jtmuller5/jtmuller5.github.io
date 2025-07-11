@@ -1,0 +1,480 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE } from '../consts';
+import { getCollection } from 'astro:content';
+import { createSearchIndex } from '../utils/search';
+
+// Get all content for search
+const [blogs, tutorials, essays] = await Promise.all([
+	getCollection('blog'),
+	getCollection('tutorials'),
+	getCollection('essays')
+]);
+
+const searchIndex = createSearchIndex(blogs, tutorials, essays);
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={`Search | ${SITE_TITLE}`} description="Search through all blog posts, tutorials, and essays." />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<section class="search-page">
+				<div class="search-header">
+					<h1>Search</h1>
+					<p>Find content across all tutorials, essays, and blog posts.</p>
+				</div>
+
+				<div class="search-container">
+					<div class="search-input-container">
+						<input
+							type="text"
+							id="search-input"
+							placeholder="Search for tutorials, essays, or topics..."
+							autocomplete="off"
+						/>
+						<button type="button" id="clear-search" class="clear-button" aria-label="Clear search">
+							<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+								<line x1="18" y1="6" x2="6" y2="18"></line>
+								<line x1="6" y1="6" x2="18" y2="18"></line>
+							</svg>
+						</button>
+					</div>
+
+					<div class="search-filters">
+						<button type="button" class="filter-button active" data-filter="all">All</button>
+						<button type="button" class="filter-button" data-filter="tutorials">Tutorials</button>
+						<button type="button" class="filter-button" data-filter="essays">Essays</button>
+						<button type="button" class="filter-button" data-filter="blog">Blog</button>
+					</div>
+
+					<div id="search-results" class="search-results">
+						<div class="search-placeholder">
+							<p>Start typing to search through {searchIndex.length} posts...</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<Footer />
+
+		<script define:vars={{ searchIndex }}>
+			import('https://cdn.skypack.dev/fuse.js').then(({ default: Fuse }) => {
+				const searchInput = document.getElementById('search-input');
+				const searchResults = document.getElementById('search-results');
+				const clearButton = document.getElementById('clear-search');
+				const filterButtons = document.querySelectorAll('.filter-button');
+				
+				let activeFilter = 'all';
+				let currentQuery = '';
+
+				// Create Fuse instance
+				const fuse = new Fuse(searchIndex, {
+					keys: [
+						{ name: 'title', weight: 0.4 },
+						{ name: 'description', weight: 0.3 },
+						{ name: 'content', weight: 0.2 },
+						{ name: 'tags', weight: 0.1 },
+					],
+					threshold: 0.3,
+					includeScore: true,
+					includeMatches: true,
+				});
+
+				function getPostUrl(collection, slug) {
+					if (collection === 'blog') {
+						return `/blog/${slug}/`;
+					}
+					return `/${collection}/${slug}/`;
+				}
+
+				function formatDate(date) {
+					return new Date(date).toLocaleDateString('en-US', {
+						year: 'numeric',
+						month: 'long',
+						day: 'numeric'
+					});
+				}
+
+				function highlightMatches(text, matches) {
+					if (!matches || matches.length === 0) return text;
+					
+					let highlightedText = text;
+					const sortedMatches = matches.sort((a, b) => b.indices[0][0] - a.indices[0][0]);
+					
+					for (const match of sortedMatches) {
+						for (const [start, end] of match.indices) {
+							const before = highlightedText.slice(0, start);
+							const highlighted = highlightedText.slice(start, end + 1);
+							const after = highlightedText.slice(end + 1);
+							highlightedText = before + `<mark>${highlighted}</mark>` + after;
+						}
+					}
+					
+					return highlightedText;
+				}
+
+				function renderResults(results) {
+					if (results.length === 0) {
+						searchResults.innerHTML = `
+							<div class="no-results">
+								<p>No results found for "${currentQuery}"${activeFilter !== 'all' ? ` in ${activeFilter}` : ''}.</p>
+								<p>Try adjusting your search terms or filters.</p>
+							</div>
+						`;
+						return;
+					}
+
+					const resultsHtml = results.map(result => {
+						const item = result.item;
+						const matches = result.matches || [];
+						
+						const titleMatch = matches.find(m => m.key === 'title');
+						const descriptionMatch = matches.find(m => m.key === 'description');
+						
+						const highlightedTitle = titleMatch ? 
+							highlightMatches(item.title, [titleMatch]) : item.title;
+						const highlightedDescription = descriptionMatch ? 
+							highlightMatches(item.description, [descriptionMatch]) : item.description;
+
+						return `
+							<article class="search-result">
+								<div class="result-header">
+									<span class="result-collection">${item.collection}</span>
+									<span class="result-score">${Math.round((1 - result.score) * 100)}% match</span>
+								</div>
+								<h3><a href="${getPostUrl(item.collection, item.slug)}">${highlightedTitle}</a></h3>
+								<p class="result-description">${highlightedDescription}</p>
+								<div class="result-meta">
+									<span class="result-date">${formatDate(item.pubDate)}</span>
+									${item.tags && item.tags.length > 0 ? 
+										`<div class="result-tags">
+											${item.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+										</div>` : ''
+									}
+								</div>
+							</article>
+						`;
+					}).join('');
+
+					searchResults.innerHTML = `
+						<div class="results-header">
+							<p>Found ${results.length} result${results.length === 1 ? '' : 's'} for "${currentQuery}"${activeFilter !== 'all' ? ` in ${activeFilter}` : ''}</p>
+						</div>
+						${resultsHtml}
+					`;
+				}
+
+				function performSearch() {
+					currentQuery = searchInput.value.trim();
+					
+					if (!currentQuery) {
+						searchResults.innerHTML = `
+							<div class="search-placeholder">
+								<p>Start typing to search through ${searchIndex.length} posts...</p>
+							</div>
+						`;
+						return;
+					}
+
+					let searchData = searchIndex;
+					if (activeFilter !== 'all') {
+						searchData = searchIndex.filter(item => item.collection === activeFilter);
+					}
+
+					const fuseInstance = new Fuse(searchData, {
+						keys: [
+							{ name: 'title', weight: 0.4 },
+							{ name: 'description', weight: 0.3 },
+							{ name: 'content', weight: 0.2 },
+							{ name: 'tags', weight: 0.1 },
+						],
+						threshold: 0.3,
+						includeScore: true,
+						includeMatches: true,
+					});
+
+					const results = fuseInstance.search(currentQuery);
+					renderResults(results);
+				}
+
+				// Event listeners
+				searchInput.addEventListener('input', performSearch);
+
+				clearButton.addEventListener('click', () => {
+					searchInput.value = '';
+					searchInput.focus();
+					performSearch();
+				});
+
+				filterButtons.forEach(button => {
+					button.addEventListener('click', () => {
+						filterButtons.forEach(b => b.classList.remove('active'));
+						button.classList.add('active');
+						activeFilter = button.dataset.filter;
+						performSearch();
+					});
+				});
+
+				// Auto-focus search input
+				searchInput.focus();
+
+				// Update clear button visibility
+				searchInput.addEventListener('input', () => {
+					clearButton.style.display = searchInput.value ? 'flex' : 'none';
+				});
+			});
+		</script>
+	</body>
+</html>
+
+<style>
+	.search-page {
+		max-width: 1000px;
+		margin: 0 auto;
+		padding: 2rem 1rem;
+	}
+
+	.search-header {
+		text-align: center;
+		margin-bottom: 3rem;
+	}
+
+	.search-header h1 {
+		font-size: 2.5rem;
+		margin-bottom: 1rem;
+		color: rgb(var(--black));
+	}
+
+	.search-header p {
+		font-size: 1.125rem;
+		color: rgb(var(--gray-dark));
+	}
+
+	.search-container {
+		max-width: 800px;
+		margin: 0 auto;
+	}
+
+	.search-input-container {
+		position: relative;
+		margin-bottom: 2rem;
+	}
+
+	#search-input {
+		width: 100%;
+		padding: 1rem 3rem 1rem 1rem;
+		font-size: 1.125rem;
+		border: 2px solid rgb(var(--gray-light));
+		border-radius: 8px;
+		background: white;
+		transition: border-color 0.2s ease;
+	}
+
+	#search-input:focus {
+		outline: none;
+		border-color: rgb(var(--accent));
+	}
+
+	.clear-button {
+		position: absolute;
+		right: 0.75rem;
+		top: 50%;
+		transform: translateY(-50%);
+		background: none;
+		border: none;
+		color: rgb(var(--gray));
+		cursor: pointer;
+		display: none;
+		align-items: center;
+		justify-content: center;
+		width: 2rem;
+		height: 2rem;
+		border-radius: 4px;
+		transition: color 0.2s ease, background-color 0.2s ease;
+	}
+
+	.clear-button:hover {
+		background: rgb(var(--gray-light));
+		color: rgb(var(--black));
+	}
+
+	.search-filters {
+		display: flex;
+		gap: 0.5rem;
+		margin-bottom: 2rem;
+		flex-wrap: wrap;
+	}
+
+	.filter-button {
+		padding: 0.5rem 1rem;
+		border: 1px solid rgb(var(--gray-light));
+		background: white;
+		color: rgb(var(--gray-dark));
+		border-radius: 6px;
+		cursor: pointer;
+		transition: all 0.2s ease;
+		font-size: 0.875rem;
+	}
+
+	.filter-button:hover {
+		border-color: rgb(var(--accent));
+		color: rgb(var(--accent));
+	}
+
+	.filter-button.active {
+		background: rgb(var(--accent));
+		border-color: rgb(var(--accent));
+		color: white;
+	}
+
+	.search-results {
+		min-height: 400px;
+	}
+
+	.search-placeholder {
+		text-align: center;
+		padding: 4rem 2rem;
+		color: rgb(var(--gray));
+	}
+
+	.results-header {
+		margin-bottom: 2rem;
+		padding-bottom: 1rem;
+		border-bottom: 1px solid rgb(var(--gray-light));
+	}
+
+	.results-header p {
+		color: rgb(var(--gray-dark));
+		font-size: 0.875rem;
+	}
+
+	.search-result {
+		padding: 1.5rem;
+		border: 1px solid rgb(var(--gray-light));
+		border-radius: 8px;
+		margin-bottom: 1.5rem;
+		transition: all 0.2s ease;
+	}
+
+	.search-result:hover {
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+		transform: translateY(-2px);
+	}
+
+	.result-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 0.75rem;
+	}
+
+	.result-collection {
+		font-size: 0.75rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		padding: 0.25rem 0.5rem;
+		border-radius: 4px;
+		background: rgb(var(--accent));
+		color: white;
+	}
+
+	.result-score {
+		font-size: 0.75rem;
+		color: rgb(var(--gray));
+	}
+
+	.search-result h3 {
+		margin: 0 0 0.5rem 0;
+		font-size: 1.25rem;
+		line-height: 1.3;
+	}
+
+	.search-result h3 a {
+		color: rgb(var(--black));
+		text-decoration: none;
+	}
+
+	.search-result h3 a:hover {
+		color: rgb(var(--accent));
+	}
+
+	.result-description {
+		margin: 0 0 1rem 0;
+		color: rgb(var(--gray-dark));
+		line-height: 1.5;
+	}
+
+	.result-meta {
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+		flex-wrap: wrap;
+	}
+
+	.result-date {
+		font-size: 0.875rem;
+		color: rgb(var(--gray));
+	}
+
+	.result-tags {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+	}
+
+	.tag {
+		font-size: 0.75rem;
+		padding: 0.25rem 0.5rem;
+		border-radius: 12px;
+		background: rgb(var(--gray-light));
+		color: rgb(var(--gray-dark));
+	}
+
+	.no-results {
+		text-align: center;
+		padding: 4rem 2rem;
+		color: rgb(var(--gray-dark));
+	}
+
+	.no-results p:first-child {
+		font-size: 1.125rem;
+		margin-bottom: 0.5rem;
+	}
+
+	/* Highlight matches */
+	mark {
+		background: rgb(var(--accent));
+		color: white;
+		padding: 0.125rem 0.25rem;
+		border-radius: 3px;
+	}
+
+	@media (max-width: 768px) {
+		.search-header h1 {
+			font-size: 2rem;
+		}
+
+		.search-filters {
+			justify-content: center;
+		}
+
+		.result-header {
+			flex-direction: column;
+			align-items: flex-start;
+			gap: 0.5rem;
+		}
+
+		.result-meta {
+			flex-direction: column;
+			align-items: flex-start;
+			gap: 0.5rem;
+		}
+	}
+</style>

@@ -1,0 +1,287 @@
+---
+import { type CollectionEntry, getCollection, render } from 'astro:content';
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import FormattedDate from '../../components/FormattedDate.astro';
+import { SITE_TITLE } from '../../consts';
+
+export async function getStaticPaths() {
+	const tutorials = await getCollection('tutorials');
+	return tutorials.map((tutorial) => ({
+		params: { slug: tutorial.id },
+		props: tutorial,
+	}));
+}
+type Props = CollectionEntry<'tutorials'>;
+
+const tutorial = Astro.props;
+const { Content, headings } = await render(tutorial);
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={`${tutorial.data.title} | ${SITE_TITLE}`} description={tutorial.data.description} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<article class="tutorial">
+				<div class="tutorial-header">
+					<div class="tutorial-meta">
+						<span class="collection-badge">Tutorial</span>
+						{tutorial.data.difficulty && <span class="difficulty-badge">{tutorial.data.difficulty}</span>}
+						{tutorial.data.estimatedTime && <span class="time-badge">⏱️ {tutorial.data.estimatedTime}</span>}
+					</div>
+					<h1>{tutorial.data.title}</h1>
+					<p class="tutorial-description">{tutorial.data.description}</p>
+					<div class="tutorial-date">
+						<FormattedDate date={tutorial.data.pubDate} />
+						{tutorial.data.updatedDate && (
+							<span class="updated-date">
+								(Updated: <FormattedDate date={tutorial.data.updatedDate} />)
+							</span>
+						)}
+					</div>
+					{tutorial.data.tags && tutorial.data.tags.length > 0 && (
+						<div class="tutorial-tags">
+							{tutorial.data.tags.map(tag => <span class="tag">{tag}</span>)}
+						</div>
+					)}
+				</div>
+
+				{headings.length > 0 && (
+					<nav class="table-of-contents">
+						<h2>Table of Contents</h2>
+						<ul>
+							{headings.map(heading => (
+								<li class={`toc-level-${heading.depth}`}>
+									<a href={`#${heading.slug}`}>{heading.text}</a>
+								</li>
+							))}
+						</ul>
+					</nav>
+				)}
+
+				<div class="tutorial-content">
+					<Content />
+				</div>
+			</article>
+		</main>
+		<Footer />
+	</body>
+</html>
+
+<style>
+	.tutorial {
+		max-width: 800px;
+		margin: 0 auto;
+		padding: 2rem 1rem;
+	}
+
+	.tutorial-header {
+		margin-bottom: 3rem;
+		text-align: center;
+		border-bottom: 1px solid rgb(var(--gray-light));
+		padding-bottom: 2rem;
+	}
+
+	.tutorial-meta {
+		display: flex;
+		justify-content: center;
+		gap: 0.5rem;
+		margin-bottom: 1rem;
+		flex-wrap: wrap;
+	}
+
+	.collection-badge {
+		font-size: 0.75rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		padding: 0.25rem 0.5rem;
+		border-radius: 4px;
+		background: rgb(var(--accent));
+		color: white;
+	}
+
+	.difficulty-badge {
+		font-size: 0.75rem;
+		padding: 0.25rem 0.5rem;
+		border-radius: 4px;
+		background: rgb(var(--gray-light));
+		color: rgb(var(--gray-dark));
+	}
+
+	.time-badge {
+		font-size: 0.75rem;
+		padding: 0.25rem 0.5rem;
+		border-radius: 4px;
+		background: rgb(var(--gray-light));
+		color: rgb(var(--gray-dark));
+	}
+
+	.tutorial h1 {
+		font-size: 2.5rem;
+		margin-bottom: 1rem;
+		color: rgb(var(--black));
+		line-height: 1.2;
+	}
+
+	.tutorial-description {
+		font-size: 1.125rem;
+		color: rgb(var(--gray-dark));
+		margin-bottom: 1rem;
+		line-height: 1.5;
+	}
+
+	.tutorial-date {
+		font-size: 0.875rem;
+		color: rgb(var(--gray));
+		margin-bottom: 1rem;
+	}
+
+	.updated-date {
+		font-style: italic;
+	}
+
+	.tutorial-tags {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+	}
+
+	.tag {
+		font-size: 0.75rem;
+		padding: 0.25rem 0.5rem;
+		border-radius: 12px;
+		background: rgb(var(--gray-light));
+		color: rgb(var(--gray-dark));
+	}
+
+	.table-of-contents {
+		background: rgb(var(--gray-light));
+		padding: 1.5rem;
+		border-radius: 8px;
+		margin-bottom: 3rem;
+	}
+
+	.table-of-contents h2 {
+		margin-top: 0;
+		margin-bottom: 1rem;
+		font-size: 1.125rem;
+		color: rgb(var(--black));
+	}
+
+	.table-of-contents ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	.table-of-contents li {
+		margin-bottom: 0.5rem;
+	}
+
+	.table-of-contents a {
+		color: rgb(var(--gray-dark));
+		text-decoration: none;
+		line-height: 1.4;
+	}
+
+	.table-of-contents a:hover {
+		color: rgb(var(--accent));
+	}
+
+	.toc-level-2 {
+		padding-left: 0;
+	}
+
+	.toc-level-3 {
+		padding-left: 1rem;
+		font-size: 0.9rem;
+	}
+
+	.toc-level-4 {
+		padding-left: 2rem;
+		font-size: 0.85rem;
+	}
+
+	.tutorial-content {
+		line-height: 1.7;
+	}
+
+	.tutorial-content h1,
+	.tutorial-content h2,
+	.tutorial-content h3,
+	.tutorial-content h4,
+	.tutorial-content h5,
+	.tutorial-content h6 {
+		margin-top: 2rem;
+		margin-bottom: 1rem;
+		color: rgb(var(--black));
+	}
+
+	.tutorial-content h1 { font-size: 2rem; }
+	.tutorial-content h2 { font-size: 1.5rem; }
+	.tutorial-content h3 { font-size: 1.25rem; }
+
+	.tutorial-content p {
+		margin-bottom: 1.5rem;
+	}
+
+	.tutorial-content code {
+		background: rgb(var(--gray-light));
+		padding: 0.125rem 0.25rem;
+		border-radius: 3px;
+		font-size: 0.9em;
+	}
+
+	.tutorial-content pre {
+		background: #1e1e1e;
+		padding: 1.5rem;
+		border-radius: 8px;
+		overflow-x: auto;
+		margin: 2rem 0;
+	}
+
+	.tutorial-content pre code {
+		background: none;
+		padding: 0;
+		color: #d4d4d4;
+	}
+
+	.tutorial-content blockquote {
+		border-left: 4px solid rgb(var(--accent));
+		padding-left: 1rem;
+		margin: 2rem 0;
+		font-style: italic;
+		color: rgb(var(--gray-dark));
+	}
+
+	.tutorial-content ul,
+	.tutorial-content ol {
+		margin-bottom: 1.5rem;
+		padding-left: 2rem;
+	}
+
+	.tutorial-content li {
+		margin-bottom: 0.5rem;
+	}
+
+	@media (max-width: 768px) {
+		.tutorial h1 {
+			font-size: 2rem;
+		}
+
+		.tutorial-content h1 { font-size: 1.75rem; }
+		.tutorial-content h2 { font-size: 1.375rem; }
+		.tutorial-content h3 { font-size: 1.125rem; }
+
+		.tutorial-meta {
+			justify-content: center;
+		}
+	}
+</style>

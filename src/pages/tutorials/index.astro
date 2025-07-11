@@ -1,0 +1,90 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import PostCard from '../../components/PostCard.astro';
+import { SITE_TITLE } from '../../consts';
+import { getCollection } from 'astro:content';
+import { getPostUrl } from '../../utils/search';
+
+const tutorials = await getCollection('tutorials');
+const sortedTutorials = tutorials.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={`Tutorials | ${SITE_TITLE}`} description="Learn web development with step-by-step tutorials covering modern frameworks, tools, and best practices." />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<section class="page-header">
+				<h1>Tutorials</h1>
+				<p>Step-by-step guides to help you learn and build amazing things on the web.</p>
+			</section>
+
+			<section class="tutorials">
+				<div class="posts-grid">
+					{sortedTutorials.map(tutorial => (
+						<PostCard
+							title={tutorial.data.title}
+							description={tutorial.data.description}
+							pubDate={tutorial.data.pubDate}
+							tags={tutorial.data.tags}
+							href={getPostUrl('tutorials', tutorial.id)}
+							collection="tutorials"
+							difficulty={tutorial.data.difficulty}
+							estimatedTime={tutorial.data.estimatedTime}
+						/>
+					))}
+				</div>
+			</section>
+		</main>
+		<Footer />
+	</body>
+</html>
+
+<style>
+	.page-header {
+		text-align: center;
+		padding: 4rem 1rem 2rem;
+		max-width: 800px;
+		margin: 0 auto;
+	}
+
+	.page-header h1 {
+		font-size: 2.5rem;
+		margin-bottom: 1rem;
+		color: rgb(var(--black));
+	}
+
+	.page-header p {
+		font-size: 1.125rem;
+		color: rgb(var(--gray-dark));
+		max-width: 600px;
+		margin: 0 auto;
+	}
+
+	.tutorials {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 2rem 1rem;
+	}
+
+	.posts-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+		gap: 2rem;
+	}
+
+	@media (max-width: 768px) {
+		.page-header h1 {
+			font-size: 2rem;
+		}
+
+		.posts-grid {
+			grid-template-columns: 1fr;
+		}
+	}
+</style>

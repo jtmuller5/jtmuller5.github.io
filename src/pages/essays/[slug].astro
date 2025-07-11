@@ -1,0 +1,217 @@
+---
+import { type CollectionEntry, getCollection, render } from 'astro:content';
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import FormattedDate from '../../components/FormattedDate.astro';
+import { SITE_TITLE } from '../../consts';
+
+export async function getStaticPaths() {
+	const essays = await getCollection('essays');
+	return essays.map((essay) => ({
+		params: { slug: essay.id },
+		props: essay,
+	}));
+}
+type Props = CollectionEntry<'essays'>;
+
+const essay = Astro.props;
+const { Content, headings } = await render(essay);
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={`${essay.data.title} | ${SITE_TITLE}`} description={essay.data.description} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<article class="essay">
+				<div class="essay-header">
+					<div class="essay-meta">
+						<span class="collection-badge">Essay</span>
+						{essay.data.category && <span class="category-badge">{essay.data.category}</span>}
+					</div>
+					<h1>{essay.data.title}</h1>
+					<p class="essay-description">{essay.data.description}</p>
+					<div class="essay-date">
+						<FormattedDate date={essay.data.pubDate} />
+						{essay.data.updatedDate && (
+							<span class="updated-date">
+								(Updated: <FormattedDate date={essay.data.updatedDate} />)
+							</span>
+						)}
+					</div>
+					{essay.data.tags && essay.data.tags.length > 0 && (
+						<div class="essay-tags">
+							{essay.data.tags.map(tag => <span class="tag">{tag}</span>)}
+						</div>
+					)}
+				</div>
+
+				<div class="essay-content">
+					<Content />
+				</div>
+			</article>
+		</main>
+		<Footer />
+	</body>
+</html>
+
+<style>
+	.essay {
+		max-width: 800px;
+		margin: 0 auto;
+		padding: 2rem 1rem;
+	}
+
+	.essay-header {
+		margin-bottom: 3rem;
+		text-align: center;
+		border-bottom: 1px solid rgb(var(--gray-light));
+		padding-bottom: 2rem;
+	}
+
+	.essay-meta {
+		display: flex;
+		justify-content: center;
+		gap: 0.5rem;
+		margin-bottom: 1rem;
+		flex-wrap: wrap;
+	}
+
+	.collection-badge {
+		font-size: 0.75rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		padding: 0.25rem 0.5rem;
+		border-radius: 4px;
+		background: rgb(var(--accent));
+		color: white;
+	}
+
+	.category-badge {
+		font-size: 0.75rem;
+		padding: 0.25rem 0.5rem;
+		border-radius: 4px;
+		background: rgb(var(--gray-light));
+		color: rgb(var(--gray-dark));
+	}
+
+	.essay h1 {
+		font-size: 2.5rem;
+		margin-bottom: 1rem;
+		color: rgb(var(--black));
+		line-height: 1.2;
+	}
+
+	.essay-description {
+		font-size: 1.125rem;
+		color: rgb(var(--gray-dark));
+		margin-bottom: 1rem;
+		line-height: 1.5;
+	}
+
+	.essay-date {
+		font-size: 0.875rem;
+		color: rgb(var(--gray));
+		margin-bottom: 1rem;
+	}
+
+	.updated-date {
+		font-style: italic;
+	}
+
+	.essay-tags {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+	}
+
+	.tag {
+		font-size: 0.75rem;
+		padding: 0.25rem 0.5rem;
+		border-radius: 12px;
+		background: rgb(var(--gray-light));
+		color: rgb(var(--gray-dark));
+	}
+
+	.essay-content {
+		line-height: 1.7;
+	}
+
+	.essay-content h1,
+	.essay-content h2,
+	.essay-content h3,
+	.essay-content h4,
+	.essay-content h5,
+	.essay-content h6 {
+		margin-top: 2rem;
+		margin-bottom: 1rem;
+		color: rgb(var(--black));
+	}
+
+	.essay-content h1 { font-size: 2rem; }
+	.essay-content h2 { font-size: 1.5rem; }
+	.essay-content h3 { font-size: 1.25rem; }
+
+	.essay-content p {
+		margin-bottom: 1.5rem;
+	}
+
+	.essay-content code {
+		background: rgb(var(--gray-light));
+		padding: 0.125rem 0.25rem;
+		border-radius: 3px;
+		font-size: 0.9em;
+	}
+
+	.essay-content pre {
+		background: #1e1e1e;
+		padding: 1.5rem;
+		border-radius: 8px;
+		overflow-x: auto;
+		margin: 2rem 0;
+	}
+
+	.essay-content pre code {
+		background: none;
+		padding: 0;
+		color: #d4d4d4;
+	}
+
+	.essay-content blockquote {
+		border-left: 4px solid rgb(var(--accent));
+		padding-left: 1rem;
+		margin: 2rem 0;
+		font-style: italic;
+		color: rgb(var(--gray-dark));
+	}
+
+	.essay-content ul,
+	.essay-content ol {
+		margin-bottom: 1.5rem;
+		padding-left: 2rem;
+	}
+
+	.essay-content li {
+		margin-bottom: 0.5rem;
+	}
+
+	@media (max-width: 768px) {
+		.essay h1 {
+			font-size: 2rem;
+		}
+
+		.essay-content h1 { font-size: 1.75rem; }
+		.essay-content h2 { font-size: 1.375rem; }
+		.essay-content h3 { font-size: 1.125rem; }
+
+		.essay-meta {
+			justify-content: center;
+		}
+	}
+</style>

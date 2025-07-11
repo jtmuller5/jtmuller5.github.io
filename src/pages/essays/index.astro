@@ -1,0 +1,89 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import PostCard from '../../components/PostCard.astro';
+import { SITE_TITLE } from '../../consts';
+import { getCollection } from 'astro:content';
+import { getPostUrl } from '../../utils/search';
+
+const essays = await getCollection('essays');
+const sortedEssays = essays.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={`Essays | ${SITE_TITLE}`} description="Thoughts, reflections, and perspectives on technology, development, and the digital world." />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<section class="page-header">
+				<h1>Essays</h1>
+				<p>Thoughts, reflections, and perspectives on technology, development, and the digital world.</p>
+			</section>
+
+			<section class="essays">
+				<div class="posts-grid">
+					{sortedEssays.map(essay => (
+						<PostCard
+							title={essay.data.title}
+							description={essay.data.description}
+							pubDate={essay.data.pubDate}
+							tags={essay.data.tags}
+							href={getPostUrl('essays', essay.id)}
+							collection="essays"
+							category={essay.data.category}
+						/>
+					))}
+				</div>
+			</section>
+		</main>
+		<Footer />
+	</body>
+</html>
+
+<style>
+	.page-header {
+		text-align: center;
+		padding: 4rem 1rem 2rem;
+		max-width: 800px;
+		margin: 0 auto;
+	}
+
+	.page-header h1 {
+		font-size: 2.5rem;
+		margin-bottom: 1rem;
+		color: rgb(var(--black));
+	}
+
+	.page-header p {
+		font-size: 1.125rem;
+		color: rgb(var(--gray-dark));
+		max-width: 600px;
+		margin: 0 auto;
+	}
+
+	.essays {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 2rem 1rem;
+	}
+
+	.posts-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+		gap: 2rem;
+	}
+
+	@media (max-width: 768px) {
+		.page-header h1 {
+			font-size: 2rem;
+		}
+
+		.posts-grid {
+			grid-template-columns: 1fr;
+		}
+	}
+</style>

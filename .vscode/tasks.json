@@ -1,0 +1,12 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Site",
+      "type": "shell",
+      "command": "astro dev",
+      "group": "none",
+      "problemMatcher": []
+    }
+  ]
+}
