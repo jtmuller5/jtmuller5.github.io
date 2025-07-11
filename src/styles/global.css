@@ -13,7 +13,7 @@
 /* Theme switching support */
 :root {
   /* Default to light theme */
-  data-theme: "github-light";
+  data-theme: "github-dark";
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,21 +22,21 @@
   }
 }
 @font-face {
-  font-family: "Atkinson";
-  src: url("/fonts/atkinson-regular.woff") format("woff");
+  font-family: "Dosis";
+  src: url("/fonts/Dosis-Regular.tff") format("ttf");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Atkinson";
-  src: url("/fonts/atkinson-bold.woff") format("woff");
+  font-family: "Dosis";
+  src: url("/fonts/Dosis-Bold.tff") format("ttf");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 body {
-  font-family: "Atkinson", sans-serif;
+  font-family: "Dosis", sans-serif;
   margin: 0;
   padding: 0;
   text-align: left;
