@@ -4,7 +4,7 @@
     {
       "label": "Run Site",
       "type": "shell",
-      "command": "astro dev",
+      "command": "npx astro dev",
       "group": "none",
       "problemMatcher": []
     }

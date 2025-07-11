@@ -5,6 +5,7 @@ import "../styles/global.css";
 import { SITE_TITLE } from "../consts";
 import FallbackImage from "../assets/blog-placeholder-1.jpg";
 import type { ImageMetadata } from "astro";
+import * as amplitude from "@amplitude/analytics-browser";
 
 interface Props {
   title: string;
@@ -13,6 +14,11 @@ interface Props {
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+
+amplitude.init("7bcac5be35f241301418e89e07b365bc", {
+  fetchRemoteConfig: true,
+  autocapture: true,
+});
 
 const { title, description, image = FallbackImage } = Astro.props;
 ---
@@ -67,15 +73,3 @@ const { title, description, image = FallbackImage } = Astro.props;
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={new URL(image.src, Astro.url)} />
-
-<script
-  type="text/partytown"
-  src="https://cdn.amplitude.com/script/7bcac5be35f241301418e89e07b365bc.js"
-></script>
-
-<script>
-  window.amplitude.init("7bcac5be35f241301418e89e07b365bc", {
-    fetchRemoteConfig: true,
-    autocapture: true,
-  });
-</script>
