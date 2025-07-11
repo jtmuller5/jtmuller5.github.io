@@ -68,7 +68,10 @@ const { title, description, image = FallbackImage } = Astro.props;
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={new URL(image.src, Astro.url)} />
 
-<script src="https://cdn.amplitude.com/script/7bcac5be35f241301418e89e07b365bc.js"></script>
+<script
+  type="text/partytown"
+  src="https://cdn.amplitude.com/script/7bcac5be35f241301418e89e07b365bc.js"
+></script>
 
 <script>
   window.amplitude.init("7bcac5be35f241301418e89e07b365bc", {

@@ -1,15 +1,16 @@
 import { defineConfig } from "astro/config";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
+import partytown from '@astrojs/partytown';
 import expressiveCode from "astro-expressive-code";
 import { pluginLineNumbers } from "@expressive-code/plugin-line-numbers";
-import { pluginCollapsibleSections } from '@expressive-code/plugin-collapsible-sections'
-
+import { pluginCollapsibleSections } from "@expressive-code/plugin-collapsible-sections";
 
 // https://astro.build/config
 export default defineConfig({
   site: "https://joemuller.com",
   integrations: [
+    partytown(),
     // ExpressiveCode should come before MDX
     expressiveCode({
       themes: ["github-dark", "github-light"],
@@ -26,9 +27,7 @@ export default defineConfig({
         // Show line numbers for longer code blocks
         showLineNumbers: false,
       },
-      plugins: [pluginLineNumbers(),
-		pluginCollapsibleSections()
-	  ],
+      plugins: [pluginLineNumbers(), pluginCollapsibleSections()],
     }),
     mdx(),
     sitemap(),
