@@ -36,10 +36,10 @@ const { Content, headings } = await render(essay);
 					<h1>{essay.data.title}</h1>
 					<p class="essay-description">{essay.data.description}</p>
 					<div class="essay-date">
-						<FormattedDate date={essay.data.pubDate} />
+						<FormattedDate pubDate={essay.data.pubDate} />
 						{essay.data.updatedDate && (
 							<span class="updated-date">
-								(Updated: <FormattedDate date={essay.data.updatedDate} />)
+								(Updated: <FormattedDate pubDate={essay.data.updatedDate} />)
 							</span>
 						)}
 					</div>

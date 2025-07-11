@@ -53,10 +53,10 @@ const { Content, headings } = await render(tutorial);
 					<h1>{tutorial.data.title}</h1>
 					<p class="tutorial-description">{tutorial.data.description}</p>
 					<div class="tutorial-date">
-						<FormattedDate date={tutorial.data.pubDate} />
+						<FormattedDate pubDate={tutorial.data.pubDate} />
 						{tutorial.data.updatedDate && (
 							<span class="updated-date">
-								(Updated: <FormattedDate date={tutorial.data.updatedDate} />)
+								(Updated: <FormattedDate pubDate={tutorial.data.updatedDate} />)
 							</span>
 						)}
 					</div>

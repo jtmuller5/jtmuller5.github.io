@@ -14,6 +14,7 @@ interface Props {
 const { title, description, pubDate, tags, href, collection, difficulty, estimatedTime, category } = Astro.props;
 
 import FormattedDate from './FormattedDate.astro';
+import Tag from './TagComponent.astro';
 ---
 
 <article class="post-card">
@@ -25,12 +26,12 @@ import FormattedDate from './FormattedDate.astro';
 	<h3><a href={href}>{title}</a></h3>
 	<p class="post-card__description">{description}</p>
 	<div class="post-card__meta">
-		<FormattedDate date={pubDate} />
+		<FormattedDate pubDate={pubDate} />
 		{estimatedTime && <span class="post-card__time">• {estimatedTime}</span>}
 	</div>
 	{tags && tags.length > 0 && (
 		<div class="post-card__tags">
-			{tags.map(tag => <span class="tag">{tag}</span>)}
+			{tags.map(tag => <Tag tag={tag} size="small" />)}
 		</div>
 	)}
 </article>
@@ -121,11 +122,5 @@ import FormattedDate from './FormattedDate.astro';
 		gap: 0.5rem;
 	}
 
-	.tag {
-		font-size: 0.75rem;
-		padding: 0.25rem 0.5rem;
-		border-radius: 12px;
-		background: rgb(var(--gray-light));
-		color: rgb(var(--gray-dark));
-	}
+
 </style>

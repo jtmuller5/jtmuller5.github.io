@@ -1,0 +1,149 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/BlogPost.astro';
+import Tag from '../../components/TagComponent.astro';
+import { getAllTags, getTagCounts } from '../../utils/tags';
+
+// Get all posts from all collections
+const blogPosts = await getCollection('blog');
+const tutorials = await getCollection('tutorials');
+const essays = await getCollection('essays');
+
+const allPosts = [...blogPosts, ...tutorials, ...essays];
+
+// Get all tags and their counts
+const allTags = getAllTags(allPosts);
+const tagCounts = getTagCounts(allPosts);
+
+// Sort tags by count (descending) then alphabetically
+const sortedTags = allTags.sort((a, b) => {
+	const countDiff = (tagCounts[b] || 0) - (tagCounts[a] || 0);
+	return countDiff !== 0 ? countDiff : a.localeCompare(b);
+});
+---
+
+<Layout title="All Tags" description="Browse all tags across blog posts, tutorials, and essays" pubDate={new Date()}>
+	<main>
+		<div class="tags-page">
+			<header class="tags-header">
+				<h1>All Tags</h1>
+				<p>Browse content by topic. Click on any tag to see related posts.</p>
+			</header>
+
+			<div class="tags-grid">
+				{sortedTags.map(tag => (
+					<div class="tag-item">
+						<Tag tag={tag} size="medium" variant="default" />
+						<span class="tag-count">{tagCounts[tag]} post{tagCounts[tag] !== 1 ? 's' : ''}</span>
+					</div>
+				))}
+			</div>
+
+			{sortedTags.length === 0 && (
+				<div class="no-tags">
+					<p>No tags found. Posts with tags will appear here.</p>
+				</div>
+			)}
+		</div>
+	</main>
+</Layout>
+
+<style>
+	.tags-page {
+		max-width: 800px;
+		margin: 0 auto;
+		padding: 2rem 1rem;
+	}
+
+	.tags-header {
+		text-align: center;
+		margin-bottom: 3rem;
+	}
+
+	.tags-header h1 {
+		font-size: 2.5rem;
+		margin-bottom: 1rem;
+		color: rgb(var(--black));
+	}
+
+	.tags-header p {
+		font-size: 1.125rem;
+		color: rgb(var(--gray-dark));
+		max-width: 600px;
+		margin: 0 auto;
+	}
+
+	.tags-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		gap: 1rem;
+	}
+
+	.tag-item {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0.75rem 1rem;
+		border: 1px solid rgb(var(--gray-light));
+		border-radius: 8px;
+		background: white;
+		transition: all 0.2s ease;
+	}
+
+	.tag-item:hover {
+		border-color: rgb(var(--gray));
+		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+	}
+
+	.tag-count {
+		font-size: 0.875rem;
+		color: rgb(var(--gray));
+		font-weight: 500;
+		margin-left: 0.5rem;
+	}
+
+	.no-tags {
+		text-align: center;
+		padding: 3rem 1rem;
+		color: rgb(var(--gray-dark));
+	}
+
+	/* Dark mode support */
+	@media (prefers-color-scheme: dark) {
+		.tags-header h1 {
+			color: rgb(var(--gray-light));
+		}
+
+		.tags-header p {
+			color: rgb(var(--gray));
+		}
+
+		.tag-item {
+			background: rgb(var(--gray-dark));
+			border-color: rgb(var(--gray));
+		}
+
+		.tag-item:hover {
+			border-color: rgb(var(--gray-light));
+		}
+
+		.no-tags {
+			color: rgb(var(--gray));
+		}
+	}
+
+	/* Mobile responsiveness */
+	@media (max-width: 768px) {
+		.tags-page {
+			padding: 1rem;
+		}
+
+		.tags-header h1 {
+			font-size: 2rem;
+		}
+
+		.tags-grid {
+			grid-template-columns: 1fr;
+		}
+	}
+</style>

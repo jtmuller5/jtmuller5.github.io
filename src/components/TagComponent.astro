@@ -1,0 +1,120 @@
+---
+interface Props {
+  tag: string;
+  size?: "small" | "medium" | "large";
+  variant?: "default" | "outline" | "accent";
+  clickable?: boolean;
+}
+
+const {
+  tag,
+  size = "medium",
+  variant = "default",
+  clickable = true,
+} = Astro.props;
+
+// Generate URL-friendly slug from tag
+const tagSlug = tag
+  .toLowerCase()
+  .replace(/\s+/g, "-")
+  .replace(/[^a-z0-9-]/g, "");
+const href = clickable ? `/tags/${tagSlug}` : undefined;
+---
+
+{
+  href ? (
+    <a href={href} class={`tag tag--${size} tag--${variant}`}>
+      {tag}
+    </a>
+  ) : (
+    <span class={`tag tag--${size} tag--${variant}`}>{tag}</span>
+  )
+}
+
+<style>
+  .tag {
+    display: inline-block;
+    font-weight: 500;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    border: 1px solid transparent;
+  }
+
+  .tag:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Sizes */
+  .tag--small {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+  }
+
+  .tag--medium {
+    font-size: 0.875rem;
+    padding: 0.375rem 0.75rem;
+  }
+
+  .tag--large {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+
+  /* Variants */
+  .tag--default {
+    background: rgb(var(--gray-light));
+    color: rgb(var(--gray-dark));
+  }
+
+  .tag--default:hover {
+    background: rgb(var(--gray));
+    color: white;
+  }
+
+  .tag--outline {
+    background: transparent;
+    color: rgb(var(--gray-dark));
+    border-color: rgb(var(--gray-light));
+  }
+
+  .tag--outline:hover {
+    background: rgb(var(--gray-light));
+    border-color: rgb(var(--gray));
+  }
+
+  .tag--accent {
+    background: rgb(var(--accent));
+    color: rgb(var(--gray-dark));
+  }
+
+  .tag--accent:hover {
+    background: rgb(var(--accent-light));
+    color: rgb(var(--black));
+  }
+
+  /* Dark mode support */
+  @media (prefers-color-scheme: dark) {
+    .tag--default {
+      background: rgb(var(--gray-dark));
+      color: rgb(var(--gray-light));
+    }
+
+    .tag--default:hover {
+      background: rgb(var(--gray));
+      color: white;
+    }
+
+    .tag--outline {
+      color: rgb(var(--gray-light));
+      border-color: rgb(var(--gray-dark));
+    }
+
+    .tag--outline:hover {
+      background: rgb(var(--gray-dark));
+      border-color: rgb(var(--gray));
+    }
+  }
+</style>
