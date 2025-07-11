@@ -11,9 +11,25 @@ type Props = CollectionEntry<"blog">["data"];
 const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 ---
 
-<html lang="en">
+<html lang="en" data-theme="github-light">
   <head>
     <BaseHead title={title} description={description} />
+    <script>
+      // Theme detection for expressive-code
+      const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+      const htmlElement = document.documentElement;
+      
+      function updateTheme() {
+        const theme = mediaQuery.matches ? 'github-dark' : 'github-light';
+        htmlElement.setAttribute('data-theme', theme);
+      }
+      
+      // Set initial theme
+      updateTheme();
+      
+      // Listen for changes
+      mediaQuery.addEventListener('change', updateTheme);
+    </script>
     <style>
       main {
         width: calc(100% - 2em);

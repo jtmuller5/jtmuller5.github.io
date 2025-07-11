@@ -4,6 +4,7 @@ description: "Use enhanced enums from Flutter 3 to simplify your code"
 pubDate: 2024-07-10
 tags: ["flutter"]
 difficulty: "beginner"
+estimatedTime: "5 minutes"
 ---
 
 > Enums were good. Now they’re great.
