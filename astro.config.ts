@@ -1,7 +1,7 @@
 import { defineConfig } from "astro/config";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
-import partytown from '@astrojs/partytown';
+import partytown from "@astrojs/partytown";
 import expressiveCode from "astro-expressive-code";
 import { pluginLineNumbers } from "@expressive-code/plugin-line-numbers";
 import { pluginCollapsibleSections } from "@expressive-code/plugin-collapsible-sections";
@@ -12,10 +12,20 @@ export default defineConfig({
   integrations: [
     partytown({
       config: {
-        forward: ['amplitude']
-      }
-    }
-    ),
+        forward: [
+          "amplitude",
+          "amplitude.init",
+          "amplitude.logEvent",
+          "amplitude.setUserProperties",
+          "amplitude.getSessionId",
+          "amplitude.getUserId",
+          "amplitude.getDeviceId",
+          "amplitude.getInstance",
+          "amplitude.getConfig",
+          "amplitude.getRemoteConfigValues",
+        ],
+      },
+    }),
     // ExpressiveCode should come before MDX
     expressiveCode({
       themes: ["github-dark", "github-light"],
