@@ -13,16 +13,14 @@ export default defineConfig({
     partytown({
       config: {
         forward: [
-          "amplitude",
           "amplitude.init",
           "amplitude.logEvent",
           "amplitude.setUserProperties",
+          "amplitude.setUserId",
           "amplitude.getSessionId",
-          "amplitude.getUserId",
           "amplitude.getDeviceId",
+          "amplitude.getUserId",
           "amplitude.getInstance",
-          "amplitude.getConfig",
-          "amplitude.getRemoteConfigValues",
         ],
       },
     }),
