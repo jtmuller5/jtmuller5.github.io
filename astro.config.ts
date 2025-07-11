@@ -10,7 +10,12 @@ import { pluginCollapsibleSections } from "@expressive-code/plugin-collapsible-s
 export default defineConfig({
   site: "https://joemuller.com",
   integrations: [
-    partytown(),
+    partytown({
+      config: {
+        forward: ['amplitude']
+      }
+    }
+    ),
     // ExpressiveCode should come before MDX
     expressiveCode({
       themes: ["github-dark", "github-light"],
