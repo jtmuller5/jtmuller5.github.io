@@ -11,11 +11,7 @@ export default defineConfig({
   site: "https://joemuller.com",
   integrations: [
     partytown({
-      config: {
-        forward: [
-          "amplitude",
-        ],
-      },
+      config: { forward: ["dataLayer.push", "amplitude", "amplitude.init"] },
     }),
     // ExpressiveCode should come before MDX
     expressiveCode({
