@@ -122,6 +122,92 @@ hr {
   border: none;
   border-top: 1px solid rgb(var(--gray-light));
 }
+
+/* Inline text styling for Markdown */
+code {
+  background-color: rgba(var(--gray-dark), 0.08);
+  color: rgb(var(--black));
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-family: 'Courier New', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+  font-size: 0.85em;
+  font-weight: 600;
+  border: 1px solid rgba(var(--gray), 0.2);
+}
+
+pre code {
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+  font-size: inherit;
+  border: none;
+}
+
+pre {
+  background-color: rgba(var(--gray-dark), 0.05);
+  border: 1px solid rgba(var(--gray), 0.3);
+  border-radius: 8px;
+  padding: 1em;
+  overflow-x: auto;
+  margin: 1.5em 0;
+}
+
+pre code {
+  color: rgb(var(--black));
+  font-weight: 500;
+}
+
+mark {
+  background-color: rgba(var(--accent), 0.15);
+  color: rgb(var(--black));
+  padding: 0.1em 0.2em;
+  border-radius: 2px;
+}
+
+kbd {
+  background-color: rgb(var(--gray-dark));
+  color: white;
+  padding: 0.2em 0.5em;
+  border-radius: 4px;
+  font-family: 'Courier New', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+  font-size: 0.8em;
+  border: 1px solid rgba(var(--gray), 0.4);
+  box-shadow: 0 2px 4px rgba(var(--gray), 0.3);
+  font-weight: 600;
+}
+
+em, i {
+  font-style: italic;
+  color: rgb(var(--gray-dark));
+}
+
+del, s {
+  text-decoration: line-through;
+  color: rgba(var(--gray-dark), 0.6);
+}
+
+ins, u {
+  text-decoration: underline;
+  color: rgb(var(--gray-dark));
+}
+
+small {
+  font-size: 0.8em;
+  color: rgba(var(--gray-dark), 0.7);
+}
+
+sup {
+  font-size: 0.7em;
+  vertical-align: super;
+  line-height: 0;
+}
+
+sub {
+  font-size: 0.7em;
+  vertical-align: sub;
+  line-height: 0;
+}
+
 @media (max-width: 720px) {
   body {
     font-size: 18px;

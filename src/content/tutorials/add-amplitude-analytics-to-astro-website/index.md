@@ -77,3 +77,17 @@ In a shared head component, add the following two scripts
 ```
 
 > Remember to replace AMPLITUDE_API_KEY with your API key from step 1
+
+### Deploy and Track
+
+This is basically all you need to start tracking website traffic. With the `autocapture` flag set to true, Amplitude will track page views, button clicks, and digital demographics.
+
+In the Amplitude dashboard, you can use a pre-built dashboard to start monitoring your website. I like the "User Activity" dashboard which gives you information like:
+
+- Daily active users
+- Daily new users
+- Returning users
+- Average session length
+- Device breakdown
+
+Happy coding ☕️
