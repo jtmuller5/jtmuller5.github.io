@@ -5,10 +5,15 @@ import partytown from "@astrojs/partytown";
 import expressiveCode from "astro-expressive-code";
 import { pluginLineNumbers } from "@expressive-code/plugin-line-numbers";
 import { pluginCollapsibleSections } from "@expressive-code/plugin-collapsible-sections";
+import rehypeCallouts from "rehype-callouts";
 
 // https://astro.build/config
 export default defineConfig({
   site: "https://joemuller.com",
+  markdown: {
+    // gfm: false,
+    // rehypePlugins: [rehypeCallouts],
+  },
   integrations: [
     partytown({
       config: { forward: ["dataLayer.push", "amplitude", "amplitude.init"] },
