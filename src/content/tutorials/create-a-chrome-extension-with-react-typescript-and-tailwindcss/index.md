@@ -6,8 +6,6 @@ difficulty: "beginner"
 tags: ["chrome-extensions", "react"]
 ---
 
-
-
 > This article was inspired by [Creating a Chrome Extension with React a Step by Step Guide](https://medium.com/@tharshita13/creating-a-chrome-extension-with-react-a-step-by-step-guide-47fe9bab24a1).
 
 For the full code, check out the [repo](https://github.com/jtmuller5/cotr-react-chrome-extension-webpack).

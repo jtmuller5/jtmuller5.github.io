@@ -80,7 +80,7 @@ In a shared head component, add the following two scripts
 
 ### Deploy and Track
 
-This is basically all you need to start tracking website traffic. With the `autocapture` flag set to true, Amplitude will track page views, button clicks, and digital demographics.
+This is basically all you need to start tracking website traffic. With the [autocapture](https://amplitude.com/docs/data/autocapture) flag set to true, Amplitude will track page views, button clicks, and digital demographics.
 
 In the Amplitude dashboard, you can use a pre-built dashboard to start monitoring your website. I like the "User Activity" dashboard which gives you information like:
 
@@ -91,3 +91,4 @@ In the Amplitude dashboard, you can use a pre-built dashboard to start monitorin
 - Device breakdown
 
 Happy coding ☕️
+
