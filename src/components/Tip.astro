@@ -1,0 +1,114 @@
+---
+import {
+  Info,
+  TriangleAlert,
+  CircleCheck,
+  OctagonAlert,
+  Link,
+} from "lucide-react";
+
+const { message, link, type = "info" } = Astro.props;
+
+const typeStyles = {
+  info: {
+    accent: "#2337ff",
+    bg: "rgba(35, 55, 255, 0.08)",
+    icon: "#2337ff",
+  },
+  success: {
+    accent: "#22c55e",
+    bg: "rgba(34, 197, 94, 0.08)",
+    icon: "#22c55e",
+  },
+  warning: {
+    accent: "#f59e42",
+    bg: "rgba(245, 158, 66, 0.08)",
+    icon: "#f59e42",
+  },
+  danger: {
+    accent: "#ef4444",
+    bg: "rgba(239, 68, 68, 0.08)",
+    icon: "#ef4444",
+  },
+};
+const style =
+  typeStyles[type as "info" | "success" | "warning" | "danger"] ||
+  typeStyles.info;
+const Wrapper = link ? "a" : "div";
+const wrapperProps = link
+  ? {
+      href: link,
+      target: "_blank",
+      rel: "noopener",
+      class: "tip-callout tip-callout-link",
+    }
+  : { class: "tip-callout" };
+---
+
+<Wrapper
+  {...wrapperProps}
+  style={`background:${style.bg};border-left:4px solid ${style.accent};`}
+>
+  <div
+    style="display: flex; flex-direction: column; align-items: center; margin-right: 0.75em; margin-top: 0.1em; "
+  >
+    {
+      type === "success" && (
+        <CircleCheck stroke={style.icon} width="20" height="20" />
+      )
+    }
+    {
+      type === "warning" && (
+        <TriangleAlert stroke={style.icon} width="20" height="20" />
+      )
+    }
+    {
+      type === "danger" && (
+        <OctagonAlert stroke={style.icon} width="20" height="20" />
+      )
+    }
+    {
+      (type === "info" || !type) && (
+        <Info stroke={style.icon} width="20" height="20" />
+      )
+    }
+    {
+      link && (
+        <div style="padding-top: 4px;">
+          <Link stroke={style.icon} width="16" height="16" />
+        </div>
+      )
+    }
+  </div>
+  <div class="tip-content">
+    {message}
+  </div>
+</Wrapper>
+<style>
+  .tip-callout {
+    display: flex;
+    align-items: flex-start;
+    border-radius: 6px;
+    padding: 1em 1em 1em 0.75em;
+    margin: 1.5em 0;
+    font-size: 1em;
+    color: inherit;
+    text-decoration: none;
+    transition: background 0.15s;
+  }
+  .tip-callout-link:hover {
+    filter: brightness(0.97);
+    cursor: pointer;
+  }
+  .tip-icon {
+    display: block;
+  }
+  .link-icon {
+    display: block;
+  }
+  .tip-content {
+    flex: 1;
+    font: sans-serif;
+    font-size: 0.9em;
+  }
+</style>

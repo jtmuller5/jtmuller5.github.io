@@ -7,13 +7,14 @@ import { getCollection } from "astro:content";
 import { createSearchIndex } from "../utils/search";
 
 // Get all content for search
-const [blogs, tutorials, essays] = await Promise.all([
+const [blogs, tutorials, essays, shipbook] = await Promise.all([
   getCollection("blog"),
   getCollection("tutorials"),
   getCollection("essays"),
+  getCollection("shipbook"),
 ]);
 
-const searchIndex = createSearchIndex(blogs, tutorials, essays);
+const searchIndex = createSearchIndex(blogs, tutorials, essays, shipbook);
 ---
 
 <!doctype html>

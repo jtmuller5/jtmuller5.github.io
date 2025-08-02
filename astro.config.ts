@@ -7,6 +7,8 @@ import { pluginLineNumbers } from "@expressive-code/plugin-line-numbers";
 import { pluginCollapsibleSections } from "@expressive-code/plugin-collapsible-sections";
 import rehypeCallouts from "rehype-callouts";
 
+import react from "@astrojs/react";
+
 // https://astro.build/config
 export default defineConfig({
   site: "https://joemuller.com",
@@ -14,30 +16,25 @@ export default defineConfig({
     // gfm: false,
     // rehypePlugins: [rehypeCallouts],
   },
-  integrations: [
-    partytown({
-      config: { forward: ["dataLayer.push", "amplitude", "amplitude.init"] },
-    }),
-    // ExpressiveCode should come before MDX
-    expressiveCode({
-      themes: ["github-dark", "github-light"],
-      themeCssSelector: (theme) => `[data-theme='${theme.name}']`,
-      useDarkModeMediaQuery: true,
-      styleOverrides: {
-        // Make code blocks smaller
-        codeFontSize: "0.8rem",
-        uiFontSize: "0.8rem",
-      },
-      defaultProps: {
-        // Enable word wrap
-        wrap: true,
-        // Show line numbers for longer code blocks
-        showLineNumbers: false,
-      },
-      plugins: [pluginLineNumbers(), pluginCollapsibleSections()],
-    }),
-    mdx(),
-    sitemap(),
-  ],
+  integrations: [partytown({
+    config: { forward: ["dataLayer.push", "amplitude", "amplitude.init"] },
+  }), // ExpressiveCode should come before MDX
+  expressiveCode({
+    themes: ["github-dark", "github-light"],
+    themeCssSelector: (theme) => `[data-theme='${theme.name}']`,
+    useDarkModeMediaQuery: true,
+    styleOverrides: {
+      // Make code blocks smaller
+      codeFontSize: "0.8rem",
+      uiFontSize: "0.8rem",
+    },
+    defaultProps: {
+      // Enable word wrap
+      wrap: true,
+      // Show line numbers for longer code blocks
+      showLineNumbers: false,
+    },
+    plugins: [pluginLineNumbers(), pluginCollapsibleSections()],
+  }), mdx(), sitemap(), react()],
   // Remove the old markdown config since expressive-code handles syntax highlighting
 });

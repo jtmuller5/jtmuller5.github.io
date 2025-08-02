@@ -1,0 +1,22 @@
+---
+title: "Sign your Android App"
+description: "Step-by-step guide to sign and release your Flutter app on Android"
+pubDate: 2025-08-01T12:40:39-05:00
+tags: ["flutter","android","shipbook"]
+---
+import Tip from '../../../components/Tip.astro'
+
+<Tip client:load message="You can read more about releasing an Android app in the official Flutter docs." 
+type="info"
+link="https://docs.flutter.dev/deployment/android"
+/>
+
+### Build & Release
+
+#### Sign App
+
+```bash
+keytool -genkey -v -keystore ~path/to/key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias upload
+```
+
+Then follow the steps listed [here](https://flutter-ko.dev/deployment/android#signing-the-app) to configure `app/build.gradle`.

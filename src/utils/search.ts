@@ -14,7 +14,8 @@ export type SearchableContent = {
 export function createSearchIndex(
   blogs: CollectionEntry<'blog'>[],
   tutorials: CollectionEntry<'tutorials'>[],
-  essays: CollectionEntry<'essays'>[]
+  essays: CollectionEntry<'essays'>[],
+  shipbook: CollectionEntry<'shipbook'>[]
 ): SearchableContent[] {
   const searchableContent: SearchableContent[] = [];
 
@@ -46,6 +47,18 @@ export function createSearchIndex(
 
   // Add essays
   essays.forEach((essay) => {
+    searchableContent.push({
+      collection: 'essays',
+      slug: essay.id,
+      title: essay.data.title,
+      description: essay.data.description,
+      content: essay.body || '',
+      tags: essay.data.tags || [],
+      pubDate: essay.data.pubDate,
+    });
+  });
+
+   shipbook.forEach((essay) => {
     searchableContent.push({
       collection: 'essays',
       slug: essay.id,
