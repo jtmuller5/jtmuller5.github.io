@@ -13,7 +13,7 @@ To get started, choose a scheme and host name. You will use these to create the 
 
 In this example, my redirect URL will be `suppconnect://suppconnect.com`. Next, we will update our Android and iOS code bases so they can handle links that use this scheme and host name.
 
-## Add a Custom Domain to AndroidManifest
+## Setup Android
 
 Add the following intent filter inside the `activity` tag in your `AndroidManifest.xml` file:
 
@@ -29,9 +29,9 @@ Add the following intent filter inside the `activity` tag in your `AndroidManife
 ```
 
 
-## Add a Custom URL Scheme to Info.plist
+## Setup iOS
 
-Add the following entry to your `info.plist` file. You may already have the `CFBundleURLSchemes` key (ex. for Google sign in) so if that's the case, just add a new line to the array:
+Add just the scheme to your `info.plist` file. You may already have the `CFBundleURLSchemes` key (ex. for Google sign in) so if that's the case, just add a new line to the array:
 
 ```xml
 <key>CFBundleURLTypes</key>
@@ -41,12 +41,25 @@ Add the following entry to your `info.plist` file. You may already have the `CFB
 		<string>Editor</string>
 		<key>CFBundleURLSchemes</key>
 		<array>
-			<string>suppconnect://suppconnect.com</string>
+			<string>suppconnect</string>
 		</array>
 	</dict>
 	<dict />
 </array>
 ```
+
+In Xcode, select the Runner Target -> Signing & Capabilities and then add the "Associated Domains" capability. Then, add a domain that uses the following format:
+
+```
+applinks:[YOUR_SCHEME]
+```
+
+For example:
+```
+applinks:suppconnect
+```
+
+![Associated Domains](image-2.png)
 
 ## [Setup Supabase](https://supabase.com/docs/guides/auth/native-mobile-deep-linking?queryGroups=platform&platform=flutter#setting-up-deep-linking)
 
