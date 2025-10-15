@@ -26,12 +26,19 @@ export default defineConfig({
           items: [
             { label: "Intro", slug: "blog/intro" },
             {
-              label: "Projects",
-              autogenerate: { directory: "blog/projects" },
+              label: "Essays",
+              collapsed: true,
+              autogenerate: { directory: "blog/essays" },
             },
             {
-              label: "Essays",
-              autogenerate: { directory: "blog/essays" },
+              label: "Claude Config",
+              collapsed: true,
+              autogenerate: { directory: "blog/claude-config" },
+            },
+            {
+              label: "Talkdown",
+              collapsed: true,
+              autogenerate: { directory: "blog/talkdown" },
             },
           ],
         },

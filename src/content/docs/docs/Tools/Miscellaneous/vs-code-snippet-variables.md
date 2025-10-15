@@ -1,6 +1,7 @@
 ---
 title: "VS Code Snippet Variables"
 description: "Crash course on using VS Code snippets to write code faster"
+lastUpdated: 2025-07-15
 ---
 
 

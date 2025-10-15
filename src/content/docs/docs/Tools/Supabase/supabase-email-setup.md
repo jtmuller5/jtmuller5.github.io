@@ -1,6 +1,7 @@
 ---
 title: "Setup Supabase Email Architecture"
 description: "Create a reset password flow for your Flutter app using Supabase"
+lastUpdated: 2025-08-15
 sidebar:
   label: Supabase Email
 ---

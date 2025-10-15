@@ -1,6 +1,7 @@
 ---
 title: "Add Amplitude Analytics to Astro Website"
 description: "Start tracking your traffic with Amplitude"
+lastUpdated: 2025-06-15
 sidebar:
   label: Add Amplitude to Astro
 ---

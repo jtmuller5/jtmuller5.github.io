@@ -1,6 +1,7 @@
 ---
 title: "Flutter, Firebase, and Google Sign In 7.1.0"
 description: "Authenticate users using the newest Google Sign In Version"
+lastUpdated: 2025-10-15
 sidebar:
   label: Google Sign In 7.1.0
 ---

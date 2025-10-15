@@ -1,6 +1,7 @@
 ---
 title: "Enhanced Enums in Flutter"
 description: "Use enhanced enums from Flutter 3 to simplify your code"
+lastUpdated: 2024-10-15
 sidebar:
   label: Enhanced Enums
 ---
