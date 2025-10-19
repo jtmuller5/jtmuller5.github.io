@@ -3,6 +3,8 @@ import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 import starlightAutoSidebar from "starlight-auto-sidebar";
 
+import react from "@astrojs/react";
+
 // https://astro.build/config
 export default defineConfig({
   site: "https://joemuller.com",
@@ -19,6 +21,9 @@ export default defineConfig({
           href: "https://github.com/jtmuller5",
         },
       ],
+      components: {
+        PageTitle: "./src/components/PageTitleWithCopyButton.astro",
+      },
       plugins: [starlightAutoSidebar()],
       sidebar: [
         {
@@ -48,5 +53,6 @@ export default defineConfig({
         },
       ],
     }),
+    react(),
   ],
 });

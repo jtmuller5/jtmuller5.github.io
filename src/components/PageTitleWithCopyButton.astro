@@ -1,0 +1,24 @@
+---
+import { Icon } from "@astrojs/starlight/components";
+import CopyAsMarkdown from "./CopyAsMarkdown";
+---
+
+<CopyAsMarkdown
+  client:load
+  title={Astro.locals.starlightRoute.entry.data.title}
+  content={Astro.locals.starlightRoute.entry.body}
+>
+  <Icon name="document" />
+</CopyAsMarkdown>
+
+<style>
+  @layer starlight.core {
+    h1 {
+      margin-top: 1rem;
+      font-size: var(--sl-text-h1);
+      line-height: var(--sl-line-height-headings);
+      font-weight: 600;
+      color: var(--sl-color-white);
+    }
+  }
+</style>
