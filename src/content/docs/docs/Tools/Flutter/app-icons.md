@@ -18,7 +18,10 @@ The easiest way to add app icons for Android is using Android Studio.
 
 4. On the "Configure Image Asset" dialog, select "Launcher Icons (Adaptive and Legacy)".
 5. Choose your image file and adjust the settings as needed.
-6. Click "Next" and then "Finish" to generate the icons.
+6. On the "Options" tab, under the "Icon Format" section, choose the `PNG` option. This will ensure that the correct icon is used in Firebase App Distribution.
+
+![Use PNG format](./assets/icon-format.png)
+7. Click "Next" and then "Finish" to generate the icons.
 
 ![Configure Image Asset](./assets/image-asset.png)
 
