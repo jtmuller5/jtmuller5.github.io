@@ -11,6 +11,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "Joe Muller",
+      favicon: '/public/favicon.ico',
       logo: {
         src: "./src/assets/logo.png",
       },
