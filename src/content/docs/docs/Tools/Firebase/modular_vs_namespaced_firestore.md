@@ -4,13 +4,46 @@ description: "Tips and tricks to wield Firestore like a pro on serverless cloud 
 lastUpdated: 2025-10-20
 ---
 
-There are currently two versions of the Firebase APIs, one that is namespaced and one that is modular. For at least a year, I brushed this fact off and was repeatedly confused/frustrated when VS Code would lint the Firebase methods I've known and loved. Today, I finally decided to educate myself.
+There are currently two versions of the Firebase APIs, one that is namespaced and one that is modular. For at least a year, I brushed off the notion that they were different and was repeatedly confused/frustrated when VS Code would lint the Firebase methods I've known and loved. Today, I finally decided to educate myself.
 
 Google has a [brief explanation](https://firebase.google.com/docs/web/learn-more#modular-version) about why new apps should use the modular API. Long story short, code organized into [modules](https://www.typescriptlang.org/docs/handbook/modules/introduction.html) allows build tools to remove unused code in a process known as "tree shaking". Code organized using [namespaces](https://www.typescriptlang.org/docs/handbook/namespaces.html), does not allow for this type of optimization. 
 
 That makes sense.
 
-Unfortunately, it's rather easy to put yourself in a mentally taxing position because the NodeJS API continues to use the namespaced implementation. For example, you might create [Cloud Functions](https://firebase.google.com/docs/functions/) that use the original namespaced API while your React frontend uses the new modular API. Code switching between these two interfaces can be crazy-making...but for now that's just the way it is.
+Unfortunately, the way Google implemented the modular API destroyed the API's discoverability and made it pretty difficult to get used to. All functions are now isolated from one another and queries must be built from parts instead of chained together.
+
+New Modular API:
+```ts
+const postsQuery = query(
+  collection(doc(collection(db, 'users'), '123'), 'posts'),
+  where('status', '==', 'published'),
+  orderBy('date'),
+  limit(10)
+)
+```
+
+Old Namespaced API:
+
+```ts
+db.collection('users')
+  .doc('123')
+  .collection('posts')
+  .where('status', '==', 'published')
+  .orderBy('date')
+  .limit(10)
+```
+
+In other words, the new syntax is the complete inverse of the original namespaced API. It looks like the namespaced code is being turned inside out. Just look at this line:
+
+```ts
+collection(doc(collection(db, 'users'), '123'), 'posts'),
+```
+
+Why is the database instance buried three layers deep in the query?
+
+This is a cut and dry case of tree-shaking and bundle size being prioritized over developer ergonomics.
+
+What makes this change even worse is that the NodeJS API continues to use the "namespaced" API. This makes it rather easy to put yourself in the mentally taxing position where half of your stack uses an intuitive Firebase API while the other half reads like something GPT-2 would write. For example, [Cloud Functions](https://firebase.google.com/docs/functions/) written in TypeScript use the original namespaced API. Code switching between these two interfaces can be crazy-making...but for now that's just the way it is.
 
 ## Namespaced API
 
@@ -55,7 +88,7 @@ The Admin SDK gives you access to Firestore, as well as nearly every other Fireb
 const db = admin.firestore();
 ```
 
-The namespaced API let's you do basically everything by using methods on instances. In the code below, `collection()`, `doc()`, and `set()` are all methods:
+The namespaced API let's you do basically everything by using methods on instances. In the code below, `collection()`, `doc()`, and `set()` are all methods that intuitively chain together to do something that reads like a sentence - "In the "cities" collection, find the "LA" doc and set it's data:
 
 ```ts
 const data = {
@@ -70,8 +103,10 @@ const res = await db.collection('cities').doc('LA').set(data);
 
 ## Modular API
 
+Since the Modular API primarily relates to frontend code where you wouldn't be using the Admin SDK, this example will use the normal Firebase library.
+
 ### Installation
-The Modular API is installed the same way as the namespaced API:
+Install the library like this:
 
 ```bash
 npm install firebase@12.4.0 --save
@@ -93,7 +128,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 ```
 
-This is where the similarities end.
+This is where the similarities between the old API and the new one end.
 
 ### Interacting with Firestore
 
