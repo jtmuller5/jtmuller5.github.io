@@ -1,10 +1,8 @@
 ---
-title: Claude Config Overview
+title: Claude Config Devlog
 description: Quickly swap the directory used by Claude's Filesystem MCP server.
-lastUpdated: 2025-10-15
-sidebar:
-  label: Overview
-  order: 1
+date: 2025-10-15
+updatedAt: 2025-11-08
 ---
 
 - Name: Claude Config

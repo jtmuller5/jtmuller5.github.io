@@ -1,7 +1,7 @@
 ---
 title: "Create a Chrome Extension With React, Typescript, and Tailwindcss"
 description: "Just the steps to create a Chrome Extension"
-lastUpdated: 2024-10-15
+date: 2024-10-15
 sidebar:
   label: Chrome Extension
 ---

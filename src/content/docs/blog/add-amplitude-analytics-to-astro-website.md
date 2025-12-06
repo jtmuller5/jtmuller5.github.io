@@ -1,9 +1,9 @@
 ---
 title: "Add Amplitude Analytics to Astro Website"
 description: "Start tracking your traffic with Amplitude"
-lastUpdated: 2025-06-15
-sidebar:
-  label: Add Amplitude to Astro
+date: 2025-06-15
+tags:
+  - astro
 ---
 
 There are a handful of blogs about adding Google Analytics to your Astro website and virtually none that do the same for Amplitude. In this post, I'll show you how to quickly set up Amplitude analytics on an Astro website so you can use all of the marvelous charting tools Amplitude has to offer.

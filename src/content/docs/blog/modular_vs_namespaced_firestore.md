@@ -1,7 +1,7 @@
 ---
 title: "Modular vs Namespaced Firestore"
 description: "Tips and tricks to wield Firestore like a pro on serverless cloud functions"
-lastUpdated: 2025-10-20
+date: 2025-10-20
 ---
 
 There are currently two versions of the Firebase APIs, one that is namespaced and one that is modular. For at least a year, I brushed off the notion that they were different and was repeatedly confused/frustrated when VS Code would lint the Firebase methods I've known and loved. Today, I finally decided to educate myself.

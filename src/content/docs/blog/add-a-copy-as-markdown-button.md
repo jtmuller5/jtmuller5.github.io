@@ -1,7 +1,9 @@
 ---
 title: "Copy as Markdown"
 description: "Step-by-step guide to add a Copy as Markdown button to your Starlight docs"
-lastUpdated: 2025-10-19
+date: 2025-10-19
+tags:
+  - astro
 ---
 
 ## Create the React Component

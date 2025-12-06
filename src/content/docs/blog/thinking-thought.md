@@ -1,6 +1,6 @@
 ---
 title: "Thinking Thought"
-description: "Why do we think and how should we think about it"
+date: 2019-06-01
 ---
 
 Purpose is a logic driven concept, one that can only be grasped by an entity with the potential to understand nebulous abstractions like reason and meaning. In simple terms, purpose is the "why" behind the "what" and it deals with questions that exist outside the plane of physical material. Objects in and of themselves are not concerned with the "why". A rock in the middle of the desert does not care, nor have the capacity to care, about why it is destined to bake in a spotlight of solar radiation until the sun burns out. This goes for all things that have no means of deliberately responding to their environments - rocks, water droplets, the metal carcass of an old car. No, these things exist in a realm that is indifferent to any underlying, supernatural force...or so it seems.

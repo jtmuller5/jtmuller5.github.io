@@ -1,7 +1,7 @@
 // @ts-check
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
-import starlightAutoSidebar from "starlight-auto-sidebar";
+import starlightBlog from "starlight-blog";
 
 import react from "@astrojs/react";
 
@@ -11,7 +11,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "Joe Muller",
-      favicon: '/public/favicon.ico',
+      favicon: "/public/favicon.ico",
       logo: {
         src: "./src/assets/logo.png",
       },
@@ -25,33 +25,10 @@ export default defineConfig({
       components: {
         PageTitle: "./src/components/PageTitleWithCopyButton.astro",
       },
-      plugins: [starlightAutoSidebar()],
-      sidebar: [
-        {
-          label: "Blog",
-          items: [
-            { label: "Intro", slug: "blog/intro" },
-            {
-              label: "Essays",
-              collapsed: true,
-              autogenerate: { directory: "blog/essays" },
-            },
-            {
-              label: "Claude Config",
-              collapsed: true,
-              autogenerate: { directory: "blog/claude-config" },
-            },
-            {
-              label: "Talkdown",
-              collapsed: true,
-              autogenerate: { directory: "blog/talkdown" },
-            },
-          ],
-        },
-        {
-          label: "Docs",
-          autogenerate: { directory: "docs" },
-        },
+      plugins: [
+        starlightBlog({
+          prevNextLinksOrder: "reverse-chronological",
+        }),
       ],
     }),
     react(),

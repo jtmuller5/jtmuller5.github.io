@@ -1,10 +1,10 @@
 ---
 title: "VS Code Snippet Variables"
 description: "Crash course on using VS Code snippets to write code faster"
-lastUpdated: 2025-07-15
+date: 2025-07-15
+tags:
+  - vs-code
 ---
-
-
 
 You should use VS Code snippets more than you do and that's not just an opinion.
 

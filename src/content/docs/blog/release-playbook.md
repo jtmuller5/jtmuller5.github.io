@@ -1,10 +1,9 @@
 ---
 title: Flutter App Release Playbook
 description: Step by step instructions on how to release a Flutter app
-lastUpdated: 2024-10-17
-sidebar:
-  label: Release Playbook
-  order: 1
+date: 2024-10-17
+tags:
+  - flutter
 ---
 
 Releasing a Flutter app isn't necessarily simple. There are a hundred and one things to remember related to signing your app, creating app store assets, distributing the app, and more.

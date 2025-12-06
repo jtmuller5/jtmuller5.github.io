@@ -1,9 +1,9 @@
 ---
 title: "Flutter, Firebase, and Google Sign In 7.1.0"
 description: "Authenticate users using the newest Google Sign In Version"
-lastUpdated: 2025-10-15
-sidebar:
-  label: Google Sign In 7.1.0
+date: 2025-10-15
+tags:
+  - flutter
 ---
 
 In typical Google fashion, the [google_sign_in](https://pub.dev/packages/google_sign_in) package was updated recently and if you missed the [migration guide](https://github.com/flutter/packages/blob/main/packages/google_sign_in/google_sign_in/MIGRATION.md), your apps are broken. In this post, I'll walk you through using version 7.1.0 of the google_sign_in package with Firebase and Flutter.

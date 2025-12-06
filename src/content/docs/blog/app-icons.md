@@ -1,9 +1,9 @@
 ---
 title: "Add App Icons"
 description: "Step-by-step guide to upload app icons for your Flutter app"
-lastUpdated: 2025-04-15
-sidebar:
-  label: App Icons
+date: 2025-04-15
+tags:
+  - flutter
 ---
 
 ## Android
