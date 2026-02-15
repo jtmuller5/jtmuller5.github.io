@@ -2,8 +2,6 @@
 title: "Setup Supabase Email Architecture"
 description: "Create a reset password flow for your Flutter app using Supabase"
 date: 2025-08-15
-sidebar:
-  label: Supabase Email
 ---
 
 To get started, choose a scheme and host name. You will use these to create the redirect URL for your app:
@@ -60,7 +58,7 @@ For example:
 applinks:suppconnect
 ```
 
-![Associated Domains](./assets/associated-domains.png)
+![Associated Domains](./associated-domains.png)
 
 ## [Setup Supabase](https://supabase.com/docs/guides/auth/native-mobile-deep-linking?queryGroups=platform&platform=flutter#setting-up-deep-linking)
 
@@ -68,7 +66,7 @@ On the Authentication tab, select the "URL Configuration" option.
 
 In the "Redirect URLs" section, add the custom domain from above:
 
-![Supabase Redirect URL](./assets/redirect-urls.png)
+![Supabase Redirect URL](./redirect-urls.png)
 
 In the case of a redirect URL for resetting a password, it will look like this:
 

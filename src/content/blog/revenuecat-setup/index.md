@@ -2,8 +2,6 @@
 title: RevenueCat Setup
 description: Step by step instructions on how to setup RevenueCat
 date: 2025-11-22
-sidebar:
-  label: RevenueCat Setup
 ---
 
 ## Create a Service Account

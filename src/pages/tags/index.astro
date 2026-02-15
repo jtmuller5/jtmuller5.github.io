@@ -1,0 +1,63 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const allPosts = await getCollection("blog");
+const posts = allPosts.filter((post) => import.meta.env.DEV || !post.data.draft);
+
+const tagCounts = new Map<string, number>();
+for (const post of posts) {
+  for (const tag of post.data.tags) {
+    tagCounts.set(tag, (tagCounts.get(tag) ?? 0) + 1);
+  }
+}
+
+const sortedTags = [...tagCounts.entries()].sort((a, b) => b[1] - a[1]);
+---
+
+<BaseLayout title="Tags - Joe Muller">
+  <h1>Tags</h1>
+  <div class="tag-grid">
+    {sortedTags.map(([tag, count]) => (
+      <a href={`/tags/${tag}/`} class="tag-item">
+        <span class="tag-name">{tag}</span>
+        <span class="tag-count">{count}</span>
+      </a>
+    ))}
+  </div>
+</BaseLayout>
+
+<style>
+  h1 {
+    margin-top: 0;
+  }
+
+  .tag-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 1em;
+  }
+
+  .tag-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    border-radius: 16px;
+    background: var(--tag-bg);
+    color: var(--text);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: opacity 0.2s;
+  }
+
+  .tag-item:hover {
+    opacity: 0.8;
+  }
+
+  .tag-count {
+    font-size: 0.78rem;
+    color: var(--text-secondary);
+  }
+</style>

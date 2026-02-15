@@ -2,8 +2,6 @@
 title: "Create a Chrome Extension With React, Typescript, and Tailwindcss"
 description: "Just the steps to create a Chrome Extension"
 date: 2024-10-15
-sidebar:
-  label: Chrome Extension
 ---
 
 > This article was inspired by [Creating a Chrome Extension with React a Step by Step Guide](https://medium.com/@tharshita13/creating-a-chrome-extension-with-react-a-step-by-step-guide-47fe9bab24a1).
@@ -244,7 +242,7 @@ Run `npm run build` again to update your extension.
 
 In chrome, navigate to the chrome://extensions page again and reload the extension. Now when you click on the icon, it should open the side panel showing the same large green box.
 
-![alt text](./assets/chrome-extension-preview.png)
+![alt text](./chrome-extension-preview.png)
 
 ## Organize your Project
 
@@ -319,7 +317,7 @@ export default SidePanel;
 
 We'll need to update the `entry` field in the Webpack config to point to the new side panel `index.tsx`. The value you add as the key in the map will determine where in the `/dist` folder the files are generated:
 
-![Webpack entry keys determine where files are generated](./assets/sidepanel.png)
+![Webpack entry keys determine where files are generated](./sidepanel.png)
 
 The value (on the left side) is where Webpack can find your file.
 

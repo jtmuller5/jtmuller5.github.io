@@ -1,13 +1,11 @@
-import React, { Component, useState } from "react";
+import React, { useState } from "react";
 
 export default function CopyAsMarkdown({
   title,
   content,
-  children,
 }: {
   title: string;
   content?: string;
-  children?: React.ReactNode;
 }) {
   const [copied, setCopied] = useState(false);
 
@@ -24,36 +22,26 @@ export default function CopyAsMarkdown({
   };
 
   return (
-    <div
+    <button
+      onClick={handleCopy}
+      disabled={!content}
       style={{
+        padding: "6px 12px",
+        fontSize: "14px",
+        border: "1px solid var(--border)",
+        borderRadius: "4px",
+        backgroundColor: copied ? "#4CAF50" : "var(--tag-bg)",
+        color: copied ? "white" : "var(--text-secondary)",
+        cursor: content ? "pointer" : "not-allowed",
+        opacity: content ? 1 : 0.5,
+        transition: "all 0.2s ease",
         display: "flex",
         alignItems: "center",
-        justifyContent: "space-between",
-        gap: "8px",
+        gap: "6px",
+        whiteSpace: "nowrap",
       }}
     >
-      <h1 id={"_top"}>{title}</h1>
-      <button
-        onClick={handleCopy}
-        disabled={!content}
-        style={{
-          padding: "6px 12px",
-          fontSize: "14px",
-          border: "1px solid #ccc",
-          borderRadius: "4px",
-          backgroundColor: copied ? "#4CAF50" : "#f9f9f9",
-          color: copied ? "white" : "#333",
-          cursor: content ? "pointer" : "not-allowed",
-          opacity: content ? 1 : 0.5,
-          transition: "all 0.2s ease",
-          alignItems: "center",
-          display: "flex",
-          gap: "6px",
-        }}
-      >
-        {children && children}
-        {copied ? "Copied!" : "Copy as Markdown"}
-      </button>
-    </div>
+      {copied ? "Copied!" : "Copy as Markdown"}
+    </button>
   );
 }

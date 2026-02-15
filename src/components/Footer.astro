@@ -1,0 +1,25 @@
+---
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <p>&copy; {year} Joe Muller &middot; <a href="https://github.com/jtmuller5" target="_blank" rel="noopener">GitHub</a></p>
+</footer>
+
+<style>
+  .site-footer {
+    border-top: 1px solid var(--border);
+    padding: 1.5em var(--gap);
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+  }
+
+  .site-footer a {
+    color: var(--text-secondary);
+  }
+
+  .site-footer a:hover {
+    color: var(--text);
+  }
+</style>

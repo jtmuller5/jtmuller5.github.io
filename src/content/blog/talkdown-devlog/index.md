@@ -2,18 +2,12 @@
 title: Talkdown Devlog
 description: Markdown based config for chat agents.
 date: 2025-10-15
-sidebar:
-  order: 2
 ---
 
 - Name: Talkdown
 - Description: Markdown based config for chat agents.
-- Link: 
+- Link:
 
----
-title: Dev Log 1
-description: Markdown based config for chat agents.
-lastUpdated: 2025-10-15
 ---
 
 This project grows larger every minute I spend thinking about it. 

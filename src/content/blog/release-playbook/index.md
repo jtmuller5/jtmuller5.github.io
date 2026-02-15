@@ -10,13 +10,9 @@ Releasing a Flutter app isn't necessarily simple. There are a hundred and one th
 
 ## Android
 
-:::note
-You can read more about [releasing an Android Flutter app here](https://docs.flutter.dev/deployment/android).
-:::
+> **Note:** You can read more about [releasing an Android Flutter app here](https://docs.flutter.dev/deployment/android).
 
-:::note
-This guide assumes you created your Flutter project using the Sapid Labs Flutter template. 💙 means this is completed for you.
-:::
+> **Note:** This guide assumes you created your Flutter project using the Sapid Labs Flutter template. 💙 means this is completed for you.
 
 ### Build & Release
 
@@ -29,9 +25,7 @@ keytool -genkey -v -keystore ./keys/upload-keystore.jks -keyalg RSA -keysize 204
 
 I usually store the signing key in the same project where it is used and add the `keys` directory to my `.gitignore` 💙.
 
-:::caution
-You can technically use one upload keystore for all of your applications. If you do this however, it makes it difficult to easily transfer the app to someone else.
-:::
+> **Caution:** You can technically use one upload keystore for all of your applications. If you do this however, it makes it difficult to easily transfer the app to someone else.
 
 Next, follow the steps listed [here](https://docs.flutter.dev/deployment/android#signing-the-app) to configure `app/build.gradle` 💙.
 
@@ -82,22 +76,18 @@ Then, upload the `build/app/outputs/bundle/release/app-release.aab` file to the 
 
 #### Fastlane
 
-:::note
-You can use a single Fastlane Key for all Google Play apps. To add a new app: 
-1. Open the Google Play Console
-2. Navigate to Users and Permissions
-3. Select your Fastlane service account
-4. Select "Add app"
-5. Select your app and Save Changes 
-:::
+> **Note:** You can use a single Fastlane Key for all Google Play apps. To add a new app:
+> 1. Open the Google Play Console
+> 2. Navigate to Users and Permissions
+> 3. Select your Fastlane service account
+> 4. Select "Add app"
+> 5. Select your app and Save Changes
 
 [Create a new service account](https://docs.fastlane.tools/actions/supply/#setup) for Fastlane if you don't have one already.
 
 In the `android/fastlane/Appfile` file, update the `json_key_file` and `package_name` entries to match your project's values.
 
-:::caution
-If you don't want to send Slack notifications for new releases, delete or comment out the `send_slack_notification` functions in the android Fastfile
-:::
+> **Caution:** If you don't want to send Slack notifications for new releases, delete or comment out the `send_slack_notification` functions in the android Fastfile
 
 ### Assets
 
@@ -121,9 +111,7 @@ I typically use [icon.kitchen](https://icon.kitchen/) to create my app icons. On
 
 ## iOS
 
-:::note
-You can read more about [releasing an iOS Flutter app here](https://docs.flutter.dev/deployment/ios).
-:::
+> **Note:** You can read more about [releasing an iOS Flutter app here](https://docs.flutter.dev/deployment/ios).
 
 ### Build & Release
 
@@ -143,15 +131,11 @@ fastlane beta
 
 #### Fastlane
 
-:::note
-[Read more about the Appfile](https://docs.fastlane.tools/advanced/Appfile/#appfile)
-:::
+> **Note:** [Read more about the Appfile](https://docs.fastlane.tools/advanced/Appfile/#appfile)
 
 In the `ios/fastlane/Appfile` file, update the `app_identifier`, `apple_id`, `itc_team_id`, and `team_id` entries to match your project's values.
 
-:::caution
-If you don't want to send Slack notifications for new releases, delete or comment out the `send_slack_notification` functions in the android Fastfile
-:::
+> **Caution:** If you don't want to send Slack notifications for new releases, delete or comment out the `send_slack_notification` functions in the android Fastfile
 
 Next, create an [app-specific password](https://appleid.apple.com/account/manage) and add it to the `.env.default` file in the `ios/fastlane` directory ([source](https://stackoverflow.com/a/74229749/12806961)):
 
@@ -174,7 +158,7 @@ FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD=<App-Specific Password>
 
 Devices for [screenshots](https://stackoverflow.com/questions/53297870/wrong-screenshot-size-in-xcode-10-using-simulator):
 
-- 6.5 inch - iPhone 14 Pro Max
+- 6.5 inch - iPhone 14 Pro Max/iPhone 14 Plus
 - 5.5 inch - iPhone 8 Plus
 - iPad Pro (3rd gen) - iPad Pro (12.9 inch)
 - iPad Pro(2nd gen) - iPad Pro (12.9 inch)
@@ -187,7 +171,7 @@ App store icons should be [1024x1024 px](https://developer.apple.com/design/huma
 
 To do this, navigate to the `Assets` section under `Runner/Runner` in XCode and press the "+" icon. Select `IOS` and then `IOS App Icon`. This will add an "AppIcon" asset to the project. You can drag a file from your finder onto one of the slots to update the launcher icon.
 
-![App Store Icon](./assets/xcode-app-icon.png)
+![App Store Icon](./xcode-app-icon.png)
 
 ## Landing page
 
@@ -203,8 +187,8 @@ I use this [Figma file](https://www.figma.com/design/Ujf1YMU8esGvbh5ZM2CnWo/Mobi
 #### Badges
 [Google Play Badges](https://partnermarketinghub.withgoogle.com/brands/google-play/visual-identity/badge-guidelines/?folder=65628)
 
-![Get it on Google Play](./assets/google-play.png)
+![Get it on Google Play](./google-play.png)
 
 [Apple App Store Badges](https://developer.apple.com/app-store/marketing/guidelines/)
 
-![Download on the App Store](./assets/app-store.png)
+![Download on the App Store](./app-store.png)

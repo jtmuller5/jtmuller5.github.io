@@ -14,16 +14,16 @@ The easiest way to add app icons for Android is using Android Studio.
 2. In the left sidebar, open the `app` folder.
 3. Right-click on the `res` folder and select `New > Image Asset`.
 
-![Android Studio Image Asset](./assets/android-studio-asset.png)
+![Android Studio Image Asset](./android-studio-asset.png)
 
 4. On the "Configure Image Asset" dialog, select "Launcher Icons (Adaptive and Legacy)".
 5. Choose your image file and adjust the settings as needed.
 6. On the "Options" tab, under the "Icon Format" section, choose the `PNG` option. This will ensure that the correct icon is used in Firebase App Distribution.
 
-![Use PNG format](./assets/icon-format.png)
+![Use PNG format](./icon-format.png)
 7. Click "Next" and then "Finish" to generate the icons.
 
-![Configure Image Asset](./assets/image-asset.png)
+![Configure Image Asset](./image-asset.png)
 
 See the [official docs](https://docs.flutter.dev/ui/assets/assets-and-images#updating-the-app-icon) for a less useful walkthrough.
 
@@ -35,7 +35,7 @@ See the [official docs](https://docs.flutter.dev/ui/assets/assets-and-images#upd
 4. On the right panel, in the "Image" section, select your file where it says "File Name"
 5. For best results, choose an image with a background (ex. .jpg)
 
-![Xcode AppIcon](./assets/xcode-asset.png)
+![Xcode AppIcon](./xcode-asset.png)
 
 Xcode will generate all of your app icons from a single asset.
 

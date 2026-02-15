@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "New Blog Post",
+      "type": "shell",
+      "command": "FILE=$(node scripts/new-blog-post.js \"${input:postTitle}\" | grep VSCODE_OPEN | cut -d: -f2) && code \"$FILE\"",
+      "group": "none",
+      "presentation": {
+        "reveal": "silent",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "postTitle",
+      "description": "Blog post title",
+      "type": "promptString"
+    }
+  ]
+}
