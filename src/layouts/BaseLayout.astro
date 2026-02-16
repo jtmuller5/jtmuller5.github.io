@@ -19,6 +19,25 @@ const { title, description } = Astro.props;
     <meta name="generator" content={Astro.generator} />
     {description && <meta name="description" content={description} />}
     <title>{title}</title>
+
+    <!-- Amplitude Analytics -->
+    <script
+      is:inline
+      type="text/partytown"
+      src="https://cdn.amplitude.com/script/7bcac5be35f241301418e89e07b365bc.js"
+    ></script>
+    <script is:inline type="text/javascript">
+      window.amplitude = window.amplitude || {};
+      window.amplitude.init =
+        window.amplitude.init ||
+        function () {
+          (window.amplitude._q = window.amplitude._q || []).push(arguments);
+        };
+      window.amplitude.init("7bcac5be35f241301418e89e07b365bc", {
+        autocapture: true,
+      });
+    </script>
+
     <script is:inline>
       (function () {
         const saved = localStorage.getItem("theme");
