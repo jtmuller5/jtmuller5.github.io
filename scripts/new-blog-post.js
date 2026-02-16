@@ -16,14 +16,22 @@ function slugify(text) {
     .trim();
 }
 
-const title = process.argv.slice(2).join(' ').trim();
+function toTitleCase(slug) {
+  return slug
+    .split('-')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
+}
 
-if (!title) {
-  console.error('Usage: node scripts/new-blog-post.js <title>');
+const input = process.argv.slice(2).join(' ').trim();
+
+if (!input) {
+  console.error('Usage: node scripts/new-blog-post.js <slug-or-title>');
   process.exit(1);
 }
 
-const slug = slugify(title);
+const slug = slugify(input);
+const title = toTitleCase(slug);
 const date = new Date().toISOString().split('T')[0];
 
 const content = `---
