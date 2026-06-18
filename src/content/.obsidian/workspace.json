@@ -8,20 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f727b7cce9d42a80",
+            "id": "f66d68f9df2d0805",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/local-ai-on-an-rtx-5090/index.md",
+                "file": "Notes/concepts/Speculative decoding.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Speculative decoding"
+            }
+          },
+          {
+            "id": "f46a08a628602f9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/concepts/Quantizations.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Quantizations"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "quantizat",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blog/local-ai-on-an-rtx-5090/index.md",
+                "file": "Notes/concepts/Quantizations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for index"
+              "title": "Backlinks for Quantizations"
             }
           },
           {
@@ -113,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blog/local-ai-on-an-rtx-5090/index.md",
+                "file": "Notes/concepts/Quantizations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from index"
+              "title": "Outgoing links from Quantizations"
             }
           },
           {
@@ -156,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blog/local-ai-on-an-rtx-5090/index.md",
+                "file": "Notes/concepts/Quantizations.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of Quantizations"
             }
           }
         ]
@@ -181,12 +196,43 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "638d491c1d7ec196",
+  "active": "f46a08a628602f9f",
   "lastOpenFiles": [
-    "blog/Pasted image 20260503101633.png",
-    "blog/local-ai-on-an-rtx-5090/index.md"
+    "Notes/concepts/Medium Chain Triglycerides.md",
+    "Notes/concepts/LLM Inference Learning Path.md",
+    "Notes/daily/05-08-2026.md",
+    "blog/rtx-5090-benchmarks/index.md.md",
+    "Notes/concepts/Speculative decoding.md",
+    "blog/running-gemma-4-on-an-rtx-5090/index.md",
+    "blog/local-code-autocomplete-with-mellum/index.md.md",
+    "blog/c.md",
+    "blog/local-code-autocomplete-with-mellum",
+    "Notes/concepts/Quantizations.md",
+    "Notes/concepts/AJAX.md",
+    "_templates/daily-note.md.md",
+    "_templates/concept-note.md.md",
+    "Notes/daily/05-06-2026.md",
+    "Notes/concepts/Hippocampus.md",
+    "Notes/concepts/Speculative Decoding.md",
+    "Notes/daily/05-05-2026.md",
+    "Notes/journal/2026-04-25.md",
+    "in.md",
+    "blog/rtx-5090-benchmarks",
+    "Untitled",
+    "Notes/daily/06.05.2026.md",
+    "Notes/daily",
+    "_templates",
+    "blog/chrome-extension-react-typescript/index.md",
+    "blog/firebase-secrets/index.md",
+    "Notes/second-brain.md",
+    "Notes/scratchpad.md",
+    "Notes/runbook.md",
+    "Notes/log.sync-conflict-20260428-030040-BBRQBYQ.md",
+    "Notes/index.sync-conflict-20260430-030538-BBRQBYQ.md",
+    "blog/Pasted image 20260503101633.png"
   ]
 }

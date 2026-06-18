@@ -50,6 +50,121 @@
     ]
   },
   "Added Media": [],
-  "File Hashes": {},
-  "fields_dict": {}
+  "File Hashes": {
+    "blog/vs-code-snippet-variables/index.md": "193146af1b707ef1883d254b6aedd44f",
+    "blog/use-google-sign-in-7.0-in-flutter/index.md": "88a6e61257026096b646252bb715edea",
+    "blog/typescript-classes-vs-functions/index.md": "f84ff37cb820b11c44f073e48c11b0d2",
+    "blog/thinking-thought/index.md": "181ddbb0130bd37ad7db6121c9b48921",
+    "blog/talkdown-devlog/index.md": "643b9fff97dd749313f596fe681629ec",
+    "blog/supabase-email-setup/index.md": "60c6cca759fabfd2fe0c567c4dcf67c2",
+    "blog/starting-typescript/index.md": "1c3795c8d59ff0dd2d7e6abe07772913",
+    "blog/spanos-dev-log-1/index.md": "ec202b140c816196fb0a39a34c8a2751",
+    "blog/revenuecat-setup/index.md": "f943e8985b55a665d3aafd7a44bba12e",
+    "blog/release-playbook/index.md": "691cd65358a7a8d4fd3a420de8ea7352",
+    "blog/reclaiming-my-macbook-storage/index.md": "a38bab6b74b0a13a41e34a90be46aa04",
+    "blog/qwen3-30b-a3b-instruct-2507-fp8/index.md": "e3b90d4fc0a4669cbd9a3f645c6ea2f6",
+    "blog/nemesis/index.md": "9ab03589fdfe4ce979b5276e0bb41580",
+    "blog/modular_vs_namespaced_firestore/index.md": "ab8bb4c723eb1ec652e6e554beba435d",
+    "blog/meeting-ralph/index.md": "da96129fd01593c7bddf91d5662ab57d",
+    "blog/local-ai-on-an-rtx-5090/index.md": "8223020506fb73dc027ed833c0273f96",
+    "blog/kotlin-language/index.md": "bb6f8d5894767a940a907d1d8797bce3",
+    "blog/firebase-secrets/index.md": "f8a9ec182ecdb409098aacc56eab76ad",
+    "blog/firebase-app-check/index.md": "9859dbbf4e96b08e6fcde277a6bf091d",
+    "blog/enhanced-enums/index.md": "82a6d46d61a16b6e90fc6ba18b44a1fd",
+    "blog/claude-config-devlog/index.md": "739235c86476918973e84f1f396df463",
+    "blog/claude-code-with-another-mind/index.md": "536d5840075f7826c92a69a4b6cdd9a9",
+    "blog/claude-code-notifications-in-vs-code/index.md": "d65466287f3443e1ea5a3ae4a43ebf42",
+    "blog/chrome-extension-react-typescript/index.md": "28dabd3bdc58540c673c726985c50a83",
+    "blog/building-an-ai-slack-agent/index.md": "a825b5c3c4d750be46d41ca2c3f65da5",
+    "blog/building-a-gpu-rig/index.md": "7fdfd44e7fbdea5bb5f47c134244f686",
+    "blog/app-icons/index.md": "73460d018706dca3c41d5b5b4a484889",
+    "blog/add-amplitude-analytics-to-astro-website/index.md": "e132bdeebc60f573123951c171b72434",
+    "blog/add-a-copy-as-markdown-button/index.md": "44888b3be5145fe7992c7c3918b77833",
+    "Notes/todos.md": "b8c975cc615d97453a50e80601ea2b44",
+    "Notes/setup.md": "d9940c411b73c832d3a72b8ad6d5ca7f",
+    "Notes/second-brain.md": "88007840b7c81738fe8ed072ff561b3c",
+    "Notes/scratchpad.md": "de6877bd4b32b0c5089c31041ff6caba",
+    "Notes/runbook.md": "f0540e1007d81e7175ca7af4a7d6154a",
+    "Notes/projects/twilio-numbers.md": "00770b0457328db911b908e28d405222",
+    "Notes/projects/sage.md": "4f5ad9aa32ac753984ab0e6cedb6a754",
+    "Notes/projects/recall.md": "38e5af141f62c2b387d007b07a0b7322",
+    "Notes/projects/notes-system-server.sync-conflict-20260425-074705-BBRQBYQ.md": "a82c7d6f2b776d39b3af7f1f83fb7f93",
+    "Notes/projects/notes-system-server.md": "6291cd73b5271d952202f6f6193599b9",
+    "Notes/projects/neurd.sync-conflict-20260503-030306-BBRQBYQ.md": "090f2ad6581456f27d7d6ad866855884",
+    "Notes/projects/neurd.md": "83f5fee46241577c07b7bb21a098fb33",
+    "Notes/projects/insurance-verification.md": "84e349097c795e564ea88eb2428a510d",
+    "Notes/projects/hpc.sync-conflict-20260430-030458-BBRQBYQ.md": "8fca9ff913df15ddcf0fc7dedafd9ff2",
+    "Notes/projects/fiona-file.md": "6e06184aaa62facad3dd84b61a75a15d",
+    "Notes/projects/hpc.md": "d073273275e32848b3ab2963b1a81067",
+    "Notes/projects/fiona.md": "c462123252bee2c76cb16d0138ec7012",
+    "Notes/projects/dev-environments.md": "f57f724b0d4d21bab4155675affb7bf6",
+    "Notes/projects/clibbits.md": "62ca4802d668fb0e535b6d36a99a6ba8",
+    "Notes/projects/abis-recipes.md": "7c0940539fa86950fef92df19bb3b5ac",
+    "Notes/manual-setup.md": "87ebd80dbb92dadc3a7677ad10c7f649",
+    "Notes/log.md": "25d2833d4288ffa20609eca494158131",
+    "Notes/journal/personal/relationships.md": "9e0a620fc35b7234ffa57210e62a22b7",
+    "Notes/journal/personal/health.md": "564d210e7581e35a080da5ada0a856ee",
+    "Notes/journal/personal/goals.md": "9121ed9d0898d60be9103972ecd804c6",
+    "Notes/journal/personal/finances.md": "3235843c99427c630970545df393cb6f",
+    "Notes/journal/2026-04-30.md": "60cf0ea18ce49302efd163ed86984c98",
+    "Notes/journal/2026-05-04.md": "83711fb35b3959e6fd43cf6fc4cafa02",
+    "Notes/journal/2026-05-01.md": "a228ec56f24507803647b966bbd826b4",
+    "Notes/journal/2026-04-25.md": "c8af313ad7b759f28b0f2c1156c4cbb4",
+    "Notes/index.md": "064f5dd7895fb1ff6d1b412fada86b18",
+    "Notes/ideas/heartbeat-feature.md": "da5dc1ffde1cabd1edeb6deb01995292",
+    "Notes/ideas/ai-burnout.md": "70163baf920320d3c9cf9d4e197ab694",
+    "Notes/concepts/Medium Chain Triglycerides.md": "8f40cbcb2d6da898a80f0fe214722e07",
+    "Notes/concepts/Hippocampus.md": "6bb94e9179bb76a95e68b0d3e336bd2e",
+    "Notes/CLAUDE.md": "17d21705a309ea0b9da2b508718e64dc",
+    "_templates/daily-note.md.md": "cc6105726f0178174b3197b932a49764",
+    "_templates/concept-note.md.md": "d98b2c2347c980ba49dd96996019086c",
+    "blog/local-code-autocomplete-with-mellum/index.md.md": "a029aad1c8c0a0e700dc8cc23a63978a",
+    "blog/running-gemma-4-on-an-rtx-5090/index.md": "2b25e36c662db5578d93520fe6a68936",
+    "blog/rtx-5090-benchmarks/index.md.md": "91240e4eaa301c9adf0a3e18cd133cc6",
+    "Notes/daily/05-08-2026.md": "91af8148c0d6efe4423bffa63b9dc7a6",
+    "Notes/daily/05-05-2026.md": "266d7b922a3c32180bb16daeda67b1ba",
+    "Notes/daily/05-06-2026.md": "1ffa5ec174ae3ab24d2966758b19012b",
+    "Notes/concepts/AJAX.md": "df76cdc76c6c77b3f5b9f2f7a1f21c7e",
+    "Notes/concepts/Quantizations.md": "95845829cf3bebb53a90c913f8329970",
+    "Notes/concepts/Speculative decoding.md": "95bbd9fb5eb708d3a2ce1b97d174f095",
+    "Notes/concepts/LLM Inference Learning Path.md": "fc2345f3f9e8476da151a100484cae0f"
+  },
+  "fields_dict": {
+    "Basic": [
+      "Front",
+      "Back"
+    ],
+    "Basic (and reversed card)": [
+      "Front",
+      "Back"
+    ],
+    "Basic (optional reversed card)": [
+      "Front",
+      "Back",
+      "Add Reverse"
+    ],
+    "Basic (type in the answer)": [
+      "Front",
+      "Back"
+    ],
+    "Basic-82cf6": [
+      "Front",
+      "Back"
+    ],
+    "Basic-f3f5a": [
+      "Front",
+      "Back"
+    ],
+    "Cloze": [
+      "Text",
+      "Back Extra"
+    ],
+    "Image Occlusion": [
+      "Occlusion",
+      "Image",
+      "Header",
+      "Back Extra",
+      "Comments"
+    ]
+  }
 }

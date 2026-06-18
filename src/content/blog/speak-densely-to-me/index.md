@@ -1,0 +1,14 @@
+---
+title: "Speak Densely To Me"
+description: ""
+date: 2026-06-12
+tags: ["apl"]
+---
+
+I can't understand the output from Fable, let alone Opus. Not because I'm a dummy, but because once the model melds with my code base the density of it's explanations become unreasonably high. Anthropic has engineered token efficiency at the cost of fast human understanding. The outputs from Fable are especially context-heavy. Every word, every token, has earned it's place in the output and that output is not for me, the human. That output is the frosting on top of a convoluted, cross-file code update which I as the developer no longer need to grasp strongly. In fact, the more I try to read and understand the output from Claude, the more I realize that's not something I want to do. 
+
+I've always been a slow reader. Not a bad reader, just slow. I try to understand every sentence before moving on which typically leads to me rereading sections a few times before feeling comfortable with the takeaways. AI coding is not for slow readers. Vibe coding requires rapidly ingesting large paragraphs to determine if the machine is manipulating bits the way you want it to. This inevitably leads to skimming the AI's explainer text, browsing for keywords and file names, and piecing together everything to make a decision. This kind of speed reading works for human-generated text because the important parts are comfortably distributed throughout the prose. AI generated text is a different material. I frequently find that the ideas I've gleaned from a speed read are incomplete or too complicated to roll with. This leads to me re-reading in full Claude's explanation. Or not reading it at all.
+
+There must be a better way for the machine to show me what it changed but it is not obvious. In the literal sense, it could _show_ me by drawing mermaid diagrams and highlighting the boxes representing the files or modules it made changes to but there's no diagramatic way to cleanly illustrate an optimistic cache update. This is partially because "code" is a language and the symbols carry sophisticated meaning that has no agreed upon abstract representation. Yes, we have arrows for loops and gates for if statements but do we have anything to represent a listenable stream? No. You can glue together the pieces - a database cylinder, a client rectangle, a bidirectional arrow, a few circles representing the messages - but the diagram is frozen and the purpose of a stream is to communicate information over time.
+
+I recently discovered "APL", a language for expressing programming logic in a more condensed form but I am not a set of logical gates and so the language is not designed for the machine to disseminate it's ideas to me, but rather the opposite. We need an APL for humans. We need a human "programming" interface or HPI.

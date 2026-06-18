@@ -1,3 +1,5 @@
 [
-  "obsidian-to-anki-plugin"
+  "obsidian-to-anki-plugin",
+  "obsidian-front-matter-title-plugin",
+  "templater-obsidian"
 ]

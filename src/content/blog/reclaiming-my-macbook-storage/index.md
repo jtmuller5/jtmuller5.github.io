@@ -53,8 +53,7 @@ The biggest wins, in order:
   6. Flutter project build dirs (29 GB)
 
   # Clean all Flutter projects at once
-  find ~/Dev -maxdepth 4 -name "pubspec.yaml" -execdir flutter
-  clean \;
+  find ~/Dev -maxdepth 4 -name "pubspec.yaml" -execdir flutter clean \;
 
   7. node_modules (25 GB)
 
