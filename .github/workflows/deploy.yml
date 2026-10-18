@@ -20,8 +20,13 @@ jobs:
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v4
-      - name: Install, build, and upload your site
-        uses: withastro/action@v4
+      # Since 2026-10-17 the site is only a forward to sapidlabs.com/blog: the
+      # redirect/ folder is published as it is. The Astro blog is still in src/ and in
+      # history; to bring it back, restore the withastro/action@v4 step.
+      - name: Upload the redirect pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: redirect
 
   deploy:
     needs: build
